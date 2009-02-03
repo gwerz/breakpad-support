@@ -1,0 +1,6 @@
+MODULE mac x86 4177916BBF70E0DDC446F94001D54C950 Carbon
+PUBLIC fac 0 dyld_stub_binding_helper
+PUBLIC fc0 0 _dyld_func_lookup
+PUBLIC fd0 0 CarbonVersionNumber
+PUBLIC fd8 0 CarbonVersionString
+PUBLIC 1000 0 dyld__mach_header

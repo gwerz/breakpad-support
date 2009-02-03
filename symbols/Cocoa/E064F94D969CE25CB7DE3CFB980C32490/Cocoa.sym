@@ -1,0 +1,6 @@
+MODULE mac x86 E064F94D969CE25CB7DE3CFB980C32490 Cocoa
+PUBLIC f7c 0 dyld_stub_binding_helper
+PUBLIC f90 0 _dyld_func_lookup
+PUBLIC fa0 0 CocoaVersionNumber
+PUBLIC fa8 0 CocoaVersionString
+PUBLIC 1000 0 dyld__mach_header
