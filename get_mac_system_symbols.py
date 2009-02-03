@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-import os, os.path, subprocess
+import sys, os, os.path, subprocess
 
 # TODO: more libraries could be tried (could just iterate over /System/Library/Frameworks)
 
@@ -23,25 +23,16 @@ paths = [
   "/System/Library/PrivateFrameworks/DesktopServicesPriv.framework/DesktopServicesPriv",
 ]
 
-g_script_dir = None
-def script_dir():
-    global g_script_dir
-    if g_script_dir is None:
-        g_script_dir = os.path.dirname(os.path.realpath(__file__))
-    return g_script_dir
-
-# bin directory, where dump_syms is present
-def bin_dir():
-  return os.path.join(os.path.dirname(script_dir()), "bin")
-
-# path to dump_syms executable
+def script_dir(): return os.path.dirname(os.path.realpath(__file__))
+def bin_dir(): return os.path.join(script_dir(), "bin")
 def dump_syms_path():
   path = os.path.join(bin_dir(), "dump_syms")
-  assert os.path.exists(path)
+  if not os.path.exists(path):
+    print("'%s' doesn't exist" % path)
+    sys.exit(1)
   return path
 
-def crashdumps_base_dir(): return os.path.realpath(os.path.expanduser("~/src/maccrashdumps"))
-def symbols_dir(): return os.path.join(crashdumps_base_dir(), "symbols")
+def symbols_dir(): return os.path.join(script_dir(), "symbols")
 
 def ensure_dir_exists(path):
   if os.path.exists(path):
@@ -75,7 +66,7 @@ def run_cmd_throw(*args):
 # This can be extracted from the first line in dump file, which looks like:
 # MODULE mac x86 294DFE5737329F65A13AAD2FBC08E1670 uTorrent
 # i.e. $module_id is 4th element and $module_name is 5th. We pass $root as argument
-def save_symbols(data, root_dir):
+def save_symbols(data, root_dir, new, existed):
   lines = data.split("\n")
   l = lines[0]
   parts = l.split()
@@ -85,21 +76,33 @@ def save_symbols(data, root_dir):
   symbol_file_dir = os.path.join(root_dir, module_name, module_id)
   ensure_dir_exists(symbol_file_dir)
   symbol_file_path = os.path.join(symbol_file_dir, module_name + ".sym")
-  write_to_file(symbol_file_path, data)
-  print("Wrote symbols file %s" % symbol_file_path)
+  if os.path.exists(symbol_file_path):
+    existed.append(symbol_file_path)
+  else:
+    new.append(symbol_file_path)
+    write_to_file(symbol_file_path, data)
+  #print("Wrote symbols file %s" % symbol_file_path)
 
-def dump_symbols(path):
+def dump_symbols(path, new, existed):
   # create human-readable version of crashdump
   try:
     (out, err) = run_cmd_throw(dump_syms_path(), path)
   except:
     print "Failed to dump symbols for %s" % path
-    #raise
-  save_symbols(out, symbols_dir())
+    return
+  save_symbols(out, symbols_dir(), new, existed)
 
 def main():
+  new = []
+  existed = []
   for p in paths:
-    dump_symbols(p)
+    dump_symbols(p, new, existed)
+
+  if existed:
+    print("\n%d files already existed:\n%s" % (len(existed), "\n  ".join(existed)))
+  if new:
+    print("\n%d new files: %s" % (len(new), "\n  ".join(new)))
+    print("Please submit new files to our repository (http://github.com/kjk/breakpad-support)")
 
 if __name__ == "__main__":
   main()
