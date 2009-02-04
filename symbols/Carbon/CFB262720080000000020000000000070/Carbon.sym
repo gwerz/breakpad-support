@@ -1,0 +1,7 @@
+MODULE mac x86 CFB262720080000000020000000000070 Carbon
+PUBLIC 0 0 _mh_dylib_header
+PUBLIC f74 0 dyld_stub_binding_helper
+PUBLIC f88 0 _dyld_func_lookup
+PUBLIC f98 0 CarbonVersionNumber
+PUBLIC fa0 0 CarbonVersionString
+PUBLIC 10000000 0 dyld__mach_header

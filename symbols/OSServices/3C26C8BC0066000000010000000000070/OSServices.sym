@@ -1,0 +1,2371 @@
+MODULE mac x86 3C26C8BC0066000000010000000000070 OSServices
+PUBLIC 0 0 _mh_dylib_header
+PUBLIC 1148 0 NSLMakeNewNeighborhood
+PUBLIC 11b0 0 dyld_stub_binding_helper
+PUBLIC 11c6 0 NSLXMakeNewNeighborhood
+PUBLIC 143a 0 MMNew(unsigned long, unsigned char)
+PUBLIC 147e 0 MMFree(void*, unsigned char)
+PUBLIC 1492 0 UpdateSystemActivity
+PUBLIC 1620 0 KCLogin
+PUBLIC 1666 0 _SFLGetRestrictedCustomFileList
+PUBLIC 16fa 0 _SFLGetCustomFileListInternal(__CFString const*, __CFString const*, char*, unsigned int, __CFString const*, unsigned long, long, unsigned long*, unsigned long*, unsigned char)
+PUBLIC 197a 0 SFLSearchForSharedList(__CFString const*, unsigned int, __CFString const*, __CFString const*, unsigned long)
+PUBLIC 1a16 0 CDynamicArray::CDynamicArray(unsigned long, unsigned long, unsigned long, SegmentAllocators*)
+PUBLIC 1a3e 0 SFLServiceInit()
+PUBLIC 1aa2 0 _SFLGetSKServiceDescription
+PUBLIC 1ae6 0 SFLRemoteEntry::SFLRemoteEntry(__CFString const*, __CFString const*, char*, unsigned long, long, unsigned long*, unsigned char*)
+PUBLIC 27d4 0 SFLEntryBase::SFLEntryBase(__CFString const*, SFLPrefs*, char*)
+PUBLIC 2892 0 SFLListBase::SFLListBase(OpaqueSFLItemRef*, SFLPrefs*)
+PUBLIC 28d6 0 GetConectionToSharedList_rpc
+PUBLIC 2bdf 0 SFLServer_server_routine
+PUBLIC 2c08 0 SFLServer_server
+PUBLIC 2c87 0 _XGetConectionToSharedList_rpc
+PUBLIC 2eee 0 Server_GetConectionToSharedList_rpc
+PUBLIC 30bc 0 CleanupFromPreviousMessage()
+PUBLIC 30ec 0 SFLPrefsGetRef(__CFString const*, unsigned int, __CFString const*, unsigned char, unsigned char, unsigned char)
+PUBLIC 34b4 0 CDynamicArray::Add(void const*, unsigned long*)
+PUBLIC 350c 0 CDynamicArray::Init()
+PUBLIC 3548 0 CCCreateDynamicArray
+PUBLIC 3638 0 CCArrayAddEntry
+PUBLIC 36f8 0 CCSegmentIsEntryUsed(DynamicArray*, unsigned long)
+PUBLIC 3746 0 CCSegmentOccupyEntry(DynamicArray*, unsigned long)
+PUBLIC 37ac 0 SFLEntry::SFLEntry(SFLPrefs*, __CFString const*, char*, unsigned long*, unsigned long, long, unsigned char, unsigned long*, unsigned char*)
+PUBLIC 38d6 0 SFLPrefsIsLoaded(SFLPrefs*)
+PUBLIC 3912 0 CDynamicArray::Get(unsigned long)
+PUBLIC 392e 0 CCArrayGetEntryPtr
+PUBLIC 3972 0 CCFindArraySegment
+PUBLIC 39be 0 CCSegmentGetEntryPtr(DynamicArray*, unsigned long)
+PUBLIC 3a08 0 SFLPrefsGetListDict(SFLPrefs*, __CFString const*)
+PUBLIC 3a56 0 SFLPrefsGetPrefsDict(SFLPrefs*)
+PUBLIC 3a8e 0 SFLFlattenPlist(void const*)
+PUBLIC 3b1b 0 SFLGenericDataPushOneWay_rpc
+PUBLIC 3c6c 0 _XSFLGenericDataPushOneWay_rpc
+PUBLIC 3d28 0 Server_SFLGenericDataPushOneWay_rpc
+PUBLIC 3e10 0 SFLGenericDataPush(OpaqueSFLRef*, unsigned long, unsigned int, unsigned int, __CFData const**, unsigned long*)
+PUBLIC 3e76 0 SFLEntry::GenericDataPush(unsigned long, unsigned int, unsigned int, __CFData const**, unsigned long*)
+PUBLIC 3ffa 0 SFLUnflattenPlist(unsigned int, unsigned int)
+PUBLIC 4064 0 SFLPrefsInitializeFromDict(SFLPrefs*, __CFDictionary const*)
+PUBLIC 40c2 0 SFLPrefsRelease(SFLPrefs*)
+PUBLIC 41a4 0 CDynamicArray::Free(unsigned long, unsigned char)
+PUBLIC 41f8 0 CCArrayFreeEntry
+PUBLIC 42ae 0 CCCleanupArray
+PUBLIC 42f8 0 CCDestroyDynamicArray
+PUBLIC 432c 0 CArrayIterator::CArrayIterator(CDynamicArray*)
+PUBLIC 433e 0 CArrayIterator::FindFirst(void**, unsigned long*)
+PUBLIC 4390 0 CDynamicArray::GetFirstSegmentPtr()
+PUBLIC 439c 0 CCIteratorFindFirst
+PUBLIC 43d0 0 CCIteratorFindNext
+PUBLIC 445a 0 SFLEntryBase::EquialTo(__CFString const*, unsigned int, __CFString const*, __CFString const*)
+PUBLIC 4502 0 SFLEntryBase::GetUserName()
+PUBLIC 450c 0 SFLRemoteEntry::GetPrefsName()
+PUBLIC 4518 0 SFLRemoteEntry::GetPrefsUID()
+PUBLIC 4522 0 CArrayIterator::FindNext(void**, unsigned long*)
+PUBLIC 456c 0 SFLEntry::GetUserName()
+PUBLIC 4580 0 SFLPrefsGetUserName(SFLPrefs*)
+PUBLIC 45b8 0 SFLEntry::GetPrefsName()
+PUBLIC 45cc 0 SFLPrefsGetName(SFLPrefs*)
+PUBLIC 4602 0 SFLEntry::GetPrefsUID()
+PUBLIC 4616 0 SFLPrefsGetUID(SFLPrefs*)
+PUBLIC 464e 0 SFLClientDeath(int, unsigned int)
+PUBLIC 47e0 0 _ISAddSystemIconToImage
+PUBLIC 4810 0 _ISGetSystemIconStorage
+PUBLIC 48de 0 ISServiceInit()
+PUBLIC 4984 0 _ISGetSKServiceDescription
+PUBLIC 49da 0 _ISSwitchToServerMode
+PUBLIC 49ee 0 CSystemIconLoader::CSystemIconLoader(unsigned long)
+PUBLIC 4a28 0 CIconFamilyLoader::CIconFamilyLoader(unsigned long)
+PUBLIC 4a58 0 _ISGetStorageRefFromLoader(CIconFamilyLoader*, unsigned long, unsigned long, unsigned long, unsigned long*)
+PUBLIC 4e60 0 FindIconLoader(CIconFamilyLoader*, unsigned long*)
+PUBLIC 4eb8 0 FindIconLoaderInternal(CIconFamilyLoader*, unsigned long*)
+PUBLIC 4f42 0 CLocalRefToSharedStorageEntry::CLocalRefToSharedStorageEntry(CIconFamilyLoader*, short*)
+PUBLIC 50cc 0 CIconStorageEntry::CIconStorageEntry()
+PUBLIC 5124 0 CLocalRefToSharedStorageEntry::InitSharedInfo()
+PUBLIC 5188 0 CSystemIconLoader::Flatten(void*, unsigned long, unsigned long, unsigned long*) const
+PUBLIC 51cb 0 GetConectionByFlattenedLoader_rpc
+PUBLIC 53db 0 ISServer_server_routine
+PUBLIC 5404 0 ISServer_server
+PUBLIC 5483 0 _XGetConectionByFlattenedLoader_rpc
+PUBLIC 5550 0 Server_GetConectionByFlattenedLoader_rpc
+PUBLIC 55e6 0 _ISUnflattenStorageRef
+PUBLIC 5712 0 CSystemIconLoader::CSystemIconLoader(void const*, unsigned long, unsigned long*, short*)
+PUBLIC 578a 0 _ISGetSystemIconStorageFromSystemIconsBundle(unsigned long)
+PUBLIC 5820 0 _ISInitSystemIcons()
+PUBLIC 5c58 0 CDynamicArray::CDynamicArray(unsigned long, unsigned long, unsigned long, SegmentAllocators*)
+PUBLIC 5c80 0 ISGetSystemIconsBundleIdx()
+PUBLIC 5d10 0 CIconBundleCacheEntry::CIconBundleCacheEntry()
+PUBLIC 5d2c 0 ISGetCFBundleFromBundleIdx(unsigned long)
+PUBLIC 5da8 0 CIconBundleCacheEntry::GetCFBundle()
+PUBLIC 5dca 0 CSystemIconBundleCacheEntry::PrepareCFBundle()
+PUBLIC 5de8 0 GetSystemIconsBundle()
+PUBLIC 5e6a 0 ISGetBundleIconFileIdx(unsigned long, __CFString const*)
+PUBLIC 5f6e 0 _ISRegisterStorageNotifier
+PUBLIC 5fc4 0 CIconFileCacheEntry::CIconFileCacheEntry(unsigned long, __CFString const*)
+PUBLIC 5fec 0 _ISGetOSTypeFromCFString(__CFString const*)
+PUBLIC 60c0 0 CSystemIconTypes::RegisterType(unsigned long, unsigned long)
+PUBLIC 60fe 0 CIconFileCacheEntry::CompareWithBundleIdxAndFileName(unsigned long, __CFString const*)
+PUBLIC 6136 0 GrowArray(DynamicArray*)
+PUBLIC 61a2 0 ISGetKEXTBundleIdx(__CFString const*)
+PUBLIC 627c 0 CIconBundleCacheEntry::CompareWithBundleIdentifier(__CFString const*)
+PUBLIC 6284 0 CKEXTIconBundleCacheEntry::CKEXTIconBundleCacheEntry(__CFString const*)
+PUBLIC 62b6 0 CKEXTIconBundleCacheEntry::CompareWithBundleIdentifier(__CFString const*)
+PUBLIC 62e4 0 CSystemIconTypes::GetIconCacheIndexByType(unsigned long)
+PUBLIC 634a 0 ISGetStorageRefFromBundleIconFileIdx(unsigned long, unsigned long, unsigned long*)
+PUBLIC 63ce 0 CIconFileCacheEntry::GetIconStorage(unsigned long, unsigned long*)
+PUBLIC 6488 0 _ISGetIconFSRefFromCFBundle
+PUBLIC 64ea 0 _ISGetStorageByIconFile
+PUBLIC 659c 0 CFileBasedIconLoader::CFileBasedIconLoader(FSRef const*, short, unsigned long, short, unsigned long, short*)
+PUBLIC 66a6 0 CIconStorageSharedServerEntry::CIconStorageSharedServerEntry(unsigned char)
+PUBLIC 674e 0 CFileBasedIconLoader::FirstLoad(CIconStorageEntry*, unsigned long)
+PUBLIC 6dac 0 _ISIsReliableVolume(unsigned short, unsigned char*)
+PUBLIC 6e86 0 CVolumeArray::GetVolumeRecord(short, unsigned long*, short*, unsigned char)
+PUBLIC 6fce 0 CVolume::CVolume(short, short*)
+PUBLIC 7164 0 ISInitVolumesCache()
+PUBLIC 71b2 0 _ISRegisterImageRefNotifier
+PUBLIC 71c8 0 CVolume::IsReliableVolume()
+PUBLIC 7210 0 CIconStorageSharedServerEntry::SetIconFamilyPtr(IconFamilyResource const*, unsigned long)
+PUBLIC 724e 0 CIconStorageSharedServerEntry::IsLoaded() const
+PUBLIC 7274 0 CIconStorageEntry::SetIconFamilyPtr(IconFamilyResource const*, unsigned long)
+PUBLIC 7406 0 CIconStorageEntry::Unload(unsigned char, __CFArray const**)
+PUBLIC 7510 0 CIconStorageSharedServerEntry::UnloadPrivate(unsigned char)
+PUBLIC 7538 0 CIconStorageSharedServerEntry::RemoveData(long)
+PUBLIC 75b4 0 CIconStorageSharedServerEntry::IsValid(long) const
+PUBLIC 75d8 0 _ISGetIconIndex
+PUBLIC 7752 0 CIconStorageSharedServerEntry::SetData(long, char*, long)
+PUBLIC 7882 0 GetIconTypeDataInfo(long, IconDataInfo*)
+PUBLIC 7998 0 CDynamicArray::AddMany(void const*, unsigned long, unsigned long*)
+PUBLIC 79fc 0 AllocateSharedSegmentProcPtr(unsigned long)
+PUBLIC 7ab2 0 CSharedArrayID::AddArrayByPtr(DynamicArray*, unsigned long)
+PUBLIC 7af0 0 CCArrayAddMultiplyEntries
+PUBLIC 7c12 0 CIconStorageEntry::SetCompressedData(unsigned long, long, unsigned char*, long)
+PUBLIC 7d50 0 CIconStorageSharedServerEntry::GetData(long)
+PUBLIC 7d60 0 CIconStorageSharedServerEntry::GetLoadedData(long) const
+PUBLIC 7dbe 0 CIconStorageSharedServerEntry::GetDataSize(long) const
+PUBLIC 7e02 0 CIconStorageEntry::FillAlphaChannelFromMaskData(long, char*)
+PUBLIC 7e8c 0 CIconStorageEntry::FillAlphaChannels()
+PUBLIC 7edc 0 CIconStorageEntry::FillAlphaChannelFromMaskIndex(long)
+PUBLIC 7f4a 0 CreateStorageRef(unsigned long, CIconStorageEntry*, CIconFamilyLoader*, unsigned long, unsigned long*)
+PUBLIC 8042 0 ISGetArrayAddrByMask(unsigned long, unsigned char)
+PUBLIC 8122 0 AddIconLoader(CIconFamilyLoader*, CIconFamilyLoader**)
+PUBLIC 817a 0 AddIconLoaderInternal(CIconFamilyLoader*, CIconFamilyLoader**)
+PUBLIC 8206 0 CLoadersArray::CLoadersArray()
+PUBLIC 823c 0 CIconFamilyLoader::MakeSelfContained()
+PUBLIC 8244 0 _ISGetIconStorageInfo
+PUBLIC 8278 0 ISGetIconFamilyFromStorage(unsigned long, CIconStorageArray**, unsigned long*)
+PUBLIC 82c8 0 CIconStorageSharedServerEntry::GetIconStorageInfo(SharedIconInfo*) const
+PUBLIC 83bc 0 CDynamicArray::GetEntrySegmentPtr(unsigned long)
+PUBLIC 83ce 0 CSharedArrayID::GetArrayIDByPtr(DynamicArray*, SegmentID**)
+PUBLIC 8448 0 ISMakeIndexEntryForStorageRef(int, unsigned long, unsigned long*)
+PUBLIC 84ce 0 CLocalRefToSharedStorageEntry::SetSharedInfo(SharedIconInfo*)
+PUBLIC 85f0 0 CLocalArrayRefs::GetLocalIndexBySharedArrayRef(unsigned long)
+PUBLIC 86d0 0 CLocalArrayRefs::ReleaseLocalIndex(unsigned long)
+PUBLIC 8776 0 CLocalRefToSharedStorageEntry::IsLoaded() const
+PUBLIC 87a0 0 CLocalRefToSharedStorageEntry::~CLocalRefToSharedStorageEntry()
+PUBLIC 87b8 0 ISUpdateImageRefWithStorage(OpaqueISImageRef**, unsigned long)
+PUBLIC 883c 0 ISAddStorageToImageInternal(unsigned long, OpaqueISImageRef*)
+PUBLIC 8996 0 ISClientDeath(int, unsigned int)
+PUBLIC 89e0 0 CClientStorages::RemoveAll(int)
+PUBLIC 8a7c 0 _LWSchedulerNotifyPortName
+PUBLIC 8a8c 0 _SFLCreateSnapshot
+PUBLIC 8b34 0 SFLRemoteEntry::MakeSnapshotList(unsigned long*)
+PUBLIC 8d58 0 GetListSnapshot_rpc
+PUBLIC 8e93 0 _XGetListSnapshot_rpc
+PUBLIC 8f64 0 Server_GetListSnapshot_rpc
+PUBLIC 9034 0 SFLGetWrappedSnapshot(OpaqueSFLRef*, __CFData const**, unsigned long*)
+PUBLIC 9084 0 SFLEntry::GetWrappedSnapshot(__CFData const**, unsigned long*)
+PUBLIC 919a 0 SFLGetMaxAmountKey()
+PUBLIC 91c2 0 SFLRemoteEntry::InstantiateFromPrefs(unsigned long*, __CFDictionary const**)
+PUBLIC 93ca 0 SFLLocalTempEntry::SFLLocalTempEntry()
+PUBLIC 9412 0 SFLListBase::AppendFromListInfo(__CFArray const*, __CFArray const*, unsigned short)
+PUBLIC 961e 0 SFLMakeNewListItem(unsigned long, __CFDictionary const*, short, unsigned short, OpaqueISImageRef*)
+PUBLIC 96f2 0 SFLMutableListItem::SFLMutableListItem(unsigned long, __CFDictionary const*, short, unsigned short, OpaqueISImageRef*, unsigned char*)
+PUBLIC 9778 0 SFLMutableListItem::SetNewPrefs(__CFDictionary const*, unsigned short, OpaqueISImageRef*)
+PUBLIC 9f20 0 SFLGetNameKey()
+PUBLIC 9f48 0 SFLGetFlagsKey()
+PUBLIC 9f70 0 SFLGetSpecialIDKey()
+PUBLIC 9f96 0 SFLGetAliasKey()
+PUBLIC 9fbe 0 SFLGetIconKey()
+PUBLIC 9fe6 0 _ISUnFlattenImageRef
+PUBLIC a0ea 0 GetLoaderFromFlatData(void const*, unsigned long, unsigned long, unsigned long*, unsigned long*, CIconFamilyLoader**, unsigned char*)
+PUBLIC a2f8 0 CFileBasedIconLoader::CFileBasedIconLoader(void const*, unsigned long, unsigned long, unsigned long*, unsigned char*, short*)
+PUBLIC a50e 0 CIconFamilyLoader::ResolveAliasFromMemory(void*, unsigned long, unsigned long, FSRef*, unsigned char*)
+PUBLIC a5bc 0 CFileBasedIconLoader::Flatten(void*, unsigned long, unsigned long, unsigned long*) const
+PUBLIC a852 0 CFileBasedIconLoader::EquialTo(CIconFamilyLoader*) const
+PUBLIC a8ac 0 CFileBasedIconLoader::GetEntryType() const
+PUBLIC a8b8 0 CFileBasedIconLoader::Match(short, unsigned long, short)
+PUBLIC a8e6 0 ReleaseIconLoaderFromStorage(unsigned long, unsigned long)
+PUBLIC a952 0 CLoadersArray::ReleaseIconLoaderFromStorage(unsigned long, unsigned long)
+PUBLIC a9c2 0 CLocalRefToSharedStorageEntry::SetIconFamilyPtr(IconFamilyResource const*, unsigned long)
+PUBLIC aa3f 0 SetIconFamilyData_rpc
+PUBLIC ac21 0 _XSetIconFamilyData_rpc
+PUBLIC acda 0 Server_SetIconFamilyData_rpc
+PUBLIC ade4 0 ISTranslateGlobalStorageIndexToStorageRef(int, unsigned long)
+PUBLIC ae22 0 _ISSetIconFamily
+PUBLIC ae5a 0 _ISGetStorageLoader
+PUBLIC ae78 0 GetIconLoader(unsigned long)
+PUBLIC aee0 0 SFLListBase::AddNewItemInBetween(OpaqueSFLItemRef*, OpaqueSFLItemRef*, OpaqueSFLItemRef*)
+PUBLIC af4c 0 SFLItemSetNext(OpaqueSFLItemRef*, OpaqueSFLItemRef*)
+PUBLIC af82 0 CDTDBBasedIconLoader::CDTDBBasedIconLoader(void const*, unsigned long, unsigned long, unsigned long*, unsigned char*, short*)
+PUBLIC b092 0 _ISReleaseImageRef
+PUBLIC b0e4 0 ISReleaseImageRefInternal(OpaqueISImageRef*)
+PUBLIC b1c0 0 SFLListBase::WrapForMessaging(unsigned char, unsigned char)
+PUBLIC b534 0 SFLIsItemInstantiated(OpaqueSFLItemRef*)
+PUBLIC b576 0 SFLItemGetPrefsDict(OpaqueSFLItemRef*)
+PUBLIC b5b6 0 SFLMutableListItem::GetPrefsDictionary()
+PUBLIC b93e 0 _SFLItemGetISImageRef
+PUBLIC b974 0 _ISGetGlobalImageRefFromLocal
+PUBLIC b9c2 0 _ISGetGlobalImageRefFromLocalInternal(OpaqueISImageRef*)
+PUBLIC baa4 0 _ISGetGlobalStorageRefFromLocal
+PUBLIC bace 0 CLocalRefToSharedStorageEntry::GetIconStorageGlobalStorageRef()
+PUBLIC bada 0 SFLGetImageRefKey()
+PUBLIC bb00 0 _SFLItemGetVRefNum
+PUBLIC bb3a 0 _SFLGetNextItem
+PUBLIC bb72 0 SFLLocalTempEntry::GetSharedSeedValue()
+PUBLIC bb7c 0 SFLGetFlatPrefsArrayKey()
+PUBLIC bba2 0 SFLGetFlatInfoArrayKey()
+PUBLIC bbc8 0 SFLGetSeedValueKey()
+PUBLIC bbef 0 SFLGenericDataPush_rpc
+PUBLIC bd53 0 _XSFLGenericDataPush_rpc
+PUBLIC be46 0 Server_SFLGenericDataPush_rpc
+PUBLIC bf5a 0 SFLGetItemVRefNumKey()
+PUBLIC bf82 0 _ISAcquireImageRef
+PUBLIC bfd4 0 ISAcquireImageRefInternal(OpaqueISImageRef*)
+PUBLIC c030 0 _ISAcquireStorageRef
+PUBLIC c084 0 _ISAcquireStorageRefInternal
+PUBLIC c0aa 0 _ISReleaseStorageRef
+PUBLIC c142 0 _ISReleaseStorageRefInternal
+PUBLIC c1cc 0 SFLEntry::TrimIfNeeded()
+PUBLIC c260 0 _SFLItemGetID
+PUBLIC c298 0 SFLGetItemIdKey()
+PUBLIC c2c0 0 SFLEntryBase::GetSharedSeedValue()
+PUBLIC c300 0 SFLEntryBase::GetListGlobalName()
+PUBLIC c452 0 SFLListBase::Destroy()
+PUBLIC c49c 0 SFLItemRelease(OpaqueSFLItemRef*)
+PUBLIC c4ee 0 SFLMutableListItem::Destroy()
+PUBLIC c54e 0 CIconFamilyLoader::Destroy()
+PUBLIC c556 0 CLocalRefToSharedStorageEntry::UnloadPrivate(unsigned char)
+PUBLIC c624 0 ReleaseSharedStorage_rpc
+PUBLIC c722 0 _XReleaseSharedStorage_rpc
+PUBLIC c786 0 Server_ReleaseSharedStorage_rpc
+PUBLIC c7f2 0 _ISReleaseStorage
+PUBLIC c808 0 _ISNotifyStorageEntryIsInvalid
+PUBLIC c860 0 DirtyVolumeIconImagesMatchingImageRef(OpaqueISImageRef*)
+PUBLIC c908 0 _ISGetLocalImageRefFromGlobal
+PUBLIC c954 0 _ISGetLocalImageRefFromGlobalInternal(OpaqueISImageRef*)
+PUBLIC ca88 0 _ISGetLocalStorageRefFromGlobal
+PUBLIC cb03 0 MakeSharedIconStorageFromGlobalRef_rpc
+PUBLIC ccb6 0 _XMakeSharedIconStorageFromGlobalRef_rpc
+PUBLIC cd56 0 Server_MakeSharedIconStorageFromGlobalRef_rpc
+PUBLIC cdae 0 _ISAcquireStorage
+PUBLIC cdc4 0 _ISGetLocalRefBySharedInfo
+PUBLIC cf8a 0 CLocalRefToSharedStorageEntry::CLocalRefToSharedStorageEntry(unsigned long, unsigned long, SharedIconInfo*, short*)
+PUBLIC d06e 0 SFLSnapshotEntry::SFLSnapshotEntry(OpaqueSFLItemRef*, unsigned long)
+PUBLIC d0ba 0 _SFLReleaseSnapshot
+PUBLIC d13c 0 _SFLSetMaxItemCount
+PUBLIC d1b4 0 SFLRemoteEntry::SetMaxItemCount(unsigned long)
+PUBLIC d1f0 0 SetMaxItemCount_rpc
+PUBLIC d2f2 0 _XSetMaxItemCount_rpc
+PUBLIC d368 0 Server_SetMaxItemCount_rpc
+PUBLIC d3e4 0 SFLEntry::SetMaxItemCount(unsigned long)
+PUBLIC d42a 0 _ISFlattenImageRef
+PUBLIC d4b8 0 _ISGoThruImageStorages
+PUBLIC d55a 0 _ISGetBackgoundImage
+PUBLIC d5d0 0 _ISGetTopStorageOfImageRef
+PUBLIC d64c 0 FlatStorageCallback(unsigned long, void*)
+PUBLIC d6ac 0 _ISFlattenStorageRef
+PUBLIC d746 0 CSystemIconLoader::EquialTo(CIconFamilyLoader*) const
+PUBLIC d78c 0 CSystemIconLoader::GetEntryType() const
+PUBLIC d798 0 CSystemIconLoader::Match(unsigned long)
+PUBLIC d7ac 0 _ISStorageVolumesMountNotificationHook
+PUBLIC d7f4 0 _ISGetCustomIconsEnabled
+PUBLIC d8ca 0 _ISGetISImageForVolume
+PUBLIC dc0c 0 _ISGetInfoFromExistingVolumeEntry(short, unsigned long*, OpaqueISImageRef**, unsigned long*)
+PUBLIC dcd6 0 CVolume::GetVolumeInfo(unsigned long*, OpaqueISImageRef**, unsigned long*)
+PUBLIC dd09 0 ISGetImageIndexEntryForVRefNum_rpc
+PUBLIC df14 0 _XISGetImageIndexEntryForVRefNum_rpc
+PUBLIC dff6 0 Server_ISGetImageIndexEntryForVRefNum_rpc
+PUBLIC e08a 0 _ISVolumeIsIDisk(unsigned short, unsigned char*, unsigned char*)
+PUBLIC e16a 0 CVolume::VolumeIsIDisk(unsigned char*)
+PUBLIC e1f4 0 _ISIsLocalVolume(unsigned short, unsigned char*)
+PUBLIC e2c8 0 _ISGetStorageForVolume
+PUBLIC e41a 0 is_netboot()
+PUBLIC e49a 0 _ISGetTypeFromVolume(unsigned short, unsigned long*)
+PUBLIC e56c 0 _ISGetStorageRefForDevice
+PUBLIC e6f0 0 CKEXTIconBundleCacheEntry::PrepareCFBundle()
+PUBLIC e75a 0 _ISSetImageRefForVolume(unsigned short, OpaqueISImageRef*)
+PUBLIC e82c 0 _ISGetStorageDataInfo
+PUBLIC e86e 0 CIconStorageEntry::GetDataInfo(long, unsigned long, _ISStorageDataInfo*)
+PUBLIC e93c 0 CIconStorageEntry::GetData(long)
+PUBLIC e9b8 0 CLocalRefToSharedStorageEntry::GetLoadedData(long) const
+PUBLIC ea92 0 _ISGetARGBDataPointer
+PUBLIC eaf6 0 _ISGetIconDataPointer
+PUBLIC eb24 0 CLocalArrayRefs::GetArrayByLocalIndex(unsigned long)
+PUBLIC ebce 0 ShareDataSegment_rpc
+PUBLIC ed0a 0 _XShareDataSegment_rpc
+PUBLIC edaa 0 Server_ShareDataSegment_rpc
+PUBLIC ee02 0 ShareSegmentID(unsigned int, unsigned long, unsigned long*)
+PUBLIC ee76 0 CSharedArrayID::ShareArrayByID(unsigned int, unsigned long, unsigned long*)
+PUBLIC ef5e 0 CLocalRefToSharedStorageEntry::GetDataSize(long) const
+PUBLIC efb2 0 _SFLGetVolumesList
+PUBLIC f048 0 SFLVolumesEntry::SFLVolumesEntry(SFLPrefs*, __CFString const*, char*, unsigned long*, unsigned long, unsigned long*, unsigned char*)
+PUBLIC f0f2 0 SFLEntry::SFLEntry(SFLPrefs*, __CFString const*, char*, unsigned long*, unsigned long, long, unsigned char, unsigned long*, unsigned char*)
+PUBLIC f21e 0 SFLServerInitVolNotifications(unsigned long)
+PUBLIC f2d2 0 SFLClientInitVolNotifications(unsigned long)
+PUBLIC f3c0 0 SFLVolumesEntry::GenericDataPush(unsigned long, unsigned int, unsigned int, __CFData const**, unsigned long*)
+PUBLIC fd7c 0 SFLMakeNewListItem(unsigned long, OpaqueISImageRef*, unsigned short const*, unsigned short, void*, unsigned long, unsigned long, unsigned long)
+PUBLIC fe66 0 SFLMutableListItem::SFLMutableListItem(unsigned long, OpaqueISImageRef*, unsigned short const*, unsigned short, void*, unsigned long, unsigned long, unsigned long, unsigned char*)
+PUBLIC ff40 0 SFLGetVolInfoFlagsKey()
+PUBLIC ff68 0 SFLGetIDiskUserName()
+PUBLIC 1000c 0 SFLMakeNewListItemFromVolumeIndex(unsigned long, unsigned long, __CFDictionary const*, unsigned short, OpaqueISImageRef*)
+PUBLIC 100e8 0 SFLMutableListItem::SFLMutableListItem(unsigned long, unsigned long, short, __CFDictionary const*, unsigned short, OpaqueISImageRef*, unsigned char*)
+PUBLIC 104b2 0 SFLIsItemVisible(OpaqueSFLItemRef*, unsigned short, unsigned char)
+PUBLIC 1051a 0 SFLMutableListItem::IsItemVisible(unsigned short, unsigned char)
+PUBLIC 10548 0 SFLGetEntryTypeKey()
+PUBLIC 1056e 0 SFLItemGetPropertyFlags(OpaqueSFLItemRef*)
+PUBLIC 105a6 0 SFLVolumesEntry::NewVolumeAppeared(__CFDictionary const*, __CFDictionary const*, unsigned char*)
+PUBLIC 109b2 0 SFLGetVisibilityKey()
+PUBLIC 109d8 0 SFLItemSetVRefNum(OpaqueSFLItemRef*, short)
+PUBLIC 10a12 0 SFLEntry::FindMatchForItem(OpaqueSFLItemRef*)
+PUBLIC 10a9c 0 _SFLItemIsSpecial
+PUBLIC 10ae8 0 SFLItemSetVisibilityValue(OpaqueSFLItemRef*, unsigned char)
+PUBLIC 10b5e 0 SFLItemResetPrefsDictionary(OpaqueSFLItemRef*, __CFDictionary const*, unsigned short, unsigned short)
+PUBLIC 10bc6 0 SFLMutableListItem::ResetPrefsDictionary(__CFDictionary const*, unsigned short, unsigned short)
+PUBLIC 10c02 0 SFLItemCompare(OpaqueSFLItemRef*, OpaqueSFLItemRef*, unsigned char)
+PUBLIC 10cb6 0 _SFLAddCallback
+PUBLIC 10dfa 0 SFLRemoteEntry::AddedObserver()
+PUBLIC 10e2f 0 ClientAddedObserver_rpc
+PUBLIC 10f2a 0 _XClientAddedObserver_rpc
+PUBLIC 10f8c 0 Server_ClientAddedObserver_rpc
+PUBLIC 11004 0 _SFLAddedObserverInternal(OpaqueSFLRef*)
+PUBLIC 11048 0 SFLEntryBase::AddedObserver()
+PUBLIC 11058 0 SFLVolumesEntry::GetWrappedSnapshot(__CFData const**, unsigned long*)
+PUBLIC 110ea 0 CIconFamilyLoader::MakeAliasFromFSRef(FSRef const*, void*, unsigned long, unsigned long, unsigned long*) const
+PUBLIC 1119c 0 SFLItemSetImageRef(OpaqueSFLItemRef*, OpaqueISImageRef*)
+PUBLIC 111e4 0 ISBundleIconsStorageInvalidator(unsigned long)
+PUBLIC 11258 0 CIconFileCacheEntry::StorageIsInvalid(unsigned long)
+PUBLIC 11272 0 CLocalRefToSharedStorageEntry::GetIconStorageGlobalIndex()
+PUBLIC 1127e 0 _SFLGetFirstItem
+PUBLIC 112de 0 _SFLItemCopyDisplayName
+PUBLIC 112fc 0 _SFLItemCopyDisplayNameInternal(OpaqueSFLItemRef*, unsigned char)
+PUBLIC 1137c 0 _SFLItemGetAliasData
+PUBLIC 113ae 0 _SFLItemGetAliasHandle(OpaqueSFLItemRef*)
+PUBLIC 11402 0 _SFLItemGetFlags
+PUBLIC 11438 0 _SFLGetCustomFileList
+PUBLIC 114ce 0 _SFLGetVisibilityForSpecialVolumeItem
+PUBLIC 1154c 0 SFLRemoteEntry::GetVisibilityForSpecialVolumeItem(unsigned long, unsigned char*)
+PUBLIC 11591 0 GetVisibilityForSpecialVolumeItem_rpc
+PUBLIC 116b8 0 _XGetVisibilityForSpecialVolumeItem_rpc
+PUBLIC 11760 0 Server_GetVisibilityForSpecialVolumeItem_rpc
+PUBLIC 117e6 0 SFLVolumesEntry::GetVisibilityForSpecialVolumeItem(unsigned long, unsigned char*)
+PUBLIC 1182c 0 SFLEntryBase::GetItemBySpecialTypeID(unsigned long)
+PUBLIC 11870 0 _SFLGetVolumesListMask
+PUBLIC 118f0 0 SFLRemoteEntry::GetVolumesListMask(unsigned long*, unsigned long*)
+PUBLIC 11932 0 GetVolumesListMask_rpc
+PUBLIC 11a6f 0 _XGetVolumesListMask_rpc
+PUBLIC 11b10 0 Server_GetVolumesListMask_rpc
+PUBLIC 11b98 0 SFLVolumesEntry::GetVolumesListMask(unsigned long*, unsigned long*)
+PUBLIC 11bf4 0 SFLItemIsVisibilityValueSet(OpaqueSFLItemRef*)
+PUBLIC 11c32 0 _ISAddFSSpecIconToImage
+PUBLIC 11c8c 0 _ISAddFSRefIconToImage
+PUBLIC 11d28 0 _ISMergeImages
+PUBLIC 11dcc 0 _ISSetCachedCGImage
+PUBLIC 11e32 0 CIconStorageEntry::SetCashedCGImageRef(unsigned long, void const*)
+PUBLIC 11e56 0 CDynamicArray::FreeMany(unsigned long, unsigned long, unsigned char)
+PUBLIC 11eae 0 CCArrayFreeManyEntries
+PUBLIC 11f0a 0 SFLVolumesMountNotificationHook(VolumeNoticeBlk*)
+PUBLIC 12234 0 SFLMakeNewListItemFromVRefNum(unsigned long, short, __CFDictionary const*, unsigned short, OpaqueISImageRef*)
+PUBLIC 12310 0 ISVolumesMountNotificationHook(VolumeNoticeBlk*)
+PUBLIC 123d6 0 CIconStorageEntry::SetVariant(IconFamilyResource*, unsigned long)
+PUBLIC 12474 0 _ISGetStorageByIconFamilyPtr
+PUBLIC 1255a 0 CIconStorageLocalEntry::CIconStorageLocalEntry(unsigned char)
+PUBLIC 125d0 0 CIconStorageEntry::RemoveVariantByIndex(short)
+PUBLIC 12612 0 _ISAddDTDBIconToImage
+PUBLIC 12656 0 _ISGetStorageByDTDBInfo
+PUBLIC 126de 0 _ISGetStorageByDTDBInfoOnVolume
+PUBLIC 1276e 0 CDTDBBasedIconLoader::CDTDBBasedIconLoader(short, unsigned long, unsigned long)
+PUBLIC 127b2 0 CDTDBBasedIconLoader::GetEntryType() const
+PUBLIC 127be 0 CDTDBBasedIconLoader::Flatten(void*, unsigned long, unsigned long, unsigned long*) const
+PUBLIC 128b8 0 CDTDBBasedIconLoader::FirstLoad(CIconStorageEntry*, unsigned long)
+PUBLIC 128e4 0 CDTDBBasedIconLoader::FetchData(CIconStorageEntry*, long)
+PUBLIC 12990 0 _ISGetDesktopDatabaseIconFromVolume(DTPBRec*)
+PUBLIC 12a64 0 CVolume::GetDesktopDatabaseIcon(DTPBRec*)
+PUBLIC 12aba 0 _ISForEachVolumeDo(unsigned char (*)(short, void*), void*)
+PUBLIC 12bc6 0 _ISIconOnVolumeGetter(short, void*)
+PUBLIC 12c72 0 CSystemIconLoader::FirstLoad(CIconStorageEntry*, unsigned long)
+PUBLIC 12c7e 0 _SFLGetMaxItemCount
+PUBLIC 12cf4 0 SFLRemoteEntry::GetMaxItemCount(unsigned long*)
+PUBLIC 12d32 0 GetMaxItemCount_rpc
+PUBLIC 12e5a 0 _XGetMaxItemCount_rpc
+PUBLIC 12eea 0 Server_GetMaxItemCount_rpc
+PUBLIC 12f64 0 SFLEntry::GetMaxItemCount(unsigned long*)
+PUBLIC 12f84 0 _SFLPrefsFlush
+PUBLIC 13014 0 SFLPrefsWriteNow_rpc
+PUBLIC 130b8 0 _XSFLPrefsWriteNow_rpc
+PUBLIC 1314a 0 Server_SFLPrefsWriteNow_rpc
+PUBLIC 1320a 0 SFLPrefsServerWriteNow(unsigned int, __CFString const*)
+PUBLIC 132d8 0 _SFLRelease
+PUBLIC 1332a 0 _SFLReleaseInternal(OpaqueSFLRef*)
+PUBLIC 1339a 0 SFLRemoteEntry::Destroy()
+PUBLIC 133fd 0 ReleaseConection_rpc
+PUBLIC 134fa 0 _XReleaseConection_rpc
+PUBLIC 1355e 0 Server_ReleaseConection_rpc
+PUBLIC 135e4 0 SFLEntryBase::Destroy()
+PUBLIC 1369c 0 SFLClientReleaseVolNotifications(unsigned long)
+PUBLIC 1377a 0 SFLServerReleaseVolNotifications(unsigned long)
+PUBLIC 1382a 0 SFLVolumesEntry::Destroy()
+PUBLIC 1385a 0 ReleaseSharedSegmentProcPtr(DynamicArray*)
+PUBLIC 13922 0 CDynamicArray::Cleanup()
+PUBLIC 13946 0 KCLogout
+PUBLIC 13950 0 _ISGetIconFSRefFromBundleURL
+PUBLIC 139b2 0 _SFLAddNewItemToList
+PUBLIC 13a64 0 SFLRemoteEntry::AddNewItem(unsigned long, OpaqueISImageRef*, unsigned short*, unsigned short, void*, unsigned long, unsigned long, unsigned long, unsigned long*)
+PUBLIC 13bfe 0 AddNewItem_rpc
+PUBLIC 13d5c 0 _XAddNewItem_rpc
+PUBLIC 13e36 0 Server_AddNewItem_rpc
+PUBLIC 13f40 0 _SFLAddNewItemFromPrefs(OpaqueSFLRef*, unsigned long, __CFDictionary const*, OpaqueISImageRef*, unsigned long, unsigned long*)
+PUBLIC 13fba 0 SFLEntry::AddNewItem(unsigned long, __CFDictionary const*, OpaqueISImageRef*, unsigned long, unsigned long*)
+PUBLIC 140fc 0 SFLEntry::Move(unsigned long, unsigned long)
+PUBLIC 141c0 0 SFLItemGetByID(OpaqueSFLItemRef*, unsigned long, OpaqueSFLItemRef**)
+PUBLIC 1422a 0 SFLListBase::DetachFromList(OpaqueSFLItemRef*, OpaqueSFLItemRef*)
+PUBLIC 14272 0 SFLEntry::UpdatePrefs()
+PUBLIC 14414 0 SFLEntryBase::ListHasChanged()
+PUBLIC 14474 0 SFLGetControllerKey()
+PUBLIC 1449c 0 SFLPrefsSetValue(SFLPrefs*, void const*, void const*, double)
+PUBLIC 14568 0 SFLPrefsScheduleWrite(SFLPrefsEntry*, SFLPrefs*, double)
+PUBLIC 14664 0 SFLPrefsWriteTimerCallback(__CFRunLoopTimer*, void*)
+PUBLIC 14676 0 SFLPrefsWrite(SFLPrefs*, unsigned char)
+PUBLIC 14900 0 sfl_safe_fork_exec(unsigned int, char*, char* const*)
+PUBLIC 1496a 0 SFLPrefsCheckWriteStatusCallback(__CFRunLoopTimer*, void*)
+PUBLIC 14a0e 0 sfl_safe_poll_wait(int, int*)
+PUBLIC 14a68 0 _SFLPrefsCopySharedPrefs
+PUBLIC 14c1e 0 CopySharedPrefs_rpc
+PUBLIC 14d96 0 _XCopySharedPrefs_rpc
+PUBLIC 14ecc 0 Server_CopySharedPrefs_rpc
+PUBLIC 150d0 0 SFLPrefsGetChangedPrefsDict(SFLPrefs*)
+PUBLIC 15106 0 SFLPrefsGetSeed(SFLPrefs*)
+PUBLIC 15156 0 _SFLPrefsNotifyServerPrefsWereWritten
+PUBLIC 15299 0 SharedPrefsSeedWritten_rpc
+PUBLIC 153d3 0 _XSharedPrefsSeedWritten_rpc
+PUBLIC 154a4 0 Server_SharedPrefsSeedWritten_rpc
+PUBLIC 1565e 0 SFLPrefsClearChangedPrefsDict(SFLPrefs*)
+PUBLIC 156a8 0 _ISGetStorageByIconFamilyHandle
+PUBLIC 1574e 0 CIconStorageEntry::SetIconFamilyHandle(IconFamilyResource const**)
+PUBLIC 157ce 0 _ISSetIconData
+PUBLIC 15810 0 CIconStorageLocalEntry::SetData(long, char*, long)
+PUBLIC 159c8 0 CIconStorageLocalEntry::RemoveData(long)
+PUBLIC 15ab0 0 _ISMakeIconFamilyHandleFromStorage
+PUBLIC 15ad6 0 CIconStorageEntry::MakeIconFamilyHandle()
+PUBLIC 15dc6 0 CIconStorageEntry::GetVariant(short)
+PUBLIC 15dec 0 CIconStorageEntry::GetDataWithExtraction(long, unsigned char*, long*)
+PUBLIC 15ea2 0 CIconStorageLocalEntry::GetDataSize(long) const
+PUBLIC 15ee2 0 CIconStorageLocalEntry::GetLoadedData(long) const
+PUBLIC 15f28 0 CIconStorageEntry::AppendCompressedData(long, char**) const
+PUBLIC 16148 0 CIconStorageEntry::RepeatingPixel(unsigned long*, unsigned long*, unsigned long) const
+PUBLIC 1619c 0 CIconStorageLocalEntry::UnloadPrivate(unsigned char)
+PUBLIC 16222 0 _ISAddIconFamilyPtrToImage
+PUBLIC 1625e 0 _SFLRemovedObserverInternal(OpaqueSFLRef*)
+PUBLIC 162a2 0 SFLEntryBase::RemovedObserver()
+PUBLIC 162b0 0 OTAtomicAdd32
+PUBLIC 16312 0 InitializeFunctionsStruct
+PUBLIC 16360 0 LookupFunction
+PUBLIC 163e2 0 BatteryCount
+PUBLIC 1655b 0 BatteryCountIterator
+PUBLIC 16573 0 GetScaledBatteryInfo
+PUBLIC 1657b 0 OTAtomicAdd8
+PUBLIC 165dc 0 SFLServerVolumesMountNotificationHook(VolumeNoticeBlk*)
+PUBLIC 166be 0 SFLItemSetName(OpaqueSFLItemRef*, __CFString const*)
+PUBLIC 16706 0 SFLMutableListItem::SetName(__CFString const*)
+PUBLIC 16750 0 ListChangedCallback(__CFNotificationCenter*, void*, __CFString const*, void const*, __CFDictionary const*)
+PUBLIC 1686c 0 KCFindFirstItem
+PUBLIC 168fc 0 KCGetAttribute
+PUBLIC 16a2e 0 KCReleaseItem
+PUBLIC 16a68 0 KCReleaseItemRef
+PUBLIC 16aa0 0 KCFindNextItem
+PUBLIC 16b16 0 KCReleaseSearch
+PUBLIC 16b50 0 KCReleaseSearchRef
+PUBLIC 16b88 0 SystemSoundGetActionID
+PUBLIC 16d1c 0 InitializeSystemSoundClient()
+PUBLIC 16edc 0 InitializeSystemSoundPorts()
+PUBLIC 16f64 0 SystemSoundClientCreateMIGPort()
+PUBLIC 170b9 0 mshCreateMIGServerSource
+PUBLIC 1723a 0 mshGetMachPortFromSource
+PUBLIC 1727a 0 mshGetPort
+PUBLIC 17284 0 mshHash
+PUBLIC 17290 0 GetDeviceUIDString(char*, unsigned long)
+PUBLIC 17316 0 CACFPreferences::CopyStringValue(__CFString const*, bool, bool)
+PUBLIC 17368 0 CACFPreferences::CopyValue(__CFString const*, bool, bool)
+PUBLIC 173f0 0 CACFPreferences::Synchronize(bool, bool, bool)
+PUBLIC 174c4 0 CACFPreferences::ArePrefsOutOfDate(bool, bool)
+PUBLIC 17509 0 _SSSystemSoundGetActionIDMessage
+PUBLIC 1774c 0 SleepQInstall
+PUBLIC 17812 0 ISCachedResForkVolumesMountNotificationHook(VolumeNoticeBlk*)
+PUBLIC 17883 0 SleepQRemove
+PUBLIC 178f6 0 SystemSoundRemoveActionID
+PUBLIC 1796c 0 _SSSystemSoundRemoveActionIDMessage
+PUBLIC 17aa8 0 GetImageArray()
+PUBLIC 17b00 0 _ISGetImageRefVariant
+PUBLIC 17b70 0 AddVariantToImage(unsigned long, void*)
+PUBLIC 17be0 0 _ISGetStorageVariant
+PUBLIC 17c1a 0 CLocalRefToSharedStorageEntry::GetVariant(short)
+PUBLIC 17cca 0 GetStorageVariant_rpc
+PUBLIC 17e9a 0 _XGetStorageVariant_rpc
+PUBLIC 17f62 0 Server_GetStorageVariant_rpc
+PUBLIC 18004 0 _ISAddStorageToImage
+PUBLIC 18056 0 _ISGetUpdatedImage
+PUBLIC 180b2 0 _ISGetUpdatedImageInternal(OpaqueISImageRef*, OpaqueISImageRef**)
+PUBLIC 1817e 0 _ISGetClonedStorage
+PUBLIC 1820a 0 _ISGetClonedStorageInternal(unsigned long, unsigned long, unsigned long*)
+PUBLIC 18448 0 CLocalRefToSharedStorageEntry::CLocalRefToSharedStorageEntry(unsigned long, unsigned long, short*)
+PUBLIC 1857b 0 GetSharedClonedIconStorage_rpc
+PUBLIC 18748 0 _XGetSharedClonedIconStorage_rpc
+PUBLIC 1880c 0 Server_GetSharedClonedIconStorage_rpc
+PUBLIC 188c8 0 _ISInvalidateLoadersInArray(unsigned long, short)
+PUBLIC 18970 0 _ISIsAnyOfImageStoragesOnTheVolume
+PUBLIC 189d0 0 _ISIsStorageOnTheVolume
+PUBLIC 18a22 0 SFLVolumesEntry::VolumeUnmounted(short)
+PUBLIC 18aa2 0 SFLItemSetInstantiated(OpaqueSFLItemRef*, unsigned char, unsigned char)
+PUBLIC 18b16 0 SystemSoundPlay
+PUBLIC 18c64 0 IsCurrentUserSession()
+PUBLIC 18e1e 0 CACFArray::GetDictionary(unsigned long, __CFDictionary const*&) const
+PUBLIC 18e7c 0 CACFArray::GetCFType(unsigned long, void const*&) const
+PUBLIC 18ec2 0 CACFDictionary::GetUInt32(__CFString const*, unsigned long&) const
+PUBLIC 18f22 0 CACFDictionary::GetCFType(__CFString const*, void const*&) const
+PUBLIC 18f52 0 CACFDictionary::GetBool(__CFString const*, bool&) const
+PUBLIC 18ff0 0 SystemSoundGetProperty
+PUBLIC 19098 0 SystemSoundGetPropertyInfo
+PUBLIC 190e2 0 GetSystemSoundPref(unsigned long, unsigned long, unsigned long*, void*)
+PUBLIC 19540 0 _SSSystemSoundPlayMessage
+PUBLIC 1964c 0 NewSleepQUPP
+PUBLIC 19657 0 _LWCopyNextFireDateForScheduledAction
+PUBLIC 197fa 0 InitConstants
+PUBLIC 1992f 0 _LWScheduleCommandAction
+PUBLIC 19a93 0 CreateTimerDict
+PUBLIC 19b40 0 InstallScheduledActionDict
+PUBLIC 19d21 0 WriteBundleIDDictToUserPrefs
+PUBLIC 19e4a 0 _LWRemoveScheduledAction
+PUBLIC 19ff6 0 AlertSoundPlayCustomSound
+PUBLIC 1a150 0 _SSAlertSoundPlayCustomSoundMessage
+PUBLIC 1a264 0 DoDynamicSearches(__CFRunLoopTimer*, void*)
+PUBLIC 1a2a6 0 IsNSLDebuggingEnabled
+PUBLIC 1a402 0 NSLXConfigMgr::RefreshDynamicSearches()
+PUBLIC 1a4a0 0 dsVerifyDirRefNum
+PUBLIC 1a508 0 NSLXRequestMgr::InvalidateOpenSearches(NSLXSearchTypeToInvalidate)
+PUBLIC 1a5f2 0 NSLMutexSemaphore::Wait(long)
+PUBLIC 1a740 0 CopyRequestList(void const*, void*)
+PUBLIC 1a760 0 NSLXRequest::RestartSearch()
+PUBLIC 1a836 0 NSLXRequestMgr::GetTickleThreadRunLoopRef()
+PUBLIC 1a890 0 NSLMutexSemaphore::Signal()
+PUBLIC 1a8ec 0 NSLXConfigMgr::ResetDynamicSearchTimer()
+PUBLIC 1aa38 0 DoRestartSearchOnThread(__CFRunLoopTimer*, void*)
+PUBLIC 1aac0 0 NSLXRequestMgr::ObtainValidRetainedRequest(NSLXRequest*)
+PUBLIC 1ab16 0 NSLXRequest::Retain()
+PUBLIC 1ab4c 0 NSLXRequest::ThreadedRestartSearch()
+PUBLIC 1ad4e 0 NSLXRequest::InvalidatePreviousResults()
+PUBLIC 1ad84 0 NSLXRequest::EmptyResultsList()
+PUBLIC 1adde 0 NSLSemaphore::Wait(long)
+PUBLIC 1aefe 0 NSLSemaphore::Signal()
+PUBLIC 1af32 0 NSLXRequest::ResetTimeToWaitBetweenSearches()
+PUBLIC 1af4a 0 NSLXConfigMgr::IsTopLevelNeighborhoodConfigured()
+PUBLIC 1af86 0 NSLXConfigMgr::LockConfigMgr()
+PUBLIC 1b032 0 NSLXConfigMgr::IsNeighborhoodTopLevel(unsigned char*)
+PUBLIC 1b0b0 0 _NSLXReleaseNeighborhoodResult
+PUBLIC 1b0f0 0 NSLXRequestMgr::LockNeighborhoodRefs()
+PUBLIC 1b1a4 0 NSLXRequestMgr::UnlockNeighborhoodRefs()
+PUBLIC 1b1bc 0 NSLXCreateNeighborhoodWithDSPathString(__CFString const*, __CFString const*, __CFString const*)
+PUBLIC 1b48a 0 NSLXRequest::StartNeighborhoodSearch(unsigned char*)
+PUBLIC 1b548 0 NSLXRequest::UpTimeToWaitBetweenSearches()
+PUBLIC 1b570 0 NSLXRequest::PrepareClientAsyncInfoForSearch(NSLXClientAsyncInfo*)
+PUBLIC 1b602 0 NSLXRequest::GetSearchState()
+PUBLIC 1b614 0 NSLXRequest::UpdateLastSearchTimeStarted()
+PUBLIC 1b62a 0 NSLXRequest::NeighborhoodLookup(unsigned char*)
+PUBLIC 1b914 0 NSLXDSNodeMgr::InSimpleNetworkState()
+PUBLIC 1b96a 0 IsNeighborhoodAlias
+PUBLIC 1ba38 0 NSLXDSNodeMgr::CopyListOfNeighborhoods(unsigned char*)
+PUBLIC 1c0ee 0 NSLXIsTopLevelNeighborhood
+PUBLIC 1c118 0 NSLXDSNodeMgr::LockDSNodeMgr()
+PUBLIC 1c1c4 0 NSLXRequest::AddResult(__CFDictionary*)
+PUBLIC 1ca4c 0 NSLXRequestMgr::ResultHasSameNameOrHostAsThisMachine(__CFDictionary const*)
+PUBLIC 1cb96 0 NSLXGetMainStringFromAttribute
+PUBLIC 1cc18 0 ResultComparator(void const*, void const*, void*)
+PUBLIC 1cde2 0 NSLXCopyNeighborhoodCategory
+PUBLIC 1ce20 0 _NSLXCopyNeighborhoodCategory
+PUBLIC 1cf02 0 NSLXCopyNeighborhoodDisplayName
+PUBLIC 1cf40 0 _NSLXCopyNeighborhoodDisplayName
+PUBLIC 1d0f0 0 UseDebugNamingConvention()
+PUBLIC 1d178 0 NSLXRequest::IsDuplicateResult(__CFDictionary const*, __CFDictionary const*)
+PUBLIC 1d218 0 NSLXRequest::UpdateTimeStampOfResult(__CFDictionary*)
+PUBLIC 1d2d2 0 AddDSPathListDataToExistingNeighborhood(__CFArray const*, __CFDictionary*)
+PUBLIC 1d4b4 0 NSLXRequestMgr::NSLXRequestFinished(NSLXRequest*)
+PUBLIC 1d652 0 NSLXRequest::SetSearchState(unsigned short)
+PUBLIC 1d75a 0 NSLXRequest::ClearOutStaleItems()
+PUBLIC 1da08 0 NSLXRequest::ResultIsStale(__CFDictionary const*)
+PUBLIC 1dabc 0 InvokeNSLXClientNotifyUPP
+PUBLIC 1daca 0 NSLXCopyNeighborhoodResult
+PUBLIC 1db08 0 _NSLXCopyNeighborhoodResult
+PUBLIC 1dbb8 0 NSLXRequest::GetNeighborhoodResult()
+PUBLIC 1dbc6 0 NSLXGetSearchState
+PUBLIC 1dbf2 0 _NSLXGetSearchState
+PUBLIC 1dc62 0 NSLXRequest::Release()
+PUBLIC 1dcac 0 NSLXRequest::StartServicesSearch(unsigned char*, __CFArray const*, __CFString const*)
+PUBLIC 1dda6 0 NSLXRequest::ServicesLookup(unsigned char*, __CFArray const*, __CFString const*)
+PUBLIC 1df9e 0 NSLXCopyServiceResult
+PUBLIC 1dfdc 0 _NSLXCopyServiceResult
+PUBLIC 1e088 0 NSLXRequest::GetAttributeResults()
+PUBLIC 1e0fc 0 _SFLGetSharedSeedValue
+PUBLIC 1e170 0 _SFLGetSnapshotSeedValue
+PUBLIC 1e1b4 0 SFLSnapshotEntry::GetSharedSeedValue()
+PUBLIC 1e1c0 0 NSLXOpenNavigationAPI
+PUBLIC 1e2a0 0 _NSLXOpenNavigationAPI
+PUBLIC 1e464 0 NSLXRequestMgr::NSLXRequestMgr(__CFBundle*, unsigned long)
+PUBLIC 1e586 0 NSLXRequestMgr::SetNSLXOptions(unsigned long)
+PUBLIC 1e5c6 0 NSLXRequestMgr::Init()
+PUBLIC 1e772 0 NSLSemaphore::NSLSemaphore(long)
+PUBLIC 1e7c4 0 NSLMutexSemaphore::NSLMutexSemaphore(bool)
+PUBLIC 1e80e 0 NSLSemaphore::NSLSemaphore(long)
+PUBLIC 1e85e 0 NSLXConfigMgr::NSLXConfigMgr()
+PUBLIC 1e92c 0 NSLXConfigMgr::SetDefaultConfigValues()
+PUBLIC 1e986 0 NSLXConfigMgr::Init()
+PUBLIC 1e9bc 0 NSLXConfigMgr::RegisterForDSSearchPolicyChanges()
+PUBLIC 1ec6e 0 NSLXRequestMgr::StartNSLXRequestMgrThread()
+PUBLIC 1ecd8 0 NSLXRequestMgrThread::NSLXRequestMgrThread(NSLXRequestMgr*, LThread::EThreadOption)
+PUBLIC 1ed54 0 LThread::LThread(LThread::EThreadOption)
+PUBLIC 1ee50 0 LThread::Resume()
+PUBLIC 1eeac 0 LThread::_RunWrapper(void*)
+PUBLIC 1ef8e 0 NSLXRequestMgrThread::Run()
+PUBLIC 1f160 0 NSLXRequestMgr::SetHostName(__CFString const*)
+PUBLIC 1f1b4 0 NSLXRequestMgr::SetComputerName(__CFString const*)
+PUBLIC 1f226 0 CreateNetBIOSNameFromComputerName()
+PUBLIC 1f26e 0 NSLXRequestMgrThread::GetRunLoopRef()
+PUBLIC 1f2a6 0 CreateRFC1034HostLabelFromUTF8Name(__CFString const*, unsigned long)
+PUBLIC 1f45c 0 NSLXRequestMgrThread::RegisterForStateChanges()
+PUBLIC 1f5fc 0 NSLXConfigMgr::ResetConfigRefreshTimer(double)
+PUBLIC 1f748 0 NSLXDSNodeMgr::NSLXDSNodeMgr()
+PUBLIC 1f7ba 0 NSLXDSNodeMgr::Init(__CFRunLoop*)
+PUBLIC 1f8d2 0 NSLXDSNodeMgr::RegisterForDSNodeChanges()
+PUBLIC 1fa8a 0 DoDetermineUserPreferences(__CFRunLoopTimer*, void*)
+PUBLIC 1facc 0 NSLXConfigMgr::RefreshConfig()
+PUBLIC 1fbb8 0 NSLXDSNodeMgr::ActivateDSPluginsIfNeeded(__CFRunLoop*)
+PUBLIC 1fc60 0 DoActivateDSPluginsIfNeeded(__CFRunLoopTimer*, void*)
+PUBLIC 20022 0 NSLXRequestMgr::CreateNewClient()
+PUBLIC 2008c 0 NSLLog
+PUBLIC 200e8 0 newlog
+PUBLIC 20162 0 DoBuildNetworkNodeList(__CFRunLoopTimer*, void*)
+PUBLIC 20246 0 NSLXDSNodeMgr::BuildNetworkNodeList()
+PUBLIC 207e8 0 NSLXRequestMgr::OpenNewDSDirReference()
+PUBLIC 20865 0 dsOpenDirService
+PUBLIC 208cd 0 NewNSLXClientNotifyUPP
+PUBLIC 208d8 0 NSLXStartNeighborhoodLookup
+PUBLIC 20948 0 _NSLXStartNeighborhoodLookup
+PUBLIC 20b24 0 NSLXRequestMgr::MakeNewXRequest(void (*)(void*, unsigned long), void*, unsigned long, unsigned long*)
+PUBLIC 20c6a 0 NSLXRequestMgr::GetRunLoopRef()
+PUBLIC 20c8e 0 NSLXRequest::NSLXRequest(void (*)(void*, unsigned long), void*, NSLXClientAsyncInfo*, __CFRunLoop*, unsigned char)
+PUBLIC 20dba 0 NSLXRequest::InitRequest()
+PUBLIC 20e64 0 NSLXRequest::SetRefs(unsigned long, unsigned long)
+PUBLIC 20e7a 0 CreateNSLXNeighborhoodThreadedSearchContext(unsigned char*, unsigned long)
+PUBLIC 20eb4 0 NSLXRetainNeighborhoodResult
+PUBLIC 20ecc 0 dsDataBufferAllocate
+PUBLIC 20f3b 0 dsFindDirNodes
+PUBLIC 20fda 0 NSLXDSNodeMgr::BuildNeighborhoodNodeTree(unsigned char, unsigned char, tDataBuffer*, unsigned long, __CFDictionary*)
+PUBLIC 21e7a 0 dsGetDirNodeName
+PUBLIC 21f04 0 dsDataListGetNodeCount
+PUBLIC 21f6c 0 dsDataListGetNodeAlloc
+PUBLIC 21ff7 0 dsDataNodeDeAllocate
+PUBLIC 22069 0 dsGetPathFromList
+PUBLIC 220e6 0 NSLXDSNodeMgr::CheckDSNodePath(__CFString const*, __CFString const*, unsigned char*, unsigned char*, unsigned char*)
+PUBLIC 2215c 0 NSLXDSNodeMgr::IsBadDSNodePath(__CFString const*)
+PUBLIC 221f0 0 NSLXDSNodeMgr::IsOnlyLocal(__CFString const*)
+PUBLIC 22306 0 NSLXDSNodeMgr::FindNeighborhodInNodeTree(__CFDictionary const*, __CFString const*, __CFString const*)
+PUBLIC 223d4 0 NSLXDSNodeMgr::AddNeighborhoodToNodeTree(__CFDictionary*, __CFString const*, unsigned char*)
+PUBLIC 225da 0 NSLFreeNeighborhood
+PUBLIC 225f5 0 dsDataListDeallocateProperly
+PUBLIC 2262c 0 dsDataListDeallocate
+PUBLIC 2269e 0 NeighborhoodResultComparator(void const*, void const*, void*)
+PUBLIC 22834 0 dsGetDirNodeList
+PUBLIC 228be 0 NSLXDSNodeMgr::OKToCheckNodeForConfigData(tDataList*)
+PUBLIC 22a67 0 dsDataBufferDeAllocate
+PUBLIC 22ad6 0 NSLXConfigMgr::DetermineUserPreferences()
+PUBLIC 22ea2 0 NSLXConfigMgr::CreateUserNSLPrefsFromDSComputerRecord()
+PUBLIC 23b64 0 NSLXConfigMgr::CreateMacAddressCString()
+PUBLIC 23bce 0 LinkAddresses_create()
+PUBLIC 23dba 0 sockaddr_dl_create_macaddr_string(sockaddr_dl*, char const*)
+PUBLIC 23ec0 0 LinkAddresses_free(LinkAddresses_t**)
+PUBLIC 23f35 0 dsOpenDirNode
+PUBLIC 23fb0 0 dsBuildListFromStrings
+PUBLIC 24058 0 dsDataNodeAllocateString
+PUBLIC 240c8 0 dsDoAttributeValueSearchWithData
+PUBLIC 24198 0 dsCloseDirNode
+PUBLIC 24200 0 NSLXConfigMgr::CreateUserNSLPrefsFromDS(tDataList*, char*)
+PUBLIC 24c3c 0 NSLXConfigMgr::CreateRecNameListToSearch(unsigned long)
+PUBLIC 24cfe 0 NSLXConfigMgr::CopyListOfSearchNames()
+PUBLIC 24d50 0 NSLXConfigMgr::CreateNewListOfSearchNames()
+PUBLIC 24dfc 0 NSLXConfigMgr::AppendMacAddressBasedRecordNameToList(__CFArray*)
+PUBLIC 24e66 0 NSLXConfigMgr::AppendIPAddressBasedRecordNamesToList(__CFArray*)
+PUBLIC 25004 0 NSLXConfigMgr::AppendSubnetBasedRecordNamesToList(__CFArray*)
+PUBLIC 25176 0 NSLXConfigMgr::AppendDefaultConfigBasedRecordNameToList(__CFArray*)
+PUBLIC 25194 0 dsGetRecordList
+PUBLIC 2525a 0 NSLXConfigMgr::FillOutStateFromConfigDictionary()
+PUBLIC 254a2 0 NSLXDSNodeMgr::DetermineNetworkState()
+PUBLIC 258fa 0 dsBuildFromPath
+PUBLIC 25978 0 dsGetDirNodeCountWithInfo
+PUBLIC 259f6 0 NSLXDSNodeMgr::AddToNodeList(tDataBuffer*, unsigned long, unsigned long, unsigned long, unsigned long*, __CFSet*)
+PUBLIC 25d82 0 NSLXDSNodeMgr::CompareToNodeList(tDataBuffer*, unsigned long, unsigned long, unsigned long, unsigned long*, __CFSet*)
+PUBLIC 2616c 0 NSLXDSNodeCallBack(__SCDynamicStore const*, void*)
+PUBLIC 26284 0 NSLXDSNodeMgr::HandleDSNodeChangeNotification()
+PUBLIC 263a6 0 DoStartNeighborhoodSearchOnThread(__CFRunLoopTimer*, void*)
+PUBLIC 263ec 0 NSLXRequestMgr::StartNeighborhoodSearch(unsigned long, unsigned char*)
+PUBLIC 264fa 0 _NSLXRetainNeighborhoodResult
+PUBLIC 26538 0 NSLXStartServicesLookup
+PUBLIC 265b0 0 _NSLXStartServicesLookup
+PUBLIC 2679a 0 CreateNSLXServicesThreadedSearchContext(unsigned long, unsigned char*, __CFArray const*, __CFString const*)
+PUBLIC 26804 0 NSLXConfigMgr::ResetDynamicSearchPollingTime()
+PUBLIC 26838 0 ReleaseNSLXNeighborhoodThreadedSearchContext(NSLXNeighborhoodThreadedSearchContext*)
+PUBLIC 26868 0 NSLXReleaseNeighborhoodResult
+PUBLIC 2687a 0 NSLXRequestMgr::NSLXRequestAddResult(NSLXRequest*, __CFDictionary const*)
+PUBLIC 26a38 0 NSLXGetResultType
+PUBLIC 26a54 0 _NSLXGetResultType
+PUBLIC 26abe 0 NSLXRequest::GetResultType()
+PUBLIC 26acc 0 DoDSNodeChange(__CFRunLoopTimer*, void*)
+PUBLIC 26ae2 0 NSLXDSNodeMgr::RefreshDSNeighborhoods()
+PUBLIC 26b52 0 CreateDomainHiearchy(__CFString const*)
+PUBLIC 26dfa 0 GetNextLabel(char const*, char*)
+PUBLIC 26ee2 0 DoStartServicesSearchOnThread(__CFRunLoopTimer*, void*)
+PUBLIC 26f34 0 NSLXRequestMgr::StartServicesSearch(unsigned long, unsigned char*, __CFArray const*, __CFString const*)
+PUBLIC 27082 0 NSLXRequestMgr::NSLXRequestCachedPortionOfLookupFinished(NSLXRequest*)
+PUBLIC 271d6 0 ReleaseNSLXServicesThreadedSearchContext(NSLXServicesThreadedSearchContext*)
+PUBLIC 27224 0 NSLXRequestMgr::NSLXRequestUpdateResult(NSLXRequest*, __CFDictionary const*)
+PUBLIC 27406 0 NSLXRequestMgr::GetServiceRequestSearchingNeighborhood(unsigned char*)
+PUBLIC 274c6 0 CopyServiceRequestList(void const*, void*)
+PUBLIC 274ec 0 AlertSoundPlay
+PUBLIC 276f4 0 _SSAlertSoundPlayMessage
+PUBLIC 27854 0 SystemSoundSetCompletionRoutine
+PUBLIC 27992 0 _SSSystemSoundSetCompletionRoutineMessage
+PUBLIC 27b70 0 mshMIGPerform
+PUBLIC 27d08 0 _XSystemSoundActionCompletedMessage
+PUBLIC 27d4c 0 _SSXSystemSoundActionCompletedMessage
+PUBLIC 27d62 0 SystemSoundClientSoundCompletion
+PUBLIC 27da8 0 _dyld_func_lookup
+PUBLIC 27db8 0 returns_error
+PUBLIC 27dc2 0 returns_null_pointer
+PUBLIC 27dcc 0 dsCloseDirService
+PUBLIC 27e33 0 dsCreateRecord
+PUBLIC 27eae 0 dsOpenRecord
+PUBLIC 27f35 0 dsAddAttributeValue
+PUBLIC 27fb0 0 dsFlushRecord
+PUBLIC 28017 0 dsCloseRecord
+PUBLIC 2807e 0 dsDeleteRecord
+PUBLIC 280e5 0 dsBuildListFromStringsAlloc
+PUBLIC 28196 0 dsDataListAllocate
+PUBLIC 281fd 0 dsDataListDeAllocate
+PUBLIC 28278 0 LockAPIs()
+PUBLIC 28298 0 UnlockAPIs()
+PUBLIC 282b8 0 NSLLibraryVersion
+PUBLIC 282c2 0 UninitializedProcReturnOSStatus(...)
+PUBLIC 282f0 0 UninitializedProcReturnNSLError(...)
+PUBLIC 2832a 0 UninitializedProcReturnNULL(...)
+PUBLIC 28354 0 NSLCloseNavigationAPI
+PUBLIC 28396 0 NSLPrepareRequest
+PUBLIC 284a6 0 NSLStartNeighborhoodLookup
+PUBLIC 28518 0 NSLStartServicesLookup
+PUBLIC 28590 0 NSLGetNextUrl
+PUBLIC 285ea 0 NSLContinueLookup
+PUBLIC 285f4 0 NSLCancelRequest
+PUBLIC 28648 0 NSLDeleteRequest
+PUBLIC 2869c 0 NSLErrorToString
+PUBLIC 286e0 0 NSLGetErrorStringsFromResource
+PUBLIC 2872e 0 NSLXGetSearchStatus
+PUBLIC 28766 0 NSLXRetainServiceResult
+PUBLIC 2877e 0 NSLXReleaseServiceResult
+PUBLIC 28792 0 NSLXCopyServiceCategory
+PUBLIC 287ce 0 NSLXCopyServiceDisplayName
+PUBLIC 2880a 0 NSLXCopyServicePreferredURLResultAsString
+PUBLIC 28846 0 NSLXCopyServicePreferredServiceTypeResultAsString
+PUBLIC 28882 0 NSLXCopyServiceAttributeValue
+PUBLIC 288be 0 NSLXCopyNeighborhoodAttributeValue
+PUBLIC 288fa 0 NSLXCompareServiceRefs
+PUBLIC 28940 0 NSLXCompareServiceRefPriority
+PUBLIC 28986 0 NSLXGetSearchResult
+PUBLIC 289c2 0 NSLXGetNeighborhoodResult
+PUBLIC 289fe 0 NSLXResolveService
+PUBLIC 28a34 0 NSLXCompareServices
+PUBLIC 28a50 0 NSLXCompareServicePriority
+PUBLIC 28a6c 0 NSLInstallScheduler
+PUBLIC 28a74 0 NSLRemoveScheduler
+PUBLIC 28a7c 0 NSLNewThread
+PUBLIC 28a84 0 NSLDisposeThread
+PUBLIC 28a8c 0 LoadNSLXRegistrationProcPtrs(__CFString const*)
+PUBLIC 28c2c 0 NSLXStandardDeregisterService
+PUBLIC 28d14 0 NSLXStandardDeregisterURL(__CFURL const*, unsigned char*)
+PUBLIC 28e08 0 NSLStandardDeregisterURL
+PUBLIC 28f06 0 NSLXStandardRegisterService
+PUBLIC 28fee 0 NSLXStandardRegisterURL(__CFURL const*, unsigned char*, __CFDictionary const*)
+PUBLIC 29100 0 NSLStandardRegisterURL
+PUBLIC 291fe 0 LoadNSLProcPtrs(__CFString const*)
+PUBLIC 2988a 0 NSLOpenNavigationAPI
+PUBLIC 298c6 0 UnloadNSLProcPtrs()
+PUBLIC 299dd 0 NewNSLMgrNotifyUPP
+PUBLIC 299e5 0 NewNSLClientNotifyUPP
+PUBLIC 299ed 0 DisposeNSLMgrNotifyUPP
+PUBLIC 299f2 0 DisposeNSLClientNotifyUPP
+PUBLIC 299f7 0 InvokeNSLMgrNotifyUPP
+PUBLIC 29a00 0 InvokeNSLClientNotifyUPP
+PUBLIC 29a09 0 NewNSLXMgrNotifyUPP
+PUBLIC 29a11 0 DisposeNSLXMgrNotifyUPP
+PUBLIC 29a16 0 DisposeNSLXClientNotifyUPP
+PUBLIC 29a1b 0 InvokeNSLXMgrNotifyUPP
+PUBLIC 29a24 0 NSLNodeValuesEqual(void const*, void const*)
+PUBLIC 29aae 0 NSLReleaseCallback(__CFAllocator const*, void const*)
+PUBLIC 29abe 0 ReleaseDictItems(void const*, void const*, void*)
+PUBLIC 29aee 0 RetainDictItems(void const*, void const*, void*)
+PUBLIC 29b0c 0 MergeDictItems(void const*, void const*, void*)
+PUBLIC 29ca8 0 YankDictItem(void const*, void const*, void*)
+PUBLIC 29cd4 0 NSLXMakeServicesRequestPB(__CFArray const*, NSLTypedData**)
+PUBLIC 29d22 0 NSLMakeServicesRequestPB
+PUBLIC 29dee 0 NSLFreeTypedDataPtr
+PUBLIC 29e2e 0 NSLCopyNeighborhood
+PUBLIC 29e64 0 _NSLMakeNewProtocolList
+PUBLIC 29e6c 0 NSLDisposeServicesList
+PUBLIC 29e7e 0 MyCopyCStringToPascal
+PUBLIC 29ea8 0 NSLXCopyDisplayNameFromNeighborhood
+PUBLIC 29f1e 0 NSLGetNameFromNeighborhood
+PUBLIC 29fa6 0 NSLXGetNodeFromNeighborhood
+PUBLIC 2a030 0 NSLGetNextNeighborhood
+PUBLIC 2a072 0 NSLXNeighborhoodGetAttributeValue
+PUBLIC 2a0b4 0 GetNumProtocolsFromNeighborhood
+PUBLIC 2a0bc 0 GetPointerToNthProtocolInNeighborhood
+PUBLIC 2a0c4 0 NSLFreeNSLNeighborhoodURL
+PUBLIC 2a0e6 0 IsNSLNeighborhoodURL
+PUBLIC 2a11e 0 IsCharURLReservedOrIllegal
+PUBLIC 2a2d8 0 EncodeCharToHex
+PUBLIC 2a330 0 DecodeHexToChar
+PUBLIC 2a3d4 0 NSLHexDecodeText
+PUBLIC 2a4a6 0 NSLMakeNewNeighborhoodFromURL
+PUBLIC 2a78e 0 NSLServiceIsInServiceList
+PUBLIC 2a834 0 NSLXServiceIsInServiceList(__CFArray const*, char*)
+PUBLIC 2a8ea 0 NSLGetServiceFromURL
+PUBLIC 2a954 0 NSLGetNeighborhoodLength
+PUBLIC 2a996 0 MyCopyPascalStringToC
+PUBLIC 2a9c2 0 GetPointerToProtocolContextFromNeighborhood
+PUBLIC 2a9d2 0 NSLHexEncodeText
+PUBLIC 2ac66 0 NSLMakeNewNeighborhoodURL
+PUBLIC 2ada8 0 AddCFStringToEncodedURL(__CFString const*, __CFString const*, char*)
+PUBLIC 2af40 0 ConcatDictItems(void const*, void const*, void*)
+PUBLIC 2b088 0 NSLAddServiceToServicesList
+PUBLIC 2b1b0 0 NSLMakeNewServicesList
+PUBLIC 2b2de 0 NSLMergeNeighborhoods
+PUBLIC 2b34e 0 NSLParseServiceRegistrationPB
+PUBLIC 2b378 0 NSLParseServicesRequestPB
+PUBLIC 2b382 0 MMNewTempPtr(unsigned long, unsigned char)
+PUBLIC 2b3c6 0 MMDisposeTempPtr(void*, unsigned char)
+PUBLIC 2b3d8 0 MMResizeTemp(void*, unsigned long)
+PUBLIC 2b3e2 0 MMNewSysPtr(unsigned long, unsigned char)
+PUBLIC 2b428 0 MMNewHandle(unsigned long, unsigned char)
+PUBLIC 2b47a 0 MMDisposeHandle(char**)
+PUBLIC 2b48c 0 MMGetHandleSize(char**)
+PUBLIC 2b498 0 MMReportStats(char*)
+PUBLIC 2b49e 0 MMSetHandleSize(char**, unsigned long)
+PUBLIC 2b500 0 sockaddr_dl_print(sockaddr_dl*)
+PUBLIC 2b5b4 0 LinkAddresses_lookup(LinkAddresses_t*, char*)
+PUBLIC 2b629 0 IsComputerAlias
+PUBLIC 2b6da 0 CreateMutableDictionaryFromXMLString
+PUBLIC 2b86f 0 ConvertXMLToDictionary
+PUBLIC 2b9bd 0 ValidateRecord
+PUBLIC 2be91 0 IsValidAliasDictionary
+PUBLIC 2bf65 0 CreateMutableArrayFromXMLDSData
+PUBLIC 2c09c 0 CreateMutableDictionaryFromXMLDSData
+PUBLIC 2c28a 0 CreateServiceTypeFromDSType
+PUBLIC 2c460 0 CreateMutableDictionaryFromRecordDataBuffer
+PUBLIC 2c83a 0 CreateMutableDictionaryFromRecord
+PUBLIC 2cc10 0 ResolveAliasDictionaryViaRecordName
+PUBLIC 2cf3f 0 GetURLOrServiceTypePriority
+PUBLIC 2d018 0 ServiceTypeListComparator
+PUBLIC 2d04c 0 NSLDSBuildDataListFromCFArray
+PUBLIC 2d208 0 NSLDSGetAttributeValuesFromRecordsByAttributeValue
+PUBLIC 2daaf 0 ResolveAliasDictionary
+PUBLIC 2df35 0 ResolveComputerAliasDictionary
+PUBLIC 2df3e 0 DSSearchPolicyChangedCopyStringCallback(void const*)
+PUBLIC 2df4e 0 NSLXConfigMgr::~NSLXConfigMgr()
+PUBLIC 2e0ae 0 NSLXConfigMgr::~NSLXConfigMgr()
+PUBLIC 2e20e 0 DictionaryValuesAreDifferent(__CFDictionary const*, __CFDictionary const*, __CFString const*)
+PUBLIC 2e406 0 ConfigDictsAreDifferent(__CFDictionary const*, __CFDictionary const*)
+PUBLIC 2e5a4 0 UseDotMacPrefix()
+PUBLIC 2e62e 0 NSLXConfigMgr::HandlePossibleNSLConfigChangeNotification()
+PUBLIC 2e672 0 NSLXDSSearchPolicyCallBack(__SCDynamicStore const*, void*)
+PUBLIC 2e862 0 NSLXConfigMgr::CopyTopLevelNeighborhood()
+PUBLIC 2e8a2 0 NSLXConfigMgr::CopyRecordNameMatchingGUID(unsigned long, unsigned long, char*)
+PUBLIC 2e9fc 0 NSLXConfigMgr::UpdateUserNSLPrefsWithUserPreferenceSettings(__CFDictionary*)
+PUBLIC 2ea02 0 NSLXConfigMgr::ComposeConfigFromRecordData(__CFDictionary*, __CFDictionary const*)
+PUBLIC 2ed3c 0 CreateDictionaryFromXMLDSData(long, unsigned char*)
+PUBLIC 2eea0 0 NSLXConfigMgr::FillOutConfigDictionaryFromDSRecord(unsigned long, __CFDictionary*, tDataBuffer*, unsigned long)
+PUBLIC 2f20e 0 LogDictionaryAttributes(void const*, void const*, void*)
+PUBLIC 2f304 0 NSLXConfigMgr::NSLXConfigMgr()
+PUBLIC 2f3d2 0 IsBadNeighborhood(char*)
+PUBLIC 2f4c8 0 NSLXDSLookup::NSLXDSLookup(LThread::EThreadOption)
+PUBLIC 2f54e 0 NSLXDSLookup::NSLXDSLookup(LThread::EThreadOption)
+PUBLIC 2f5d4 0 NSLXDSLookup::~NSLXDSLookup()
+PUBLIC 2f782 0 NSLXDSLookup::~NSLXDSLookup()
+PUBLIC 2f930 0 NSLXDSLookup::~NSLXDSLookup()
+PUBLIC 2fae6 0 NSLXDSLookup::InitLookup(__CFArray const*, unsigned char*, unsigned long, __CFArray const*, NSLXRequest*)
+PUBLIC 2fb5c 0 NSLXDSLookup::CancelLookup()
+PUBLIC 2fb9a 0 RetainNSLXDSNodeDataContext(NSLXDSNodeDataContext*)
+PUBLIC 2fbc2 0 ReleaseNSLXDSNodeDataContext(NSLXDSNodeDataContext*)
+PUBLIC 2fcb6 0 NSLXDSLookupReleaseRequest(__CFAllocator const*, void const*)
+PUBLIC 2fcc6 0 NSLXDSLookup::OKToLookupServiceTypeInNode(__CFString const*, __CFString const*)
+PUBLIC 2ff34 0 NSLXDSLookup::CreateDSRecordTypeList(__CFString const*)
+PUBLIC 2ffe2 0 NSLXDSLookup::CreateNodeDataContext(unsigned long, unsigned long, __CFString const*)
+PUBLIC 30040 0 NSLXDSLookup::IsBonjourLocalNodePath(__CFString const*)
+PUBLIC 30078 0 NSLXDSLookup::IsBonjourNodePath(__CFString const*)
+PUBLIC 300a2 0 LogHexDump(char*, long)
+PUBLIC 3033a 0 NSLXDSLookup::AddProtocolToServiceResult(__CFString const*, __CFDictionary*)
+PUBLIC 303f8 0 NSLXDSLookup::SearchDirNodeForURLData(NSLXDSNodeDataContext*, unsigned char*)
+PUBLIC 30c78 0 IsMacDotComDomain(__CFString const*)
+PUBLIC 30ca2 0 NSLXDSLookup::DoServicesLookupOnComputerRecords()
+PUBLIC 311c4 0 NSLXCreateLocalNeighborhood()
+PUBLIC 31582 0 NSLXDSLookup::OpenAndStartSearchesOnDirNodesFromNeighborhood(unsigned char*, __CFArray*)
+PUBLIC 31b0e 0 NSLXDSLookup::DoServicesLookupOnOldStyleNeighborhoods()
+PUBLIC 31d1a 0 NSLXDSLookup::DoServicesLookup()
+PUBLIC 31de0 0 NSLXDSLookup::Run()
+PUBLIC 31e2e 0 NSLXDSLookupRetainRequest(__CFAllocator const*, void const*)
+PUBLIC 31e58 0 OldStyleLookupRunLoopSource(__CFRunLoopTimer*, void*)
+PUBLIC 32020 0 DSNodeChangedCopyStringCallback(void const*)
+PUBLIC 32030 0 NSLXRetain(__CFAllocator const*, void const*)
+PUBLIC 3204a 0 NSLXRelease(__CFAllocator const*, void const*)
+PUBLIC 3205a 0 NSLXStringCompare(void const*, void const*)
+PUBLIC 32084 0 NSLXDSNodeMgr::NSLXDSNodeMgr()
+PUBLIC 320f4 0 NSLXDSNodeMgr::~NSLXDSNodeMgr()
+PUBLIC 3219c 0 NSLXDSNodeMgr::~NSLXDSNodeMgr()
+PUBLIC 32244 0 NSLXDSNodeMgr::DumpNodeTreeToDisk()
+PUBLIC 32346 0 IsBonjourDotMacDomainNodePath(__CFString const*)
+PUBLIC 32370 0 NSLXDSNodeMgr::IsDotMacService(__CFDictionary const*)
+PUBLIC 323c0 0 NSLXCopyNodePathPrefixFromNeighborhood(unsigned char*, long)
+PUBLIC 324b0 0 NSLXCreateNodePathStringFromNeighborhood(unsigned char*, long, __CFString const*)
+PUBLIC 32598 0 NSLXCopyNodePathArrayFromNeighborhood(unsigned char*, long)
+PUBLIC 3266a 0 NSLXGetNodeCountFromNeighborhood
+PUBLIC 326f8 0 NSLXDSNodeMgr::BuildNodeListInProgress()
+PUBLIC 3273c 0 NSLXDSNodeMgr::CreateNeighborhoodForName(__CFString const*)
+PUBLIC 32b76 0 NSLXDSNodeMgr::IsDotMacDefaultDomain(char*)
+PUBLIC 32df8 0 CreateDictionaryOfNodeAttributes(unsigned long, tDataList*, __CFDictionary const**)
+PUBLIC 33222 0 NSLXDSNodeMgr::CreateLocalizedNameFromNode(tDataList*)
+PUBLIC 33452 0 NSLXDSRegister::NSLXDSRegister(long*)
+PUBLIC 3346e 0 NSLXDSRegister::NSLXDSRegister(long*)
+PUBLIC 3348a 0 NSLXDSRegister::~NSLXDSRegister()
+PUBLIC 334cc 0 NSLXDSRegister::~NSLXDSRegister()
+PUBLIC 3350e 0 NSLXDSRegister::InitRegRequest(__CFDictionary const*, NSLXRegMode)
+PUBLIC 33534 0 LockRegistration()
+PUBLIC 33554 0 UnLockRegistration()
+PUBLIC 33574 0 ConvertCFStringToDSList(unsigned long, __CFString const*, tDataList**)
+PUBLIC 335fc 0 ConvertCFStringToDSDataNode(unsigned long, __CFString const*, tDataBuffer**)
+PUBLIC 3367a 0 AddServiceAttributes(void const*, void const*, void*)
+PUBLIC 339f6 0 ConvertUTF8ToASCII(unsigned char const*, long, char*, long, unsigned long, unsigned long)
+PUBLIC 33afc 0 IgnoreNodeForService(char*, __CFDictionary const*)
+PUBLIC 33c48 0 SmartSleep(unsigned int)
+PUBLIC 33cac 0 GetDSRecordTypeNode(unsigned long, char*, tDataBuffer**)
+PUBLIC 33cf2 0 GetDSRecordTypeNode(unsigned long, __CFString const*, tDataBuffer**)
+PUBLIC 33d50 0 GetDSRecordTypeNodeFromURL(unsigned long, __CFString const*, tDataBuffer**)
+PUBLIC 33dee 0 NSLXDSRegister::RegDeregisterService(NSLXRegMode, __CFDictionary const*, __CFString const*)
+PUBLIC 34576 0 NSLXDSRegister::DoRegistration()
+PUBLIC 34684 0 _NSLXStandardDeregisterService
+PUBLIC 34740 0 _NSLXStandardRegisterService
+PUBLIC 347fc 0 _NSLXCloseNavigationAPI
+PUBLIC 3482c 0 DoCancelRequestOnThread(__CFRunLoopTimer*, void*)
+PUBLIC 34866 0 _NSLXCancelRequest
+PUBLIC 34910 0 _NSLXDeleteRequest
+PUBLIC 349c8 0 _NSLErrorToString
+PUBLIC 34a24 0 _NSLXGetNeighborhoodResult
+PUBLIC 34aa8 0 _NSLXGetSearchStatus
+PUBLIC 34b32 0 _NSLXRetainServiceResult
+PUBLIC 34b70 0 _NSLXReleaseServiceResult
+PUBLIC 34bae 0 _NSLXCopyServiceCategory
+PUBLIC 34c92 0 _NSLXCopyServiceDisplayName
+PUBLIC 34ed2 0 _NSLXCopyServiceAttributeValue
+PUBLIC 34f74 0 _NSLXCopyNeighborhoodAttributeValue
+PUBLIC 35016 0 _NSLXCompareServiceRefs
+PUBLIC 3512e 0 GetProtocolPriority(__CFString const*)
+PUBLIC 351de 0 CompareProtocolsForPriority(__CFString const*, __CFString const*)
+PUBLIC 35228 0 CompareServiceTypesForPriority(__CFString const*, __CFString const*)
+PUBLIC 35426 0 _NSLXCompareServiceRefPriority
+PUBLIC 354fc 0 _NSLXGetSearchResult
+PUBLIC 35538 0 NSLXIsLocalNeighborhood
+PUBLIC 355d8 0 DNSResolutionCancelCallBack(__CFRunLoopTimer*, void*)
+PUBLIC 35656 0 CopyDNSResolutionDescription(void const*)
+PUBLIC 35666 0 NSLXResolveDNS(__CFString const*, __CFString const*, __CFString const*, __CFRunLoop*, void (*)(__CFNetService*, CFStreamError*, void*), double, void*, __CFNetService**)
+PUBLIC 359d2 0 _NSLXCreateResolvedDataForService
+PUBLIC 35c4e 0 _NSLXCopyServicePreferredURLResultAsString
+PUBLIC 3612c 0 NSLXCreateURLForService(__CFDictionary const*, __CFString const*)
+PUBLIC 3657a 0 NSLXCreateAndAddURLForService(__CFDictionary*, __CFString const*)
+PUBLIC 365e2 0 NSLXSetCategoryForNeighborhood
+PUBLIC 36654 0 NSLXSetCategoryForService
+PUBLIC 366c6 0 NSLXSetDisplayNameForNeighborhood
+PUBLIC 3671c 0 _NSLPrepareRequest
+PUBLIC 367c6 0 _NSLStartNeighborhoodLookup
+PUBLIC 3680a 0 _NSLStartServicesLookup
+PUBLIC 36860 0 NSLXCreateNSLServiceTypeFromCFNetServiceRef
+PUBLIC 369f6 0 _NSLXCopyServicePreferredServiceTypeResultAsString
+PUBLIC 36b8c 0 _NSLXResolveService
+PUBLIC 36d72 0 AddHostAndPortToService(__CFNetService*, __CFDictionary*)
+PUBLIC 37200 0 DNSResolutionCallBack(__CFNetService*, CFStreamError*, void*)
+PUBLIC 373f0 0 CopyBrowserDescription(void const*)
+PUBLIC 37402 0 NSLXRequest::CancelRequest()
+PUBLIC 37520 0 NSLXRequest::StartBonjourSearches(unsigned char*, __CFArray const*)
+PUBLIC 379c0 0 NSLXRequest::GetSearchStatus()
+PUBLIC 379d4 0 NSLXRequest::SearchThreadComplete(NSLXDSLookup*)
+PUBLIC 37a44 0 NSLXRequest::LockResultQueue()
+PUBLIC 37a62 0 NSLXRequest::UnlockResultQueue()
+PUBLIC 37a76 0 NSLXRequest::InsertURLIntoList(__CFString const*, __CFArray*, unsigned char)
+PUBLIC 37b42 0 NSLXRequest::InsertServiceTypeIntoList(__CFString const*, __CFArray*, unsigned char)
+PUBLIC 37c0e 0 NSLXRequest::AddNewResultDataToCurrentServiceRecord(__CFDictionary const*, __CFDictionary*)
+PUBLIC 380b8 0 NSLXRequest::RemoveURLFromList(__CFString const*, __CFArray*)
+PUBLIC 3814a 0 NSLXRequest::GetTimeToWaitBetweenSearches()
+PUBLIC 38158 0 NSLXRequest::NotifyClientToDeleteResult(__CFDictionary const*)
+PUBLIC 381b6 0 NSLXRequest::IsWaitingForResults()
+PUBLIC 381d4 0 AddNeighborhoodCStringNameToDictionary(__CFDictionary*)
+PUBLIC 38314 0 CreateNeighborhoodFromAlias(__CFDictionary const*, __CFArray const*)
+PUBLIC 383bc 0 NSLXRequest::~NSLXRequest()
+PUBLIC 38624 0 NSLXRequest::~NSLXRequest()
+PUBLIC 3888c 0 NSLXRequest::~NSLXRequest()
+PUBLIC 38af4 0 NSLXRequest::NSLXRequest(void (*)(void*, unsigned long), void*, NSLXClientAsyncInfo*, __CFRunLoop*, unsigned char)
+PUBLIC 38c20 0 NSLXRequest::ContainsBonjourSearch(unsigned char*)
+PUBLIC 38db2 0 CreateServiceFromNotification(__CFNetService*)
+PUBLIC 39288 0 NSLXRequest::StartDSNodeSearches(unsigned char*, __CFArray const*)
+PUBLIC 39796 0 NSLXRequest::QueueResult(__CFDictionary const*)
+PUBLIC 397fc 0 NSLXRequest::CopyNextQueueResult()
+PUBLIC 3987a 0 NSLXRequest::DeleteResult(__CFDictionary const*)
+PUBLIC 39ea0 0 ProcessQueueResults(__CFRunLoopTimer*, void*)
+PUBLIC 3a004 0 NSLXRequest::ScheduleQueueToBeProcessed(unsigned char)
+PUBLIC 3a0ca 0 BrowserCallBack(__CFNetServiceBrowser*, unsigned long, void const*, CFStreamError*, void*)
+PUBLIC 3a2ca 0 ClearOutStaleItemsOnThread(__CFRunLoopTimer*, void*)
+PUBLIC 3a342 0 NSLXRetainRequest(__CFAllocator const*, void const*)
+PUBLIC 3a360 0 NSLXReleaseRequest(__CFAllocator const*, void const*)
+PUBLIC 3a38c 0 NSLXRequestMgr::NSLXRequestMgr(__CFBundle*, unsigned long)
+PUBLIC 3a4ac 0 NSLXRequestMgr::~NSLXRequestMgr()
+PUBLIC 3a592 0 NSLXRequestMgr::~NSLXRequestMgr()
+PUBLIC 3a678 0 NSLXRequestMgr::~NSLXRequestMgr()
+PUBLIC 3a760 0 NSLXRequestMgr::DumpCurrentCachedState()
+PUBLIC 3a7dc 0 DumpCurrentCachedState()
+PUBLIC 3a8f8 0 NSLXRequestMgr::CancelRequest(unsigned long)
+PUBLIC 3a9be 0 NSLXRequestMgr::DeleteRequest(unsigned long)
+PUBLIC 3ab0c 0 NSLXRequestMgr::IsValidRequest(NSLXRequest*)
+PUBLIC 3ab58 0 NSLXRequestMgr::GetNetworkState()
+PUBLIC 3ab66 0 NSLXRequestMgr::SetNetworkState(unsigned long)
+PUBLIC 3ab78 0 NSLXRequestMgr::LockServiceRefs()
+PUBLIC 3ac22 0 NSLXRequestMgr::UnlockServiceRefs()
+PUBLIC 3ac38 0 NSLXRequestMgr::GetLocalNeighborhoodName()
+PUBLIC 3ac52 0 InSimpleNetworkState()
+PUBLIC 3ac78 0 NSLXRequestMgr::NSLErrorToString(NSLError, char*, char*)
+PUBLIC 3ac82 0 NSLXRequestMgr::NSLXRequestDeleteResult(NSLXRequest*, __CFDictionary const*)
+PUBLIC 3ae66 0 NSLXRequestMgr::NSLXRequestInitialPortionOfLookupFinished(NSLXRequest*)
+PUBLIC 3afba 0 NSLXRequestCopyDesctriptionCallback(void const*)
+PUBLIC 3b024 0 NSLXRequestMgr::GetSCRef()
+PUBLIC 3b08e 0 NSLXRequestMgr::ProcessThreadTermination()
+PUBLIC 3b0e4 0 NSLXRequestMgr::MakeOldRequest(void (*)(NSLClientAsyncInfo*), void*, unsigned long, unsigned long*)
+PUBLIC 3b22a 0 NSLXRequestMgrThread::NSLXRequestMgrThread(NSLXRequestMgr*, LThread::EThreadOption)
+PUBLIC 3b2a6 0 NSLXRequestMgrThread::~NSLXRequestMgrThread()
+PUBLIC 3b30e 0 NSLXRequestMgrThread::~NSLXRequestMgrThread()
+PUBLIC 3b376 0 NSLXRequestMgrThread::~NSLXRequestMgrThread()
+PUBLIC 3b3e8 0 NSLXRequestMgrThread::Stop()
+PUBLIC 3b452 0 NSLXRequestMgrThread::ComputerNameChanged()
+PUBLIC 3b492 0 NSLXRequestMgrThread::HostNameChanged()
+PUBLIC 3b4d6 0 NSLSystemConfigurationNetworkChangedCallBack(__SCDynamicStore const*, void*)
+PUBLIC 3b608 0 TickleRequestMgr(__CFRunLoopTimer*, void*)
+PUBLIC 3b60e 0 GetTicks
+PUBLIC 3b69e 0 IsPlainNameLookupNeighborhood
+PUBLIC 3b71a 0 IsLegalURLChar
+PUBLIC 3b744 0 InServiceList
+PUBLIC 3b7d4 0 GetNextURLLength
+PUBLIC 3b81e 0 MapServiceTypeToDSType(char const*, char*)
+PUBLIC 3bb32 0 GetDSRecordTypeList(unsigned long, char*, tDataList**)
+PUBLIC 3bbb6 0 AddDSRecordTypeToList(unsigned long, __CFString const*, tDataList*)
+PUBLIC 3bc6a 0 SmartSleep
+PUBLIC 3bcce 0 _NSLGetNextUrl
+PUBLIC 3bf16 0 AllLegalURLChars
+PUBLIC 3bf6e 0 IsURL
+PUBLIC 3bffc 0 GetServiceTypeFromURL
+PUBLIC 3c054 0 NSLWillLog
+PUBLIC 3c068 0 ourLog
+PUBLIC 3c0b8 0 NSLSysLog
+PUBLIC 3c106 0 NSLSemaphore::~NSLSemaphore()
+PUBLIC 3c15a 0 NSLSemaphore::~NSLSemaphore()
+PUBLIC 3c1ae 0 NSLSemaphore::~NSLSemaphore()
+PUBLIC 3c212 0 NSLMutexSemaphore::NSLMutexSemaphore(bool)
+PUBLIC 3c25e 0 NSLMutexSemaphore::~NSLMutexSemaphore()
+PUBLIC 3c27a 0 NSLMutexSemaphore::~NSLMutexSemaphore()
+PUBLIC 3c296 0 NSLMutexSemaphore::~NSLMutexSemaphore()
+PUBLIC 3c2c6 0 returns_error()
+PUBLIC 3c2d0 0 returns_null_pointer()
+PUBLIC 3c2d8 0 returns_long()
+PUBLIC 3c2e0 0 dsAppendStringToListAlloc
+PUBLIC 3c35c 0 dsCloseAttributeList
+PUBLIC 3c3c4 0 dsCloseAttributeValueList
+PUBLIC 3c42c 0 dsDataListCopyList
+PUBLIC 3c49c 0 dsDeallocAttributeEntry
+PUBLIC 3c50c 0 dsDeallocAttributeValueEntry
+PUBLIC 3c57c 0 dsDeallocRecordEntry
+PUBLIC 3c5ec 0 dsGetAttributeEntry
+PUBLIC 3c68c 0 dsGetAttributeValue
+PUBLIC 3c720 0 dsGetDirNodeInfo
+PUBLIC 3c7cc 0 dsGetRecordEntry
+PUBLIC 3c860 0 dsReleaseContinueData
+PUBLIC 3c8d0 0 dsCopyDirStatusName
+PUBLIC 3c938 0 returns_browser_ref()
+PUBLIC 3c940 0 returns_service_ref()
+PUBLIC 3c948 0 returns_cftype_ref()
+PUBLIC 3c950 0 returns_void()
+PUBLIC 3c956 0 returns_Boolean()
+PUBLIC 3c95e 0 CFNetServiceBrowserCreate
+PUBLIC 3c9f0 0 CFNetServiceBrowserInvalidate
+PUBLIC 3ca6a 0 CFNetServiceBrowserScheduleWithRunLoop
+PUBLIC 3cafc 0 CFNetServiceBrowserSearchForServices
+PUBLIC 3cb8a 0 CFNetServiceBrowserUnscheduleFromRunLoop
+PUBLIC 3cc1c 0 CFNetServiceCancel
+PUBLIC 3cc96 0 CFNetServiceCreate
+PUBLIC 3cd40 0 CFNetServiceCreateDictionaryWithTXTData
+PUBLIC 3cdc6 0 CFNetServiceGetAddressing
+PUBLIC 3ce40 0 CFNetServiceGetDomain
+PUBLIC 3ceba 0 CFNetServiceGetName
+PUBLIC 3cf34 0 CFNetServiceGetTXTData
+PUBLIC 3cfae 0 CFNetServiceGetTargetHost
+PUBLIC 3d028 0 CFNetServiceGetType
+PUBLIC 3d0a2 0 CFNetServiceResolveWithTimeout
+PUBLIC 3d138 0 CFNetServiceScheduleWithRunLoop
+PUBLIC 3d1ca 0 CFNetServiceSetClient
+PUBLIC 3d252 0 CFNetServiceUnscheduleFromRunLoop
+PUBLIC 3d2e4 0 LThread::~LThread()
+PUBLIC 3d300 0 LThread::Yield(LThread const*)
+PUBLIC 3d306 0 LThread::InMainThread()
+PUBLIC 3d32a 0 LThread::GetCurrentThread()
+PUBLIC 3d35a 0 LThread::LThread(LThread::EThreadOption)
+PUBLIC 3d454 0 LThread::~LThread()
+PUBLIC 3d470 0 LThread::~LThread()
+PUBLIC 3d494 0 LThread::IsCurrent() const
+PUBLIC 3d4b4 0 LThread::Run()
+PUBLIC 3d4bc 0 LThread::ThreadDied(LThread const&)
+PUBLIC 3d4c2 0 LThread::DeleteThread(void*)
+PUBLIC 3d4ec 0 AOn
+PUBLIC 3d4f1 0 AOnIgnoreModem
+PUBLIC 3d4f6 0 BOn
+PUBLIC 3d4fb 0 AOff
+PUBLIC 3d500 0 BOff
+PUBLIC 3d505 0 GetDimSuspendState
+PUBLIC 3d50c 0 SetDimSuspendState
+PUBLIC 3d511 0 GetIntModemInfo
+PUBLIC 3d518 0 SetIntModemState
+PUBLIC 3d51d 0 ModemStatus
+PUBLIC 3d527 0 HardDiskPowered
+PUBLIC 3d52e 0 SpinDownHardDisk
+PUBLIC 3d533 0 IsSpindownDisabled
+PUBLIC 3d53a 0 SetSpindownDisable
+PUBLIC 3d53f 0 HardDiskQInstall
+PUBLIC 3d549 0 HardDiskQRemove
+PUBLIC 3d553 0 GetDimmingTimeout
+PUBLIC 3d55a 0 SetDimmingTimeout
+PUBLIC 3d55f 0 DimmingControl
+PUBLIC 3d564 0 IsDimmingControlDisabled
+PUBLIC 3d56b 0 GetSoundMixerState
+PUBLIC 3d57b 0 SetSoundMixerState
+PUBLIC 3d585 0 GetSCSIDiskModeAddress
+PUBLIC 3d58c 0 SetSCSIDiskModeAddress
+PUBLIC 3d591 0 DisableWUTime
+PUBLIC 3d59b 0 SetWUTime
+PUBLIC 3d5a5 0 GetWUTime
+PUBLIC 3d5af 0 GetWakeupTimer
+PUBLIC 3d5b4 0 SetWakeupTimer
+PUBLIC 3d5b9 0 GetSleepTimeout
+PUBLIC 3d5c0 0 SetSleepTimeout
+PUBLIC 3d5c5 0 GetHardDiskTimeout
+PUBLIC 3d5cc 0 SetHardDiskTimeout
+PUBLIC 3d5d1 0 GetStartupTimer
+PUBLIC 3d5db 0 SetStartupTimer
+PUBLIC 3d5e5 0 IdleUpdate
+PUBLIC 3d5ef 0 EnableIdle
+PUBLIC 3d5f4 0 DisableIdle
+PUBLIC 3d5f9 0 DelaySystemIdle
+PUBLIC 3d603 0 GetLastActivity
+PUBLIC 3d60d 0 PMgrStateQInstall
+PUBLIC 3d617 0 PMgrStateQRemove
+PUBLIC 3d621 0 AutoSleepControl
+PUBLIC 3d626 0 IsAutoSlpControlDisabled
+PUBLIC 3d62d 0 BatteryStatus
+PUBLIC 3d638 0 GetBatteryVoltage
+PUBLIC 3d63f 0 GetBatteryTimes
+PUBLIC 3d644 0 PrefNotificationCallBack(__CFNotificationCenter*, void*, __CFString const*, void const*, __CFDictionary const*)
+PUBLIC 3d67a 0 AlertVisualBell()
+PUBLIC 3d6d0 0 SaveSystemSoundPref(unsigned long, unsigned long, unsigned long, void*)
+PUBLIC 3db18 0 SystemSoundRemoveCompletionRoutine
+PUBLIC 3dbac 0 SystemSoundSetProperty
+PUBLIC 3dc48 0 PMSelectorCount
+PUBLIC 3dc4f 0 PMFeatures
+PUBLIC 3dc56 0 sleep_listener_callback
+PUBLIC 3ddac 0 GetProcessorSpeedValueInMhz
+PUBLIC 3de7a 0 MaximumProcessorSpeed
+PUBLIC 3dead 0 MinimumProcessorSpeed
+PUBLIC 3dee0 0 CurrentProcessorSpeed
+PUBLIC 3defe 0 FullProcessorSpeed
+PUBLIC 3df08 0 SetProcessorSpeed
+PUBLIC 3df0f 0 IsProcessorCyclingEnabled
+PUBLIC 3df16 0 EnableProcessorCycling
+PUBLIC 3df1e 0 GetCPUSpeed
+PUBLIC 3df3c 0 OTInitializeGestaltValues
+PUBLIC 3df7d 0 NewOTNotifyUPP
+PUBLIC 3df85 0 DisposeOTNotifyUPP
+PUBLIC 3df8a 0 InvokeOTNotifyUPP
+PUBLIC 3df93 0 OTCreatePortRef
+PUBLIC 3e00e 0 OTGetDeviceTypeFromPortRef
+PUBLIC 3e05c 0 OTGetBusTypeFromPortRef
+PUBLIC 3e0aa 0 OTGetSlotFromPortRef
+PUBLIC 3e0ff 0 OTSetDeviceTypeInPortRef
+PUBLIC 3e159 0 OTSetBusTypeInPortRef
+PUBLIC 3e1b5 0 OTGetIndexedPort
+PUBLIC 3e20a 0 OTFindPort
+PUBLIC 3e25f 0 OTFindPortByRef
+PUBLIC 3e2b4 0 InitOpenTransportInContext
+PUBLIC 3e30a 0 CloseOpenTransportInContext
+PUBLIC 3e352 0 OTRegisterAsClientInContext
+PUBLIC 3e3b4 0 OTUnregisterAsClientInContext
+PUBLIC 3e3fc 0 NewOTProcessUPP
+PUBLIC 3e404 0 DisposeOTProcessUPP
+PUBLIC 3e409 0 InvokeOTProcessUPP
+PUBLIC 3e412 0 OTCreateDeferredTaskInContext
+PUBLIC 3e474 0 OTScheduleDeferredTask
+PUBLIC 3e4c2 0 OTDestroyDeferredTask
+PUBLIC 3e50a 0 OTCanMakeSyncCall
+PUBLIC 3e552 0 OTCloseProvider
+PUBLIC 3e59a 0 OTIoctl
+PUBLIC 3e5fc 0 OTSetAsynchronous
+PUBLIC 3e644 0 OTSetSynchronous
+PUBLIC 3e68c 0 OTIsSynchronous
+PUBLIC 3e6da 0 OTSetBlocking
+PUBLIC 3e722 0 OTSetNonBlocking
+PUBLIC 3e76a 0 OTIsBlocking
+PUBLIC 3e7b8 0 OTInstallNotifier
+PUBLIC 3e823 0 OTUseSyncIdleEvents
+PUBLIC 3e888 0 OTRemoveNotifier
+PUBLIC 3e8d9 0 OTLeaveNotifier
+PUBLIC 3e92a 0 OTEnterNotifier
+PUBLIC 3e981 0 OTAckSends
+PUBLIC 3e9d2 0 OTDontAckSends
+PUBLIC 3ea23 0 OTIsAckingSends
+PUBLIC 3ea7a 0 OTCancelSynchronousCalls
+PUBLIC 3ead9 0 OTOpenEndpointInContext
+PUBLIC 3eb5c 0 OTAsyncOpenEndpointInContext
+PUBLIC 3ebeb 0 OTGetEndpointInfo
+PUBLIC 3ec4a 0 OTGetEndpointState
+PUBLIC 3ec9b 0 OTLook
+PUBLIC 3ecec 0 OTCountDataBytes
+PUBLIC 3ed4b 0 OTGetProtAddress
+PUBLIC 3edb6 0 OTResolveAddress
+PUBLIC 3ee2d 0 OTAllocInContext
+PUBLIC 3eeb0 0 OTFree
+PUBLIC 3ef0f 0 OTOptionManagement
+PUBLIC 3ef7a 0 OTNextOption
+PUBLIC 3efe5 0 OTFindOption
+PUBLIC 3f05c 0 OTBind
+PUBLIC 3f0c7 0 OTUnbind
+PUBLIC 3f118 0 OTConnect
+PUBLIC 3f183 0 OTRcvConnect
+PUBLIC 3f1e2 0 OTListen
+PUBLIC 3f241 0 OTAccept
+PUBLIC 3f2ac 0 OTSndDisconnect
+PUBLIC 3f30b 0 OTSndOrderlyDisconnect
+PUBLIC 3f35c 0 OTRcvDisconnect
+PUBLIC 3f3bb 0 OTRcvOrderlyDisconnect
+PUBLIC 3f40c 0 OTRcv
+PUBLIC 3f483 0 OTSnd
+PUBLIC 3f4fa 0 OTSndUData
+PUBLIC 3f559 0 OTRcvUData
+PUBLIC 3f5c4 0 OTRcvUDErr
+PUBLIC 3f623 0 OTAsyncOpenMapperInContext
+PUBLIC 3f6a6 0 OTOpenMapperInContext
+PUBLIC 3f71d 0 OTRegisterName
+PUBLIC 3f788 0 OTDeleteName
+PUBLIC 3f7e7 0 OTDeleteNameByID
+PUBLIC 3f846 0 OTLookupName
+PUBLIC 3f8b1 0 OTCreateConfiguration
+PUBLIC 3f902 0 OTCloneConfiguration
+PUBLIC 3f953 0 OTDestroyConfiguration
+PUBLIC 3f9a4 0 OTAllocMemInContext
+PUBLIC 3fa03 0 OTFreeMem
+PUBLIC 3fa54 0 OTDelay
+PUBLIC 3faa5 0 OTIdle
+PUBLIC 3faf4 0 OTMemcpy
+PUBLIC 3fb5f 0 OTMemcmp
+PUBLIC 3fbc4 0 OTMemmove
+PUBLIC 3fc2f 0 OTMemzero
+PUBLIC 3fc8e 0 OTMemset
+PUBLIC 3fcff 0 OTStrLength
+PUBLIC 3fd50 0 OTStrCopy
+PUBLIC 3fdaf 0 OTStrCat
+PUBLIC 3fe0e 0 OTStrEqual
+PUBLIC 3fe6c 0 OTGetTimeStamp
+PUBLIC 3febd 0 OTSubtractTimeStamps
+PUBLIC 3ff28 0 OTTimeStampInMilliseconds
+PUBLIC 3ff79 0 OTTimeStampInMicroseconds
+PUBLIC 3ffca 0 OTElapsedMilliseconds
+PUBLIC 4001b 0 OTElapsedMicroseconds
+PUBLIC 4006c 0 OTGetClockTimeInSecs
+PUBLIC 400bb 0 OTLIFOEnqueue
+PUBLIC 4011a 0 OTLIFODequeue
+PUBLIC 4016b 0 OTLIFOStealList
+PUBLIC 401bc 0 OTReverseList
+PUBLIC 4020d 0 NewOTListSearchUPP
+PUBLIC 40215 0 DisposeOTListSearchUPP
+PUBLIC 4021a 0 InvokeOTListSearchUPP
+PUBLIC 40235 0 OTAddFirst
+PUBLIC 40294 0 OTAddLast
+PUBLIC 402f3 0 OTRemoveFirst
+PUBLIC 40344 0 OTRemoveLast
+PUBLIC 40395 0 OTGetFirst
+PUBLIC 403e6 0 OTGetLast
+PUBLIC 40437 0 OTIsInList
+PUBLIC 40495 0 OTFindLink
+PUBLIC 40500 0 OTRemoveLink
+PUBLIC 4055e 0 OTFindAndRemoveLink
+PUBLIC 405c9 0 OTGetIndexedLink
+PUBLIC 40628 0 OTEnqueue
+PUBLIC 40693 0 OTDequeue
+PUBLIC 406f2 0 OTAtomicSetBit
+PUBLIC 40750 0 OTAtomicClearBit
+PUBLIC 407ae 0 OTAtomicTestBit
+PUBLIC 4080c 0 OTCompareAndSwapPtr
+PUBLIC 40871 0 OTCompareAndSwap32
+PUBLIC 408d6 0 OTCompareAndSwap16
+PUBLIC 4093b 0 OTCompareAndSwap8
+PUBLIC 409a3 0 OTAtomicAdd16
+PUBLIC 40a01 0 OTCreateTimerTaskInContext
+PUBLIC 40a6c 0 OTCancelTimerTask
+PUBLIC 40ac3 0 OTDestroyTimerTask
+PUBLIC 40b14 0 OTScheduleTimerTask
+PUBLIC 40b72 0 OTBufferDataSize
+PUBLIC 40bc3 0 OTReadBuffer
+PUBLIC 40c28 0 OTReleaseBuffer
+PUBLIC 40c79 0 OTSetFirstClearBit
+PUBLIC 40ce4 0 OTClearBit
+PUBLIC 40d42 0 OTSetBit
+PUBLIC 40da0 0 OTTestBit
+PUBLIC 40dfe 0 OTInitInetAddress
+PUBLIC 40e6d 0 OTInitDNSAddress
+PUBLIC 40ecc 0 OTInetStringToHost
+PUBLIC 40f2b 0 OTInetHostToString
+PUBLIC 40f8a 0 OTInetGetInterfaceInfo
+PUBLIC 40fe9 0 OTInetGetSecondaryAddresses
+PUBLIC 41054 0 OTOpenInternetServicesInContext
+PUBLIC 410cb 0 OTAsyncOpenInternetServicesInContext
+PUBLIC 4114e 0 OTInetStringToAddress
+PUBLIC 411b9 0 OTInetAddressToName
+PUBLIC 41224 0 OTInetSysInfo
+PUBLIC 4128f 0 OTInetMailExchange
+PUBLIC 41306 0 OTInetQuery
+PUBLIC 413bf 0 OTAsyncOpenAppleTalkServicesInContext
+PUBLIC 41442 0 OTOpenAppleTalkServicesInContext
+PUBLIC 414b9 0 OTATalkGetMyZone
+PUBLIC 41518 0 OTATalkGetLocalZones
+PUBLIC 41577 0 OTATalkGetZoneList
+PUBLIC 415d6 0 OTATalkGetInfo
+PUBLIC 41635 0 OTInitDDPAddress
+PUBLIC 416c9 0 OTInitNBPAddress
+PUBLIC 41728 0 OTInitDDPNBPAddress
+PUBLIC 417c8 0 OTCompareDDPAddresses
+PUBLIC 41826 0 OTInitNBPEntity
+PUBLIC 41877 0 OTGetNBPEntityLengthAsAddress
+PUBLIC 418c8 0 OTSetAddressFromNBPEntity
+PUBLIC 41927 0 OTSetAddressFromNBPString
+PUBLIC 41992 0 OTSetNBPEntityFromAddress
+PUBLIC 419f7 0 OTSetNBPName
+PUBLIC 41a55 0 OTSetNBPType
+PUBLIC 41ab3 0 OTSetNBPZone
+PUBLIC 41b11 0 OTExtractNBPName
+PUBLIC 41b70 0 OTExtractNBPType
+PUBLIC 41bcf 0 OTExtractNBPZone
+PUBLIC 41c30 0 NewHDSpindownUPP
+PUBLIC 41c38 0 NewPMgrStateChangeUPP
+PUBLIC 41c40 0 DisposeSleepQUPP
+PUBLIC 41c45 0 DisposeHDSpindownUPP
+PUBLIC 41c4a 0 DisposePMgrStateChangeUPP
+PUBLIC 41c4f 0 InvokeSleepQUPP
+PUBLIC 41c58 0 InvokeHDSpindownUPP
+PUBLIC 41c61 0 InvokePMgrStateChangeUPP
+PUBLIC 41c6a 0 NewSCSICallbackUPP
+PUBLIC 41c72 0 DisposeSCSICallbackUPP
+PUBLIC 41c77 0 InvokeSCSICallbackUPP
+PUBLIC 41c80 0 NewSystemSoundCompletionUPP
+PUBLIC 41c88 0 DisposeSystemSoundCompletionUPP
+PUBLIC 41c8d 0 InvokeSystemSoundCompletionUPP
+PUBLIC 41c96 0 NewKCCallbackUPP
+PUBLIC 41c9e 0 DisposeKCCallbackUPP
+PUBLIC 41ca3 0 InvokeKCCallbackUPP
+PUBLIC 41cb4 0 Security::n2h(unsigned long)
+PUBLIC 41cbc 0 SecCoreError::SecCoreError(int)
+PUBLIC 41cca 0 SecCoreError::SecCoreError(int)
+PUBLIC 41cd8 0 SecCoreError::osStatus() const
+PUBLIC 41ce2 0 KCStItem::KCStItem(OpaqueSecKeychainItemRef**, long*)
+PUBLIC 41d04 0 KCStItem::KCStItem(OpaqueSecKeychainItemRef**, long*)
+PUBLIC 41d26 0 KCStItem::~KCStItem()
+PUBLIC 41d56 0 KCStItem::~KCStItem()
+PUBLIC 41d86 0 KCStItem::~KCStItem()
+PUBLIC 41dc6 0 KCAttributeArrayHolder::KCAttributeArrayHolder(SecKeychainAttribute*&)
+PUBLIC 41dd4 0 KCAttributeArrayHolder::KCAttributeArrayHolder(SecKeychainAttribute*&)
+PUBLIC 41de2 0 KCAttributeArrayHolder::~KCAttributeArrayHolder()
+PUBLIC 41dfc 0 KCAttributeArrayHolder::~KCAttributeArrayHolder()
+PUBLIC 41e16 0 KCGetKeychainManagerVersion
+PUBLIC 41e2a 0 KCMakeKCRefFromFullPath(char const*, OpaqueSecKeychainRef**)
+PUBLIC 41e34 0 KCReleaseKeychain
+PUBLIC 41e6c 0 KCGetKeychain
+PUBLIC 41e76 0 kcunlocknoui
+PUBLIC 41ec0 0 KCGetDefaultKeychain
+PUBLIC 41eca 0 KCGetActiveKeychain
+PUBLIC 41ed2 0 KCSetDefaultKeychain
+PUBLIC 41eea 0 KCSetActiveKeychain
+PUBLIC 41ef2 0 kccreatekeychainnoui
+PUBLIC 41f24 0 kcgetkeychainname
+PUBLIC 41f60 0 KCCountKeychains
+PUBLIC 41f70 0 KCGetIndKeychain
+PUBLIC 41f86 0 KCGetStatus
+PUBLIC 41f90 0 KCAddItemNoUI
+PUBLIC 41f9a 0 KCUpdateItem
+PUBLIC 41fa4 0 KCSetInteractionAllowed
+PUBLIC 41fb4 0 KCIsInteractionAllowed
+PUBLIC 41fd0 0 KCLock
+PUBLIC 41fda 0 KCLockKeychain
+PUBLIC 41ff8 0 KCDeleteItem
+PUBLIC 42002 0 KCGetData
+PUBLIC 4200c 0 StAFPXVolMountInfo::StAFPXVolMountInfo(AFPXVolMountInfo**)
+PUBLIC 42028 0 StAFPXVolMountInfo::StAFPXVolMountInfo(AFPXVolMountInfo**)
+PUBLIC 42044 0 StAFPXVolMountInfo::~StAFPXVolMountInfo()
+PUBLIC 4206c 0 StAFPXVolMountInfo::~StAFPXVolMountInfo()
+PUBLIC 42094 0 StAFPXVolMountInfo::~StAFPXVolMountInfo()
+PUBLIC 420cc 0 kcaddinternetpasswordtokeychain
+PUBLIC 421d0 0 kcaddgenericpasswordtokeychain
+PUBLIC 42254 0 KCRemoveKeychainFromList
+PUBLIC 4225e 0 SecCoreError::throwMe(int)
+PUBLIC 42296 0 KCRemoveCallback
+PUBLIC 4231e 0 KCCopyItem
+PUBLIC 423a4 0 KCSetData
+PUBLIC 42426 0 KCAddCallback
+PUBLIC 424c2 0 KCNewItem
+PUBLIC 42552 0 KCChangeSettingsNoUI
+PUBLIC 425ec 0 kcfindinternetpasswordwithpath
+PUBLIC 42756 0 kcfindinternetpassword
+PUBLIC 427b2 0 kcfindgenericpassword
+PUBLIC 4289a 0 KCUnlockNoUI
+PUBLIC 428d2 0 KCCreateKeychainNoUI
+PUBLIC 42902 0 KCAddInternetPasswordToKeychain
+PUBLIC 429fc 0 KCAddGenericPasswordToKeychain
+PUBLIC 42a60 0 KCFindInternetPasswordWithPath
+PUBLIC 42bb2 0 KCFindInternetPassword
+PUBLIC 42c0e 0 KCFindGenericPassword
+PUBLIC 42cda 0 KCChangeLoginPassword
+PUBLIC 42d3e 0 make(char const*)
+PUBLIC 42d6c 0 make(FSRef const&)
+PUBLIC 42dda 0 KCMakeKCRefFromFSRef(FSRef*, OpaqueSecKeychainRef**)
+PUBLIC 42e50 0 KCMakeKCRefFromFSSpec
+PUBLIC 42f86 0 KCMakeKCRefFromAlias
+PUBLIC 43036 0 KCMakeAliasFromKCRef
+PUBLIC 43144 0 KCGetKeychainName
+PUBLIC 433a0 0 KCGetKeychainFullName(OpaqueSecKeychainRef*, unsigned char*)
+PUBLIC 4343a 0 KCSetAttribute
+PUBLIC 43556 0 MakeAppleSharePasswordKCItemRef
+PUBLIC 43a72 0 KCAddAppleSharePasswordToKeychain
+PUBLIC 43b42 0 kcaddapplesharepasswordtokeychain
+PUBLIC 43c4e 0 MakeInternetPasswordKCItemRef
+PUBLIC 43f24 0 MakeGenericPasswordKCItemRef
+PUBLIC 440da 0 KCFindAppleSharePassword
+PUBLIC 443f0 0 kcfindapplesharepassword
+PUBLIC 444fc 0 SCSIAction
+PUBLIC 4453a 0 FindUAMByName(unsigned char*)
+PUBLIC 446f0 0 GetUAMType
+PUBLIC 4478a 0 DoGetStatus(OTAddress*, unsigned char*, unsigned long*)
+PUBLIC 44794 0 GetSrvrSignature(AFPSrvrInfo*, unsigned char (*) [16])
+PUBLIC 447fa 0 SecResolveDNSName
+PUBLIC 44804 0 SecIsDNSName
+PUBLIC 448de 0 SecIsIPAddress
+PUBLIC 449b6 0 SecIPAddress2Str
+PUBLIC 44a52 0 SecIsVolumeLocal
+PUBLIC 44aae 0 SecBuildAFPVolMountInfo
+PUBLIC 44d44 0 SecNewAFPXVolMountInfo
+PUBLIC 44f3a 0 SecRetrieveAFPVolMountInfo
+PUBLIC 451c8 0 SecGetAFPDNSName
+PUBLIC 45242 0 SecGetAFPDDPAddress
+PUBLIC 452b6 0 SecGetAFPInetAddress
+PUBLIC 4532c 0 SecGetAFPServerSignature
+PUBLIC 454ca 0 SecGetAFPInetAddressAsString
+PUBLIC 45564 0 Sleep
+PUBLIC 455c1 0 _OSS_InstallGestaltSelectors
+PUBLIC 456a2 0 _ISDumpImagesInfo
+PUBLIC 45770 0 _GDBISImageRefsList()
+PUBLIC 45798 0 _ISGetLocalImageRefFromSharedInfoInternal(OpaqueISImageRef*, unsigned long, unsigned long, SharedIconInfo*, unsigned long, OpaqueISImageRef*)
+PUBLIC 4582c 0 _ISAddIconFamilyHandleToImage
+PUBLIC 45864 0 _ISGetImageRefOwners
+PUBLIC 4590e 0 _ISIsValidImageRef
+PUBLIC 4599e 0 MergeStorageToImage(unsigned long, void*)
+PUBLIC 459d8 0 _ISDumpStoragesInfo
+PUBLIC 45bd2 0 _DumpStringToSTDOUT
+PUBLIC 45bf0 0 _GDBISStorageRefsList()
+PUBLIC 45c20 0 _GDBISStorageRefsListDetail()
+PUBLIC 45c50 0 _ISGetIconStorageGlobalIndex
+PUBLIC 45c7a 0 _ISCompareStorageData
+PUBLIC 45cbe 0 _ISIsValidStorageRef
+PUBLIC 45cdc 0 _ISGetStorageRefOwners
+PUBLIC 45d08 0 _ISRemoveStorageVariant
+PUBLIC 45d3a 0 _ISSetStorageVariant
+PUBLIC 45d72 0 _ISSetStorageVariantFromStorage
+PUBLIC 45db6 0 _ISSetCachedCGImageRef
+PUBLIC 45e08 0 _ISSetARGBIconData
+PUBLIC 45e48 0 _ISGetEmptyIconStorage
+PUBLIC 45eea 0 _ISSetStorageLoader
+PUBLIC 45f40 0 CIconBundleCacheEntry::CIconBundleCacheEntry()
+PUBLIC 45f5e 0 CIconFileCacheEntry::CIconFileCacheEntry(unsigned long, __CFString const*)
+PUBLIC 45f84 0 ISCompareWithBundleIdentifier(unsigned long, __CFString const*)
+PUBLIC 45ffa 0 CKEXTIconBundleCacheEntry::CKEXTIconBundleCacheEntry(__CFString const*)
+PUBLIC 4602c 0 CClientImages::RemoveAll(int)
+PUBLIC 460c8 0 ISReplaceStorageRefInGlobalStorageIndex(int, unsigned long, unsigned long)
+PUBLIC 46126 0 ISTranslateGlobalImageIndexToImageRef(int, unsigned long)
+PUBLIC 46166 0 ISMakeIndexEntryForImageRef(int, OpaqueISImageRef*, unsigned long*)
+PUBLIC 461ee 0 ISMakeImageInfoFromGlobalImageRefInternal(unsigned int, int, OpaqueISImageRef*, unsigned long*, unsigned long*, SharedIconInfo*, unsigned long*, OpaqueISImageRef**)
+PUBLIC 46294 0 Server_ISSetImageInfoForVolume_rpc
+PUBLIC 462dc 0 Server_ISMakeImageIndexEntryForGlobalImageRef_rpc
+PUBLIC 4634e 0 _DumpStringToCFString(void*, char*, ...)
+PUBLIC 46398 0 ISDump(char const*)
+PUBLIC 46734 0 Server_ISReleaseGlobalImageIndex_rpc
+PUBLIC 467a0 0 Server_SetData_rpc
+PUBLIC 468b2 0 Server_ISAddStorageIndexToGlobalImageRef_rpc
+PUBLIC 4693c 0 _LWInstallRepeatingLauncher
+PUBLIC 46941 0 _LWRemoveRepeatingLauncher
+PUBLIC 46948 0 AcquireLockForScheduleWriting
+PUBLIC 469f1 0 ReleaseLockForScheduleWriting
+PUBLIC 46a24 0 CreateScheduledActionDict
+PUBLIC 46b73 0 _LWScheduleOpenURLAction
+PUBLIC 46bc7 0 _LWScheduleOpenItemAction
+PUBLIC 46c18 0 _LWInstallAbsoluteTimeLauncher
+PUBLIC 46c68 0 _LWRemoveAbsoluteTimeLauncher
+PUBLIC 46c8e 0 SFLGetShowHardDisksKey()
+PUBLIC 46cb4 0 SFLGetShowEjectablesKey()
+PUBLIC 46cda 0 SFLGetShowServersKey()
+PUBLIC 46d00 0 SFLGetOldIDiskVolPrefsKey()
+PUBLIC 46d26 0 SFLGetOldIDiskVolInfoKey()
+PUBLIC 46d4c 0 SFLGetNewIDiskVRefNumKey()
+PUBLIC 46d72 0 SFLGetNewIDiskPrefsKey()
+PUBLIC 46d98 0 SFLGetNewIDiskInfoKey()
+PUBLIC 46dbe 0 SFLListBase::SFLListBase(OpaqueSFLItemRef*, SFLPrefs*)
+PUBLIC 46e02 0 SFLEntryBase::GetPrefsName()
+PUBLIC 46e0a 0 SFLEntryBase::GetPrefsUID()
+PUBLIC 46e12 0 SFLEntryBase::Control(unsigned long, void*, unsigned long)
+PUBLIC 46e1c 0 SFLEntryBase::GetAmountOfObservers()
+PUBLIC 46e28 0 SFLLocalTempEntry::GetItemType()
+PUBLIC 46e32 0 SFLLocalTempEntry::GetSeed()
+PUBLIC 46e3a 0 SFLSnapshotEntry::GetItemType()
+PUBLIC 46e44 0 SFLEntry::GetItemType()
+PUBLIC 46e4e 0 SFLEntry::AddNewItem(unsigned long, OpaqueISImageRef*, unsigned short*, unsigned short, void*, unsigned long, unsigned long, unsigned long, unsigned long*)
+PUBLIC 46e58 0 SFLEntry::ChangeItem(unsigned long, OpaqueISImageRef*, unsigned short*, unsigned short, void*, unsigned long, unsigned long)
+PUBLIC 46e62 0 SFLEntry::GetVolumesListMask(unsigned long*, unsigned long*)
+PUBLIC 46e6e 0 SFLEntry::ModifyVolumesListMask(unsigned long, unsigned long)
+PUBLIC 46e78 0 SFLEntry::GetVisibilityForSpecialVolumeItem(unsigned long, unsigned char*)
+PUBLIC 46e82 0 SFLEntry::SetVisibilityForSpecialVolumeItem(unsigned long, unsigned char)
+PUBLIC 46e8c 0 SFLVolumesEntry::ChangeItem(unsigned long, __CFDictionary const*, OpaqueISImageRef*, unsigned long)
+PUBLIC 46e96 0 SFLRemoteEntry::GetItemType()
+PUBLIC 46ea2 0 SFLRemoteEntry::ChangeItem(unsigned long, OpaqueISImageRef*, unsigned short*, unsigned short, void*, unsigned long, unsigned long)
+PUBLIC 46f8c 0 SFLRemoteEntry::ModifyFlags(unsigned long, unsigned long, unsigned long)
+PUBLIC 46fd6 0 SFLRemoteEntry::Move(unsigned long, unsigned long)
+PUBLIC 47018 0 SFLRemoteEntry::Remove(unsigned long)
+PUBLIC 47054 0 SFLRemoteEntry::ClearList()
+PUBLIC 4708a 0 SFLRemoteEntry::ModifyVolumesListMask(unsigned long, unsigned long)
+PUBLIC 470ce 0 SFLRemoteEntry::SetVisibilityForSpecialVolumeItem(unsigned long, unsigned char)
+PUBLIC 47112 0 SFLRemoteEntry::RemovedObserver()
+PUBLIC 47146 0 SFLGetPrefsRef(OpaqueSFLRef*)
+PUBLIC 4717c 0 SFLIsListLoaded(OpaqueSFLRef*)
+PUBLIC 471b4 0 _SFLChangeItemFromPrefs(OpaqueSFLRef*, unsigned long, __CFDictionary const*, OpaqueISImageRef*, unsigned long)
+PUBLIC 47220 0 _SFLDumpListsInfo(__CFString*, unsigned char)
+PUBLIC 475b6 0 SFLEntryBase::MakeSnapshotList(unsigned long*)
+PUBLIC 47614 0 SFLEntry::ModifyFlags(unsigned long, unsigned long, unsigned long)
+PUBLIC 4766a 0 SFLEntry::ClearList()
+PUBLIC 476ac 0 SFLVolumesEntry::Remove(unsigned long)
+PUBLIC 47718 0 SFLVolumesEntry::SetVisibilityForSpecialVolumeItem(unsigned long, unsigned char)
+PUBLIC 477cc 0 SFLEntry::ChangeItem(unsigned long, __CFDictionary const*, OpaqueISImageRef*, unsigned long)
+PUBLIC 47828 0 SFLEntry::Remove(unsigned long)
+PUBLIC 4788c 0 SFLRemoteEntry::SFLRemoteEntry(__CFString const*, __CFString const*, char*, unsigned long, long, unsigned long*, unsigned char*)
+PUBLIC 4857a 0 SFLEntryBase::SFLEntryBase(__CFString const*, SFLPrefs*, char*)
+PUBLIC 48638 0 SFLLocalTempEntry::SFLLocalTempEntry()
+PUBLIC 48680 0 SFLSnapshotEntry::SFLSnapshotEntry(OpaqueSFLItemRef*, unsigned long)
+PUBLIC 486ca 0 SFLVolumesEntry::AddNewItem(unsigned long, __CFDictionary const*, OpaqueISImageRef*, unsigned long, unsigned long*)
+PUBLIC 48778 0 SFLVolumesEntry::SFLVolumesEntry(SFLPrefs*, __CFString const*, char*, unsigned long*, unsigned long, unsigned long*, unsigned char*)
+PUBLIC 48822 0 SFLVolumesEntry::ModifyVolumesListMask(unsigned long, unsigned long)
+PUBLIC 48af4 0 iToolsChangedCallback(__CFNotificationCenter*, void*, __CFString const*, void const*, __CFDictionary const*)
+PUBLIC 49172 0 _SFLModifyVolumesListMask
+PUBLIC 491f0 0 _SFLSetVisibilityForSpecialVolumeItem
+PUBLIC 49278 0 SFLCopyWrappedList(OpaqueSFLRef*, unsigned char)
+PUBLIC 492fa 0 SFLInitListFromWrappedInfo(OpaqueSFLRef*, __CFDictionary const*, unsigned char)
+PUBLIC 493f0 0 _SFLGetPrefsAndListName
+PUBLIC 4947c 0 _SFLChangeItemInList
+PUBLIC 49520 0 _SFLModifyItemFlags
+PUBLIC 495a4 0 _SFLMoveItemInList
+PUBLIC 49620 0 _SFLRemoveItemFromList
+PUBLIC 49696 0 _SFLClearList
+PUBLIC 49704 0 SFLSendControlMessage(OpaqueSFLRef*, unsigned long, void*, unsigned long)
+PUBLIC 4978a 0 _SFLRemoveCallback
+PUBLIC 498a2 0 AddValueToSFLPrefs(void const*, void const*, void*)
+PUBLIC 498d0 0 SFLDump(char const*)
+PUBLIC 49b2e 0 Server_ChangeItem_rpc
+PUBLIC 49c30 0 Server_MoveItem_rpc
+PUBLIC 49cb6 0 Server_ModifyItemFlags_rpc
+PUBLIC 49d48 0 Server_RemoveItem_rpc
+PUBLIC 49dc2 0 Server_ClearList_rpc
+PUBLIC 49e32 0 Server_ModifyVolumesListMask_rpc
+PUBLIC 49eba 0 Server_SetVisibilityForSpecialVolumeItem_rpc
+PUBLIC 49f4a 0 Server_ClientRemovedObserver_rpc
+PUBLIC 49ff6 0 Server_SFLPrefsDataGet_rpc
+PUBLIC 4a1da 0 Server_GetConectionToSharedPrefs_rpc
+PUBLIC 4a34a 0 Server_SFLPrefsDataPush_rpc
+PUBLIC 4a446 0 Server_SFLPrefsSetValue_rpc
+PUBLIC 4a617 0 _SSSystemSoundRemoveCompletionRoutineMessage
+PUBLIC 4a714 0 SystemSoundClientDefs_server
+PUBLIC 4a78b 0 SystemSoundClientDefs_server_routine
+PUBLIC 4a7ae 0 CACFPreferences::MarkPrefsClean(bool, bool)
+PUBLIC 4a7ec 0 CACFPreferences::MarkPrefsOutOfDate(bool, bool)
+PUBLIC 4a82a 0 CACFPreferences::SendNotification(__CFString const*)
+PUBLIC 4a8d0 0 CACFPreferences::DeleteValue(__CFString const*, bool, bool, bool)
+PUBLIC 4a970 0 CACFPreferences::SetValue(__CFString const*, void const*, bool, bool, bool)
+PUBLIC 4aa14 0 CACFPreferences::CopyDictionaryValue(__CFString const*, bool, bool)
+PUBLIC 4aa66 0 CACFPreferences::CopyArrayValue(__CFString const*, bool, bool)
+PUBLIC 4aab8 0 CACFPreferences::CopyNumberValue(__CFString const*, bool, bool)
+PUBLIC 4ab0a 0 CASharedLibrary::LoadLibraryAndGetRoutineAddress(char const*, char const*, char const*)
+PUBLIC 4ab6e 0 CASharedLibrary::GetRoutineAddressIfLibraryLoaded(char const*, char const*, char const*)
+PUBLIC 4abd4 0 CACFDictionary::HasKey(__CFString const*) const
+PUBLIC 4abf8 0 CACFDictionary::Size() const
+PUBLIC 4ac0a 0 CACFDictionary::GetKeys(void const**) const
+PUBLIC 4ac30 0 CACFDictionary::AddCFType(__CFString const*, void const*)
+PUBLIC 4ac66 0 CACFDictionary::GetSInt32(__CFString const*, long&) const
+PUBLIC 4acc6 0 CACFDictionary::GetSInt64(__CFString const*, long long&) const
+PUBLIC 4ad26 0 CACFDictionary::GetUInt64(__CFString const*, unsigned long long&) const
+PUBLIC 4ad86 0 CACFDictionary::GetFloat32(__CFString const*, float&) const
+PUBLIC 4ade6 0 CACFDictionary::GetFloat64(__CFString const*, double&) const
+PUBLIC 4ae46 0 CACFDictionary::GetString(__CFString const*, __CFString const*&) const
+PUBLIC 4ae94 0 CACFDictionary::GetArray(__CFString const*, __CFArray const*&) const
+PUBLIC 4aee2 0 CACFDictionary::GetDictionary(__CFString const*, __CFDictionary const*&) const
+PUBLIC 4af30 0 CACFDictionary::GetData(__CFString const*, __CFData const*&) const
+PUBLIC 4af7e 0 CACFDictionary::GetCFTypeWithCStringKey(char const*, void const*&) const
+PUBLIC 4affe 0 CACFDictionary::AddSInt32(__CFString const*, long)
+PUBLIC 4b096 0 CACFDictionary::AddUInt32(__CFString const*, unsigned long)
+PUBLIC 4b12e 0 CACFDictionary::AddSInt64(__CFString const*, long long)
+PUBLIC 4b1cc 0 CACFDictionary::AddUInt64(__CFString const*, unsigned long long)
+PUBLIC 4b26a 0 CACFDictionary::AddFloat32(__CFString const*, float)
+PUBLIC 4b30a 0 CACFDictionary::AddFloat64(__CFString const*, double)
+PUBLIC 4b3a6 0 CACFDictionary::AddNumber(__CFString const*, __CFNumber const*)
+PUBLIC 4b3dc 0 CACFDictionary::AddString(__CFString const*, __CFString const*)
+PUBLIC 4b412 0 CACFDictionary::AddArray(__CFString const*, __CFArray const*)
+PUBLIC 4b448 0 CACFDictionary::AddDictionary(__CFString const*, __CFDictionary const*)
+PUBLIC 4b47e 0 CACFDictionary::AddCFTypeWithCStringKey(char const*, void const*)
+PUBLIC 4b508 0 CACFDictionary::AddCString(__CFString const*, char const*)
+PUBLIC 4b594 0 CACFArray::HasItem(void const*) const
+PUBLIC 4b5dc 0 CACFArray::GetIndexOfItem(void const*, unsigned long&) const
+PUBLIC 4b638 0 CACFArray::AppendCFType(void const*)
+PUBLIC 4b668 0 CACFArray::SetCFType(unsigned long, void const*)
+PUBLIC 4b6b8 0 CACFArray::SetDictionary(unsigned long, __CFDictionary const*)
+PUBLIC 4b6dc 0 CACFArray::SetArray(unsigned long, __CFArray const*)
+PUBLIC 4b700 0 CACFArray::SetString(unsigned long, __CFString const*)
+PUBLIC 4b726 0 CACFArray::GetArray(unsigned long, __CFArray const*&) const
+PUBLIC 4b782 0 CACFArray::GetString(unsigned long, __CFString const*&) const
+PUBLIC 4b7de 0 CACFArray::GetFloat64(unsigned long, double&) const
+PUBLIC 4b84c 0 CACFArray::GetFloat32(unsigned long, float&) const
+PUBLIC 4b8ba 0 CACFArray::GetUInt64(unsigned long, unsigned long long&) const
+PUBLIC 4b928 0 CACFArray::GetSInt64(unsigned long, long long&) const
+PUBLIC 4b996 0 CACFArray::GetUInt32(unsigned long, unsigned long&) const
+PUBLIC 4ba04 0 CACFArray::GetSInt32(unsigned long, long&) const
+PUBLIC 4ba72 0 CACFArray::GetBool(unsigned long, bool&) const
+PUBLIC 4bb1c 0 CACFArray::SetSInt32(unsigned long, long)
+PUBLIC 4bbac 0 CACFArray::SetUInt32(unsigned long, unsigned long)
+PUBLIC 4bc3c 0 CACFArray::SetSInt64(unsigned long, long long)
+PUBLIC 4bcd6 0 CACFArray::SetUInt64(unsigned long, unsigned long long)
+PUBLIC 4bd70 0 CACFArray::SetFloat32(unsigned long, float)
+PUBLIC 4be04 0 CACFArray::SetFloat64(unsigned long, double)
+PUBLIC 4bea2 0 CACFArray::AppendSInt32(long)
+PUBLIC 4bf2c 0 CACFArray::AppendUInt32(unsigned long)
+PUBLIC 4bfb6 0 CACFArray::AppendSInt64(long long)
+PUBLIC 4c046 0 CACFArray::AppendUInt64(unsigned long long)
+PUBLIC 4c0d6 0 CACFArray::AppendFloat32(float)
+PUBLIC 4c164 0 CACFArray::AppendFloat64(double)
+PUBLIC 4c1f2 0 CACFArray::AppendString(__CFString const*)
+PUBLIC 4c224 0 CACFArray::AppendArray(__CFArray const*)
+PUBLIC 4c256 0 CACFArray::AppendDictionary(__CFDictionary const*)
+PUBLIC 4c288 0 mshCreateMachServerSource
+PUBLIC 4c409 0 mshRelease
+PUBLIC 4c477 0 mshCopyDescription
+PUBLIC 4c4bb 0 mshEqual
+PUBLIC 4c4d0 0 mshPerform
+PUBLIC 4c4f4 0 p2cstrcpyReal(unsigned char*)
+PUBLIC 4c542 0 c2pstrcpyReal(char*)
+PUBLIC 4c594 0 KCCallback::KCCallback()
+PUBLIC 4c5b0 0 KCCallback::KCCallback()
+PUBLIC 4c5cc 0 KCCallback::KCCallback(long (*)(unsigned short, KCCallbackInfo*, void*), unsigned short, void*)
+PUBLIC 4c5e6 0 KCCallback::KCCallback(long (*)(unsigned short, KCCallbackInfo*, void*), unsigned short, void*)
+PUBLIC 4c600 0 KCCallback::~KCCallback()
+PUBLIC 4c606 0 KCCallback::~KCCallback()
+PUBLIC 4c60c 0 KCCallback::operator==(KCCallback const&) const
+PUBLIC 4c622 0 KCCallbackManager::notifyClients(unsigned long, SecKeychainCallbackInfo*)
+PUBLIC 4c6e0 0 KCCallbackManager::callback(unsigned long, SecKeychainCallbackInfo*, void*)
+PUBLIC 4c758 0 KCCallback::operator!=(KCCallback const&) const
+PUBLIC 4c76e 0 KCCallbackManager::remove(long (*)(unsigned short, KCCallbackInfo*, void*))
+PUBLIC 4c7aa 0 KCCallbackManager::~KCCallbackManager()
+PUBLIC 4c7ec 0 KCCallbackManager::KCCallbackManager()
+PUBLIC 4c842 0 KCCallbackManager::KCCallbackManager()
+PUBLIC 4c898 0 KCCallbackManager::get()
+PUBLIC 4c8ee 0 KCCallbackManager::~KCCallbackManager()
+PUBLIC 4c930 0 KCCallbackManager::add(long (*)(unsigned short, KCCallbackInfo*, void*), unsigned short, void*)
+PUBLIC 4c98f 0 ISSetImageInfoForVolume_rpc
+PUBLIC 4ca9d 0 ISReleaseGlobalImageIndex_rpc
+PUBLIC 4cb98 0 ISMakeImageIndexEntryForGlobalImageRef_rpc
+PUBLIC 4cd88 0 SetData_rpc
+PUBLIC 4cf72 0 ISAddStorageIndexToGlobalImageRef_rpc
+PUBLIC 4d0b4 0 CIconStorageEntry::CIconStorageEntry()
+PUBLIC 4d10c 0 CIconStorageEntry::RemoveVariant(unsigned long)
+PUBLIC 4d176 0 CIconStorageEntry::SetVariant(short, unsigned long)
+PUBLIC 4d1c6 0 CIconStorageEntry::CompareWith(CIconStorageEntry*)
+PUBLIC 4d264 0 CIconStorageEntry::GetIconStorageInfo(SharedIconInfo*) const
+PUBLIC 4d26e 0 CIconStorageEntry::GetIconStorageGlobalIndex()
+PUBLIC 4d276 0 CIconStorageEntry::GetIconStorageGlobalStorageRef()
+PUBLIC 4d280 0 CIconStorageEntry::DumpInfo(void*, void (*)(void*, char*, ...), unsigned long, unsigned char) const
+PUBLIC 4d30c 0 CIconStorageEntry::DumpVariants(void*, void (*)(void*, char*, ...)) const
+PUBLIC 4d368 0 CIconStorageLocalEntry::Purge()
+PUBLIC 4d3aa 0 CIconStorageLocalEntry::DumpInfo(void*, void (*)(void*, char*, ...), unsigned long, unsigned char) const
+PUBLIC 4d4a6 0 CLocalRefToSharedStorageEntry::~CLocalRefToSharedStorageEntry()
+PUBLIC 4d4be 0 CLocalRefToSharedStorageEntry::~CLocalRefToSharedStorageEntry()
+PUBLIC 4d4da 0 CLocalRefToSharedStorageEntry::RemoveData(long)
+PUBLIC 4d4e0 0 CLocalRefToSharedStorageEntry::SetVariant(IconFamilyResource*, unsigned long)
+PUBLIC 4d4ec 0 CLocalRefToSharedStorageEntry::RemoveVariantByIndex(short)
+PUBLIC 4d4f6 0 CLocalRefToSharedStorageEntry::CopySharedInfo(unsigned long*, unsigned long*, unsigned long*, unsigned long*, unsigned long*, unsigned long*)
+PUBLIC 4d56a 0 CLocalRefToSharedStorageEntry::DumpInfo(void*, void (*)(void*, char*, ...), unsigned long, unsigned char) const
+PUBLIC 4d6da 0 GetSharedSegmentOptimalSizeProcPtr(unsigned long)
+PUBLIC 4d6e4 0 _ISDumpSharedSegmentsInfo(__CFString*)
+PUBLIC 4d86c 0 CIconStorageSharedServerEntry::DumpInfo(void*, void (*)(void*, char*, ...), unsigned long, unsigned char) const
+PUBLIC 4d9f8 0 CIconStorageEntry::SetARGBData(long, char*, long)
+PUBLIC 4da68 0 CIconStorageLocalEntry::CIconStorageLocalEntry(unsigned char)
+PUBLIC 4dae0 0 CIconStorageSharedServerEntry::CIconStorageSharedServerEntry(unsigned char)
+PUBLIC 4db86 0 CLocalRefToSharedStorageEntry::SetData(long, char*, long)
+PUBLIC 4dc0a 0 CLocalRefToSharedStorageEntry::CLocalRefToSharedStorageEntry(CIconFamilyLoader*, short*)
+PUBLIC 4dd92 0 CLocalRefToSharedStorageEntry::CLocalRefToSharedStorageEntry(unsigned long, unsigned long, SharedIconInfo*, short*)
+PUBLIC 4de76 0 CLocalRefToSharedStorageEntry::CLocalRefToSharedStorageEntry(unsigned long, unsigned long, short*)
+PUBLIC 4dfaa 0 CIconStorageLocalEntry::MakeLocalIconStorage(IconFamilyResource const**, unsigned char)
+PUBLIC 4e070 0 CVolumeArray::GetBootVolume()
+PUBLIC 4e0a2 0 CVolume::CVolume(short, unsigned long, OpaqueISImageRef*, unsigned long, short*)
+PUBLIC 4e11c 0 CVolume::CVolume(short, unsigned long, OpaqueISImageRef*, unsigned long, short*)
+PUBLIC 4e198 0 CVolume::CVolume(short, short*)
+PUBLIC 4e330 0 _ISGetImageRefFromVolume(unsigned short, OpaqueISImageRef**)
+PUBLIC 4e404 0 _ISSetCustomIconsEnabled
+PUBLIC 4e4dc 0 CVolumeArray::GetVolumeRecord(short, unsigned long, OpaqueISImageRef*, unsigned long, unsigned long*, short*)
+PUBLIC 4e60e 0 _ISMakeVolumeEntryFromInfo(short, unsigned long, OpaqueISImageRef*, unsigned long)
+PUBLIC 4e6b4 0 CDynamicArray::~CDynamicArray()
+PUBLIC 4e6da 0 CDynamicArray::~CDynamicArray()
+PUBLIC 4e700 0 CDynamicArray::IsUsed(unsigned long)
+PUBLIC 4e726 0 CArrayIterator::CArrayIterator(CDynamicArray*)
+PUBLIC 4e73a 0 CDynamicArray::Size()
+PUBLIC 4e754 0 CIconFamilyLoader::CIconFamilyLoader(unsigned long)
+PUBLIC 4e784 0 CIconFamilyLoader::CanBeCloned() const
+PUBLIC 4e78e 0 CFileBasedIconLoader::FetchData(CIconStorageEntry*, long)
+PUBLIC 4e808 0 CFileBasedIconLoader::OpenResourceFile(FSRef const*, OpaqueResourceFileRef**)
+PUBLIC 4e8be 0 CFileBasedIconLoader::DumpInfo(void*, void (*)(void*, char*, ...)) const
+PUBLIC 4ea04 0 CDTDBBasedIconLoader::Match(short, unsigned long, unsigned long)
+PUBLIC 4ea30 0 CDTDBBasedIconLoader::EquialTo(CIconFamilyLoader*) const
+PUBLIC 4ea86 0 CDTDBBasedIconLoader::DumpInfo(void*, void (*)(void*, char*, ...)) const
+PUBLIC 4eac4 0 CFlattenedFileBasedIconLoader::FirstLoad(CIconStorageEntry*, unsigned long)
+PUBLIC 4eace 0 CFlattenedFileBasedIconLoader::MakeSelfContained()
+PUBLIC 4eb12 0 CFlattenedFileBasedIconLoader::Destroy()
+PUBLIC 4eb38 0 CFlattenedFileBasedIconLoader::Match(void*, unsigned long, short)
+PUBLIC 4eb7a 0 CFlattenedFileBasedIconLoader::IsStorageOnTheVolume(short) const
+PUBLIC 4eb82 0 CFlattenedFileBasedIconLoader::FetchData(CIconStorageEntry*, long)
+PUBLIC 4eb8a 0 CFlattenedFileBasedIconLoader::GetEntryType() const
+PUBLIC 4eb94 0 CFlattenedFileBasedIconLoader::EquialTo(CIconFamilyLoader*) const
+PUBLIC 4ebea 0 CFlattenedFileBasedIconLoader::CanBeCloned() const
+PUBLIC 4ebf2 0 CFlattenedFileBasedIconLoader::DumpInfo(void*, void (*)(void*, char*, ...)) const
+PUBLIC 4ed24 0 CSystemIconLoader::FetchData(CIconStorageEntry*, long)
+PUBLIC 4ed2e 0 CSystemIconLoader::CanBeCloned() const
+PUBLIC 4ed36 0 CSystemIconLoader::DumpInfo(void*, void (*)(void*, char*, ...)) const
+PUBLIC 4ed5e 0 CLoadersArray::CLoadersArray()
+PUBLIC 4ed92 0 _ISDumpLoaderInfo(void*, void (*)(void*, char*, ...), unsigned long)
+PUBLIC 4ee00 0 CFlattenedFileBasedIconLoader::Flatten(void*, unsigned long, unsigned long, unsigned long*) const
+PUBLIC 4ee66 0 CDTDBBasedIconLoader::CDTDBBasedIconLoader(short, unsigned long, unsigned long)
+PUBLIC 4eeaa 0 CFlattenedFileBasedIconLoader::CFlattenedFileBasedIconLoader(void*, unsigned long, short)
+PUBLIC 4eef2 0 CFlattenedFileBasedIconLoader::CFlattenedFileBasedIconLoader(void*, unsigned long, short)
+PUBLIC 4ef3a 0 CFlattenedFileBasedIconLoader::CFlattenedFileBasedIconLoader(void const*, unsigned long, unsigned long, unsigned long*, unsigned char*, short*)
+PUBLIC 4efe2 0 CSystemIconLoader::CSystemIconLoader(unsigned long)
+PUBLIC 4f01a 0 CSystemIconLoader::CSystemIconLoader(void const*, unsigned long, unsigned long*, short*)
+PUBLIC 4f092 0 CDTDBBasedIconLoader::CDTDBBasedIconLoader(void const*, unsigned long, unsigned long, unsigned long*, unsigned char*, short*)
+PUBLIC 4f1a2 0 CFlattenedFileBasedIconLoader::CFlattenedFileBasedIconLoader(void const*, unsigned long, unsigned long, unsigned long*, unsigned char*, short*)
+PUBLIC 4f24a 0 CLoadersArray::FindMatch(unsigned long, CIconFamilyLoader**)
+PUBLIC 4f2b6 0 CFileBasedIconLoader::FetchResource(CIconStorageEntry*, OpaqueResourceFileRef*, long, short)
+PUBLIC 4f372 0 CFileBasedIconLoader::CFileBasedIconLoader(FSRef const*, short, unsigned long, short, unsigned long, short*)
+PUBLIC 4f47e 0 CFileBasedIconLoader::CFileBasedIconLoader(void const*, unsigned long, unsigned long, unsigned long*, unsigned char*, short*)
+PUBLIC 4f696 0 FindIconLoader(unsigned long)
+PUBLIC 4f706 0 _XSetData_rpc
+PUBLIC 4f7ce 0 _XISSetImageInfoForVolume_rpc
+PUBLIC 4f871 0 _XISAddStorageIndexToGlobalImageRef_rpc
+PUBLIC 4f925 0 _XISReleaseGlobalImageIndex_rpc
+PUBLIC 4f987 0 _XISMakeImageIndexEntryForGlobalImageRef_rpc
+PUBLIC 4fa55 0 ChangeItem_rpc
+PUBLIC 4fb84 0 ModifyItemFlags_rpc
+PUBLIC 4fc91 0 MoveItem_rpc
+PUBLIC 4fd98 0 RemoveItem_rpc
+PUBLIC 4fe99 0 ClearList_rpc
+PUBLIC 4ff95 0 ModifyVolumesListMask_rpc
+PUBLIC 5009c 0 SetVisibilityForSpecialVolumeItem_rpc
+PUBLIC 501a6 0 ClientRemovedObserver_rpc
+PUBLIC 502a4 0 SFLPrefsSetValue_rpc
+PUBLIC 503e3 0 GetConectionToSharedPrefs_rpc
+PUBLIC 505ea 0 SFLPrefsDataPush_rpc
+PUBLIC 50734 0 SFLPrefsDataGet_rpc
+PUBLIC 5085c 0 SFLGetAlwaysVisibleKey()
+PUBLIC 50882 0 SFLGetNeverVisibleKey()
+PUBLIC 508aa 0 GetInstanceItemKeysArray()
+PUBLIC 508e2 0 SFLMutableListItem::SFLMutableListItem(unsigned long, OpaqueISImageRef*, unsigned short const*, unsigned short, void*, unsigned long, unsigned long, unsigned long, unsigned char*)
+PUBLIC 509ba 0 SFLMutableListItem::SFLMutableListItem(unsigned long, OpaqueISImageRef*, __CFString const*, AliasRecord**, unsigned long, unsigned char*)
+PUBLIC 50a8e 0 SFLMutableListItem::SFLMutableListItem(unsigned long, OpaqueISImageRef*, __CFString const*, AliasRecord**, unsigned long, unsigned char*)
+PUBLIC 50b64 0 SFLMutableListItem::MakeIDiskAlias()
+PUBLIC 50cfc 0 SFLItemModifyFlags(OpaqueSFLItemRef*, unsigned long, unsigned long)
+PUBLIC 50d5a 0 SFLItemRemoveVisibilityValue(OpaqueSFLItemRef*)
+PUBLIC 50daa 0 _SFLItemIsHandledBySFLManager
+PUBLIC 50dc8 0 SFLMutableListItem::SFLMutableListItem(unsigned long, unsigned long, short, __CFDictionary const*, unsigned short, OpaqueISImageRef*, unsigned char*)
+PUBLIC 51190 0 SFLItemSetNewPrefs(OpaqueSFLItemRef*, __CFDictionary const*, OpaqueISImageRef*)
+PUBLIC 511de 0 SFLMutableListItem::SFLMutableListItem(unsigned long, __CFDictionary const*, short, unsigned short, OpaqueISImageRef*, unsigned char*)
+PUBLIC 51264 0 SFLItemMakeCopy(OpaqueSFLItemRef*)
+PUBLIC 51316 0 SFLPrefsGetSharedSeedInfo(SFLPrefs*, OpaqueCSSeedRef**)
+PUBLIC 51356 0 _SFLGetCachedPrefsStruct(__CFString const*)
+PUBLIC 51912 0 _SFLPreferencesCopyValue
+PUBLIC 51970 0 _SFLPreferencesCopyMultiple
+PUBLIC 51a52 0 _SFLPreferencesSetMultiple
+PUBLIC 51c44 0 _SFLPreferencesSetValue
+PUBLIC 51d2c 0 SFLPrefsRemoveKey(SFLPrefs*, void const*, double)
+PUBLIC 51dd6 0 _SFLDumpPrefsInfo(__CFString*)
+PUBLIC 520ad 0 _XChangeItem_rpc
+PUBLIC 5215b 0 _XModifyItemFlags_rpc
+PUBLIC 521f3 0 _XMoveItem_rpc
+PUBLIC 5227c 0 _XRemoveItem_rpc
+PUBLIC 522f0 0 _XClearList_rpc
+PUBLIC 52353 0 _XModifyVolumesListMask_rpc
+PUBLIC 523dd 0 _XSetVisibilityForSpecialVolumeItem_rpc
+PUBLIC 52460 0 _XClientRemovedObserver_rpc
+PUBLIC 524c4 0 _XGetConectionToSharedPrefs_rpc
+PUBLIC 5261a 0 _XSFLPrefsDataPush_rpc
+PUBLIC 526f7 0 _XSFLPrefsDataGet_rpc
+PUBLIC 527ba 0 _XSFLPrefsSetValue_rpc
+PUBLIC 52862 0 CCSegmentGetTotalCount
+PUBLIC 5286c 0 CCArrayGetSize
+PUBLIC 528a6 0 CCSegmentGetEntrySize
+PUBLIC 528b2 0 CCSegmentGetFreeCount
+PUBLIC 528be 0 CCArrayIsEntryUsed
+PUBLIC 5b474 0 __FUNCTION__.41454
+PUBLIC 5c124 0 SCSIAction::__FUNCTION__
+PUBLIC 5c200 0 _ISGetStorageRefFromLoader(CIconFamilyLoader*, unsigned long, unsigned long, unsigned long, unsigned long*)::__FUNCTION__
+PUBLIC 5c9dc 0 Server_GetListSnapshot_rpc::__FUNCTION__
+PUBLIC 5cf9c 0 __i686.get_pc_thunk.bx
+PUBLIC 5cfa0 0 __i686.get_pc_thunk.dx
+PUBLIC 5cfa4 0 __i686.get_pc_thunk.bx
+PUBLIC 5cfa8 0 __i686.get_pc_thunk.cx
+PUBLIC 5cfac 0 UMainThread::~UMainThread()
+PUBLIC 5cfcc 0 UMainThread::~UMainThread()
+PUBLIC 5cffe 0 UMainThread::Run()
+PUBLIC 5d040 0 std::allocator<SystemSoundActionInfo>::allocator()
+PUBLIC 5d046 0 std::_Rb_tree<unsigned long, std::pair<unsigned long const, SystemSoundCompletionRoutineInfo>, std::_Select1st<std::pair<unsigned long const, SystemSoundCompletionRoutineInfo> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, SystemSoundCompletionRoutineInfo> > >::_S_key(std::_Rb_tree_node<std::pair<unsigned long const, SystemSoundCompletionRoutineInfo> > const*)
+PUBLIC 5d052 0 std::allocator<std::_List_node<SystemSoundActionInfo> >::allocator<SystemSoundActionInfo>(std::allocator<SystemSoundActionInfo> const&)
+PUBLIC 5d058 0 std::allocator<std::_Rb_tree_node<std::pair<unsigned long const, SystemSoundCompletionRoutineInfo> > >::allocator<std::pair<unsigned long const, SystemSoundCompletionRoutineInfo> >(std::allocator<std::pair<unsigned long const, SystemSoundCompletionRoutineInfo> > const&)
+PUBLIC 5d090 0 std::allocator<std::pair<unsigned long const, SystemSoundCompletionRoutineInfo> >::allocator<std::_Rb_tree_node<std::pair<unsigned long const, SystemSoundCompletionRoutineInfo> > >(std::allocator<std::_Rb_tree_node<std::pair<unsigned long const, SystemSoundCompletionRoutineInfo> > > const&)
+PUBLIC 5d0de 0 std::_Rb_tree<unsigned long, std::pair<unsigned long const, SystemSoundCompletionRoutineInfo>, std::_Select1st<std::pair<unsigned long const, SystemSoundCompletionRoutineInfo> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, SystemSoundCompletionRoutineInfo> > >::_S_key(std::_Rb_tree_node_base const*)
+PUBLIC 5d0ea 0 SSCompletionRoutineList::GetActionInfo(unsigned long, SystemSoundCompletionRoutineInfo*)
+PUBLIC 5d146 0 std::_Rb_tree<unsigned long, std::pair<unsigned long const, SystemSoundCompletionRoutineInfo>, std::_Select1st<std::pair<unsigned long const, SystemSoundCompletionRoutineInfo> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, SystemSoundCompletionRoutineInfo> > >::upper_bound(unsigned long const&)
+PUBLIC 5d184 0 ActionIDList::MakeUISound(unsigned long, unsigned long)
+PUBLIC 5d1a6 0 ActionIDList::IsCustomSound(unsigned long)
+PUBLIC 5d1ca 0 ActionIDList::GetCompletePlaybackIfAppDiesState(unsigned long)
+PUBLIC 5d1ec 0 ActionIDList::SetCompletePlaybackIfAppDiesState(unsigned long, unsigned long)
+PUBLIC 5d20e 0 ActionIDList::IsUISound(unsigned long)
+PUBLIC 5d230 0 std::_Rb_tree<unsigned long, std::pair<unsigned long const, SystemSoundCompletionRoutineInfo>, std::_Select1st<std::pair<unsigned long const, SystemSoundCompletionRoutineInfo> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, SystemSoundCompletionRoutineInfo> > >::find(unsigned long const&)
+PUBLIC 5d28e 0 std::allocator<std::_List_node<SystemSoundActionInfo> >::~allocator()
+PUBLIC 5d294 0 std::allocator<std::_List_node<SystemSoundActionInfo> >::~allocator()
+PUBLIC 5d29a 0 std::_List_base<SystemSoundActionInfo, std::allocator<SystemSoundActionInfo> >::_List_impl::~_List_impl()
+PUBLIC 5d2a0 0 std::allocator<std::_List_node<SystemSoundActionInfo> >::allocator(std::allocator<std::_List_node<SystemSoundActionInfo> > const&)
+PUBLIC 5d2a6 0 std::_List_base<SystemSoundActionInfo, std::allocator<SystemSoundActionInfo> >::_List_impl::_List_impl(std::allocator<std::_List_node<SystemSoundActionInfo> > const&)
+PUBLIC 5d2ac 0 std::_List_base<SystemSoundActionInfo, std::allocator<SystemSoundActionInfo> >::_List_base(std::allocator<SystemSoundActionInfo> const&)
+PUBLIC 5d2ba 0 std::allocator<std::_Rb_tree_node<std::pair<unsigned long const, SystemSoundCompletionRoutineInfo> > >::~allocator()
+PUBLIC 5d2c0 0 std::allocator<std::_Rb_tree_node<std::pair<unsigned long const, SystemSoundCompletionRoutineInfo> > >::~allocator()
+PUBLIC 5d2c6 0 std::_Rb_tree<unsigned long, std::pair<unsigned long const, SystemSoundCompletionRoutineInfo>, std::_Select1st<std::pair<unsigned long const, SystemSoundCompletionRoutineInfo> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, SystemSoundCompletionRoutineInfo> > >::_Rb_tree_impl<std::less<unsigned long>, false>::~_Rb_tree_impl()
+PUBLIC 5d2cc 0 std::allocator<std::_Rb_tree_node<std::pair<unsigned long const, SystemSoundCompletionRoutineInfo> > >::allocator(std::allocator<std::_Rb_tree_node<std::pair<unsigned long const, SystemSoundCompletionRoutineInfo> > > const&)
+PUBLIC 5d2d2 0 std::_Rb_tree<unsigned long, std::pair<unsigned long const, SystemSoundCompletionRoutineInfo>, std::_Select1st<std::pair<unsigned long const, SystemSoundCompletionRoutineInfo> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, SystemSoundCompletionRoutineInfo> > >::_Rb_tree_impl<std::less<unsigned long>, false>::_Rb_tree_impl(std::allocator<std::_Rb_tree_node<std::pair<unsigned long const, SystemSoundCompletionRoutineInfo> > > const&, std::less<unsigned long> const&)
+PUBLIC 5d2f8 0 std::_Rb_tree<unsigned long, std::pair<unsigned long const, SystemSoundCompletionRoutineInfo>, std::_Select1st<std::pair<unsigned long const, SystemSoundCompletionRoutineInfo> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, SystemSoundCompletionRoutineInfo> > >::_Rb_tree(std::less<unsigned long> const&, std::allocator<std::pair<unsigned long const, SystemSoundCompletionRoutineInfo> > const&)
+PUBLIC 5d33a 0 std::allocator<std::pair<unsigned long const, SystemSoundCompletionRoutineInfo> >::~allocator()
+PUBLIC 5d340 0 std::_Rb_tree<unsigned long, std::pair<unsigned long const, SystemSoundCompletionRoutineInfo>, std::_Select1st<std::pair<unsigned long const, SystemSoundCompletionRoutineInfo> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, SystemSoundCompletionRoutineInfo> > >::destroy_node(std::_Rb_tree_node<std::pair<unsigned long const, SystemSoundCompletionRoutineInfo> >*)
+PUBLIC 5d350 0 std::_Rb_tree<unsigned long, std::pair<unsigned long const, SystemSoundCompletionRoutineInfo>, std::_Select1st<std::pair<unsigned long const, SystemSoundCompletionRoutineInfo> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, SystemSoundCompletionRoutineInfo> > >::erase(std::_Rb_tree_iterator<std::pair<unsigned long const, SystemSoundCompletionRoutineInfo> >)
+PUBLIC 5d382 0 SSCompletionRoutineList::Remove(unsigned long)
+PUBLIC 5d3b6 0 std::_Rb_tree<unsigned long, std::pair<unsigned long const, SystemSoundCompletionRoutineInfo>, std::_Select1st<std::pair<unsigned long const, SystemSoundCompletionRoutineInfo> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, SystemSoundCompletionRoutineInfo> > >::_M_erase(std::_Rb_tree_node<std::pair<unsigned long const, SystemSoundCompletionRoutineInfo> >*)
+PUBLIC 5d3f4 0 std::_Rb_tree<unsigned long, std::pair<unsigned long const, SystemSoundCompletionRoutineInfo>, std::_Select1st<std::pair<unsigned long const, SystemSoundCompletionRoutineInfo> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, SystemSoundCompletionRoutineInfo> > >::~_Rb_tree()
+PUBLIC 5d418 0 std::allocator<SystemSoundActionInfo>::~allocator()
+PUBLIC 5d41e 0 std::allocator<SystemSoundActionInfo>::allocator<std::_List_node<SystemSoundActionInfo> >(std::allocator<std::_List_node<SystemSoundActionInfo> > const&)
+PUBLIC 5d424 0 std::_List_base<SystemSoundActionInfo, std::allocator<SystemSoundActionInfo> >::_M_clear()
+PUBLIC 5d44a 0 std::_List_base<SystemSoundActionInfo, std::allocator<SystemSoundActionInfo> >::~_List_base()
+PUBLIC 5d454 0 std::list<SystemSoundActionInfo, std::allocator<SystemSoundActionInfo> >::list(std::allocator<SystemSoundActionInfo> const&)
+PUBLIC 5d45e 0 ActionIDList::ActionIDList()
+PUBLIC 5d478 0 std::allocator<std::pair<unsigned long const, SystemSoundCompletionRoutineInfo> >::allocator()
+PUBLIC 5d47e 0 std::map<unsigned long, SystemSoundCompletionRoutineInfo, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, SystemSoundCompletionRoutineInfo> > >::map()
+PUBLIC 5d4a0 0 SSCompletionRoutineList::SSCompletionRoutineList()
+PUBLIC 5d4aa 0 std::_Rb_tree<unsigned long, std::pair<unsigned long const, SystemSoundCompletionRoutineInfo>, std::_Select1st<std::pair<unsigned long const, SystemSoundCompletionRoutineInfo> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, SystemSoundCompletionRoutineInfo> > >::_M_create_node(std::pair<unsigned long const, SystemSoundCompletionRoutineInfo> const&)
+PUBLIC 5d4f0 0 std::_Rb_tree<unsigned long, std::pair<unsigned long const, SystemSoundCompletionRoutineInfo>, std::_Select1st<std::pair<unsigned long const, SystemSoundCompletionRoutineInfo> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, SystemSoundCompletionRoutineInfo> > >::_M_insert(std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::pair<unsigned long const, SystemSoundCompletionRoutineInfo> const&)
+PUBLIC 5d564 0 std::_Rb_tree<unsigned long, std::pair<unsigned long const, SystemSoundCompletionRoutineInfo>, std::_Select1st<std::pair<unsigned long const, SystemSoundCompletionRoutineInfo> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, SystemSoundCompletionRoutineInfo> > >::insert_unique(std::pair<unsigned long const, SystemSoundCompletionRoutineInfo> const&)
+PUBLIC 5d62c 0 std::_Rb_tree<unsigned long, std::pair<unsigned long const, SystemSoundCompletionRoutineInfo>, std::_Select1st<std::pair<unsigned long const, SystemSoundCompletionRoutineInfo> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, SystemSoundCompletionRoutineInfo> > >::insert_unique(std::_Rb_tree_iterator<std::pair<unsigned long const, SystemSoundCompletionRoutineInfo> >, std::pair<unsigned long const, SystemSoundCompletionRoutineInfo> const&)
+PUBLIC 5d6ea 0 std::list<SystemSoundActionInfo, std::allocator<SystemSoundActionInfo> >::_M_create_node(SystemSoundActionInfo const&)
+PUBLIC 5d730 0 std::list<SystemSoundActionInfo, std::allocator<SystemSoundActionInfo> >::_M_insert(std::_List_iterator<SystemSoundActionInfo>, SystemSoundActionInfo const&)
+PUBLIC 5d75c 0 std::list<SystemSoundActionInfo, std::allocator<SystemSoundActionInfo> >::push_back(SystemSoundActionInfo const&)
+PUBLIC 5d77a 0 std::list<SystemSoundActionInfo, std::allocator<SystemSoundActionInfo> >::_M_erase(std::_List_iterator<SystemSoundActionInfo>)
+PUBLIC 5d79a 0 std::list<SystemSoundActionInfo, std::allocator<SystemSoundActionInfo> >::erase(std::_List_iterator<SystemSoundActionInfo>)
+PUBLIC 5d7be 0 ActionIDList::Remove(unsigned long)
+PUBLIC 5d7ea 0 SSCompletionRoutineList::Add(unsigned long, SystemSoundCompletionRoutineInfo&)
+PUBLIC 5d884 0 __i686.get_pc_thunk.cx
+PUBLIC 5d888 0 Security::CFRef<__CFString const*>::operator=(__CFString const*)
+PUBLIC 5d8bc 0 CImageLayerArray::CImageLayerArray()
+PUBLIC 5d8f0 0 StSimpleLock::StSimpleLock(_opaque_pthread_mutex_t*)
+PUBLIC 5d908 0 StSimpleLock::~StSimpleLock()
+PUBLIC 5d91e 0 CIconStorageArray::CIconStorageArray(unsigned long)
+PUBLIC 5d950 0 CLocalStorageArray::CLocalStorageArray()
+PUBLIC 5d96c 0 CIconFamilyLoader::GetRelatedIconStorage()
+PUBLIC 5d978 0 CIconFamilyLoader::IsSameModSeed(unsigned long) const
+PUBLIC 5d99c 0 CIconFamilyLoader::SetTempModSeed(unsigned long)
+PUBLIC 5d9ae 0 CSystemIconTypes::CSystemIconTypes()
+PUBLIC 5d9e2 0 CSharedServerStorageArray::CSharedServerStorageArray()
+PUBLIC 5d9fe 0 CLocalRerToSharedStorageArray::CLocalRerToSharedStorageArray()
+PUBLIC 5da1a 0 CIconsBundleCacheArray::CIconsBundleCacheArray()
+PUBLIC 5da4e 0 CIconFilesCacheArray::CIconFilesCacheArray()
+PUBLIC 5dab2 0 CClientStorages::CClientStorages()
+PUBLIC 5dae6 0 CClientImages::CClientImages()
+PUBLIC 5db1a 0 std::bad_alloc::bad_alloc(std::bad_alloc const&)
+PUBLIC 5db3e 0 std::allocator<std::_List_node<KCCallback> >::~allocator()
+PUBLIC 5db44 0 std::_List_base<KCCallback, std::allocator<KCCallback> >::_List_impl::~_List_impl()
+PUBLIC 5db4a 0 std::allocator<KCCallback>::allocator<std::_List_node<KCCallback> >(std::allocator<std::_List_node<KCCallback> > const&)
+PUBLIC 5db70 0 std::iterator_traits<std::_List_const_iterator<KCCallback> >::difference_type std::__distance<std::_List_const_iterator<KCCallback> >(std::_List_const_iterator<KCCallback>, std::_List_const_iterator<KCCallback>, std::input_iterator_tag)
+PUBLIC 5db88 0 std::iterator_traits<std::_List_const_iterator<KCCallback> >::difference_type std::distance<std::_List_const_iterator<KCCallback> >(std::_List_const_iterator<KCCallback>, std::_List_const_iterator<KCCallback>)
+PUBLIC 5dbca 0 std::list<KCCallback, std::allocator<KCCallback> >::size() const
+PUBLIC 5dbe4 0 std::_List_iterator<KCCallback> std::find<std::_List_iterator<KCCallback>, KCCallback>(std::_List_iterator<KCCallback>, std::_List_iterator<KCCallback>, KCCallback const&, std::input_iterator_tag)
+PUBLIC 5dc06 0 std::_List_iterator<KCCallback> std::find<std::_List_iterator<KCCallback>, KCCallback>(std::_List_iterator<KCCallback>, std::_List_iterator<KCCallback>, KCCallback const&)
+PUBLIC 5dc2c 0 std::allocator<std::_List_node<KCCallback> >::~allocator()
+PUBLIC 5dc32 0 std::allocator<std::_List_node<KCCallback> >::allocator(std::allocator<std::_List_node<KCCallback> > const&)
+PUBLIC 5dc38 0 std::_List_base<KCCallback, std::allocator<KCCallback> >::_List_impl::_List_impl(std::allocator<std::_List_node<KCCallback> > const&)
+PUBLIC 5dc3e 0 std::allocator<std::_List_node<KCCallback> >::allocator<KCCallback>(std::allocator<KCCallback> const&)
+PUBLIC 5dc44 0 std::_List_base<KCCallback, std::allocator<KCCallback> >::_List_base(std::allocator<KCCallback> const&)
+PUBLIC 5dc52 0 std::allocator<KCCallback>::~allocator()
+PUBLIC 5dc58 0 std::list<KCCallback, std::allocator<KCCallback> >::_M_erase(std::_List_iterator<KCCallback>)
+PUBLIC 5dc78 0 void std::list<KCCallback, std::allocator<KCCallback> >::remove_if<Predicate>(Predicate)
+PUBLIC 5dcaa 0 std::allocator<KCCallback>::allocator()
+PUBLIC 5dcb0 0 std::list<KCCallback, std::allocator<KCCallback> >::_M_create_node(KCCallback const&)
+PUBLIC 5dcf6 0 std::list<KCCallback, std::allocator<KCCallback> >::_M_insert(std::_List_iterator<KCCallback>, KCCallback const&)
+PUBLIC 5dd22 0 std::list<KCCallback, std::allocator<KCCallback> >::push_back(KCCallback const&)
+PUBLIC 5dd40 0 std::_List_base<KCCallback, std::allocator<KCCallback> >::_M_clear()
+PUBLIC 5dd66 0 std::_List_base<KCCallback, std::allocator<KCCallback> >::~_List_base()
+PUBLIC 5dd70 0 std::list<KCCallback, std::allocator<KCCallback> >::list(std::allocator<KCCallback> const&)
+PUBLIC 5dd7a 0 CIconStorageLocalEntry::IsValid(long) const
+PUBLIC 5dda2 0 CIconStorageLocalEntry::IsLoaded() const
+PUBLIC 5ddb6 0 CLocalRefToSharedStorageEntry::IsValid(long) const
+PUBLIC 5ddda 0 CLocalArrayRefs::CLocalArrayRefs()
+PUBLIC 5de0e 0 CSharedArrayID::CSharedArrayID()
+PUBLIC 5de42 0 CVolumeArray::CVolumeArray()
+PUBLIC 5de76 0 CFileBasedIconLoader::IsStorageOnTheVolume(short) const
+PUBLIC 5de8c 0 CDTDBBasedIconLoader::IsStorageOnTheVolume(short) const
+PUBLIC 5dea2 0 CSystemIconLoader::IsStorageOnTheVolume(short) const
+PUBLIC 5deaa 0 SFLMutableListItem::SetImageRef(OpaqueISImageRef*)
+PUBLIC 5dee4 0 DynamicArray::getArraySize() const
+PUBLIC 5def2 0 DynamicArray::setDataOffcet(unsigned long)
+PUBLIC 5df02 0 DynamicArray::setSegmentSize(long)
+PUBLIC 5df12 0 DynamicArray::setArraySize(unsigned long)
+PUBLIC 5df22 0 DynamicArray::setEntrySize(unsigned long)
+PUBLIC 5df32 0 DynamicArray::setFirstNumber(unsigned long)
+PUBLIC 5df42 0 DynamicArray::getDataOffcet() const
+PUBLIC 5df50 0 DynamicArray::getEntrySize() const
+PUBLIC 5df5e 0 DynamicArray::setFreeEntries(unsigned long)
+PUBLIC 5df6e 0 DynamicArray::setAllocationBitmap(int, unsigned long)
+PUBLIC 5df82 0 DynamicArray::getAllocationBitmap(int)
+PUBLIC 5df94 0 DynamicArray::getFreeEntries() const
+PUBLIC 5dfa2 0 DynamicArray::getFirstNumber() const
+PUBLIC 5dfc0 0 NSLMakeNewNeighborhoodFromURL::C.191
+PUBLIC 5e0c0 0 NSLMakeNewNeighborhoodFromURL::C.190
+PUBLIC 5e1c0 0 LogDictionaryAttributes(void const*, void const*, void*)::C.305
+PUBLIC 5e5c0 0 LogDictionaryAttributes(void const*, void const*, void*)::C.304
+PUBLIC 5e6c0 0 NSLXConfigMgr::CreateUserNSLPrefsFromDS(tDataList*, char*)::C.258
+PUBLIC 5eac0 0 NSLXConfigMgr::CreateUserNSLPrefsFromDS(tDataList*, char*)::C.257
+PUBLIC 5eec0 0 NSLXDSLookup::DoServicesLookupOnComputerRecords()::C.146
+PUBLIC 5efc0 0 NSLXDSLookup::DoServicesLookupOnComputerRecords()::C.145
+PUBLIC 5f0e0 0 NSLXDSNodeMgr::CreateNeighborhoodForName(__CFString const*)::C.306
+PUBLIC 5f2e0 0 NSLXDSRegister::DoRegistration()::C.95
+PUBLIC 5f6e0 0 NSLXRequestMgr::ResultHasSameNameOrHostAsThisMachine(__CFDictionary const*)::C.203
+PUBLIC 5f7e0 0 NSLXRequestMgr::NSLXRequestAddResult(NSLXRequest*, __CFDictionary const*)::C.116
+PUBLIC 5f8e0 0 NSLXRequestMgr::NSLXRequestUpdateResult(NSLXRequest*, __CFDictionary const*)::C.128
+PUBLIC 5f9e0 0 NSLXRequestMgr::NSLXRequestDeleteResult(NSLXRequest*, __CFDictionary const*)::C.140
+PUBLIC 5fae0 0 MapServiceTypeToDSType(char const*, char*)::C.118
+PUBLIC 5fbe0 0 AddDSRecordTypeToList(unsigned long, __CFString const*, tDataList*)::C.114
+PUBLIC 5fce0 0 AddDSRecordTypeToList(unsigned long, __CFString const*, tDataList*)::C.113
+PUBLIC 5fde0 0 C.48.12638
+PUBLIC 5fe40 0 kISCGImageRefIndexes
+PUBLIC 5fea0 0 kISARGBDataFlag
+PUBLIC 5ff00 0 kISARGBMaskedData
+PUBLIC 5ff60 0 kISIconBitDepth
+PUBLIC 5ffc0 0 kISIconSize
+PUBLIC 60020 0 kISIconResType
+PUBLIC 60080 0 _kNetworkName.54052
+PUBLIC 6008e 0 _kComputerName.54051
+PUBLIC 600a0 0 _ZZN14SFLRemoteEntryC4EPK10__CFStringS2_PcmlPmPhE5C.255
+PUBLIC 602c0 0 kIconHeight.49274
+PUBLIC 6032d 0 kDesktopDatabaseType
+PUBLIC 60344 0 kIconIsSystem7
+PUBLIC 60360 0 _kCustomVolumeIconName.51572
+PUBLIC 10000000 0 dyld__mach_header
+PUBLIC 10000020 0 HackArray
+PUBLIC 10000720 0 NSLXCompareServiceRefPrioritySymbolAddr
+PUBLIC 10000724 0 NSLXCompareServiceRefsSymbolAddr
+PUBLIC 10000728 0 NSLXCopyNeighborhoodAttributeValueSymbolAddr
+PUBLIC 1000072c 0 NSLXCopyServiceAttributeValueSymbolAddr
+PUBLIC 10000730 0 NSLXCopyServicePreferredServiceTypeResultAsStringSymbolAddr
+PUBLIC 10000734 0 NSLXCopyServicePreferredURLResultAsStringSymbolAddr
+PUBLIC 10000738 0 NSLXCopyNeighborhoodDisplayNameSymbolAddr
+PUBLIC 1000073c 0 NSLXCopyServiceDisplayNameSymbolAddr
+PUBLIC 10000740 0 NSLXCopyNeighborhoodCategorySymbolAddr
+PUBLIC 10000744 0 NSLXCopyServiceCategorySymbolAddr
+PUBLIC 10000748 0 NSLXReleaseNeighborhoodResultSymbolAddr
+PUBLIC 1000074c 0 NSLXRetainNeighborhoodResultSymbolAddr
+PUBLIC 10000750 0 NSLXReleaseServiceResultSymbolAddr
+PUBLIC 10000754 0 NSLXRetainServiceResultSymbolAddr
+PUBLIC 10000758 0 NSLXCopyServiceResultSymbolAddr
+PUBLIC 1000075c 0 NSLXResolveServiceSymbolAddr
+PUBLIC 10000760 0 NSLXGetResultTypeSymbolAddr
+PUBLIC 10000764 0 NSLXGetSearchStatusSymbolAddr
+PUBLIC 10000768 0 NSLXGetSearchStateSymbolAddr
+PUBLIC 1000076c 0 NSLXGetNeighborhoodResultSymbolAddr
+PUBLIC 10000770 0 NSLXCopyNeighborhoodResultSymbolAddr
+PUBLIC 10000774 0 NSLXGetSearchResultSymbolAddr
+PUBLIC 10000778 0 NSLXStartServicesLookupSymbolAddr
+PUBLIC 1000077c 0 NSLXStartNeighborhoodLookupSymbolAddr
+PUBLIC 10000780 0 NSLXStandardDeregisterServiceSymbolAddr
+PUBLIC 10000784 0 NSLXStandardRegisterServiceSymbolAddr
+PUBLIC 10000788 0 NSLErrorToStringSymbolAddr
+PUBLIC 1000078c 0 NSLXDeleteRequestSymbolAddr
+PUBLIC 10000790 0 NSLXCancelRequestSymbolAddr
+PUBLIC 10000794 0 NSLGetNextUrlSymbolAddr
+PUBLIC 10000798 0 NSLStartServicesLookupSymbolAddr
+PUBLIC 1000079c 0 NSLStartNeighborhoodLookupSymbolAddr
+PUBLIC 100007a0 0 NSLPrepareRequestSymbolAddr
+PUBLIC 100007a4 0 NSLXCloseNavigationAPISymbolAddr
+PUBLIC 100007a8 0 NSLXOpenNavigationAPISymbolAddr
+PUBLIC 100007ac 0 gNSLXCoreRegistrationBundleRef
+PUBLIC 100007b0 0 gNSLCoreBundleRef
+PUBLIC 100007c0 0 gAPILock
+PUBLIC 10000800 0 gUseDotMacPrefixLock
+PUBLIC 1000082c 0 gUseDotMacPrefixVariableSet
+PUBLIC 1000082d 0 gUseDotMacPrefix
+PUBLIC 10000840 0 gUseDebugNamingLock
+PUBLIC 1000086c 0 gUseDebugNamingVariableSet
+PUBLIC 1000086d 0 gUseDebugNaming
+PUBLIC 10000870 0 gLongestTimeToGetNSLXConfigMgrLock
+PUBLIC 10000878 0 LogHexDump(char*, long)::hexChars
+PUBLIC 10000888 0 gLongestTimeToGetDSNodeMgrLock
+PUBLIC 100008a0 0 gCachedHashNameRef
+PUBLIC 100008a4 0 gCachedDupService
+PUBLIC 100008c0 0 gRegLock
+PUBLIC 100008ec 0 gNSLXConfigMgr
+PUBLIC 100008f0 0 gDSNodeMgr
+PUBLIC 100008f4 0 gRequestMgr
+PUBLIC 10000900 0 gNSLXRetainLock
+PUBLIC 10000930 0 gLongestTimeToGetNeighborhoodRefLock
+PUBLIC 10000938 0 gLongestTimeToGetServiceRefLock
+PUBLIC 10000940 0 gLocalNeighborhoodName
+PUBLIC 10000944 0 gPluginBundleRef
+PUBLIC 10000960 0 gUseDebuggingNSLLock
+PUBLIC 1000098c 0 gUseDebuggingNSLVariableSet
+PUBLIC 10000990 0 gDebuggingNSL
+PUBLIC 100009a0 0 sysLogLock
+PUBLIC 100009cc 0 gCompletionRoutineList
+PUBLIC 100009d0 0 gSSClientHostPort
+PUBLIC 100009d4 0 gSSServerHostPort
+PUBLIC 100009d8 0 gMIGPortsInitialized
+PUBLIC 100009d9 0 gClientInitialized
+PUBLIC 100009e0 0 sleep_queue_mutex
+PUBLIC 10000a14 0 sMaximumProcessorSpeed.11694
+PUBLIC 10000a18 0 sMinimumProcessorSpeed.11702
+PUBLIC 10000a20 0 sOpenTransportLibraryMutex
+PUBLIC 10000a60 0 gStorageTreeLock
+PUBLIC 10000a8c 0 is_netboot()::notInited
+PUBLIC 10000aa0 0 gInServerMode
+PUBLIC 10000ac0 0 gLoaderLock
+PUBLIC 10000b00 0 gStorageArrayLock
+PUBLIC 10000b2c 0 CreateStorageRef(unsigned long, CIconStorageEntry*, CIconFamilyLoader*, unsigned long, unsigned long*)::volumeNotificationsNotInited
+PUBLIC 10000b2e 0 _ISInitSystemIcons()::theErr
+PUBLIC 10000b40 0 _ISGetSystemIconStorageFromSystemIconsBundle(unsigned long)::mSystemIconsLock
+PUBLIC 10000b80 0 kISMsgMap
+PUBLIC 10000bf0 0 gLockFile
+PUBLIC 10000bf4 0 kSchedulerPortName
+PUBLIC 10000c00 0 gSFLServicePrivatePort
+PUBLIC 10000c20 0 gSFLLock
+PUBLIC 10000c4c 0 sNeedInit
+PUBLIC 10000c50 0 CACFPreferences::sCurrentUserCurrentHostPrefsOutOfDate
+PUBLIC 10000c51 0 CACFPreferences::sCurrentUserAnyHostPrefsOutOfDate
+PUBLIC 10000c52 0 CACFPreferences::sAnyUserCurrentHostPrefsOutOfDate
+PUBLIC 10000c53 0 CACFPreferences::sAnyUserAnyHostPrefsOutOfDate
+PUBLIC 10000c54 0 CACFPreferences::SendNotification(__CFString const*)::sWithOptionsProc
+PUBLIC 10000c58 0 KCCallbackManager::mCCallbackMgr
+PUBLIC 10000c60 0 gISServicePrivatePort
+PUBLIC 10000c64 0 gSharedSegmentAllocators
+PUBLIC 10000c80 0 gSharedDataArraysLock
+PUBLIC 10000cc0 0 mLocalRefArrayLock
+PUBLIC 10000d00 0 GetIconTypeDataInfo(long, IconDataInfo*)::theSharedArrays
+PUBLIC 10000d60 0 ISServiceInit()::sISInitLock
+PUBLIC 10000da0 0 sISVolumeCacheLock
+PUBLIC 10000dcc 0 ISInitVolumesCache()::notInited
+PUBLIC 10000de0 0 mLoadersLock
+PUBLIC 10000e20 0 mCachedFSRefLock
+PUBLIC 10000e4c 0 mCachedResForkDiskNotificationInitNeeded
+PUBLIC 10000e60 0 mCachedResForkLock
+PUBLIC 10000e8c 0 GetInstanceItemKeysArray()::sNotInited
+PUBLIC 10000e90 0 gSFLCachedSharedSeeds
+PUBLIC 10000e94 0 gSFLCachedPrefs
+PUBLIC 10000e98 0 gStdSegmentAllocators
+PUBLIC 10002760 0 kNSLXNeighborhoodNodeDataKeyStr
+PUBLIC 10002764 0 kNSLNeighborhoodDisplayNameCStrStr
+PUBLIC 10002768 0 kNSLNeighborhoodDisplayNameStr
+PUBLIC 1000276c 0 kDotMacPrefix
+PUBLIC 10002770 0 kConfigurationLoggingKey
+PUBLIC 10002774 0 kNeighborhoodDeleteNotificationLoggingKey
+PUBLIC 10002778 0 kNeighborhoodAddNotificationLoggingKey
+PUBLIC 1000277c 0 kServiceDeleteNotificationLoggingKey
+PUBLIC 10002780 0 kServiceAddNotificationLoggingKey
+PUBLIC 10002784 0 kDebugLoggingKey
+PUBLIC 10002788 0 kDumpNeighborhoodTreeKey
+PUBLIC 1000278c 0 kUseDotMacPrefixKey
+PUBLIC 10002790 0 kUseDebugNamingConventionKey
+PUBLIC 10002794 0 kNSLPreferenceApplicationID
+PUBLIC 10002798 0 kNSLXCoreBundleIdentifier
+PUBLIC 1000279c 0 kNSLNeighborhoodDisplayNameStr
+PUBLIC 100027a0 0 kUseDotMacPrefixKey
+PUBLIC 100027a4 0 kNSLPreferenceApplicationID
+PUBLIC 100027a8 0 kUseDebugNamingConventionKey
+PUBLIC 100027ac 0 kDSSearchPolicyChangedStr
+PUBLIC 100027e0 0 kBonjourLocalPathStr
+PUBLIC 100027e4 0 kBonjourPathPrefix
+PUBLIC 100027e8 0 kMembersDotMacPath
+PUBLIC 100027ec 0 kDefaultDotMacPath
+PUBLIC 100027f0 0 kDumpNeighborhoodTreeKey
+PUBLIC 100027f4 0 kNSLPreferenceApplicationID
+PUBLIC 100027f8 0 kNSLDSNodeDeleted
+PUBLIC 100027fc 0 kNSLDSNodeAdded
+PUBLIC 10002800 0 kNSLXDSNodeMgr
+PUBLIC 10002804 0 kDSNodeChangedStr
+PUBLIC 10002808 0 kUnderscoreSAFE_CFSTR
+PUBLIC 1000280c 0 kDotUnderscoreUDPSAFE_CFSTR
+PUBLIC 10002810 0 kDotUnderscoreTCPSAFE_CFSTR
+PUBLIC 10002814 0 kAFPRawServiceType
+PUBLIC 10002818 0 kAFPBonjourizedServiceType
+PUBLIC 1000281c 0 kAFPStr
+PUBLIC 10002820 0 kDotStr
+PUBLIC 10002824 0 kNSLNeighborhoodDisplayNameStr
+PUBLIC 10002828 0 kNSLLocalServicesFolderTypeStr
+PUBLIC 1000282c 0 kFTPStr
+PUBLIC 10002830 0 kWEBDAVStr
+PUBLIC 10002834 0 kCIFSStr
+PUBLIC 10002838 0 kSMBStr
+PUBLIC 1000283c 0 kNFSStr
+PUBLIC 10002840 0 kDotMacPrefix
+PUBLIC 10002858 0 kNSLDynamicResultStr
+PUBLIC 1000285c 0 kNSLTimeStampStr
+PUBLIC 10002860 0 kCommentStr
+PUBLIC 10002864 0 kDSNAttrDNSNameStr
+PUBLIC 10002868 0 kDSNAttrRecordTypeStr
+PUBLIC 1000286c 0 kUnderscoreSAFE_CFSTR
+PUBLIC 10002870 0 kDotUnderscoreTCPSAFE_CFSTR
+PUBLIC 10002874 0 kAFPBonjourizedServiceType
+PUBLIC 10002878 0 kAFPRawServiceType
+PUBLIC 1000287c 0 kCIFSServiceType
+PUBLIC 10002880 0 kSMBServiceType
+PUBLIC 10002898 0 kNSLNameAttrStr
+PUBLIC 100028c0 0 kCOMdotAPPLEdotNSL
+PUBLIC 100028c4 0 kConfigurationLoggingKey
+PUBLIC 100028c8 0 kNeighborhoodDeleteNotificationLoggingKey
+PUBLIC 100028cc 0 kNeighborhoodAddNotificationLoggingKey
+PUBLIC 100028d0 0 kServiceDeleteNotificationLoggingKey
+PUBLIC 100028d4 0 kServiceAddNotificationLoggingKey
+PUBLIC 100028d8 0 kDebugLoggingKey
+PUBLIC 100028dc 0 kNSLPreferenceApplicationID
+PUBLIC 10002c00 0 _SSXSystemSoundClientDefs_subsystem
+PUBLIC 10002f20 0 Server_ISServer_subsystem
+PUBLIC 1000306c 0 kSFLSharedSeedName
+PUBLIC 10003070 0 kSFLCachedPrefsSeed
+PUBLIC 10003074 0 kSFLCachedPrefsDict
+PUBLIC 10003078 0 kSFLCachedPrefsConection
+PUBLIC 10003080 0 Server_SFLServer_subsystem
+PUBLIC 10005920 0 DirectoryServiceLibrary
+PUBLIC 10005924 0 dsOpenDirService_proc.8556
+PUBLIC 10005928 0 dsCloseDirService_proc.8568
+PUBLIC 1000592c 0 dsFindDirNodes_proc.8590
+PUBLIC 10005930 0 dsGetDirNodeName_proc.8613
+PUBLIC 10005934 0 dsOpenDirNode_proc.8632
+PUBLIC 10005938 0 dsCloseDirNode_proc.8646
+PUBLIC 1000593c 0 dsCreateRecord_proc.8662
+PUBLIC 10005940 0 dsOpenRecord_proc.8682
+PUBLIC 10005944 0 dsAddAttributeValue_proc.8701
+PUBLIC 10005948 0 dsFlushRecord_proc.8715
+PUBLIC 1000594c 0 dsCloseRecord_proc.8727
+PUBLIC 10005950 0 dsDeleteRecord_proc.8739
+PUBLIC 10005954 0 dsGetPathFromList_proc.8755
+PUBLIC 10005958 0 dsDataBufferAllocate_proc.8771
+PUBLIC 1000595c 0 dsDataBufferDeAllocate_proc.8786
+PUBLIC 10005960 0 dsBuildFromPath_proc.8803
+PUBLIC 10005964 0 dsBuildListFromStringsAlloc_proc.8825
+PUBLIC 10005968 0 dsDataNodeAllocateString_proc.8850
+PUBLIC 1000596c 0 dsDataNodeDeAllocate_proc.8865
+PUBLIC 10005970 0 dsDataListAllocate_proc.8878
+PUBLIC 10005974 0 dsDataListDeAllocate_proc.8894
+PUBLIC 10005980 0 gNumClients
+PUBLIC 10005984 0 gClientRef
+PUBLIC 10005988 0 DirectoryServiceLibrary
+PUBLIC 1000598c 0 dsAppendStringToListAlloc::dsAppendStringToListAlloc_proc
+PUBLIC 10005990 0 dsBuildListFromStrings::dsBuildListFromStrings_proc
+PUBLIC 10005994 0 dsCloseAttributeList::dsCloseAttributeList_proc
+PUBLIC 10005998 0 dsCloseAttributeValueList::dsCloseAttributeValueList_proc
+PUBLIC 1000599c 0 dsDataListCopyList::dsDataListCopyList_proc
+PUBLIC 100059a0 0 dsDataListDeallocate::dsDataListDeallocate_proc
+PUBLIC 100059a4 0 dsDataListGetNodeAlloc::dsDataListGetNodeAlloc_proc
+PUBLIC 100059a8 0 dsDataListGetNodeCount::dsDataListGetNodeCount_proc
+PUBLIC 100059ac 0 dsDeallocAttributeEntry::dsDeallocAttributeEntry_proc
+PUBLIC 100059b0 0 dsDeallocAttributeValueEntry::dsDeallocAttributeValueEntry_proc
+PUBLIC 100059b4 0 dsDeallocRecordEntry::dsDeallocRecordEntry_proc
+PUBLIC 100059b8 0 dsDoAttributeValueSearchWithData::dsDoAttributeValueSearchWithData_proc
+PUBLIC 100059bc 0 dsGetAttributeEntry::dsGetAttributeEntry_proc
+PUBLIC 100059c0 0 dsGetAttributeValue::dsGetAttributeValue_proc
+PUBLIC 100059c4 0 dsGetDirNodeCountWithInfo::dsGetDirNodeCountWithInfo_proc
+PUBLIC 100059c8 0 dsGetDirNodeInfo::dsGetDirNodeInfo_proc
+PUBLIC 100059cc 0 dsGetDirNodeList::dsGetDirNodeList_proc
+PUBLIC 100059d0 0 dsGetRecordEntry::dsGetRecordEntry_proc
+PUBLIC 100059d4 0 dsGetRecordList::dsGetRecordList_proc
+PUBLIC 100059d8 0 dsReleaseContinueData::dsReleaseContinueData_proc
+PUBLIC 100059dc 0 dsVerifyDirRefNum::dsVerifyDirRefNum_proc
+PUBLIC 100059e0 0 dsCopyDirStatusName::dsCopyDirStatusName_proc
+PUBLIC 100059e4 0 CFNetServiceBrowserCreate::CFNetServiceBrowserCreate_proc
+PUBLIC 100059e8 0 CFNetServiceBrowserInvalidate::CFNetServiceBrowserInvalidate_proc
+PUBLIC 100059ec 0 CFNetServiceBrowserScheduleWithRunLoop::CFNetServiceBrowserScheduleWithRunLoop_proc
+PUBLIC 100059f0 0 CFNetServiceBrowserSearchForServices::CFNetServiceBrowserSearchForServices_proc
+PUBLIC 100059f4 0 CFNetServiceBrowserUnscheduleFromRunLoop::CFNetServiceBrowserUnscheduleFromRunLoop_proc
+PUBLIC 100059f8 0 CFNetServiceCancel::CFNetServiceCancel_proc
+PUBLIC 100059fc 0 CFNetServiceCreate::CFNetServiceCreate_proc
+PUBLIC 10005a00 0 CFNetServiceCreateDictionaryWithTXTData::CFNetServiceCreateDictionaryWithTXTData_proc
+PUBLIC 10005a04 0 CFNetServiceGetAddressing::CFNetServiceGetAddressing_proc
+PUBLIC 10005a08 0 CFNetServiceGetDomain::CFNetServiceGetDomain_proc
+PUBLIC 10005a0c 0 CFNetServiceGetName::CFNetServiceGetName_proc
+PUBLIC 10005a10 0 CFNetServiceGetTXTData::CFNetServiceGetTXTData_proc
+PUBLIC 10005a14 0 CFNetServiceGetTargetHost::CFNetServiceGetTargetHost_proc
+PUBLIC 10005a18 0 CFNetServiceGetType::CFNetServiceGetType_proc
+PUBLIC 10005a1c 0 CFNetServiceResolveWithTimeout::CFNetServiceResolveWithTimeout_proc
+PUBLIC 10005a20 0 CFNetServiceScheduleWithRunLoop::CFNetServiceScheduleWithRunLoop_proc
+PUBLIC 10005a24 0 CFNetServiceSetClient::CFNetServiceSetClient_proc
+PUBLIC 10005a28 0 CFNetServiceUnscheduleFromRunLoop::CFNetServiceUnscheduleFromRunLoop_proc
+PUBLIC 10005a40 0 _DefaultAttrs
+PUBLIC 10005a68 0 _NameKey
+PUBLIC 10005a6c 0 _ObjectKey
+PUBLIC 10005a70 0 uiaudio_enabled_key
+PUBLIC 10005a74 0 beep_volume_key
+PUBLIC 10005a78 0 beep_flash_key
+PUBLIC 10005a7c 0 beep_enabled_key
+PUBLIC 10005a80 0 beep_sound_key
+PUBLIC 10005a84 0 AlertVisualBell()::theCGDisplayDefaultVisualBellProc
+PUBLIC 10005a88 0 sleep_queue
+PUBLIC 10005a8c 0 sleep_system_connection
+PUBLIC 10005a90 0 master_device_port.11736
+PUBLIC 10005a94 0 last.12634
+PUBLIC 10005a9c 0 io_connection.12633
+PUBLIC 10005aa0 0 pmgr.11744
+PUBLIC 10005aa4 0 sOpenTransportFuncs
+PUBLIC 10005aa8 0 sOpenTransportLibrary.41453
+PUBLIC 10005aac 0 gImageLayerArrayPtr
+PUBLIC 10005ab0 0 is_netboot()::netboot
+PUBLIC 10005ab4 0 is_netboot()::len
+PUBLIC 10005ab8 0 is_netboot()::mib
+PUBLIC 10005ac0 0 gServerStorageArrayPtr
+PUBLIC 10005ac4 0 gSharedServerStorageArrayPtr
+PUBLIC 10005ac8 0 gLocalStorageArrayPtr
+PUBLIC 10005acc 0 gSystemIconTypes
+PUBLIC 10005ad0 0 gStorageNotifier4
+PUBLIC 10005ad4 0 gStorageNotifier3
+PUBLIC 10005ad8 0 gStorageNotifier2
+PUBLIC 10005adc 0 gStorageNotifier
+PUBLIC 10005ae0 0 _ISGetStorageRefForDevice::iokitPort
+PUBLIC 10005ae4 0 _ISGetStorageRefForDevice::initialized
+PUBLIC 10005ae8 0 _ISInitSystemIcons()::_kCSSystemTypeKey
+PUBLIC 10005aec 0 _ISInitSystemIcons()::_kCSKEXTIdentifierKey
+PUBLIC 10005af0 0 _ISInitSystemIcons()::_kCSKEXTIconFileKey
+PUBLIC 10005af4 0 _ISInitSystemIcons()::_kCSSystemTypesKEXTOverridesKey
+PUBLIC 10005af8 0 gIconFilesCacheArrayPtr
+PUBLIC 10005afc 0 gIconBundlesCacheArrayPtr
+PUBLIC 10005b00 0 gSystemIconsIdx
+PUBLIC 10005b04 0 gPathToSystemIconsBundle
+PUBLIC 10005b08 0 GetSystemIconsBundle()::gSysIconsBundleBundle
+PUBLIC 10005b0c 0 gClientImagesPtr
+PUBLIC 10005b10 0 gClientStoragesPtr
+PUBLIC 10005b20 0 gInitializedConstantStrings
+PUBLIC 10005b21 0 gRunningInLoginwindow
+PUBLIC 10005b24 0 kRepeatIntervalKey
+PUBLIC 10005b28 0 kDateKey
+PUBLIC 10005b2c 0 kTimerDictKey
+PUBLIC 10005b30 0 kArgumentsKey
+PUBLIC 10005b34 0 kCommandKey
+PUBLIC 10005b38 0 kOpenURLKey
+PUBLIC 10005b3c 0 kOpenItemAtPathKey
+PUBLIC 10005b40 0 kActionTypeKey
+PUBLIC 10005b44 0 kActionDictKey
+PUBLIC 10005b48 0 kScheduledActionsKey
+PUBLIC 10005b4c 0 kSchedulerDomain
+PUBLIC 10005b50 0 kLoginwindowID
+PUBLIC 10005b54 0 kLockDirectoryPath
+PUBLIC 10005b80 0 kSchedulerLockPath
+PUBLIC 10005bb0 0 gMutableListEntries
+PUBLIC 10005bb4 0 gSFLCallbackEntries
+PUBLIC 10005bb8 0 gSFLVolNotificationsAmountOfClients
+PUBLIC 10005bbc 0 gVolumeListConnections
+PUBLIC 10005bc0 0 sName
+PUBLIC 10005bc4 0 SFLGetControllerKey()::_kSFLLControllerKey
+PUBLIC 10005bc8 0 SFLGetImageRefKey()::_kSFLLImageRefKey
+PUBLIC 10005bcc 0 SFLGetItemIdKey()::_kSFLLItemIdKey
+PUBLIC 10005bd0 0 SFLGetItemVRefNumKey()::_kSFLLItemVRefNumKey
+PUBLIC 10005bd4 0 SFLGetFlatPrefsArrayKey()::_kSFLLFlatPrefsArrayKey
+PUBLIC 10005bd8 0 SFLGetFlatInfoArrayKey()::_kSFLLFlatInfoArrayKey
+PUBLIC 10005bdc 0 SFLGetVolInfoFlagsKey()::_kSFLLVolInfoFlagsKey
+PUBLIC 10005be0 0 SFLGetShowHardDisksKey()::_kSFLLShowHardDisksKey
+PUBLIC 10005be4 0 SFLGetShowEjectablesKey()::_kSFLLShowEjectablesKey
+PUBLIC 10005be8 0 SFLGetShowServersKey()::_kSFLLShowServersKey
+PUBLIC 10005bec 0 SFLGetSeedValueKey()::_kSFLLSeedValueKey
+PUBLIC 10005bf0 0 SFLGetMaxAmountKey()::_kSFLLMaxAmountKey
+PUBLIC 10005bf4 0 SFLGetOldIDiskVolPrefsKey()::_kSFLLOldIDiskVolPrefsKey
+PUBLIC 10005bf8 0 SFLGetOldIDiskVolInfoKey()::_kSFLLOldIDiskVolInfoKey
+PUBLIC 10005bfc 0 SFLGetNewIDiskVRefNumKey()::_kSFLLNewIDiskVRefNumKey
+PUBLIC 10005c00 0 SFLGetNewIDiskPrefsKey()::_kSFLLNewIDiskPrefsKey
+PUBLIC 10005c04 0 SFLGetNewIDiskInfoKey()::_kSFLLNewIDiskInfoKey
+PUBLIC 10005c08 0 SFLServiceInit()::result
+PUBLIC 10005c0c 0 gSFLConnectionEntries
+PUBLIC 10005c10 0 gSFLPrefsConnectionEntries
+PUBLIC 10005c14 0 gFlattenedDataInfo
+PUBLIC 10005c18 0 gSharedArrayIDPtr
+PUBLIC 10005c1c 0 gSharedDataArraysPtr
+PUBLIC 10005c20 0 ISServiceInit()::result
+PUBLIC 10005c24 0 gVolumeArrayPtr
+PUBLIC 10005c28 0 gISVolumeListIsComplete
+PUBLIC 10005c2a 0 CVolumeArray::GetBootVolume()::bootRefNum
+PUBLIC 10005c40 0 gLoadersArrayPtr
+PUBLIC 10005c60 0 mLastFileRef
+PUBLIC 10005cb0 0 mLastFileID
+PUBLIC 10005cb4 0 mLastVRefNum
+PUBLIC 10005cb6 0 mCachedResForkFlags
+PUBLIC 10005cb8 0 mCachedResForkRef
+PUBLIC 10005cbc 0 mCachedResForkFileID
+PUBLIC 10005cc0 0 mCachedResForkVRefNum
+PUBLIC 10005cc2 0 mCachedResForkValidData
+PUBLIC 10005ce0 0 CDTDBBasedIconLoader::FetchData(CIconStorageEntry*, long)::theLargeIconData
+PUBLIC 100060e0 0 sMutableListEntries
+PUBLIC 100060e4 0 SFLGetNameKey()::_kSFLLNameKey
+PUBLIC 100060e8 0 SFLGetAliasKey()::_kSFLLAliasKey
+PUBLIC 100060ec 0 SFLGetFlagsKey()::_kSFLLFlagsKey
+PUBLIC 100060f0 0 SFLGetIconKey()::_kSFLLIconKey
+PUBLIC 100060f4 0 SFLGetSpecialIDKey()::_kSFLLSpecialIDKey
+PUBLIC 100060f8 0 SFLGetVisibilityKey()::_kSFLLVisibilityKey
+PUBLIC 100060fc 0 SFLGetAlwaysVisibleKey()::_kSFLLAlwaysVisibleKey
+PUBLIC 10006100 0 SFLGetNeverVisibleKey()::_kSFLLNeverVisibleKey
+PUBLIC 10006104 0 SFLGetEntryTypeKey()::_kSFLLEntryTypeKey
+PUBLIC 10006108 0 GetInstanceItemKeysArray()::sItemKeys
+PUBLIC 10006110 0 gCurrentPrefsList
+PUBLIC 10006114 0 gSemaphore
+PUBLIC 10006118 0 LThread::sInited
+PUBLIC 1000611c 0 LThread::sMainThread
+PUBLIC 10006120 0 gCACFPrefs
+PUBLIC 10006124 0 gActionList
+PUBLIC 10006128 0 gSFLOurPid
+PUBLIC 1000612c 0 gOurPid
