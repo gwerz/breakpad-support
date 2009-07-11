@@ -1,0 +1,1073 @@
+MODULE mac x86 B13BFDA0AD9314922EE37C0D018D7DE90 AE
+PUBLIC 1200 0 AEInstallEventHandler
+PUBLIC 12a6 0 getHandlerTable(unsigned char)
+PUBLIC 12fa 0 HandlerTable::HandlerTable()
+PUBLIC 1304 0 OSTypePairDictionary::OSTypePairDictionary(CFDictionaryValueCallBacks const*)
+PUBLIC 1356 0 HandlerTable::addHandler(unsigned long, unsigned long, short (*)(AEDesc const*, AEDesc*, long), long)
+PUBLIC 138a 0 OSTypePairDictionary::addValue(unsigned long, unsigned long, void*)
+PUBLIC 13ba 0 _keyHash(void const*)
+PUBLIC 13c8 0 _keyRetain(__CFAllocator const*, void const*)
+PUBLIC 13ee 0 _keyEqual(void const*, void const*)
+PUBLIC 1412 0 aeInstallRunLoopDispatcher
+PUBLIC 1450 0 AEGetRegisteredMachPort
+PUBLIC 1478 0 _makeRegisteredPort()
+PUBLIC 14ec 0 getServicePort
+PUBLIC 155a 0 AECSD_ClientCheckin
+PUBLIC 16da 0 aeBindToArbitraryMachPort
+PUBLIC 16f8 0 aeBindToRunLoop(__CFRunLoop*, unsigned int)
+PUBLIC 17b4 0 aeInitializeFromHIToolbox
+PUBLIC 1c80 0 aeInitDebugging
+PUBLIC 1cf6 0 sendSimpleEventToSelf
+PUBLIC 1d8c 0 AEEventImpl::AEEventImpl(unsigned long, unsigned long, AEDesc const*, long, long)
+PUBLIC 1d96 0 AERecordImpl::AERecordImpl(unsigned long)
+PUBLIC 1da2 0 AEImpl::AEImpl(AEImplDescDataType)
+PUBLIC 1e00 0 AEEventImpl::initializeData()
+PUBLIC 1e7e 0 aeGetThisProcess()
+PUBLIC 1f14 0 absolveReturnID(long)
+PUBLIC 1f78 0 enqueueHighLevelEvent(AEEventImpl*)
+PUBLIC 2036 0 aeAddProcessInfoToAECSD
+PUBLIC 2116 0 pushHighLevelEvent
+PUBLIC 21d6 0 getHighLevelEventQueue()
+PUBLIC 221c 0 EventImplQueue::EventImplQueue()
+PUBLIC 2278 0 EventImplQueue::popEvent(AEEventImpl const*)
+PUBLIC 231c 0 EventImplQueue::pushEvent(AEEventImpl const*)
+PUBLIC 235c 0 EventImplQueue::_retain(__CFAllocator const*, void const*)
+PUBLIC 2374 0 aeProcessAppleEvent
+PUBLIC 24ca 0 EventImplQueue::_release(__CFAllocator const*, void const*)
+PUBLIC 24f4 0 populateDesc(AEDesc*, AEImpl const*)
+PUBLIC 2524 0 requireReply(AEEventImpl const*)
+PUBLIC 2552 0 dispatchEventAndSendReply(AEDesc const*, AEDesc*)
+PUBLIC 25b8 0 aeDispatchAppleEvent(AEDesc const*, AEDesc*, unsigned long, unsigned char*)
+PUBLIC 2708 0 getCurrentEventQueue()
+PUBLIC 274e 0 _findAppPreHIToolboxDispatchHandler(unsigned long, unsigned long, long*)
+PUBLIC 278e 0 AEGetSpecialHandler
+PUBLIC 27c0 0 AEGetEventHandler
+PUBLIC 284e 0 AEGetEventHandler0(unsigned long, unsigned long, short (**)(AEDesc const*, AEDesc*, long), long*, unsigned char)
+PUBLIC 289c 0 HandlerTable::getHandler(unsigned long, unsigned long, short (**)(AEDesc const*, AEDesc*, long), long*)
+PUBLIC 28da 0 OSTypePairDictionary::getValue(unsigned long, unsigned long)
+PUBLIC 2904 0 _findSysPreHIToolboxDispatchHandler(unsigned long, unsigned long, long*)
+PUBLIC 2942 0 aeInstallLazyEventHandlers
+PUBLIC 2986 0 _aeInstallLazyHandlers(CLVContext const*, CLVDatum const*, unsigned long, void*)
+PUBLIC 2aa8 0 aeInstallBulk
+PUBLIC 2b7c 0 _findAppPhacHandler(unsigned long, unsigned long, long*)
+PUBLIC 2bba 0 _findAppHandler(unsigned long, unsigned long, long*)
+PUBLIC 2bd2 0 findEventHandler(unsigned long, unsigned long, unsigned char, long*)
+PUBLIC 2ca6 0 AEInstallSpecialHandler
+PUBLIC 2cdc 0 AEGetAttributePtr
+PUBLIC 2d46 0 getDescDataType(AEDesc const*)
+PUBLIC 2d68 0 AEEventImpl::getAttributePtr(unsigned long, unsigned long, unsigned long*, void*, long, long*) const
+PUBLIC 2f0a 0 AEGetParamDesc
+PUBLIC 2f8c 0 AERecordImpl::getValue(unsigned long) const
+PUBLIC 2fcc 0 finishAndSendReply(AEDesc const*, AEDesc*, long)
+PUBLIC 3102 0 getImpl(AEDesc*)
+PUBLIC 3126 0 AEDisposeDesc
+PUBLIC 31fc 0 AERecordImpl::AEDictionary::deleteAll()
+PUBLIC 3256 0 aeGetCurrentAppCheckinInfo(ProcessSerialNumber*, unsigned long*, char*, int, char*, int)
+PUBLIC 352c 0 AECSD_AddApplicationInformation
+PUBLIC 365a 0 aeHintApp
+PUBLIC 36f2 0 AECSD_CPSPreflight
+PUBLIC 382c 0 aeAddFilter
+PUBLIC 386a 0 DockObserver::DockObserver(unsigned char (*)(EventRecord*, long, long, AEDesc const*))
+PUBLIC 38ac 0 getObserverQueue()
+PUBLIC 38f2 0 Queue::Queue()
+PUBLIC 3924 0 AECreateDesc
+PUBLIC 3a62 0 AEDescImpl::AEDescImpl(unsigned long, void const*, long)
+PUBLIC 3a6c 0 AEDescImpl::replaceData(unsigned long, void const*, long)
+PUBLIC 3ab0 0 AEDescImpl::releaseData()
+PUBLIC 3afa 0 AEDescImpl::setData(void const*, long)
+PUBLIC 3b78 0 AECreateList
+PUBLIC 3c0a 0 AEListImpl::AEListImpl()
+PUBLIC 3c16 0 AEPutDesc
+PUBLIC 3cc4 0 AEDescAuto::AEDescAuto()
+PUBLIC 3cdc 0 cloneForCompatability(AEDesc const*, AEDesc*)
+PUBLIC 3d84 0 AEListImpl::putElement(long, unsigned long, AEImpl const*)
+PUBLIC 3e3e 0 AEImpl::duplicateAndSetType(unsigned long) const
+PUBLIC 3e66 0 AEDescImpl::duplicate() const
+PUBLIC 3e92 0 AEDescImpl::AEDescImpl(AEDescImpl const*)
+PUBLIC 3f18 0 _implArrayRetain(__CFAllocator const*, void const*)
+PUBLIC 3f2e 0 AEObjectInit
+PUBLIC 3f78 0 AEInstallCoercionHandler
+PUBLIC 4014 0 UserCoerceDescThunk::UserCoerceDescThunk(short (*)(AEDesc const*, unsigned long, long, AEDesc*), long)
+PUBLIC 404c 0 getCoercionTable(unsigned char, unsigned char)
+PUBLIC 40b8 0 CoercionTable::CoercionTable()
+PUBLIC 40c2 0 CoercionTable::addCoercion(unsigned long, unsigned long, Coercion*)
+PUBLIC 4120 0 CoercionTable::removeCoercion(unsigned long, unsigned long)
+PUBLIC 416c 0 _valueRetain(__CFAllocator const*, void const*)
+PUBLIC 4174 0 AEInstallObjectAccessor
+PUBLIC 41a6 0 iAEInstallObjectAccessor
+PUBLIC 41f4 0 getAccessorTable(unsigned char)
+PUBLIC 4248 0 AESetObjectCallbacks
+PUBLIC 4286 0 iAESetObjectCallbacks
+PUBLIC 43d0 0 AECoercePtr
+PUBLIC 4404 0 aeCoercePtrInternal(unsigned long, void const*, long, unsigned long, AEDesc*, unsigned char)
+PUBLIC 4644 0 tryPtrCoercions(unsigned long, unsigned long, void const*, long, AEDesc*)
+PUBLIC 46b6 0 tryPtrCoercion(unsigned char, unsigned long, unsigned long, void const*, long, AEDesc*)
+PUBLIC 4720 0 CoercionTable::findAnyCoercion(unsigned long, unsigned long)
+PUBLIC 4766 0 CoercionTable::findClosestCoercion(unsigned long, unsigned long)
+PUBLIC 47ce 0 aeInstallLazyPtrCoercionHandlers
+PUBLIC 4812 0 UserCoercePtrThunk::UserCoercePtrThunk(short (*)(unsigned long, void const*, long, unsigned long, long, AEDesc*), long)
+PUBLIC 484a 0 doStandardCoercion(unsigned long, unsigned long, void const*, long, AEDesc*)
+PUBLIC 68e8 0 aeCoerceDescInternal(AEDesc const*, unsigned long, AEDesc*, unsigned char)
+PUBLIC 6cfe 0 tryDescCoercions(AEDesc const*, unsigned long, AEDesc*)
+PUBLIC 6d54 0 tryDescCoercion(unsigned char, AEDesc const*, unsigned long, AEDesc*)
+PUBLIC 6db6 0 aeInstallLazyDescCoercionHandlers
+PUBLIC 6dfc 0 AEGetParamPtr
+PUBLIC 6ed6 0 AESizeOfParam
+PUBLIC 6f54 0 AEEventImpl::getAttributeDesc(unsigned long, unsigned long, AEDesc*) const
+PUBLIC 7256 0 fastAECoercePtr(unsigned long, void const*, long, unsigned long, AEDesc*)
+PUBLIC 72e8 0 AEGetDescDataSize
+PUBLIC 737e 0 AEDescImpl::getSize() const
+PUBLIC 738c 0 AEGetDescData
+PUBLIC 73b6 0 AEGetDescDataRange
+PUBLIC 7514 0 AEDescImpl::getInternalBuffer(long*) const
+PUBLIC 752c 0 AERemoveEventHandler
+PUBLIC 759e 0 HandlerTable::removeHandler(unsigned long, unsigned long)
+PUBLIC 75ec 0 OSTypePairDictionary::removeValue(unsigned long, unsigned long)
+PUBLIC 7616 0 _keyRelease(__CFAllocator const*, void const*)
+PUBLIC 7628 0 AEPutParamPtr
+PUBLIC 7686 0 AEPutParamDesc
+PUBLIC 7728 0 AERecordImpl::putValue(unsigned long, unsigned long, AEImpl const*)
+PUBLIC 77ce 0 AERecordImpl::AEDictionary::putVal(unsigned long, AEImpl const*)
+PUBLIC 78d2 0 getNullRef()
+PUBLIC 7926 0 AENullImpl::AENullImpl()
+PUBLIC 7970 0 AENullImpl::duplicate() const
+PUBLIC 7986 0 AERecordImpl::duplicate() const
+PUBLIC 79b2 0 AERecordImpl::AERecordImpl(AERecordImpl const*)
+PUBLIC 7a18 0 AERecordImpl::AEDictionary::cloneFrom(AERecordImpl::AEDictionary const&)
+PUBLIC 7a86 0 AERecordImpl::~AERecordImpl()
+PUBLIC 7a90 0 AECreateAppleEvent
+PUBLIC 7b00 0 AEInitializeDesc
+PUBLIC 7b16 0 AEGetNthPtr
+PUBLIC 7c1c 0 AEGetNthDesc
+PUBLIC 7d30 0 AECountItems
+PUBLIC 7dc0 0 getImpl(AEDesc const*)
+PUBLIC 7dd8 0 AEListImpl::countItems() const
+PUBLIC 7dea 0 BE_32(unsigned long)
+PUBLIC 7df4 0 AEGetAttributeDesc
+PUBLIC 7e48 0 AEPutPtr
+PUBLIC 7ea8 0 AEPutAttributeDesc
+PUBLIC 7ef8 0 AEEventImpl::putAttributeDesc(unsigned long, AEDesc const*)
+PUBLIC 83b0 0 AEListImpl::duplicate() const
+PUBLIC 83dc 0 AEListImpl::AEListImpl(AEListImpl const*)
+PUBLIC 84f4 0 _implArrayRelease(__CFAllocator const*, void const*)
+PUBLIC 851e 0 AESizeOfFlattenedDesc
+PUBLIC 8566 0 isCoercedRecord(AEDesc const*)
+PUBLIC 8594 0 AEEventImpl::flattenAndOrSize(FlatBuffer*, unsigned char) const
+PUBLIC 87ac 0 AERecordImpl::countItems() const
+PUBLIC 87b8 0 AERecordImpl::keywordAt(long) const
+PUBLIC 87de 0 AEEventImpl::flattenAndOrSizeAttr(unsigned long, FlatBuffer*) const
+PUBLIC 8a3a 0 flattenOrSizeImpl(unsigned long, AEImpl const*, FlatBuffer*)
+PUBLIC 8af2 0 AEListImpl::flattenAndOrSize(FlatBuffer*, unsigned char) const
+PUBLIC 8c76 0 AEListImpl::getElement(long) const
+PUBLIC 8cba 0 AEDescImpl::flattenAndOrSize(FlatBuffer*, unsigned char) const
+PUBLIC 8d20 0 AERecordImpl::flattenAndOrSizeNoHeader(FlatBuffer*) const
+PUBLIC 8e30 0 AEFlattenDesc
+PUBLIC 8f3c 0 FlatBuffer::push(unsigned long)
+PUBLIC 8f66 0 FlatBuffer::write(void const*, unsigned long)
+PUBLIC 8fb6 0 AEUnflattenDesc
+PUBLIC 90d4 0 BE_32(long)
+PUBLIC 90de 0 aeCheckMessage
+PUBLIC 90f2 0 classic_aeCheckMessage
+PUBLIC 9122 0 classic_aeCheckMessagePtr(OpaqueAEDataStorageType*, unsigned long)
+PUBLIC 923c 0 aeConvertClassicToCarbon
+PUBLIC 95dc 0 classic_AEGetAttributePtr
+PUBLIC 9622 0 classic_aeGetAttribute(ClassicAEDesc*, unsigned long, unsigned long, unsigned long*, char*, long, long*, unsigned char)
+PUBLIC 9b0e 0 aeCheckDesc(ClassicAEDesc const*, DescClass*, unsigned char)
+PUBLIC 9bcc 0 classic_aeReadData(ClassicAEDesc*, long, unsigned long, unsigned long*, unsigned long*, char*, long, long*)
+PUBLIC 9e70 0 FindDescOffset(DescClass, OpaqueAEDataStorageType**, long*, unsigned long*, long*, HeaderInfoRec*)
+PUBLIC a1be 0 classic_AEDisposeDesc
+PUBLIC a1ea 0 classic_AEGetAttributeDesc
+PUBLIC a250 0 classic_aeFetchDesc(ClassicAEDesc*, long, unsigned long, unsigned long*, ClassicAEDesc*)
+PUBLIC a35a 0 classicDescCopy(ClassicAEDesc const*, AEDesc*, unsigned char)
+PUBLIC a44c 0 classic_AECountItems
+PUBLIC a4b6 0 classic_AEGetNthDesc
+PUBLIC a4f0 0 ExtractDescriptor(OpaqueAEDataStorageType**, unsigned long, long, long, long, ClassicAEDesc*)
+PUBLIC a5e0 0 classic_AECheckIsRecord
+PUBLIC a62a 0 CheckIsRecord(char*, long)
+PUBLIC a710 0 classic_AEGetDescData
+PUBLIC a778 0 AEPutAttributePtr
+PUBLIC a7d4 0 AEEventImpl::putAttributePtr(unsigned long, unsigned long, void const*, long)
+PUBLIC a834 0 fastAECoerceDesc(AEDesc const*, unsigned long, AEDesc*)
+PUBLIC a882 0 AEDuplicateDesc
+PUBLIC a93e 0 fixup_classicToCarbonAttrs(ClassicAEDesc const*, AEDesc*)
+PUBLIC aad8 0 classic_AECreateDesc
+PUBLIC ac40 0 AEEventImpl::setTargetPSN(ProcessSerialNumber)
+PUBLIC acaa 0 _findSysPhacHandler(unsigned long, unsigned long, long*)
+PUBLIC ace8 0 _findSysHandler(unsigned long, unsigned long, long*)
+PUBLIC ad04 0 AEManagerInfo
+PUBLIC ad46 0 aeGetRecorderCount()
+PUBLIC ad6e 0 aeInstallRecordingHandlers()
+PUBLIC ae3a 0 recreateRecordingList()
+PUBLIC ae94 0 readCookieFile()
+PUBLIC b032 0 AENullImpl::flattenAndOrSize(FlatBuffer*, unsigned char) const
+PUBLIC b03a 0 AECoerceDesc
+PUBLIC b058 0 UserCoerceDescThunk::coerceDesc(AEDesc const*, unsigned long, AEDesc*)
+PUBLIC b082 0 _fixupDescCoercionHandler(AEDesc const*, unsigned long, long, AEDesc*)
+PUBLIC b134 0 AERemoveCoercionHandler
+PUBLIC b1ac 0 callGenericInstallFunction(CLVDatum const*)
+PUBLIC b258 0 _valueRelease(__CFAllocator const*, void const*)
+PUBLIC b25e 0 Coercion::~Coercion()
+PUBLIC b27e 0 coerceAndMakeDesc(AEImpl const*, unsigned long, AEDesc*)
+PUBLIC b2ee 0 UserCoercePtrThunk::coercePtr(unsigned long, unsigned long, void const*, long, AEDesc*)
+PUBLIC b326 0 _fixupPtrCoercionHandler(unsigned long, void const*, long, unsigned long, long, AEDesc*)
+PUBLIC b3e2 0 AESendMessage
+PUBLIC c50e 0 EventAddress::EventAddress(AEDescImpl const*)
+PUBLIC c51c 0 EventAddress::isSelfProcess() const
+PUBLIC c558 0 EventAddress::copyAddressPort() const
+PUBLIC c69a 0 findPortByPSN
+PUBLIC c7f8 0 PerPort::checkCache(ProcessSerialNumber const*)
+PUBLIC c89c 0 AECSD_LookupAppleEventPortByPSN
+PUBLIC ca28 0 PerPort::copyPort(ProcessSerialNumber const*, unsigned int, unsigned long)
+PUBLIC ca6a 0 PerPort::findOrCreate(unsigned int, unsigned long)
+PUBLIC cb0a 0 PerPort::PerPort(unsigned int, unsigned long)
+PUBLIC cbde 0 PerPort::retainedPort()
+PUBLIC cc58 0 sendToModernProcess(__CFMachPort*, unsigned long, AEDesc const*, long)
+PUBLIC cec0 0 aePortNeedsFlattenedSends
+PUBLIC cf16 0 DescriptorBundle::DescriptorBundle(unsigned int, int)
+PUBLIC cf22 0 AEEventImpl::buildDescriptorTable(DescriptorBundle*) const
+PUBLIC cfe8 0 AEImpl::buildDescriptorTable(DescriptorBundle*) const
+PUBLIC d03c 0 DescriptorBundle::writeConstantValue(void const*, unsigned long)
+PUBLIC d142 0 AERecordImpl::buildDescriptorTable(DescriptorBundle*) const
+PUBLIC d1ee 0 AEDescImpl::buildDescriptorTable(DescriptorBundle*) const
+PUBLIC d268 0 AEListImpl::buildDescriptorTable(DescriptorBundle*) const
+PUBLIC d2d4 0 AEEventImpl::isReply() const
+PUBLIC d2f8 0 DescriptorBundle::writePortReference(unsigned int)
+PUBLIC d34a 0 DescriptorBundle::~DescriptorBundle()
+PUBLIC d3a0 0 EventAddress::~EventAddress()
+PUBLIC d3a6 0 _aeMachPortCallback(__CFMachPort*, void*, long, void*)
+PUBLIC d3b8 0 AEProcessMessage
+PUBLIC d8a8 0 DescriptorBundleDecoder::DescriptorBundleDecoder(mach_msg_header_t const*)
+PUBLIC d8d6 0 DescriptorBundleDecoder::getPortReference()
+PUBLIC d8ee 0 DescriptorBundleDecoder::getMemoryReference(unsigned long*)
+PUBLIC d90e 0 copyPortRef
+PUBLIC d918 0 PerPort::copyPort(unsigned int, unsigned long)
+PUBLIC d944 0 aeProcessIncomingEvent(AEDesc*)
+PUBLIC daa8 0 DescriptorBundleDecoder::~DescriptorBundleDecoder()
+PUBLIC dac8 0 aeCreateDefaultReply
+PUBLIC dbc2 0 AERemoveSpecialHandler
+PUBLIC dbf0 0 aeFlattenDescToVM(AEDesc const*, unsigned long*)
+PUBLIC dc6e 0 DescriptorBundle::writeMemoryReference(void const*, unsigned long)
+PUBLIC dccc 0 classicToCarbonRecord(ClassicAEDesc const*, AEDesc*)
+PUBLIC dd7e 0 classic_AECoerceDesc
+PUBLIC df24 0 classic_AEDescTypeCoercion(unsigned long, char*, long, unsigned long, ClassicAEDesc*)
+PUBLIC e096 0 AERecordImpl::flattenAndOrSize(FlatBuffer*, unsigned char) const
+PUBLIC e16a 0 AERecordImpl::getElement(long) const
+PUBLIC e18c 0 PerPort::_deallocPerPort(__CFMachPort*, void*)
+PUBLIC e1f2 0 PerPort::~PerPort()
+PUBLIC e25a 0 AEImpl::decodeMessage(DescriptorBundleDecoder*)
+PUBLIC e360 0 AEEventImpl::AEEventImpl(DescriptorBundleDecoder*)
+PUBLIC e36c 0 skipTypeTags(DescriptorBundleDecoder*)
+PUBLIC e37c 0 AERecordImpl::AERecordImpl(DescriptorBundleDecoder*)
+PUBLIC e386 0 AEDescImpl::AEDescImpl(DescriptorBundleDecoder*)
+PUBLIC e390 0 AEListImpl::AEListImpl(DescriptorBundleDecoder*)
+PUBLIC e39c 0 AEEventImpl::duplicate() const
+PUBLIC e3ca 0 AEEventImpl::AEEventImpl(AEEventImpl const*)
+PUBLIC e4d6 0 _vmExternalDeallocator(void const*, long, long)
+PUBLIC e4fe 0 aeSend
+PUBLIC e88e 0 ReplyObserver::filter(AEEventImpl*)
+PUBLIC e900 0 AEImpl::getSize() const
+PUBLIC e928 0 CreateObjSpecifier
+PUBLIC ea36 0 sealDescriptor(AEDesc*)
+PUBLIC ea56 0 getReplyQueue()
+PUBLIC ea9c 0 WaitForReplyElem::WaitForReplyElem(AEDesc const*, AEDesc*, unsigned long)
+PUBLIC eafa 0 findPortBySIG
+PUBLIC eb84 0 AECSD_LookupAppleEventPortBySIG
+PUBLIC ed04 0 aeFindProcessFromSignature(unsigned long, ProcessSerialNumber*)
+PUBLIC ee02 0 AEResolve
+PUBLIC ee26 0 iAEResolve
+PUBLIC ef7e 0 CallGetErrDesc
+PUBLIC efee 0 CreateObject(AEDesc*, ObjRecord**, unsigned char, ObjRecord***)
+PUBLIC f584 0 ClearNewHandle(char***, unsigned long)
+PUBLIC f5a2 0 FailErr_1(short, CreateObject_EnvRec*)
+PUBLIC f684 0 FailErr_10(short, iAEResolve_EnvRec*)
+PUBLIC f6ba 0 InternalResolve(ObjRecord**, short, unsigned long, AEDesc*, unsigned char*, AEDesc*, unsigned char*)
+PUBLIC fa0c 0 iAEDisposeToken
+PUBLIC fa9a 0 FailErr_9(short, InternalResolve_EnvRec*)
+PUBLIC fb50 0 iCallAccessor
+PUBLIC fcbc 0 TryAccessor(HandlerTable*, iCallAccessor_EnvRec*)
+PUBLIC fdde 0 DisposeObj(ObjRecord**)
+PUBLIC fe64 0 DisposeWhose(WhoseRecord**)
+PUBLIC fea0 0 dyld_stub_binding_helper
+PUBLIC feb4 0 NewAEEventHandlerUPP
+PUBLIC febc 0 AERecordImpl::AERecordImpl(unsigned long)
+PUBLIC ff12 0 AEEventImpl::~AEEventImpl()
+PUBLIC ffa4 0 AERecordImpl::~AERecordImpl()
+PUBLIC ffdc 0 AEImpl::~AEImpl()
+PUBLIC 1000e 0 AEDescImpl::~AEDescImpl()
+PUBLIC 10054 0 AEInstallSystemDispatcher
+PUBLIC 100c2 0 AECSD_NoteSystemTaskForUID
+PUBLIC 1014e 0 NewOSLAccessorUPP
+PUBLIC 10156 0 NewOSLCompareUPP
+PUBLIC 1015e 0 NewOSLCountUPP
+PUBLIC 10166 0 NewOSLDisposeTokenUPP
+PUBLIC 1016e 0 CoercionTable::getCoercion(unsigned long, unsigned long)
+PUBLIC 10178 0 aeCalculateTimeOut
+PUBLIC 1019e 0 AERecordImpl::AERecordImpl(DescriptorBundleDecoder*)
+PUBLIC 1026e 0 DescriptorBundleDecoder::~DescriptorBundleDecoder()
+PUBLIC 10284 0 DescriptorBundle::~DescriptorBundle()
+PUBLIC 1028e 0 AERecordImpl::~AERecordImpl()
+PUBLIC 102d0 0 aeCheckForReplyAcceptance
+PUBLIC 10430 0 AEListImpl::~AEListImpl()
+PUBLIC 10474 0 addFullyQualifiedURL(char const*, long)
+PUBLIC 1051a 0 getKeychainCalls()
+PUBLIC 105a2 0 AEEventImpl::makeAnonymousEvent()
+PUBLIC 10610 0 aeSuspendTheCurrentEvent
+PUBLIC 10676 0 getSuspensionQueue()
+PUBLIC 106bc 0 UserCoerceDescThunk::~UserCoerceDescThunk()
+PUBLIC 106f4 0 Coercion::~Coercion()
+PUBLIC 1070a 0 aeResumeTheCurrentEvent
+PUBLIC 108ca 0 InvokeAEEventHandlerUPP
+PUBLIC 108ea 0 AEDeleteParam
+PUBLIC 10950 0 aeCoerceFSRef(void const*, long, unsigned long, AEDesc*)
+PUBLIC 10b08 0 _aeCallout(char**, long*)
+PUBLIC 10b98 0 _fixupAppleEventHandler(AEDesc const*, AEDesc*, long)
+PUBLIC 10c88 0 NewAECoerceDescUPP
+PUBLIC 10c92 0 AEReplaceDescData
+PUBLIC 10cf6 0 makeAppParametersFromEvent(AEDesc const*, AEDesc*)
+PUBLIC 10ddc 0 aeConvertCarbonToClassic
+PUBLIC 10e82 0 aeCoercePtrFromAppParameters(void const*, long, unsigned long, AEDesc*)
+PUBLIC 11004 0 aliasToFSRef(AliasRecord**, AEDesc*)
+PUBLIC 110de 0 DisposeAEEventHandlerUPP
+PUBLIC 110e3 0 DisposeAECoerceDescUPP
+PUBLIC 110e8 0 InvokeAECoerceDescUPP
+PUBLIC 11110 0 aeInteractWithUser
+PUBLIC 114ce 0 aeGetFrontProcess(ProcessSerialNumber*)
+PUBLIC 11522 0 aeSameProcess(ProcessSerialNumber const*, ProcessSerialNumber const*, unsigned char*)
+PUBLIC 115c4 0 aeGetTheCurrentEvent
+PUBLIC 115f4 0 aeEventSource(AEDesc*, signed char*, ProcessSerialNumber*)
+PUBLIC 11682 0 aeGetInteractionAllowed
+PUBLIC 1169c 0 NewAEDisposeExternalUPP
+PUBLIC 116a6 0 AECreateDescFromExternalPtr
+PUBLIC 11734 0 AEDescImpl::AEDescImpl(unsigned long, void const*, long, void (*)(void const*, long, long), long)
+PUBLIC 1173e 0 AEStreamOpen
+PUBLIC 11766 0 AEGetCoercionHandler
+PUBLIC 11878 0 AEStreamWriteDesc
+PUBLIC 1191c 0 AEStreamClose
+PUBLIC 1195a 0 AEStreamOpenRecord
+PUBLIC 1197c 0 AEStreamWriteKeyDesc
+PUBLIC 11a20 0 AEStreamWriteKey
+PUBLIC 11a4a 0 AEStreamWriteAEDesc
+PUBLIC 11ace 0 AEStreamCloseRecord
+PUBLIC 11ad8 0 InvokeAECoercePtrUPP
+PUBLIC 11b0d 0 NewAECoercePtrUPP
+PUBLIC 11b16 0 AEBuildAppleEvent
+PUBLIC 11b74 0 vAEBuildAppleEvent
+PUBLIC 11c6c 0 vAEBuildParameters
+PUBLIC 11e0a 0 AEStreamOpenEvent
+PUBLIC 11e4e 0 peekToken(char const**)
+PUBLIC 11ef0 0 _keyCopyDescription(void const*)
+PUBLIC 11f82 0 OSTypePairDictionary::~OSTypePairDictionary()
+PUBLIC 11fa2 0 OSTypePairDictionary::~OSTypePairDictionary()
+PUBLIC 11fac 0 OSTypePairDictionary::~OSTypePairDictionary()
+PUBLIC 11fe4 0 aeGetPidForPSN(ProcessSerialNumber const*)
+PUBLIC 120c2 0 aeGetPidForBundleID(char const*)
+PUBLIC 12228 0 aeFindProcessFromPid(int, ProcessSerialNumber*)
+PUBLIC 12334 0 aeGetProcessName(ProcessSerialNumber const*, char*, long)
+PUBLIC 1244e 0 aeGetProcessRef(ProcessSerialNumber const*, FSRef*)
+PUBLIC 12554 0 aeGetProcessAttributes(ProcessSerialNumber const*, unsigned char*, unsigned char*, unsigned char*)
+PUBLIC 1262c 0 DescriptorBundle::DescriptorBundle(unsigned int, int)
+PUBLIC 126dc 0 DescriptorBundle::~DescriptorBundle()
+PUBLIC 12724 0 DescriptorBundle::growDescriptorTable(unsigned long)
+PUBLIC 12810 0 AEImpl::~AEImpl()
+PUBLIC 1284a 0 AEImpl::getIndent(int)
+PUBLIC 12874 0 AEImpl::duplicate() const
+PUBLIC 1287c 0 AEImpl::countItems() const
+PUBLIC 12884 0 AEImpl::deleteItem(long)
+PUBLIC 1288c 0 AEImpl::getElement(long) const
+PUBLIC 12894 0 AEImpl::createCFType() const
+PUBLIC 1289e 0 AENullImpl::countItems() const
+PUBLIC 128a6 0 AENullImpl::getElement(long) const
+PUBLIC 128ae 0 AENullImpl::getSize() const
+PUBLIC 128b6 0 AENullImpl::createCFType() const
+PUBLIC 128ce 0 AENullImpl::~AENullImpl()
+PUBLIC 12902 0 AENullImpl::~AENullImpl()
+PUBLIC 12920 0 AENullImpl::~AENullImpl()
+PUBLIC 1292a 0 AEImpl::~AEImpl()
+PUBLIC 12934 0 AEImpl::toString(int) const
+PUBLIC 129d0 0 AENullImpl::toString(int) const
+PUBLIC 12a36 0 AEDescImpl::AEDescImpl(DescriptorBundleDecoder*)
+PUBLIC 12af8 0 AEDescImpl::~AEDescImpl()
+PUBLIC 12b34 0 AEDescImpl::~AEDescImpl()
+PUBLIC 12b3e 0 AEDescImpl::countItems() const
+PUBLIC 12b48 0 AEDescImpl::copyData(void*, long) const
+PUBLIC 12b96 0 getProcessName(ProcessSerialNumber const*)
+PUBLIC 12c0c 0 appendToResult(char**, char const*)
+PUBLIC 12c3c 0 dumpBuffer(char const*, long)
+PUBLIC 12eee 0 AEDescImpl::AEDescImpl(unsigned long, void const*, long)
+PUBLIC 12f78 0 AEDescImpl::AEDescImpl(unsigned long, void const*, long, void (*)(void const*, long, long), long)
+PUBLIC 1305c 0 AEDescImpl::createCFType() const
+PUBLIC 13090 0 AEDescImpl::toString(int) const
+PUBLIC 1390c 0 std::allocator<unsigned short>::allocator()
+PUBLIC 13932 0 unsigned short* std::__copy_backward<true, std::random_access_iterator_tag>::copy_b<unsigned short>(unsigned short const*, unsigned short const*, unsigned short*)
+PUBLIC 13962 0 unsigned short* std::uninitialized_copy<unsigned short*, unsigned short*>(unsigned short*, unsigned short*, unsigned short*)
+PUBLIC 13994 0 bool __gnu_cxx::operator!=<unsigned short*, std::vector<unsigned short, std::allocator<unsigned short> > >(__gnu_cxx::__normal_iterator<unsigned short*, std::vector<unsigned short, std::allocator<unsigned short> > > const&, __gnu_cxx::__normal_iterator<unsigned short*, std::vector<unsigned short, std::allocator<unsigned short> > > const&)
+PUBLIC 139cc 0 std::allocator<unsigned short>::allocator(std::allocator<unsigned short> const&)
+PUBLIC 139d2 0 std::_Vector_base<unsigned short, std::allocator<unsigned short> >::_Vector_impl::_Vector_impl(std::allocator<unsigned short> const&)
+PUBLIC 13a06 0 std::_Vector_base<unsigned short, std::allocator<unsigned short> >::_Vector_base(std::allocator<unsigned short> const&)
+PUBLIC 13a10 0 std::_Vector_base<unsigned short, std::allocator<unsigned short> >::~_Vector_base()
+PUBLIC 13a28 0 std::vector<unsigned short, std::allocator<unsigned short> >::vector(std::allocator<unsigned short> const&)
+PUBLIC 13a44 0 std::vector<unsigned short, std::allocator<unsigned short> >::capacity() const
+PUBLIC 13a6c 0 void std::_Destroy<__gnu_cxx::__normal_iterator<unsigned short*, std::vector<unsigned short, std::allocator<unsigned short> > >, std::allocator<unsigned short> >(__gnu_cxx::__normal_iterator<unsigned short*, std::vector<unsigned short, std::allocator<unsigned short> > >, __gnu_cxx::__normal_iterator<unsigned short*, std::vector<unsigned short, std::allocator<unsigned short> > >, std::allocator<unsigned short>)
+PUBLIC 13a96 0 std::vector<unsigned short, std::allocator<unsigned short> >::operator[](unsigned long)
+PUBLIC 13aa8 0 std::vector<unsigned short, std::allocator<unsigned short> >::size() const
+PUBLIC 13b24 0 std::vector<unsigned short, std::allocator<unsigned short> >::~vector()
+PUBLIC 13b5a 0 std::vector<unsigned short, std::allocator<unsigned short> >::_M_insert_aux(__gnu_cxx::__normal_iterator<unsigned short*, std::vector<unsigned short, std::allocator<unsigned short> > >, unsigned short const&)
+PUBLIC 13cc8 0 std::vector<unsigned short, std::allocator<unsigned short> >::push_back(unsigned short const&)
+PUBLIC 13d0c 0 unsigned short* std::vector<unsigned short, std::allocator<unsigned short> >::_M_allocate_and_copy<unsigned short*>(unsigned long, unsigned short*, unsigned short*)
+PUBLIC 13d64 0 std::vector<unsigned short, std::allocator<unsigned short> >::reserve(unsigned long)
+PUBLIC 13e14 0 _implArrayCopyDescription(void const*)
+PUBLIC 13e30 0 _implArrayEqual(void const*, void const*)
+PUBLIC 13e42 0 AEListImpl::AEListImpl()
+PUBLIC 13eb2 0 AEListImpl::~AEListImpl()
+PUBLIC 13eee 0 AEListImpl::~AEListImpl()
+PUBLIC 13ef8 0 AEListImpl::deleteItem(long)
+PUBLIC 13f3a 0 AEListImpl::toString(int) const
+PUBLIC 14072 0 AEListImpl::createCFType() const
+PUBLIC 1411a 0 AEListImpl::AEListImpl(DescriptorBundleDecoder*)
+PUBLIC 141ec 0 AERecordImpl::toString(int) const
+PUBLIC 143e6 0 AERecordImpl::createCFType() const
+PUBLIC 144d0 0 AERecordImpl::deleteValue(unsigned long)
+PUBLIC 14504 0 AERecordImpl::deleteItem(long)
+PUBLIC 14572 0 AERecordImpl::AEDictionary::deleteNthVal(int)
+PUBLIC 1466c 0 appendScalar(__CFString*, int, char const*, unsigned long)
+PUBLIC 146e6 0 AEEventImpl::toString(int) const
+PUBLIC 14bc4 0 AEEventImpl::manufactureAttribute(unsigned long, AEDesc*) const
+PUBLIC 14c74 0 addType(__CFDictionary*, unsigned long, void const*)
+PUBLIC 14cde 0 AEEventImpl::createAttrTypeDict() const
+PUBLIC 14d58 0 AEEventImpl::createCFType() const
+PUBLIC 14dfe 0 AEEventImpl::isEventEnvelopeEqualTo(AEEventImpl const*) const
+PUBLIC 14e66 0 AEEventImpl::getSizeofAttribute(unsigned long, unsigned long*, long*) const
+PUBLIC 14ecc 0 AEEventImpl::AEEventImpl(DescriptorBundleDecoder*)
+PUBLIC 15032 0 AEEventImpl::~AEEventImpl()
+PUBLIC 150bc 0 AEEventImpl::~AEEventImpl()
+PUBLIC 150c6 0 AEEventImpl::AEEventImpl(unsigned long, unsigned long, AEDesc const*, long, long)
+PUBLIC 15180 0 Coercion::~Coercion()
+PUBLIC 15196 0 _valueCopyDescription(void const*)
+PUBLIC 151a4 0 CoercionTable::CoercionTable()
+PUBLIC 151dc 0 CoercionTable::~CoercionTable()
+PUBLIC 151fa 0 CoercionTable::~CoercionTable()
+PUBLIC 15204 0 CoercionTable::~CoercionTable()
+PUBLIC 15238 0 _valueEqual(void const*, void const*)
+PUBLIC 15256 0 Coercion::equals(Coercion const*) const
+PUBLIC 152c6 0 parseBoolean(void const*, unsigned long)
+PUBLIC 1536a 0 aeCoercePtrFromBoolean(unsigned long, void const*, unsigned long, unsigned long, AEDesc*)
+PUBLIC 154f6 0 aeCoerceCoreEventClass(void const*, long, unsigned long, AEDesc*)
+PUBLIC 155ae 0 aeCoerceProcessSerialNumber(void const*, long, unsigned long, AEDesc*)
+PUBLIC 156e4 0 aeCoercePtrToIsoDate(unsigned long, void const*, unsigned long, unsigned long, AEDesc*)
+PUBLIC 15920 0 CoercePtrToFSRef(unsigned long, void const*, unsigned long, unsigned long, AEDesc*)
+PUBLIC 15bb8 0 read2SInt8(char const*, signed char*)
+PUBLIC 15c1a 0 aeCoerceIsoDate(void const*, long, unsigned long, AEDesc*)
+PUBLIC 15f9e 0 aeCoercePtrFromCharToNumeric(unsigned long, void const*, unsigned long, unsigned long, AEDesc*)
+PUBLIC 1628e 0 aeCoercePtrToBoolean(unsigned long, void const*, unsigned long, unsigned long, AEDesc*)
+PUBLIC 16410 0 dumpCoercionTables(unsigned char, unsigned char)
+PUBLIC 16498 0 GDBPrintAECoercionTables
+PUBLIC 164d2 0 dumpHandlerTable(unsigned char)
+PUBLIC 16534 0 GDBPrintAEHandlerTables
+PUBLIC 1654e 0 aeDescToCFType
+PUBLIC 1657a 0 aeClassicCompatSizeOfFlattenedDesc
+PUBLIC 165c8 0 aeClassicCompatFlattenDesc
+PUBLIC 166c4 0 GDBPrintAEDesc
+PUBLIC 168e8 0 AESizeOfAttribute
+PUBLIC 1693c 0 AEDeleteItem
+PUBLIC 16998 0 AESizeOfNthItem
+PUBLIC 16a18 0 AECheckIsRecord
+PUBLIC 16a3e 0 AEPutArray
+PUBLIC 16b50 0 AEGetArray
+PUBLIC 16d74 0 OSTypePairDictionary::dump()
+PUBLIC 16dc8 0 UserCoerceDescThunk::getSpecifics(short (**)(AEDesc const*, unsigned long, long, AEDesc*), long*) const
+PUBLIC 16de0 0 UserCoerceDescThunk::copyDescription() const
+PUBLIC 16e26 0 UserCoercePtrThunk::getSpecifics(short (**)(AEDesc const*, unsigned long, long, AEDesc*), long*) const
+PUBLIC 16e3e 0 UserCoercePtrThunk::copyDescription() const
+PUBLIC 16e84 0 UserCoercePtrThunk::~UserCoercePtrThunk()
+PUBLIC 16ea4 0 UserCoercePtrThunk::~UserCoercePtrThunk()
+PUBLIC 16eae 0 UserCoercePtrThunk::~UserCoercePtrThunk()
+PUBLIC 16ee6 0 UserCoerceDescThunk::~UserCoerceDescThunk()
+PUBLIC 16f06 0 UserCoerceDescThunk::~UserCoerceDescThunk()
+PUBLIC 16f10 0 UserCoerceDescThunk::coercePtr(unsigned long, unsigned long, void const*, long, AEDesc*)
+PUBLIC 16f72 0 UserCoercePtrThunk::coerceDesc(AEDesc const*, unsigned long, AEDesc*)
+PUBLIC 17022 0 _valueRelease(__CFAllocator const*, void const*)
+PUBLIC 17032 0 _valueCopyDescription(void const*)
+PUBLIC 17078 0 _valueEqual(void const*, void const*)
+PUBLIC 1709a 0 HandlerTable::HandlerTable()
+PUBLIC 170d2 0 HandlerTable::~HandlerTable()
+PUBLIC 170f0 0 HandlerTable::~HandlerTable()
+PUBLIC 170fa 0 HandlerTable::~HandlerTable()
+PUBLIC 1712e 0 _valueRetain(__CFAllocator const*, void const*)
+PUBLIC 17154 0 aeSetInteractionAllowed
+PUBLIC 17176 0 getWSTerms(long*)
+PUBLIC 17242 0 AEDispatchEvent
+PUBLIC 1727e 0 AEReceiveFromMach
+PUBLIC 1728a 0 aeRmvFilter
+PUBLIC 172ca 0 sendReplyToServer(__CFMachPort*, AEDesc const*)
+PUBLIC 173ae 0 safelyRetain(AEDesc const*)
+PUBLIC 173d0 0 aeResetTimer
+PUBLIC 174e8 0 aeDecodeMachMsg
+PUBLIC 17830 0 AEDecodeMessage
+PUBLIC 178a4 0 EventImplQueue::_copyDescription(void const*)
+PUBLIC 178c0 0 EventImplQueue::_equal(void const*, void const*)
+PUBLIC 178fe 0 AERunLoopSource::setSource(__CFRunLoopSource*, __CFString const*)
+PUBLIC 17944 0 aeSetTheCurrentEvent
+PUBLIC 1798e 0 EventImplQueue::containsImpl(AEEventImpl const*)
+PUBLIC 179d8 0 EventImplQueue::peekHead()
+PUBLIC 17a2e 0 AESendWithMach
+PUBLIC 17a3e 0 AEConvertFromMsg
+PUBLIC 17a7a 0 aePushHighLevelEvent
+PUBLIC 17ab8 0 GDBPrintHelpDebuggingAppleEvents
+PUBLIC 17ae6 0 AEStreamWriteData
+PUBLIC 17af0 0 AEStreamOptionalParam
+PUBLIC 17afa 0 aeEventToEppcMsg
+PUBLIC 17b94 0 aeRemoveFromImplEnd
+PUBLIC 17c5e 0 AEStreamCloseDesc
+PUBLIC 17c68 0 AEStreamCloseList
+PUBLIC 17c72 0 AEStreamOpenList
+PUBLIC 17c8c 0 aeAppendToImplEnd
+PUBLIC 17d7a 0 AEStreamSetRecordType
+PUBLIC 17d84 0 AEStreamCreateEvent
+PUBLIC 17dde 0 rawToAppleEvent(char*, unsigned long, ProcessSerialNumber const*, unsigned long, unsigned long, long, AEDesc*)
+PUBLIC 18022 0 aeReconstructAppleEvent
+PUBLIC 1804e 0 aeReconstructReplyAppleEvent
+PUBLIC 1826e 0 AEStreamOpenDesc
+PUBLIC 182dc 0 AEStreamOpenKeyDesc
+PUBLIC 18342 0 OpaqueAEStreamRef::writeData(void const*, long)
+PUBLIC 183d6 0 OpaqueAEStreamRef::pushNewAccumulator(unsigned long, AEImpl*)
+PUBLIC 18460 0 OpaqueAEStreamRef::openList(unsigned long)
+PUBLIC 184b6 0 OpaqueAEStreamRef::openRecord(unsigned long, unsigned long)
+PUBLIC 18512 0 OpaqueAEStreamRef::addOptionalParam(unsigned long)
+PUBLIC 18580 0 OpaqueAEStreamRef::initContents()
+PUBLIC 185e8 0 OpaqueAEStreamRef::consumeImpl(unsigned long, AEImpl*)
+PUBLIC 18676 0 OpaqueAEStreamRef::closeDesc()
+PUBLIC 18728 0 OpaqueAEStreamRef::popAccumulator()
+PUBLIC 18782 0 OpaqueAEStreamRef::closeRecord()
+PUBLIC 187b2 0 OpaqueAEStreamRef::closeList()
+PUBLIC 187e8 0 OpaqueAEStreamRef::OpaqueAEStreamRef(AEDesc*)
+PUBLIC 18816 0 OpaqueAEStreamRef::writeDesc(unsigned long, AEDesc const*)
+PUBLIC 18868 0 OpaqueAEStreamRef::setCurrentRecordType(unsigned long)
+PUBLIC 1888c 0 OpaqueAEStreamRef::close(AEDesc*)
+PUBLIC 18916 0 OpaqueAEStreamRef::OpaqueAEStreamRef(unsigned long, unsigned long, unsigned long, void const*, long, short, long)
+PUBLIC 189be 0 OpaqueAEStreamRef::~OpaqueAEStreamRef()
+PUBLIC 18a48 0 MyLongMod
+PUBLIC 18a5a 0 IsKnownAbso
+PUBLIC 18a84 0 CallCountProc
+PUBLIC 18b1e 0 CallCompareProc
+PUBLIC 18bb8 0 CallGetMarkToken
+PUBLIC 18c44 0 CallAdjustMarks
+PUBLIC 18cd0 0 CallMark
+PUBLIC 18d5c 0 JRandomNumber(long)
+PUBLIC 18da2 0 DoSubst(AEDesc*, SubstContainerForccnt_EnvRec*)
+PUBLIC 18ee0 0 SubstContainerForccnt(AEDesc*, unsigned long, AEDesc*)
+PUBLIC 1902c 0 ExitIfNot(unsigned char, RangeIsWhoseable_EnvRec*)
+PUBLIC 19070 0 MakeExternalWhose
+PUBLIC 19254 0 iAERemoveObjectAccessor
+PUBLIC 19288 0 iAEGetObjectAccessor
+PUBLIC 192ca 0 MakeWhoseDescriptor(AEDesc*, AEDesc*, AEDesc*)
+PUBLIC 1938e 0 DisposeCompare(CompareRecord**)
+PUBLIC 193d6 0 DisposeTerm(TestTermRecord**)
+PUBLIC 19432 0 DisposeLogical(LogicalRecord**)
+PUBLIC 1946e 0 FailErr(short, CreateLogical_EnvRec*)
+PUBLIC 19540 0 riwFailErr(short, RangeIsWhoseable_EnvRec*, CreateObject_EnvRec*)
+PUBLIC 19590 0 GetWhoseEndPoint(AEDesc*, long*, unsigned long*, RangeIsWhoseable_EnvRec*, CreateObject_EnvRec*)
+PUBLIC 19752 0 RangeIsWhoseable(unsigned long, AEDesc*, IndexRecord*, CreateObject_EnvRec*)
+PUBLIC 19894 0 FailErr_2(short, CreateTerm_EnvRec*)
+PUBLIC 1996c 0 FailErr_3(short, CreateWhose_EnvRec*)
+PUBLIC 19a32 0 CreateWhose(AEDesc*, WhoseRecord***)
+PUBLIC 19d22 0 CreateCompare(AEDesc*, CompareRecord***)
+PUBLIC 19f68 0 CreateTerm(AEDesc*, TestTermRecord***)
+PUBLIC 1a076 0 CreateLogical(AEDesc*, LogicalRecord***)
+PUBLIC 1a2c0 0 FailErr_4(short, EvalCompare_EnvRec*)
+PUBLIC 1a348 0 FailErr_5(short, EvalLogical_EnvRec*)
+PUBLIC 1a3d4 0 FailErr_7(short, EvalTerm_EnvRec*)
+PUBLIC 1a460 0 FailErr_8(short, EvalWhose_EnvRec*)
+PUBLIC 1a566 0 MarkOrRemember(AEDesc*, long, EvalWhose_EnvRec*)
+PUBLIC 1a5e2 0 ResolveSingle(unsigned long, EvalWhose_EnvRec*)
+PUBLIC 1a61a 0 DisposeDescArray(AEDesc*, long, EvalWhose_EnvRec*)
+PUBLIC 1a64c 0 EvalObj(ObjRecord**, unsigned long, AEDesc*, short)
+PUBLIC 1a772 0 EvalCompare(CompareRecord**, unsigned long, AEDesc*, short)
+PUBLIC 1a892 0 EvalTerm(TestTermRecord**, unsigned long, AEDesc*, short)
+PUBLIC 1a9a4 0 EvalWhose(WhoseRecord**, unsigned long, unsigned long, AEDesc*, short)
+PUBLIC 1b2c2 0 EvalLogical(LogicalRecord**, unsigned long, AEDesc*, short)
+PUBLIC 1b3fa 0 AERemoveObjectAccessor
+PUBLIC 1b424 0 AEGetObjectAccessor
+PUBLIC 1b456 0 AEDisposeToken
+PUBLIC 1b46a 0 AECallObjectAccessor
+PUBLIC 1b4a2 0 CreateOffsetDescriptor
+PUBLIC 1b4ce 0 CreateCompDescriptor
+PUBLIC 1b5b4 0 CreateLogicalDescriptor
+PUBLIC 1b66e 0 CreateRangeDescriptor
+PUBLIC 1b722 0 _badPtrCoercionHandler(unsigned long, void const*, long, unsigned long, long, AEDesc*)
+PUBLIC 1b72c 0 _badDescCoercionHandler(AEDesc const*, unsigned long, long, AEDesc*)
+PUBLIC 1b736 0 _badAppleEventHandler(AEDesc const*, AEDesc*, long)
+PUBLIC 1b740 0 __istype(int, unsigned long)
+PUBLIC 1b77c 0 writeStringDescriptor(char const*, char const*, unsigned long, OpaqueAEStreamRef*)
+PUBLIC 1b8b6 0 getToken(AEBuildError*, char const**, TokenResult*)
+PUBLIC 1bc90 0 parseObj(OpaqueAEStreamRef*, AEBuildError*, char const**, va_list_holder*)
+PUBLIC 1c5ea 0 AEBuildParameters
+PUBLIC 1c616 0 vAEBuildDesc
+PUBLIC 1c6e0 0 AEBuildDesc
+PUBLIC 1c70c 0 __istype(int, unsigned long)
+PUBLIC 1c748 0 bufput(Buf*, void*, long)
+PUBLIC 1c7b6 0 bufputs(Buf*, char*)
+PUBLIC 1c7e0 0 bufprintf(Buf*, char*, ...)
+PUBLIC 1c816 0 bufput_quoted(Buf*, void*, long)
+PUBLIC 1c872 0 bufputOSType(Buf*, unsigned long)
+PUBLIC 1c964 0 bufputCoerceStart(Buf*, unsigned char, unsigned long)
+PUBLIC 1c992 0 hexDumpDesc(Buf*, AEDesc const*, bool)
+PUBLIC 1cb24 0 printDesc(Buf*, AEDesc const*, bool)
+PUBLIC 1d5d4 0 AEDescribeDesc
+PUBLIC 1d654 0 printDescList(Buf*, AEDesc const*, unsigned long, bool)
+PUBLIC 1db0a 0 AEPrintDescToHandle
+PUBLIC 1db8e 0 aeSimpleMunger
+PUBLIC 1dc78 0 classic_AECreateObject(unsigned char, ClassicAEDesc*)
+PUBLIC 1dd42 0 aeCreateBuffer
+PUBLIC 1ddf2 0 aeMakeMeta
+PUBLIC 1de44 0 classic_aeWriteData(ClassicAEDesc*, unsigned long, unsigned long, char*, long, long, long)
+PUBLIC 1e236 0 AECSD_ReconnectClientPort
+PUBLIC 1e35c 0 AECSD_LookupAppleEventPortByPIDInSameContext
+PUBLIC 1e4e1 0 AECSD_LookupClientPort
+PUBLIC 1e660 0 AECSD_LookupAppleEventPortByPID
+PUBLIC 1e7df 0 AECSD_LookupAppleEventPortByBundleID
+PUBLIC 1e9dd 0 AECSD_GetPeerProcesses
+PUBLIC 1eb51 0 AECSD_CheckinClassicApp
+PUBLIC 1ed85 0 _XAECSD_ListPorts
+PUBLIC 1ee77 0 _XAECSD_GetPeerProcesses
+PUBLIC 1ef6c 0 AECSD_server
+PUBLIC 1efec 0 AECSD_server_routine
+PUBLIC 1f014 0 _XAECSD_ClientCheckin
+PUBLIC 1f12d 0 _XAECSD_LookupClientPort
+PUBLIC 1f246 0 _XAECSD_ReconnectClientPort
+PUBLIC 1f33b 0 _XAECSD_AddApplicationInformation
+PUBLIC 1f4fc 0 _XAECSD_NoteSystemTaskForUID
+PUBLIC 1f5d4 0 _XAECSD_LookupAppleEventPortByPID
+PUBLIC 1f6ed 0 _XAECSD_LookupAppleEventPortBySIG
+PUBLIC 1f806 0 _XAECSD_LookupAppleEventPortByPSN
+PUBLIC 1f93d 0 _XAECSD_LookupAppleEventPortByNAME
+PUBLIC 1fa7b 0 _XAECSD_LookupAppleEventPortByBundleID
+PUBLIC 1fbb9 0 _XAECSD_CheckinClassicApp
+PUBLIC 1fd7e 0 _XAECSD_CPSPreflight
+PUBLIC 1ff27 0 _XAECSD_LookupAppleEventPortByPIDInSameContext
+PUBLIC 20050 0 _needReconnect(void*)
+PUBLIC 20130 0 findPortByPID
+PUBLIC 2022e 0 findPortByBundleID
+PUBLIC 202c0 0 aeCheckinApp
+PUBLIC 203e0 0 getAnonPortArch
+PUBLIC 20408 0 PerPort::copyPort(int, unsigned int, unsigned long)
+PUBLIC 20440 0 PerPort::copyPort(char const*, unsigned int, unsigned long)
+PUBLIC 2049a 0 PerPort::checkCache(char const*)
+PUBLIC 2050c 0 PerPort::checkCache(int)
+PUBLIC 20576 0 _recordingStart(AEDesc const*, AEDesc*, long)
+PUBLIC 2057e 0 _recordingStop(AEDesc const*, AEDesc*, long)
+PUBLIC 20586 0 aeDispatchToRecorder(AEEventImpl const*)
+PUBLIC 2064c 0 writeCookieFile(ProcessSerialNumber const**)
+PUBLIC 20744 0 _rereadRecordingList(AEDesc const*, AEDesc*, long)
+PUBLIC 20754 0 aeRemoveFromRecordingCookieFile(ProcessSerialNumber const*)
+PUBLIC 207b8 0 aeAddToRecordingCookieFile(ProcessSerialNumber const*)
+PUBLIC 2086e 0 NotifyAllProcess(ProcessSerialNumber const*, int, unsigned long)
+PUBLIC 2095c 0 doNotifyAllProcesses(unsigned long, unsigned long)
+PUBLIC 209e0 0 aeStopRecording()
+PUBLIC 20a0c 0 aeStartRecording()
+PUBLIC 20a38 0 aeBroadcastForRecording(AEEventImpl const*)
+PUBLIC 20b28 0 paramErr_return()
+PUBLIC 20b34 0 absorpAndCopyString(__CFString const*)
+PUBLIC 20b8e 0 absorpAndCopyStringDecodingPercentEscapes(__CFString const*)
+PUBLIC 20c2e 0 getDefaultEPPCPort(__CFString const*)
+PUBLIC 20cc8 0 escapeCString(char const*)
+PUBLIC 20ef6 0 purgeBogusPasswordFromURL(__CFURL const*)
+PUBLIC 20fc8 0 getLocalizedString(__CFString const*)
+PUBLIC 21028 0 getFullyQualifiedURLFromURL(char const*, unsigned long)
+PUBLIC 21086 0 PerURL::makePascalStrings(unsigned char*, unsigned char*)
+PUBLIC 210fa 0 PerURL::findThisUserPasswordInKeychain(char*, OpaqueSecKeychainItemRef**)
+PUBLIC 211c4 0 PerURL::purgeCorrectURL()
+PUBLIC 21232 0 PerURL::PerURL(char const*, long)
+PUBLIC 214a8 0 PerURL::~PerURL()
+PUBLIC 21540 0 PerURL::addStringToArray(__CFArray*, __CFString const*)
+PUBLIC 21574 0 PerURL::addStringToDict(__CFDictionary*, __CFString const*, __CFString const*)
+PUBLIC 215b6 0 PerURL::authenticateDialog(unsigned char, unsigned char*)
+PUBLIC 21938 0 PerURL::authenticate(unsigned long)
+PUBLIC 21ac8 0 PerURL::buildCorrectURL(unsigned long)
+PUBLIC 21c99 0 COBSEncode
+PUBLIC 21dbf 0 COBSDecode_P
+PUBLIC 21f40 0 COBSDecode
+PUBLIC 21f82 0 PrepareKey
+PUBLIC 22037 0 StartMessage
+PUBLIC 2207e 0 ProcessMessage
+PUBLIC 22087 0 FinishMessage
+PUBLIC 2213f 0 F
+PUBLIC 2222d 0 pbkdf2
+PUBLIC 2232e 0 Permute
+PUBLIC 223df 0 KeySched
+PUBLIC 224ec 0 FRK
+PUBLIC 225b0 0 Extract
+PUBLIC 226ce 0 InitialPermutation
+PUBLIC 22774 0 DES
+PUBLIC 22857 0 Encode
+PUBLIC 22880 0 SHA1Transform
+PUBLIC 249bd 0 SHA1Init
+PUBLIC 249f5 0 SHA1Update
+PUBLIC 24ae5 0 SHA1Final
+PUBLIC 24c0e 0 getFromPortTypeStr(__CFAllocator const*, PPCPortRec const*, char const*)
+PUBLIC 24d32 0 copyCFStringFromDesc(AEDesc const*)
+PUBLIC 24dd4 0 createUnicodeDescFromCFString(__CFString const*, AEDesc*)
+PUBLIC 24e5e 0 getStringParam(AEDesc const*, unsigned long)
+PUBLIC 24ee6 0 copyCFStringFromRecord(AEDesc const*, unsigned long)
+PUBLIC 24f48 0 copyCFStringFromList(AEDesc const*, int)
+PUBLIC 24fa4 0 PPCPortRec::get_const_portKindSelector() const
+PUBLIC 24fb6 0 _retain(void const*)
+PUBLIC 24fbe 0 _release(void const*)
+PUBLIC 24fc4 0 _copyDescription(void const*)
+PUBLIC 24fd2 0 _equal(void const*, void const*)
+PUBLIC 24fe4 0 _hash(void const*)
+PUBLIC 24fec 0 _schedule(void*, __CFRunLoop*, __CFString const*)
+PUBLIC 24ffa 0 _cancel(void*, __CFRunLoop*, __CFString const*)
+PUBLIC 25008 0 _perform(void*)
+PUBLIC 25016 0 AERunLoopSource::AERunLoopSource()
+PUBLIC 25086 0 AERunLoopSource::~AERunLoopSource()
+PUBLIC 250c2 0 AERunLoopSource::~AERunLoopSource()
+PUBLIC 250cc 0 AERunLoopSource::~AERunLoopSource()
+PUBLIC 2510e 0 AERunLoopSource::description()
+PUBLIC 25120 0 AERunLoopSource::perform()
+PUBLIC 25126 0 AERunLoopSource::schedule(__CFRunLoop*, __CFString const*)
+PUBLIC 2512c 0 AERunLoopSource::cancel(__CFRunLoop*, __CFString const*)
+PUBLIC 25132 0 AEForwardRunLoopSource::AEForwardRunLoopSource(AEDesc const*, int)
+PUBLIC 251ae 0 AEForwardRunLoopSource::~AEForwardRunLoopSource()
+PUBLIC 2524c 0 AEForwardRunLoopSource::perform()
+PUBLIC 252e6 0 AEForwardRunLoopSource::forceError(long, char const*)
+PUBLIC 2534c 0 AEForwardRunLoopSource::~AEForwardRunLoopSource()
+PUBLIC 253de 0 AEForwardRunLoopSource::~AEForwardRunLoopSource()
+PUBLIC 253e8 0 EPPCForwardRunLoopSource::EPPCForwardRunLoopSource(__CFURL const*, AEDesc const*, int)
+PUBLIC 254ac 0 EPPCForwardRunLoopSource::EPPCForwardRunLoopSource(__CFURL const*, AEDesc const*, int)
+PUBLIC 254b6 0 EPPCForwardRunLoopSource::~EPPCForwardRunLoopSource()
+PUBLIC 25512 0 EPPCForwardRunLoopSource::~EPPCForwardRunLoopSource()
+PUBLIC 2551c 0 EPPCForwardRunLoopSource::~EPPCForwardRunLoopSource()
+PUBLIC 2557c 0 EPPCForwardRunLoopSource::checkForInitialRetryOrForceError(long, char const*)
+PUBLIC 255e8 0 EPPCForwardRunLoopSource::resetConnection()
+PUBLIC 2562c 0 EPPCForwardRunLoopSource::renegotiateProtocol()
+PUBLIC 2567a 0 EPPCForwardRunLoopSource::forceError(long, char const*)
+PUBLIC 256d2 0 EPPCForwardRunLoopSource::doSetupState()
+PUBLIC 257aa 0 EPPCForwardRunLoopSource::doReadProtocolResponse()
+PUBLIC 25822 0 EPPCForwardRunLoopSource::doReadOneProcessInfo()
+PUBLIC 25888 0 EPPCForwardRunLoopSource::doReadForSessionRequest()
+PUBLIC 258ea 0 EPPCForwardRunLoopSource::doSessionEstablished()
+PUBLIC 2599e 0 EPPCForwardRunLoopSource::doIssueReadForResponse()
+PUBLIC 25a00 0 EPPCForwardRunLoopSource::doWriteProtocolRequest()
+PUBLIC 25ab6 0 EPPCForwardRunLoopSource::doReadOneProcessInfoResponseBlock()
+PUBLIC 25b20 0 EPPCForwardRunLoopSource::perform()
+PUBLIC 25b8a 0 EPPCForwardRunLoopSource::doProcessResponse()
+PUBLIC 25ce8 0 CopyDecodedCFToPString32(__CFString const*, unsigned char*)
+PUBLIC 25dba 0 EPPCForwardRunLoopSource::doRequestSession()
+PUBLIC 25f48 0 EPPCForwardRunLoopSource::doRequestOneProcessInfo()
+PUBLIC 260ec 0 EPPCForwardRunLoopSource::doProcessSessionRequestResult()
+PUBLIC 26460 0 IPCListRespBlk::get_actualCount()
+PUBLIC 26474 0 MessageBuffer::~MessageBuffer()
+PUBLIC 264c8 0 EPPCForwardRunLoopSource::setStateAndSignal(void (EPPCForwardRunLoopSource::* const&)())
+PUBLIC 264ee 0 StringFromCFString::~StringFromCFString()
+PUBLIC 26520 0 ProtoHeader::set_maxversion(unsigned long)
+PUBLIC 26530 0 ProtoHeader::set_minversion(unsigned long)
+PUBLIC 26540 0 ProtoHeader::set_signature(unsigned long)
+PUBLIC 26550 0 IPCListReqBlk::set_reqType(unsigned long)
+PUBLIC 26560 0 ProtoHeader::get_maxversion()
+PUBLIC 2656e 0 IPCStartBlk::set_userData(unsigned long)
+PUBLIC 2657e 0 IPCStartBlk::set_reqType(unsigned long)
+PUBLIC 2658e 0 IPCListRespBlk::get_respType()
+PUBLIC 2659a 0 SecureAutoInfoBlk::set_respType(unsigned long)
+PUBLIC 265aa 0 AuthInfoBlk::set_respType(unsigned long)
+PUBLIC 265ba 0 PPCPortRec::set_portKindSelector(short)
+PUBLIC 265ce 0 PPCPortRec::set_nameScript(short)
+PUBLIC 265e2 0 IPCListReqBlk::set_requestCount(unsigned short)
+PUBLIC 265f6 0 IPCListReqBlk::set_startIndex(unsigned short)
+PUBLIC 2660a 0 MessageBuffer::~MessageBuffer()
+PUBLIC 26656 0 MessageBuffer::~MessageBuffer()
+PUBLIC 26660 0 StringFromCFString::getCString()
+PUBLIC 266de 0 XMLRPCOutgoingTransaction::XMLRPCOutgoingTransaction(__CFURL const*, AEDesc const*, int, unsigned long)
+PUBLIC 26734 0 XMLRPCOutgoingTransaction::XMLRPCOutgoingTransaction(__CFURL const*, AEDesc const*, int, unsigned long)
+PUBLIC 2673e 0 XMLRPCOutgoingTransaction::~XMLRPCOutgoingTransaction()
+PUBLIC 2675c 0 XMLRPCOutgoingTransaction::~XMLRPCOutgoingTransaction()
+PUBLIC 26766 0 XMLRPCOutgoingTransaction::~XMLRPCOutgoingTransaction()
+PUBLIC 2679a 0 XMLRPCOutgoingTransaction::sourceSetupParameters()
+PUBLIC 269c8 0 SOAPOutgoingTransaction::SOAPOutgoingTransaction(__CFURL const*, AEDesc const*, int, unsigned long)
+PUBLIC 26a2e 0 SOAPOutgoingTransaction::SOAPOutgoingTransaction(__CFURL const*, AEDesc const*, int, unsigned long)
+PUBLIC 26a38 0 SOAPOutgoingTransaction::~SOAPOutgoingTransaction()
+PUBLIC 26a74 0 SOAPOutgoingTransaction::~SOAPOutgoingTransaction()
+PUBLIC 26a7e 0 SOAPOutgoingTransaction::~SOAPOutgoingTransaction()
+PUBLIC 26ac2 0 SOAPOutgoingTransaction::sourceSetExtraHeaders(__CFDictionary*)
+PUBLIC 26b7c 0 SOAPOutgoingTransaction::sourceParseReply(void const*, AEDesc*)
+PUBLIC 26be0 0 SOAPOutgoingTransaction::sourceSetupParameters()
+PUBLIC 26d32 0 EPPCIOStream::~EPPCIOStream()
+PUBLIC 26dba 0 EPPCIOStream::~EPPCIOStream()
+PUBLIC 26dc4 0 EPPCIOStream::~EPPCIOStream()
+PUBLIC 26e4c 0 EPPCIOStream::setupInternals(__CFURL const*, __CFRunLoopSource*, __CFString const*)
+PUBLIC 26f66 0 EPPCIOStream::openStreams()
+PUBLIC 270c8 0 EPPCIOStream::setupConnection()
+PUBLIC 27196 0 EPPCIOStream::EPPCIOStream(__CFURL const*, __CFRunLoopSource*, __CFString const*)
+PUBLIC 27234 0 EPPCIOStream::EPPCIOStream(__CFURL const*, __CFRunLoopSource*, __CFString const*)
+PUBLIC 2723e 0 EPPCIOStream::becomeSecure(unsigned char)
+PUBLIC 27358 0 PPCPseudoRandomNumbers(void const*, unsigned long, void const*, unsigned long, void*)
+PUBLIC 273f2 0 eppcBufferToEventRecord(unsigned char const*, long, AEDesc*)
+PUBLIC 275b2 0 eventRecordToEppcMessage(AEDesc const*, long*)
+PUBLIC 276be 0 EPPCIOStream::decodingRead(unsigned char**, long, unsigned char*)
+PUBLIC 2777a 0 EPPCIOStream::setNewSource(__CFRunLoopSource*, __CFString const*)
+PUBLIC 278b0 0 swapEncryptBlk(void*)
+PUBLIC 278c4 0 encryptUserPassword(char const*, long, unsigned char const*, unsigned char*, KeyStruct*)
+PUBLIC 27a44 0 EPPCIOStream::writeBufferAsync(unsigned char const*, long, unsigned char)
+PUBLIC 27ad4 0 EPPCIOStream::encodeWrite(unsigned char const*, long)
+PUBLIC 27bf6 0 EPPCIOStream::handleClosedWriteStream()
+PUBLIC 27c58 0 EPPCIOStream::readBufferAsync(unsigned char*, long)
+PUBLIC 27cca 0 EPPCIOStream::handleClosedReadStream()
+PUBLIC 27d2c 0 EPPCIOStream::doReadIntoMessage()
+PUBLIC 27f18 0 EPPCIOStream::checkPendingRead()
+PUBLIC 28042 0 EPPCIOStream::decodeReadMessage(MessageBuffer*)
+PUBLIC 2808e 0 EPPCIOStream::decodeRead(unsigned char*, long)
+PUBLIC 280b0 0 EPPCIOStream::writeStreamCallback(__CFWriteStream*, unsigned long)
+PUBLIC 28196 0 _eppcWriteStreamCallback(__CFWriteStream*, unsigned long, void*)
+PUBLIC 281b2 0 EPPCIOStream::readStreamCallback(__CFReadStream*, unsigned long)
+PUBLIC 28236 0 _eppcReadStreamCallback(__CFReadStream*, unsigned long, void*)
+PUBLIC 28252 0 MessageBuffer::appendData(unsigned char const*, long)
+PUBLIC 28318 0 BE_16(unsigned short)
+PUBLIC 28328 0 _nullRetain(__CFAllocator const*, void const*)
+PUBLIC 28330 0 _nullRelease(__CFAllocator const*, void const*)
+PUBLIC 28336 0 _nullCopyDescription(void const*)
+PUBLIC 28348 0 _ptrEqual(void const*, void const*)
+PUBLIC 2835a 0 EPPCIOHaus::~EPPCIOHaus()
+PUBLIC 2837a 0 EPPCIOHaus::~EPPCIOHaus()
+PUBLIC 28384 0 EPPCIOHaus::~EPPCIOHaus()
+PUBLIC 283bc 0 EPPCIOHaus::forgetStream(EPPCIOStream*)
+PUBLIC 283ea 0 EPPCIOHaus::checkOutExistingStream(__CFURL const*, __CFRunLoopSource*, __CFString const*, unsigned char*)
+PUBLIC 28482 0 EPPCIOHaus::checkInExistingStream(EPPCIOStream*)
+PUBLIC 284e2 0 getEPPCStreamBroker()
+PUBLIC 28558 0 _nullRetain(void*)
+PUBLIC 28560 0 _nullRelease(void*)
+PUBLIC 28566 0 _invocationStreamCopyDescription(void*)
+PUBLIC 28574 0 MethodInvocationRunLoopSource::setReply(__CFDictionary const*)
+PUBLIC 285a0 0 _invocationCallback(OpaqueWSMethodInvocationRef*, void*, __CFDictionary const*)
+PUBLIC 285c6 0 MethodInvocationRunLoopSource::sourceSetExtraHeaders(__CFDictionary*)
+PUBLIC 2860e 0 copyNumAttribute(AEDesc const&, unsigned long)
+PUBLIC 28684 0 putFault(long, __CFString const*, AEDesc*)
+PUBLIC 28750 0 MethodInvocationRunLoopSource::sourceParseFault(__CFDictionary const*, AEDesc*)
+PUBLIC 2891a 0 MethodInvocationRunLoopSource::sourceParseReply(void const*, AEDesc*)
+PUBLIC 2899a 0 MethodInvocationRunLoopSource::~MethodInvocationRunLoopSource()
+PUBLIC 28a1e 0 MethodInvocationRunLoopSource::~MethodInvocationRunLoopSource()
+PUBLIC 28a28 0 MethodInvocationRunLoopSource::~MethodInvocationRunLoopSource()
+PUBLIC 28ab4 0 MethodInvocationRunLoopSource::MethodInvocationRunLoopSource(__CFURL const*, __CFString const*, AEDesc const*, int, unsigned long)
+PUBLIC 28c82 0 copyCharAttribute(AEDesc const&, unsigned long)
+PUBLIC 28ce4 0 addDebugStuff(__CFDictionary const*, __CFString const*, unsigned long, AEDesc*)
+PUBLIC 28e68 0 MethodInvocationRunLoopSource::doReplyState()
+PUBLIC 28fa0 0 MethodInvocationRunLoopSource::getSCProxyDict()
+PUBLIC 29012 0 MethodInvocationRunLoopSource::getSCBooleanValue(__CFString const*)
+PUBLIC 290e8 0 MethodInvocationRunLoopSource::doSetupState()
+PUBLIC 297f2 0 MethodInvocationRunLoopSource::perform()
+PUBLIC 29828 0 MethodInvocationRunLoopSource::setStateAndSignal(MethodInvocationRunLoopSource::State)
+PUBLIC 29846 0 MethodInvocationRunLoopSource::getSCProxyValue(__CFString const*)
+PUBLIC 29878 0 newDataType(AEDesc const&)
+PUBLIC 298d8 0 getCFNumber(__CFNumber const*)
+PUBLIC 29904 0 newDateType(AEDesc const&)
+PUBLIC 2998e 0 aeToCFType(AEDesc const&)
+PUBLIC 29f78 0 newListType(AEDesc const&)
+PUBLIC 2a060 0 cfToAEDesc(void const*, AEDesc*, unsigned char)
+PUBLIC 2a5d6 0 CopyRemoteRunLoopSource::CopyRemoteRunLoopSource(__CFAllocator const*, __CFURL const*, void (*)(__CFArray const*, CFStreamError const*, void*), void*)
+PUBLIC 2a68a 0 CopyRemoteRunLoopSource::perform()
+PUBLIC 2a768 0 AERemoteProcessResolver::AERemoteProcessResolver(__CFAllocator const*, __CFURL const*)
+PUBLIC 2a7f8 0 AERemoteProcessResolver::~AERemoteProcessResolver()
+PUBLIC 2a85a 0 AERemoteProcessResolver::~AERemoteProcessResolver()
+PUBLIC 2a864 0 AERemoteProcessResolver::~AERemoteProcessResolver()
+PUBLIC 2a8c8 0 AERemoteProcessResolver::_immediateCallback(AERemoteProcessResolver*, void*)
+PUBLIC 2a8ce 0 AERemoteProcessResolver::complete(__CFArray const*, CFStreamError const*)
+PUBLIC 2a992 0 AERemoteProcessResolver::_callback(__CFArray const*, CFStreamError const*, void*)
+PUBLIC 2a9ae 0 AEDisposeRemoteProcessResolver
+PUBLIC 2a9c2 0 CopyRemoteRunLoopSource::_makePid(PPCPortRec const*)
+PUBLIC 2a9f4 0 CopyRemoteRunLoopSource::_makeUid(PPCPortRec const*)
+PUBLIC 2aa26 0 CopyRemoteRunLoopSource::_makeAppURL(PPCPortRec const*)
+PUBLIC 2ab6e 0 CopyRemoteRunLoopSource::_makeAppName(PPCPortRec const*)
+PUBLIC 2abd8 0 CopyRemoteRunLoopSource::~CopyRemoteRunLoopSource()
+PUBLIC 2ac76 0 CopyRemoteRunLoopSource::~CopyRemoteRunLoopSource()
+PUBLIC 2ac80 0 CopyRemoteRunLoopSource::~CopyRemoteRunLoopSource()
+PUBLIC 2ad26 0 AERemoteProcessResolver::schedule(__CFRunLoop*, __CFString const*, void (*)(AERemoteProcessResolver*, void*), AERemoteProcessResolverContext const*)
+PUBLIC 2ae8c 0 AERemoteProcessResolverScheduleWithRunLoop
+PUBLIC 2aee0 0 AERemoteProcessResolver::getArray(CFStreamError*)
+PUBLIC 2afbe 0 AERemoteProcessResolverGetProcesses
+PUBLIC 2afc8 0 AECreateRemoteProcessResolver
+PUBLIC 2b008 0 CopyRemoteRunLoopSource::doSetupState()
+PUBLIC 2b09a 0 CopyRemoteRunLoopSource::doWriteProtocolRequest()
+PUBLIC 2b14c 0 CopyRemoteRunLoopSource::doReadProtocolResponse()
+PUBLIC 2b1b0 0 CopyRemoteRunLoopSource::doRequestIxProcessInfo()
+PUBLIC 2b330 0 CopyRemoteRunLoopSource::doReadIxProcessInfo()
+PUBLIC 2b38c 0 CopyRemoteRunLoopSource::doConsumeListPortsMessage()
+PUBLIC 2b3f0 0 CopyRemoteRunLoopSource::doConsumeActualCount()
+PUBLIC 2b65c 0 CopyRemoteRunLoopSource::setStateAndSignal(void (CopyRemoteRunLoopSource::* const&)())
+PUBLIC 2b682 0 NewOSLGetMarkTokenUPP
+PUBLIC 2b68a 0 NewOSLGetErrDescUPP
+PUBLIC 2b692 0 NewOSLMarkUPP
+PUBLIC 2b69a 0 NewOSLAdjustMarksUPP
+PUBLIC 2b6a2 0 DisposeOSLAccessorUPP
+PUBLIC 2b6a7 0 DisposeOSLCompareUPP
+PUBLIC 2b6ac 0 DisposeOSLCountUPP
+PUBLIC 2b6b1 0 DisposeOSLDisposeTokenUPP
+PUBLIC 2b6b6 0 DisposeOSLGetMarkTokenUPP
+PUBLIC 2b6bb 0 DisposeOSLGetErrDescUPP
+PUBLIC 2b6c0 0 DisposeOSLMarkUPP
+PUBLIC 2b6c5 0 DisposeOSLAdjustMarksUPP
+PUBLIC 2b6ca 0 InvokeOSLAccessorUPP
+PUBLIC 2b706 0 InvokeOSLCompareUPP
+PUBLIC 2b72d 0 InvokeOSLCountUPP
+PUBLIC 2b754 0 InvokeOSLDisposeTokenUPP
+PUBLIC 2b766 0 InvokeOSLGetMarkTokenUPP
+PUBLIC 2b786 0 InvokeOSLGetErrDescUPP
+PUBLIC 2b798 0 InvokeOSLMarkUPP
+PUBLIC 2b7b8 0 InvokeOSLAdjustMarksUPP
+PUBLIC 2b7d8 0 DisposeAECoercePtrUPP
+PUBLIC 2b7dd 0 DisposeAEDisposeExternalUPP
+PUBLIC 2b7e2 0 InvokeAEDisposeExternalUPP
+PUBLIC 2b7ec 0 CoerceUtxtToWild(unsigned long, void const*, long, unsigned long, long, AEDesc*)
+PUBLIC 2badc 0 ConvertToUnicode(char const*, long, unsigned short*, UnicodeMapping const*, unsigned char)
+PUBLIC 2bbfe 0 CoerceUTF16ExternalRepresentationToWild(unsigned long, void const*, long, unsigned long, long, AEDesc*)
+PUBLIC 2bcfa 0 TextToPString(unsigned long, void const*, long, unsigned long, long, AEDesc*)
+PUBLIC 2bd80 0 TextToCString(unsigned long, void const*, long, unsigned long, long, AEDesc*)
+PUBLIC 2be58 0 CoerceUTF8ToWild(unsigned long, void const*, long, unsigned long, long, AEDesc*)
+PUBLIC 2bf54 0 CoercePtrToUnicode(unsigned long, void const*, long, unsigned long, long, AEDesc*)
+PUBLIC 2c2b4 0 ConvertUTF16toUTF8
+PUBLIC 2c41d 0 isLegalUTF8
+PUBLIC 2c49f 0 ConvertUTF8toUTF16
+PUBLIC 2c61a 0 _appPortInvalid(__CFMachPort*, void*)
+PUBLIC 2c634 0 _clientDeath(int, unsigned int)
+PUBLIC 2c6cc 0 _AEGetSKServiceDescription
+PUBLIC 2c7dc 0 isAppDead(AECSDApp*)
+PUBLIC 2c844 0 addOneApp(__CFNumber const*, AECSDApp*, __CFArray*)
+PUBLIC 2c958 0 ServerAECSD_ListPorts
+PUBLIC 2cb90 0 getSession(unsigned int)
+PUBLIC 2cbea 0 ServerAECSD_GetPeerProcesses
+PUBLIC 2ccec 0 ServerAECSD_CheckinClassicApp
+PUBLIC 2cda4 0 doReapDeadApps()
+PUBLIC 2ce76 0 ServerAECSD_NoteSystemTaskForUID
+PUBLIC 2cf2a 0 getApp(unsigned int, int)
+PUBLIC 2cf92 0 ServerAECSD_AddApplicationInformation
+PUBLIC 2cfde 0 ServerAECSD_CPSPreflight
+PUBLIC 2d0e2 0 _preflight_server(mach_msg_header_t*)
+PUBLIC 2d11e 0 ServerAECSD_ClientCheckin
+PUBLIC 2d212 0 ServerAECSD_ReconnectClientPort
+PUBLIC 2d2f8 0 ServerAECSD_LookupClientPort
+PUBLIC 2d3fa 0 driveLookup(unsigned int, unsigned long, void*, unsigned long, unsigned long*, unsigned int*)
+PUBLIC 2d592 0 ServerAECSD_LookupAppleEventPortByBundleID
+PUBLIC 2d5bc 0 ServerAECSD_LookupAppleEventPortByNAME
+PUBLIC 2d5e6 0 ServerAECSD_LookupAppleEventPortBySIG
+PUBLIC 2d61e 0 ServerAECSD_LookupAppleEventPortByPIDInSameContext
+PUBLIC 2d754 0 ServerAECSD_LookupAppleEventPortByPID
+PUBLIC 2d78c 0 ServerAECSD_LookupAppleEventPortByPSN
+PUBLIC 2d96a 0 _AECSDDump(char const*)
+PUBLIC 2de3a 0 AECSDApp::AECSDApp(int, unsigned int, unsigned long)
+PUBLIC 2dedc 0 AECSDApp::updateInfo(unsigned long, ProcessSerialNumber const&, char const*, char const*)
+PUBLIC 2df1c 0 AECSDApp::setMachPort(unsigned int)
+PUBLIC 2dfb2 0 AECSDApp::AECSDApp(int, unsigned int, unsigned long, unsigned int)
+PUBLIC 2dfee 0 AECSDApp::clearCPSHint()
+PUBLIC 2e044 0 AECSDApp::~AECSDApp()
+PUBLIC 2e114 0 AEImpl::getIndent(int)::kIndent
+PUBLIC 2e1e0 0 dumpBuffer(char const*, long)::niceHex
+PUBLIC 2e89b 0 aeInitializeFromHIToolbox::__FUNCTION__
+PUBLIC 2ee1a 0 _aeInstallLazyHandlers(CLVContext const*, CLVDatum const*, unsigned long, void*)::__FUNCTION__
+PUBLIC 2f814 0 AEVersionString
+PUBLIC 2f840 0 AEEventImpl::manufactureAttribute(unsigned long, AEDesc*) const::myPSN
+PUBLIC 2f860 0 AEEventImpl::flattenAndOrSize(FlatBuffer*, unsigned char) const::kMovedAttrs
+PUBLIC 2f930 0 aeEventSource(AEDesc*, signed char*, ProcessSerialNumber*)::myPSN
+PUBLIC 2f940 0 kBETermData
+PUBLIC 2fde0 0 fixup_classicToCarbonAttrs(ClassicAEDesc const*, AEDesc*)::kMoveAttrs
+PUBLIC 2fe20 0 aeReconstructReplyAppleEvent::kMoveAttrs
+PUBLIC 2fe40 0 IsKnownAbso::ords
+PUBLIC 2fe58 0 LITERAL_TOKENS
+PUBLIC 2fe80 0 offsetsFromUTF8
+PUBLIC 2fea0 0 trailingBytesForUTF8
+PUBLIC 2ffa0 0 firstByteMark
+PUBLIC 2ffc8 0 AEVersionNumber
+PUBLIC 30000 0 dyld__mach_header
+PUBLIC 30004 0 gThisProcessIsTheSystemDispatcher
+PUBLIC 30006 0 sOurProcess
+PUBLIC 30010 0 kAEImplArrayCallbacks
+PUBLIC 30024 0 gAEDebugReceives
+PUBLIC 30025 0 gAEDebugSends
+PUBLIC 30026 0 sInteractAllowance
+PUBLIC 30028 0 gInitializedThread
+PUBLIC 3002c 0 gIsThisAnHIToolboxInitializedApplication
+PUBLIC 30030 0 AESendMessage::kSelfTestEnablingFilePath
+PUBLIC 30034 0 AESendMessage::kSelfTestAppleEventEnabledKey
+PUBLIC 30038 0 aeInitializeFromHIToolbox::i
+PUBLIC 3003c 0 aeInitializeFromHIToolbox::s
+PUBLIC 30040 0 sFindProcs
+PUBLIC 30080 0 gPortsLock
+PUBLIC 300ac 0 sNeedProcessManagerInformation
+PUBLIC 300b0 0 sAnonPortArch
+PUBLIC 300b4 0 PerURL::kAppleEventsDomain
+PUBLIC 300b8 0 PerURL::sKC
+PUBLIC 300bc 0 getKeychainCalls()::kHI
+PUBLIC 300c0 0 SBoxes
+PUBLIC 302c0 0 PTbl
+PUBLIC 30300 0 IPInvTbl
+PUBLIC 30360 0 PC2Tbl
+PUBLIC 303a0 0 PC1Tbl
+PUBLIC 303dc 0 addDebugStuff(__CFDictionary const*, __CFString const*, unsigned long, AEDesc*)::kMissing
+PUBLIC 30410 0 kOSTypePairCallbacks
+PUBLIC 30610 0 kCoercionValueCallbacks
+PUBLIC 30638 0 kHandlerValueCallbacks
+PUBLIC 3064c 0 _aeInstallLazyHandlers(CLVContext const*, CLVDatum const*, unsigned long, void*)::sHandlerProcs
+PUBLIC 30660 0 ServerAECSD_subsystem
+PUBLIC 30938 0 kNullValueCallbacks
+PUBLIC 30a00 0 kAERemoteProcessProcessIDKey
+PUBLIC 30a04 0 kAERemoteProcessUserIDKey
+PUBLIC 30a08 0 kAERemoteProcessNameKey
+PUBLIC 30a0c 0 kAERemoteProcessURLKey
+PUBLIC 30a10 0 kPrivateMode
+PUBLIC 30a20 0 _AEGetSKServiceDescription::kAEMsgMap
+PUBLIC 311b0 0 _ZZN14EventImplQueueC4EvE2cb
+PUBLIC 311e0 0 sDidGetOurProcess
+PUBLIC 311e4 0 gCalloutChain
+PUBLIC 311e8 0 _ZZN6AEImplC4E18AEImplDescDataTypeE23didApplyHackyWorkaround
+PUBLIC 311ec 0 getNullRef()::sImpl
+PUBLIC 31200 0 getProcessName(ProcessSerialNumber const*)::s
+PUBLIC 31300 0 guard variable for absolveReturnID(long)::sReturnID
+PUBLIC 31308 0 absolveReturnID(long)::sReturnID
+PUBLIC 31310 0 guard variable for AEGetNthPtr::sNastyBoy
+PUBLIC 31318 0 guard variable for AEDisposeDesc::dontDisposeSTXTs
+PUBLIC 31320 0 aeInitDebugging::gDidInit
+PUBLIC 31324 0 getCoercionTable(unsigned char, unsigned char)::gPtrSystemCoercionTable
+PUBLIC 31328 0 getCoercionTable(unsigned char, unsigned char)::gPtrAppCoercionTable
+PUBLIC 3132c 0 getCoercionTable(unsigned char, unsigned char)::gDescSystemCoercionTable
+PUBLIC 31330 0 getCoercionTable(unsigned char, unsigned char)::gDescAppCoercionTable
+PUBLIC 31334 0 installLazyPtrCoercions()::sDidInstallLazyPtrCoercions
+PUBLIC 31335 0 installLazyDescCoercions()::sDidInstallLazyDescCoercions
+PUBLIC 31338 0 getHandlerTable(unsigned char)::gSysTable
+PUBLIC 3133c 0 getHandlerTable(unsigned char)::gAppTable
+PUBLIC 31340 0 AEInstallEventHandler::sDidCheckRecorders
+PUBLIC 31341 0 AEGetEventHandler::didInstallLazyHandlers
+PUBLIC 31342 0 AEDisposeDesc::dontDisposeSTXTs
+PUBLIC 31343 0 AEGetNthPtr::sNastyBoy
+PUBLIC 31344 0 getObserverQueue()::sObserverQueue
+PUBLIC 31348 0 getWSTerms(long*)::kLETermData
+PUBLIC 3134c 0 aeInstallRunLoopDispatcher::sDidInit
+PUBLIC 3134d 0 AEInstallSystemDispatcher::didInstall
+PUBLIC 31350 0 getHighLevelEventQueue()::sEventQueue
+PUBLIC 31354 0 getReplyQueue()::sReplyQueue
+PUBLIC 31358 0 getSuspensionQueue()::sSuspensionQueue
+PUBLIC 3135c 0 getCurrentEventQueue()::sCurrentMessageQueue
+PUBLIC 31360 0 getAccessorTable(unsigned char)::sSysTable
+PUBLIC 31364 0 getAccessorTable(unsigned char)::sAppTable
+PUBLIC 31368 0 gCarbonLazyValuesContext
+PUBLIC 3136c 0 aeInstallLazyEventHandlers::didInstall
+PUBLIC 3136d 0 aeInstallLazyDescCoercionHandlers::didInstall
+PUBLIC 3136e 0 aeInstallLazyPtrCoercionHandlers::didInstall
+PUBLIC 31370 0 gPorts
+PUBLIC 31374 0 sServicePort
+PUBLIC 31378 0 sRegisteredMachPort
+PUBLIC 3137c 0 getServicePort::didAddReconnect
+PUBLIC 31380 0 gRecordingTargets
+PUBLIC 31384 0 gRecorderCount
+PUBLIC 31388 0 gRecordingPasteboard
+PUBLIC 3138c 0 gList
+PUBLIC 31390 0 getKeychainCalls()::didLook
+PUBLIC 31394 0 getKeychainCalls()::sUpstream
+PUBLIC 31398 0 getMyBundle()::gBundleRef
+PUBLIC 3139c 0 getEPPCStreamBroker()::sHaus
+PUBLIC 313a0 0 getSystemConfig()::sSystemConfig
+PUBLIC 313a8 0 guard variable for CopyRemoteRunLoopSource::doConsumeActualCount()::keys
+PUBLIC 313b0 0 CopyRemoteRunLoopSource::doConsumeActualCount()::keys
+PUBLIC 313c0 0 gHasOtherArch
+PUBLIC 313c4 0 gEPPCUser
+PUBLIC 313c8 0 gPendingList
+PUBLIC 313cc 0 gSessionList
+PUBLIC 313d0 0 gInvalidAppsExist
+PUBLIC 313d4 0 ServerAECSD_ListPorts::sLastSize
+PUBLIC 313d8 0 ServerAECSD_ListPorts::sLastAddr
+PUBLIC 313e0 0 gHelpers
