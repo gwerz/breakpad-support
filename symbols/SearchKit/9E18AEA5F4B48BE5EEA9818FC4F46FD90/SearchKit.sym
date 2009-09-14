@@ -1,0 +1,3004 @@
+MODULE mac x86 9E18AEA5F4B48BE5EEA9818FC4F46FD90 SearchKit
+PUBLIC a24 0 SKIndexOpenWithURL
+PUBLIC b81 0 IAMutexCreate
+PUBLIC c15 0 IAMutexLock
+PUBLIC c1f 0 IAStorageOpenFromFilePath
+PUBLIC d8f 0 InitFileStreamCallbacks
+PUBLIC e23 0 AIATMalloc
+PUBLIC e59 0 AIATStringLength
+PUBLIC e6c 0 AIATGetAllocator
+PUBLIC e7d 0 StoreStreamNew
+PUBLIC 1087 0 AIATFillData
+PUBLIC 1097 0 IAFileStoreStreamNew
+PUBLIC 1136 0 AIATStringCopy
+PUBLIC 1158 0 IAStorageOpenFromStream
+PUBLIC 11fc 0 StorageNew
+PUBLIC 13f9 0 UInt32SetCreate
+PUBLIC 1453 0 UInt32DictionaryCreate
+PUBLIC 14b6 0 StorageOpen
+PUBLIC 168a 0 StoreStreamLockMutex
+PUBLIC 1691 0 StoreStreamOpen
+PUBLIC 16c6 0 IAFileStoreStreamOpen
+PUBLIC 1790 0 StoreStreamGetLength
+PUBLIC 17a2 0 IAFileStoreStreamGetLength
+PUBLIC 17bc 0 StoreStreamSetReadPosition
+PUBLIC 1828 0 StoreStreamReadUInt32
+PUBLIC 185d 0 StoreStreamReadBytes
+PUBLIC 18f1 0 StoreStreamReadPastEndOfBuffer
+PUBLIC 1966 0 IAFileStoreStreamRead
+PUBLIC 19c9 0 AIATCopyData
+PUBLIC 19de 0 StorageBlockInfoRead
+PUBLIC 1a9c 0 StorageTOCRead
+PUBLIC 1c3b 0 UInt32DictionaryCount
+PUBLIC 1c44 0 StoreStreamReadVInt32
+PUBLIC 1d51 0 StoreStreamReadByte
+PUBLIC 1d88 0 UInt32DictionaryPut
+PUBLIC 1dff 0 UInt32DictionaryRetainCallback
+PUBLIC 1e07 0 AIATFree
+PUBLIC 1e33 0 StorageFreeAddressesRead
+PUBLIC 1ecb 0 UInt32SetAdd
+PUBLIC 1f3f 0 UInt32SetAtOrBefore
+PUBLIC 1fad 0 UInt32ArrayRetainCallback
+PUBLIC 1fb5 0 StorageFreedIDsRead
+PUBLIC 2028 0 StoreStreamUnlockMutex
+PUBLIC 202f 0 IAMutexUnlock
+PUBLIC 2038 0 IAIndexOpen
+PUBLIC 2155 0 operator new(unsigned long)
+PUBLIC 215e 0 IAMalloc
+PUBLIC 21b0 0 IAStorage::IAStorage(OpaqueIAStorageRef*, unsigned char)
+PUBLIC 21ba 0 IAStorageRetain
+PUBLIC 21d8 0 StorageRetain
+PUBLIC 21f4 0 RefCountMutexLock
+PUBLIC 2286 0 RefCountMutexUnlock
+PUBLIC 22bd 0 IAStorageIsWritable
+PUBLIC 22d9 0 StorageIsWritable
+PUBLIC 22e6 0 TIAIndex::Open(IAStorage*, __CFString const*, unsigned char)
+PUBLIC 2670 0 UInt32Set::UInt32Set(unsigned char, short (*)(void const*, void const*, void*))
+PUBLIC 2722 0 IASkipListNew
+PUBLIC 2765 0 ListNew
+PUBLIC 27ec 0 IAStorage::TOC_Get(__CFString const*)
+PUBLIC 2814 0 IAStorageGetNamedBlock
+PUBLIC 2843 0 StorageTOC_Get
+PUBLIC 289b 0 UInt32DictionaryGet
+PUBLIC 28d6 0 IAInputBlockCreate
+PUBLIC 2979 0 StorageLockMutex
+PUBLIC 298b 0 StorageGetReadAddress
+PUBLIC 29c8 0 StorageGetBlockSize
+PUBLIC 29f2 0 StorageUnlockMutex
+PUBLIC 2a04 0 StorageGetStoreStream
+PUBLIC 2a0f 0 IAStorageGetBlockSize
+PUBLIC 2a23 0 StoreStreamGetReadPosition
+PUBLIC 2a34 0 IAInputBlock::ReadUInt32()
+PUBLIC 2a80 0 IASkipListPut
+PUBLIC 2ab1 0 ListPut
+PUBLIC 2b70 0 ListSearch
+PUBLIC 2c87 0 ListAdd
+PUBLIC 2d8f 0 IAInputBlockDispose
+PUBLIC 2dae 0 UInt32Set::Count()
+PUBLIC 2dc0 0 IASkipListCount
+PUBLIC 2dd1 0 IAMallocArrayOfType
+PUBLIC 2e0f 0 IASkipListPop
+PUBLIC 2e32 0 ListPop
+PUBLIC 2e81 0 ListRemoveItem
+PUBLIC 2ee8 0 IAInputBlock::ReadCFString()
+PUBLIC 2f34 0 StoreStreamReadCFString
+PUBLIC 301c 0 IAInputBlock::ReadByte()
+PUBLIC 306a 0 IATextAnalysisCreate
+PUBLIC 30a7 0 DocTextAnalysisCreate
+PUBLIC 3130 0 TextAnalysisRegistryResolve
+PUBLIC 31be 0 TextAnalysisRegistryInit
+PUBLIC 3235 0 IAMutexGetGlobalMutex
+PUBLIC 3266 0 initializeIAGlobalMutex
+PUBLIC 3284 0 InstallDefaultTextAnalysis
+PUBLIC 32bb 0 GetDefaultTextAnalysisCallbacks
+PUBLIC 32f9 0 TextAnalysisRegister
+PUBLIC 33c0 0 IADefaultTextAnalysisCreate
+PUBLIC 3482 0 IADefaultMutexConstructor()
+PUBLIC 34c2 0 IADefaultMutex::IADefaultMutex()
+PUBLIC 3579 0 TaskAllocatorCreate
+PUBLIC 3648 0 TaskAllocatorRetain
+PUBLIC 3652 0 DocUpdateSet::DocUpdateSet()
+PUBLIC 365c 0 BitArray::BitArray(unsigned int)
+PUBLIC 36d4 0 IAMallocArraySizedOfType
+PUBLIC 3712 0 TermIndex::SetName(__CFString const*)
+PUBLIC 3750 0 IAObjRefCount::Retain()
+PUBLIC 376c 0 IAFree
+PUBLIC 3775 0 IASkipListDispose
+PUBLIC 3791 0 ListDispose
+PUBLIC 37c6 0 virtual thunk to InvertedIndex::Open()
+PUBLIC 37d8 0 InvertedIndex::Open()
+PUBLIC 3844 0 TermIndex::Open()
+PUBLIC 3d4e 0 IAIndex::Open()
+PUBLIC 3e2d 0 virtual thunk to TIAInvertedIndex::RestoreRoot(IAInputBlock*)
+PUBLIC 3e40 0 TIAInvertedIndex::RestoreRoot(IAInputBlock*)
+PUBLIC 3e74 0 InvertedIndex::RestoreRoot(IAInputBlock*)
+PUBLIC 3eae 0 TermIndex::RestoreRoot(IAInputBlock*)
+PUBLIC 3f68 0 IAIndex::RestoreRoot(IAInputBlock*)
+PUBLIC 403c 0 IAIndexTypes::Restore(IAInputBlock*)
+PUBLIC 406c 0 TIAIndex::RestoreRoot(IAInputBlock*)
+PUBLIC 4144 0 IAInputBlock::ReadVInt32()
+PUBLIC 4190 0 IADoc::DeepCopy() const
+PUBLIC 421e 0 IADoc::DeepCopying(IAStorable const*)
+PUBLIC 4282 0 TermIndex::MakeDocInfo(IADoc*, unsigned int)
+PUBLIC 42ed 0 IAMakeOrderedStorableSet(IAOrderedStorable*)
+PUBLIC 434c 0 IAStorage::IsWritable()
+PUBLIC 435e 0 IADefaultMutex::Lock()
+PUBLIC 4370 0 BTHeader::Restore(IAInputBlock*)
+PUBLIC 43fa 0 IAStorageIsValidID
+PUBLIC 441d 0 StorageIsValidID
+PUBLIC 445a 0 UInt32SetExists
+PUBLIC 4490 0 IAInputBlock::GetPosition()
+PUBLIC 44a2 0 Page::ReadEntries(IAInputBlock*, IAOrderedStorable*)
+PUBLIC 458a 0 IASkipListFingerFirst
+PUBLIC 45a4 0 Leaf::EntryRestore(PageEntry*, IAOrderedStorable*, IAInputBlock*)
+PUBLIC 45f4 0 DocInfo::Restore(IAInputBlock*) const
+PUBLIC 4666 0 DocInfo::Restoring(IAInputBlock*, IAStorable const*)
+PUBLIC 46ac 0 IADoc::Restore(IAInputBlock*) const
+PUBLIC 4742 0 IADoc::Restoring(IAInputBlock*, IAStorable const*)
+PUBLIC 47ca 0 IASkipListFingerInsert
+PUBLIC 4832 0 DocInfo::LessThan(IAOrderedStorable const*) const
+PUBLIC 4856 0 IADoc::LessThan(IAOrderedStorable const*) const
+PUBLIC 48fa 0 IADefaultMutex::Unlock()
+PUBLIC 490c 0 IDDocCount::Restore(IAInputBlock*) const
+PUBLIC 49a0 0 IDDoc::LessThan(IAOrderedStorable const*) const
+PUBLIC 49b8 0 IAAnalysis::GetProtoTerm()
+PUBLIC 4a08 0 virtual thunk to InvertedIndex::MakeTermInfo(IATerm*, unsigned int)
+PUBLIC 4a1a 0 InvertedIndex::MakeTermInfo(IATerm*, unsigned int)
+PUBLIC 4a94 0 Page::EntryRestore(PageEntry*, IAOrderedStorable*, IAInputBlock*)
+PUBLIC 4b2a 0 InvertedTermInfo::Restore(IAInputBlock*) const
+PUBLIC 4c68 0 IATerm::Restore(IAInputBlock*) const
+PUBLIC 4ce6 0 FreqPostingsRestore(unsigned int, IAInputBlock*)
+PUBLIC 4d5a 0 TermInfo::LessThan(IAOrderedStorable const*) const
+PUBLIC 4d7e 0 IATerm::LessThanNonVirtual(IAOrderedStorable const*) const
+PUBLIC 4dcc 0 IDTerm::Restore(IAInputBlock*) const
+PUBLIC 4e4e 0 IDTerm::LessThan(IAOrderedStorable const*) const
+PUBLIC 4e66 0 IATextAnalysisGetProperties
+PUBLIC 4e7a 0 DocTextAnalysisGetProperties
+PUBLIC 4e86 0 TermIndex::RestoreUpdates()
+PUBLIC 52a0 0 BitArray::Restore(IAInputBlock*)
+PUBLIC 5316 0 IAFreeSized
+PUBLIC 5320 0 TermIndex::GetUpdateDocCount()
+PUBLIC 533e 0 TIADocPropertyEntryNew::Restore(IAInputBlock*) const
+PUBLIC 53c6 0 TIADocPropertyEntryNew::Restoring(IAInputBlock*, IAStorable const*)
+PUBLIC 541a 0 IAInputBlock::ReadCFType()
+PUBLIC 542e 0 IAInputBlockReadCFType
+PUBLIC 5a80 0 IAInputBlockReadUInt32
+PUBLIC 5a89 0 GetCFTypeForEntry
+PUBLIC 5ae0 0 IAInputBlockReadCFString
+PUBLIC 5b0a 0 TIADocPropertyEntry::LessThan(IAOrderedStorable const*) const
+PUBLIC 5b52 0 TIAIndex::ClassToRef(TIAIndex*)
+PUBLIC 5b94 0 IAObjRefCount::Release()
+PUBLIC 5bd4 0 TIAIndex::RefToClass(OpaqueIAIndexRef*)
+PUBLIC 5c16 0 IAIndexGetType
+PUBLIC 5c3e 0 IAStorageRelease
+PUBLIC 5c5c 0 StorageRelease
+PUBLIC 5c9a 0 NewIndexArray()
+PUBLIC 5cbf 0 LoggingEnabled()
+PUBLIC 5d58 0 SKDocumentCreateWithURL
+PUBLIC 60ec 0 IADocKeyCreate
+PUBLIC 610d 0 DocKeyCreate
+PUBLIC 626c 0 SKIndexAddDocumentWithText
+PUBLIC 6381 0 SKDocumentGetTypeID
+PUBLIC 638a 0 DocKeyGetCFTypeID
+PUBLIC 639b 0 IATextStreamCreateFromCFString
+PUBLIC 63d4 0 TextStreamCreateFromCFString
+PUBLIC 6446 0 IAIndexAddDocWithTextStream
+PUBLIC 652d 0 IATaskGetCurrent
+PUBLIC 6566 0 initializeIATaskKey
+PUBLIC 6590 0 IAStorage::IsValid()
+PUBLIC 65ae 0 IAStorageIsValid
+PUBLIC 65d2 0 StorageIsValid
+PUBLIC 65de 0 TIAIndex::Add(OpaqueIADocKeyRef*, OpaqueIATextStreamRef*, unsigned char)
+PUBLIC 67ac 0 TIAIndex::GetDocState(OpaqueIADocKeyRef*)
+PUBLIC 6810 0 TIAIndex::BuildDoc(OpaqueIADocKeyRef*, unsigned char, unsigned char*)
+PUBLIC 6ae0 0 IADocKeyGetParent
+PUBLIC 6afb 0 DocKeyGetParent
+PUBLIC 6b2f 0 IADocKeyGetSchemeName
+PUBLIC 6b4a 0 DocKeyGetSchemeName
+PUBLIC 6b6f 0 IADocKeyGetName
+PUBLIC 6b8a 0 DocKeyGetName
+PUBLIC 6bb0 0 TermIndex::GetDocInfo(IADoc const*, bool)
+PUBLIC 6c9c 0 BTree::Get(IAOrderedStorable const*)
+PUBLIC 6d00 0 BTree::GetReference(IAOrderedStorable const*)
+PUBLIC 6ede 0 Page::FingerEntry(IAOrderedStorable const*, void**, unsigned char*)
+PUBLIC 6f10 0 IASkipListSetFinger
+PUBLIC 6f6d 0 ListCompare
+PUBLIC 6fb2 0 PageEntryCompare
+PUBLIC 6fd4 0 DocInfo::Compare(IAOrderedStorable const*) const
+PUBLIC 6ff2 0 IADoc::Compare(IAOrderedStorable const*) const
+PUBLIC 7070 0 DocInfo::DeepCopy() const
+PUBLIC 70dc 0 DocInfo::DeepCopying(IAStorable const*)
+PUBLIC 7110 0 operator delete(void*)
+PUBLIC 7136 0 IADoc::~IADoc()
+PUBLIC 7141 0 DocKeyDictionaryRetainCallback
+PUBLIC 7150 0 IADocKeyRetain
+PUBLIC 7164 0 DocKeyRetain
+PUBLIC 7183 0 DocKeyDictionaryHash
+PUBLIC 719e 0 TIAIndex::RemoveDoc(OpaqueIADocKeyRef*, unsigned char)
+PUBLIC 7346 0 TIAIndex::GetIterator(OpaqueIADocKeyRef*)
+PUBLIC 74b4 0 TermIndex::GetDocIterator(IADoc const*)
+PUBLIC 7522 0 TermIndex::GetDocInfoIterator(IADoc const*)
+PUBLIC 75d2 0 BTree::MakeIterator(IAOrderedStorable const*)
+PUBLIC 764c 0 BTreeIterator::BuildStack(IAOrderedStorable const*)
+PUBLIC 76be 0 BTreeIterator::PushTo(Page*, IAOrderedStorable const*)
+PUBLIC 7800 0 DocInfo::Equal(IAOrderedStorable const*) const
+PUBLIC 7824 0 IADoc::Equal(IAOrderedStorable const*) const
+PUBLIC 789e 0 IARefCount::Retain()
+PUBLIC 78aa 0 TIAIndexDocIterator::Increment()
+PUBLIC 7ad2 0 TIDocIterator::GetNextDoc()
+PUBLIC 7b0a 0 BTreeIterator::Next()
+PUBLIC 7bea 0 BTreeIterator::Increment()
+PUBLIC 7c98 0 Page::Next(PageEntry*)
+PUBLIC 7caa 0 IASkipListNextNode
+PUBLIC 7cda 0 IARefCount::Release()
+PUBLIC 7cf8 0 TermIndex::GetDocTermCount(unsigned int)
+PUBLIC 7e0c 0 IDDoc::Compare(IAOrderedStorable const*) const
+PUBLIC 7e2c 0 IDDocCount::DeepCopy() const
+PUBLIC 7eac 0 TermIndex::DeleteDoc(IADoc const*)
+PUBLIC 7f6c 0 TermIndex::MaybeFlushUpdates()
+PUBLIC 7fbc 0 TermIndex::ShouldMergeUpdates(float)
+PUBLIC 808a 0 TaskAllocatorUsage
+PUBLIC 80af 0 virtual thunk to InvertedIndex::DeletingDoc(DocInfo*)
+PUBLIC 80c4 0 InvertedIndex::DeletingDoc(DocInfo*)
+PUBLIC 80fa 0 InvertedIndex::DeletingDocInternal(DocInfo*)
+PUBLIC 814a 0 TermIndex::GetMaxDocID()
+PUBLIC 8190 0 BitArray::SetLength(unsigned int)
+PUBLIC 827e 0 TermIndex::DeletingDoc(DocInfo*)
+PUBLIC 8320 0 BTree::Remove(IAOrderedStorable const*)
+PUBLIC 839c 0 BTree::RemoveInternal(Page*, Page*, PageEntry*, IAOrderedStorable const*, unsigned int)
+PUBLIC 8510 0 Leaf::IsLeaf()
+PUBLIC 851a 0 Page::RemoveEntryAtFinger(void**)
+PUBLIC 85aa 0 IASkipListFingerGetNode
+PUBLIC 85d4 0 Leaf::EntryStoreSize(PageEntry*)
+PUBLIC 85e0 0 IASkipListFingerRemove
+PUBLIC 85fe 0 BTree::Rebalance(Page*, Page*, PageEntry*, unsigned int)
+PUBLIC 8672 0 BTree::RebalanceRoot()
+PUBLIC 86c6 0 Page::Count()
+PUBLIC 86d8 0 TermIndex::DocInDocUpdateSet(IADoc*, unsigned int*)
+PUBLIC 874a 0 IASkipListGet
+PUBLIC 8774 0 ListGet
+PUBLIC 87da 0 TermIndex::NewDocID()
+PUBLIC 87ec 0 TermIndex::AddDocInfo(IADoc*, unsigned int)
+PUBLIC 897c 0 DocUpdateSet::Put(DocUpdate*, DocUpdate*)
+PUBLIC 89dc 0 BTree::Put(IAOrderedStorable*)
+PUBLIC 8a9e 0 IDDocCount::StoreSize() const
+PUBLIC 8acc 0 IDDoc::StoreSize() const
+PUBLIC 8aff 0 IAStorageVInt32Size
+PUBLIC 8b15 0 VInt32Size
+PUBLIC 8b34 0 IADoc::StoreSize() const
+PUBLIC 8b99 0 IAStorageCFStringSize
+PUBLIC 8bc8 0 BTree::PutInternal(Page*, Page*, PageEntry*, IAOrderedStorable*, unsigned int)
+PUBLIC 8cf4 0 BTree::InsertObject(Page*, void**, IAOrderedStorable*)
+PUBLIC 8d3c 0 Page::InsertEntryAtFinger(PageEntry*, void**)
+PUBLIC 8d8e 0 TermIndex::AddDocInternal(IADoc*, unsigned int, OpaqueIATextStreamRef*)
+PUBLIC 92d6 0 GetDefaultTextAnalysisName
+PUBLIC 92e7 0 IATextAnalysisGetType
+PUBLIC 92fb 0 DocTextAnalysisGetType
+PUBLIC 9305 0 DocTextAnalysisGetCallbackRef
+PUBLIC 9310 0 IAAnalysis::GetMutex()
+PUBLIC 9372 0 IADefaultTextAnalysisCreateTokenizerNew
+PUBLIC a359 0 GetFastCharBitmap
+PUBLIC a36a 0 GetNeedNormCharBitmap
+PUBLIC a37b 0 UniCharParserCreate
+PUBLIC a481 0 TextStreamCopyString
+PUBLIC a81e 0 IADefaultTokenizerGetNextToken
+PUBLIC a854 0 GetNextTokenWithSKTokenizer
+PUBLIC b579 0 TaskAllocatorAllocate
+PUBLIC b649 0 IADefaultTokenizerDispose
+PUBLIC b684 0 UniCharParserDispose
+PUBLIC b6c3 0 IADocKeyRelease
+PUBLIC b6d8 0 DocKeyRelease
+PUBLIC b6ea 0 Page::ReplaceObj(PageEntry*, IAOrderedStorable*)
+PUBLIC b747 0 IATextStreamRelease
+PUBLIC b75c 0 TextStreamRelease
+PUBLIC b7d8 0 SKIndexSetDocumentProperties
+PUBLIC b901 0 IAIndexSetDocProperties
+PUBLIC b96c 0 IAOrderedStorable::Compare(IAOrderedStorable const*) const
+PUBLIC b9b3 0 IAStorageCFTypeSize
+PUBLIC bb34 0 TIADocPropertyEntryNew::StoreSize() const
+PUBLIC bb80 0 SKIndexFlush
+PUBLIC bbae 0 SKIndexFlushInternal
+PUBLIC bc84 0 DocKeyDictionaryReleaseCallback
+PUBLIC bc94 0 TermIndex::Flush()
+PUBLIC be2b 0 virtual thunk to TIAInvertedIndex::FlushUpdates()
+PUBLIC be40 0 TIAInvertedIndex::FlushUpdates()
+PUBLIC be54 0 TermIndex::FlushUpdates()
+PUBLIC c046 0 Phase::Phase(unsigned int, Progress*)
+PUBLIC c08a 0 Progress::Check()
+PUBLIC c14e 0 BTree::Purge()
+PUBLIC c1c4 0 Page::Write(IAStorage*)
+PUBLIC c328 0 IAOutputBlockCreate
+PUBLIC c41a 0 StorageGetWriteAddress
+PUBLIC c44b 0 StorageGetWriteAddressInternal
+PUBLIC c579 0 StorageFreeAddress
+PUBLIC c5e3 0 UInt32SetRemove
+PUBLIC c62b 0 StorageAddAddress
+PUBLIC c68c 0 StorageAllocAddress
+PUBLIC c6d6 0 StorageNewAddressInternal
+PUBLIC c7b4 0 UInt32SetCount
+PUBLIC c7c8 0 UInt32SetGetItem
+PUBLIC c7d1 0 UInt32SetPop
+PUBLIC c828 0 UInt32ArrayReleaseCallback
+PUBLIC c82d 0 StoreStreamSetWritePosition
+PUBLIC c87d 0 StoreStreamMaybeFlushBuffer
+PUBLIC c8e5 0 IAOutputBlockWriteUInt32
+PUBLIC c8f6 0 StoreStreamWriteUInt32
+PUBLIC c920 0 StoreStreamWriteBytes
+PUBLIC c9cc 0 StoreStreamWritePastEndOfBuffer
+PUBLIC ca06 0 IASkipListFirstNode
+PUBLIC ca1e 0 Leaf::EntryStore(PageEntry*, IAOutputBlock*)
+PUBLIC ca38 0 IDDocCount::Store(IAOutputBlock*) const
+PUBLIC ca80 0 IAOutputBlockWriteVInt32
+PUBLIC ca91 0 StoreStreamWriteVInt32
+PUBLIC cb9e 0 IADoc::Store(IAOutputBlock*) const
+PUBLIC cc34 0 IAOutputBlock::WriteCFString(__CFString const*)
+PUBLIC cc7e 0 IAOutputBlockWriteCFString
+PUBLIC cca3 0 StoreStreamWriteCFString
+PUBLIC cd5a 0 IAOutputBlockDispose
+PUBLIC cdba 0 StoreStreamGetWritePosition
+PUBLIC cdcb 0 StoreStreamWriteByte
+PUBLIC ce1c 0 TermIndex::RemoveUpdates()
+PUBLIC ceba 0 TermIndex::FlushTermUpdates(Progress*)
+PUBLIC d9ca 0 TermIndex::GetTermInfo(IATerm*, bool)
+PUBLIC da7a 0 TermInfo::Compare(IAOrderedStorable const*) const
+PUBLIC da98 0 IATerm::Compare(IAOrderedStorable const*) const
+PUBLIC dae8 0 PageCache::Put(Page*, unsigned int, bool)
+PUBLIC dba0 0 PageCache::PurgeLru(unsigned int)
+PUBLIC dbf8 0 PageCache::AddMru(PageCacheEntry*)
+PUBLIC dcbe 0 Page::LastNode()
+PUBLIC dcd0 0 IASkipListLastNode
+PUBLIC dcf0 0 InvertedTermInfo::DeepCopy() const
+PUBLIC dd5c 0 InvertedTermInfo::DeepCopying(IAStorable const*)
+PUBLIC dda4 0 TermInfo::DeepCopying(IAStorable const*)
+PUBLIC ddd8 0 IATerm::DeepCopy() const
+PUBLIC de4e 0 FreqPostingsCopy(FreqPosting*, unsigned int)
+PUBLIC de9d 0 virtual thunk to InvertedIndex::UpdateTermInfo(TermInfo*, FreqPosting*, unsigned int, unsigned int)
+PUBLIC deb0 0 InvertedIndex::UpdateTermInfo(TermInfo*, FreqPosting*, unsigned int, unsigned int)
+PUBLIC dfcd 0 FreqPostingsAppend(FreqPosting*, unsigned int, FreqPosting*, unsigned int)
+PUBLIC e058 0 InvertedTermInfo::StoreSize() const
+PUBLIC e0a4 0 TermInfo::StoreSize() const
+PUBLIC e0ec 0 IATerm::StoreSize() const
+PUBLIC e10b 0 FreqPostingsStoreSize(FreqPosting*, unsigned int)
+PUBLIC e156 0 FreqPostingStoreSize(FreqPosting const*)
+PUBLIC e1a2 0 FreqPostingStoreSize(FreqPosting const*, FreqPosting const*)
+PUBLIC e1f5 0 PageCacheEntryPtrCompare
+PUBLIC e21a 0 BTree::RebalanceNonRoot(Page*, Page*, PageEntry*, unsigned int)
+PUBLIC e362 0 Page::PreviousNode(PageEntry*)
+PUBLIC e374 0 IASkipListPreviousNode
+PUBLIC e398 0 BTree::RebalanceTwo(Page*, PageEntry*, Page*, Page*, unsigned int)
+PUBLIC e44c 0 Scroll::Initialize(Page*, PageEntry*, Page*)
+PUBLIC e5d8 0 Page::First()
+PUBLIC e5ea 0 BTree::BestTwoPagination()
+PUBLIC e6d4 0 BTree::PaginateTwo(Page*, PageEntry*, Page*, Page*, unsigned int)
+PUBLIC e782 0 Page::ShiftContentsLeft(Page*, PageEntry*, Page*, PageEntry*)
+PUBLIC e848 0 IASkipListFingerLast
+PUBLIC e860 0 Page::PopEntry(PageEntry*)
+PUBLIC e8a8 0 IATerm::IATerm(unsigned char const*, unsigned int)
+PUBLIC e960 0 PageCache::PurgeEntry(PageCacheEntry*)
+PUBLIC e9fa 0 IASkipListRemove
+PUBLIC ea24 0 ListRemove
+PUBLIC ea9a 0 PageCache::MaybeWritePage(PageCacheEntry*)
+PUBLIC eb16 0 IAFileStoreStreamWrite
+PUBLIC eb82 0 InvertedTermInfo::Store(IAOutputBlock*) const
+PUBLIC ebce 0 TermInfo::Store(IAOutputBlock*) const
+PUBLIC ec16 0 IATerm::Store(IAOutputBlock*) const
+PUBLIC ec56 0 IAOutputBlockWriteBuffer
+PUBLIC ec67 0 FreqPostingsStore(FreqPosting*, unsigned int, IAOutputBlock*)
+PUBLIC ece0 0 PageCacheEntry::~PageCacheEntry()
+PUBLIC ed38 0 PageCache::Purge()
+PUBLIC ede0 0 Page::EntryStore(PageEntry*, IAOutputBlock*)
+PUBLIC ee58 0 BTree::PutValues(int, IAOrderedStorable**)
+PUBLIC ee96 0 IDTerm::StoreSize() const
+PUBLIC eec8 0 IDTerm::Compare(IAOrderedStorable const*) const
+PUBLIC eee8 0 IDTerm::Store(IAOutputBlock*) const
+PUBLIC ef20 0 IDTerm::~IDTerm()
+PUBLIC ef80 0 TermIndex::FlushDocUpdates(Progress*)
+PUBLIC f098 0 DocInfo::StoreSize() const
+PUBLIC f0e0 0 DocInfo::Store(IAOutputBlock*) const
+PUBLIC f128 0 TaskAllocatorRelease
+PUBLIC f17c 0 Progress::Complete()
+PUBLIC f1b5 0 CallFlushProgressFn(float, void*)
+PUBLIC f26e 0 virtual thunk to InvertedIndex::FinishingUpdate()
+PUBLIC f284 0 InvertedIndex::FinishingUpdate()
+PUBLIC f30e 0 BitArray::StoreSize()
+PUBLIC f324 0 BitArray::Store(IAOutputBlock*)
+PUBLIC f36e 0 BTree::Flush()
+PUBLIC f45c 0 PageCache::WriteDirtyPages()
+PUBLIC f49e 0 BTHeader::Store(IAOutputBlock*) const
+PUBLIC f53e 0 IAIndex::Flush()
+PUBLIC f5d0 0 virtual thunk to TIAInvertedIndex::RootSize()
+PUBLIC f5e2 0 TIAInvertedIndex::RootSize()
+PUBLIC f610 0 InvertedIndex::RootSize()
+PUBLIC f62c 0 TermIndex::RootSize()
+PUBLIC f64e 0 IAIndex::RootSize()
+PUBLIC f658 0 TIAIndex::RootSize()
+PUBLIC f6ad 0 virtual thunk to TIAInvertedIndex::StoreRoot(IAOutputBlock*)
+PUBLIC f6c0 0 TIAInvertedIndex::StoreRoot(IAOutputBlock*)
+PUBLIC f6f4 0 InvertedIndex::StoreRoot(IAOutputBlock*)
+PUBLIC f732 0 TermIndex::StoreRoot(IAOutputBlock*)
+PUBLIC f7da 0 IAIndex::StoreRoot(IAOutputBlock*)
+PUBLIC f852 0 IAIndexTypes::Store(IAOutputBlock*) const
+PUBLIC f88a 0 TIAIndex::StoreRoot(IAOutputBlock*)
+PUBLIC f910 0 TIADocPropertyEntryNew::Store(IAOutputBlock*) const
+PUBLIC f970 0 IAOutputBlock::WriteCFType(void const*)
+PUBLIC f9bc 0 IAOutputBlockWriteCFType
+PUBLIC fef0 0 GetEntryTypeForCFType
+PUBLIC ff6a 0 IAStorage::Commit(unsigned char)
+PUBLIC ffb5 0 IAStorageCommit
+PUBLIC ffe0 0 StorageCommit
+PUBLIC 1033d 0 StoreStreamIsWritable
+PUBLIC 10349 0 UInt32DictionaryApplyFunction
+PUBLIC 10384 0 CFDictionaryUInt32ApplierFunction
+PUBLIC 10395 0 StorageTOCSizeCompute
+PUBLIC 103d5 0 StorageFreeAddressesSize
+PUBLIC 104ff 0 UInt32SetClone
+PUBLIC 10523 0 UInt32SetDispose
+PUBLIC 10535 0 UInt32SetDestroy
+PUBLIC 1053e 0 StorageFreeNewFreeAddress
+PUBLIC 10597 0 StorageBlockInfoWrite
+PUBLIC 10604 0 StorageTOCWrite
+PUBLIC 1066d 0 StorageTOCWriteItem
+PUBLIC 10779 0 StorageFreeAddressesWrite
+PUBLIC 10802 0 StorageFreedIDsWrite
+PUBLIC 1086e 0 StoreStreamFlush
+PUBLIC 10893 0 IAFileStoreStreamFlush
+PUBLIC 108e5 0 SKIndexClose
+PUBLIC 10900 0 IAIndexRelease
+PUBLIC 1094e 0 TIAIndex::Close()
+PUBLIC 109ac 0 IAReleaseOnUnwind::IAReleaseOnUnwind(IARefCount*)
+PUBLIC 109ba 0 IAReleaseOnUnwind::~IAReleaseOnUnwind()
+PUBLIC 109df 0 virtual thunk to TIAInvertedIndex::~TIAInvertedIndex()
+PUBLIC 109f2 0 IAMutexDispose
+PUBLIC 10a1b 0 SKDocumentDealloc
+PUBLIC 10a70 0 Page::~Page()
+PUBLIC 10a7a 0 PageCache::~PageCache()
+PUBLIC 10a84 0 IATextAnalysisRelease
+PUBLIC 10aa2 0 DocTextAnalysisRelease
+PUBLIC 10b03 0 IADefaultTextAnalysisDispose
+PUBLIC 10be7 0 StorageDispose
+PUBLIC 10cc8 0 StorageFreeChunks
+PUBLIC 10d06 0 UInt32DictionaryDispose
+PUBLIC 10d18 0 UInt32DictionaryReleaseCallback
+PUBLIC 10d1d 0 StoreStreamDispose
+PUBLIC 10d7c 0 IAFileStoreStreamClose
+PUBLIC 10dba 0 IAFileStoreStreamDispose
+PUBLIC 10de8 0 BTreeIterator::PopForward()
+PUBLIC 10e44 0 Page::ShiftContentsRight(Page*, PageEntry*, Page*, PageEntry*)
+PUBLIC 10f48 0 IDTerm::DeepCopy() const
+PUBLIC 10fbc 0 SKDocumentGetName
+PUBLIC 10ff7 0 UniCharParserSwitchToCFT
+PUBLIC 11054 0 UniCharParserGetNextWord
+PUBLIC 110ef 0 GetNextTokenFromCFToken
+PUBLIC 11a5c 0 BTree::SplitOne(Page*, Page*, unsigned int)
+PUBLIC 11b0c 0 BTree::NewPage(bool)
+PUBLIC 11baa 0 IAStorage::Allocate()
+PUBLIC 11bbd 0 IAStorageAllocateBlock
+PUBLIC 11bd1 0 StorageAllocate
+PUBLIC 11c4a 0 StorageNewInfo
+PUBLIC 11cee 0 Page::InsertEntry(PageEntry*)
+PUBLIC 11d3c 0 Page::EntryStoreSize(PageEntry*)
+PUBLIC 11d4b 0 DocKeyDictionaryEqual
+PUBLIC 11d68 0 DocKeyEqual
+PUBLIC 11df0 0 SKIndexOpenWithData
+PUBLIC 11e04 0 IAStorageMemoryOpen
+PUBLIC 11e9b 0 InitMemoryStreamCallbacks
+PUBLIC 11f37 0 IAMemoryStoreStreamNew
+PUBLIC 11fa0 0 IAMemoryStoreStreamOpen
+PUBLIC 11fc5 0 IAMemoryStoreStreamGetLength
+PUBLIC 11fe4 0 IAMemoryStoreStreamRead
+PUBLIC 12070 0 IAInputBlockReadByte
+PUBLIC 12079 0 IAInputBlockReadBuffer
+PUBLIC 12082 0 IATextAnalysisSetProperties
+PUBLIC 12099 0 DocTextAnalysisSetProperties
+PUBLIC 12124 0 SKIndexGetMaximumTermID
+PUBLIC 12140 0 IAIndexGetMaxTermID
+PUBLIC 1216c 0 TIAIndex::GetMaxTermID()
+PUBLIC 1217e 0 TermIndex::GetMaxTermID()
+PUBLIC 121c4 0 IDDoc::Restore(IAInputBlock*) const
+PUBLIC 12246 0 TIADocPropertyEntry::TIADocPropertyEntry()
+PUBLIC 1228c 0 TIADocPropertyEntry::Restore(IAInputBlock*) const
+PUBLIC 1230c 0 TIADocPropertyEntry::Restoring(IAInputBlock*, IAStorable const*)
+PUBLIC 12356 0 SKIndexCopyUniqueTerms
+PUBLIC 124ae 0 IATextStreamRetain
+PUBLIC 124c2 0 TextStreamRetain
+PUBLIC 124e6 0 IAAnalysis::MakeTokenStream(OpaqueIATextStreamRef*)
+PUBLIC 12558 0 IAAnalysis::GetNextTokenThreadSafe()
+PUBLIC 1257a 0 IATokenizerCreate
+PUBLIC 125bc 0 TokenizerCreate
+PUBLIC 1262a 0 IADefaultTextAnalysisCreateTokenizer
+PUBLIC 12653 0 DocTextAnalysisRetain
+PUBLIC 12676 0 IATokenizerGetNextToken
+PUBLIC 12690 0 TokenizerGetNextToken
+PUBLIC 126a5 0 IATokenizerRelease
+PUBLIC 126c3 0 TokenizerRelease
+PUBLIC 12718 0 IATokenStream::~IATokenStream()
+PUBLIC 12722 0 SKSearchCreate
+PUBLIC 12886 0 ConditionCreate
+PUBLIC 128f2 0 IATaskCreate
+PUBLIC 129bd 0 IAPThreadTaskCreate
+PUBLIC 12a36 0 IAPThreadTaskEntry
+PUBLIC 12a56 0 SKSearchFindMatches
+PUBLIC 12d43 0 IATaskEntry
+PUBLIC 12e3a 0 ConditionWait
+PUBLIC 12ea4 0 SKIndexSearch
+PUBLIC 14d28 0 virtual thunk to InvertedIndex::IANarrowInternal(long)
+PUBLIC 14d3a 0 InvertedIndex::IANarrowInternal(long)
+PUBLIC 14d6f 0 SKQueryParse
+PUBLIC 14f98 0 SKQueryScannerReset
+PUBLIC 1500c 0 SKparse
+PUBLIC 15724 0 SKlex
+PUBLIC 161c4 0 SK_create_buffer
+PUBLIC 16243 0 SK_init_buffer
+PUBLIC 162e8 0 SKQueryScannerReadChars
+PUBLIC 16358 0 SKQueryScannerAutoRelease
+PUBLIC 16387 0 SKQueryGrammarNodeCreate
+PUBLIC 163dc 0 SKQueryNodeCreate
+PUBLIC 16446 0 SKrestart
+PUBLIC 164c6 0 SKwrap
+PUBLIC 164d0 0 ReleaseApplierFunction
+PUBLIC 164d9 0 IAIndexGetTextAnalysisTypeCount
+PUBLIC 1650c 0 IAIndexGetTextAnalysisTypes
+PUBLIC 16588 0 QueryTermInfo::QueryTermInfo(unsigned char const*, unsigned int)
+PUBLIC 16616 0 TermIndex::GetDocCount()
+PUBLIC 16664 0 BTree::Count()
+PUBLIC 16670 0 TIAIndex::GetTotalTermCount()
+PUBLIC 166ec 0 BTree::ObjectsForSortedKeys(int, ObjectsForSortedKeysContext*)
+PUBLIC 1678a 0 IATaskWasCanceled
+PUBLIC 1679c 0 ReadUInt32FromBuffer
+PUBLIC 167b0 0 InvertedTermInfo::Skip(unsigned char const*) const
+PUBLIC 16842 0 IATerm::Skip(unsigned char const*) const
+PUBLIC 16882 0 FreqPostingsSkip(unsigned int, unsigned char const*)
+PUBLIC 168e2 0 SKDocIDScorePostingSet::Add(SKDocIDScorePosting*)
+PUBLIC 1693e 0 SKDocIDScorePostingSet::MergeToSet()
+PUBLIC 169b4 0 SKDocIDScorePostingSet::~SKDocIDScorePostingSet()
+PUBLIC 169e8 0 DocIDBitMap::~DocIDBitMap()
+PUBLIC 16a56 0 IDDocCount::Skip(unsigned char const*) const
+PUBLIC 16aac 0 IADoc::Skip(unsigned char const*) const
+PUBLIC 16b7e 0 QueryTermInfo::~QueryTermInfo()
+PUBLIC 16b89 0 SKQueryNodeDispose
+PUBLIC 16bf9 0 ConditionSignal
+PUBLIC 16c52 0 SKIndexCopyDocumentRefsForDocumentIDs
+PUBLIC 16cb1 0 IAIndexCopyDocKeyFromID
+PUBLIC 16ce4 0 TermIndex::GetIDDoc(unsigned int)
+PUBLIC 16dce 0 IADoc::GetDocKey(unsigned char)
+PUBLIC 16dec 0 TIAIndex::Resolve(IADoc*, unsigned char)
+PUBLIC 16f50 0 IADoc::SetDocKey(OpaqueIADocKeyRef*)
+PUBLIC 16f90 0 SKDocumentCopyURL
+PUBLIC 170b6 0 SKDocumentGetSchemeName
+PUBLIC 170f1 0 BuildURLPath
+PUBLIC 17164 0 SKDocumentGetParent
+PUBLIC 1719f 0 SKIndexCopyDocumentProperties
+PUBLIC 1721a 0 TIAIndex::CopyAllDocProperties(OpaqueIADocKeyRef*)
+PUBLIC 1743e 0 TIADocPropertyEntry::Equal(IAOrderedStorable const*) const
+PUBLIC 1747e 0 TIADocPropertyEntryNew::DeepCopy() const
+PUBLIC 17504 0 TIADocPropertyEntryNew::DeepCopying(IAStorable const*)
+PUBLIC 17530 0 TIADocPropertyEntry::DeepCopying(IAStorable const*)
+PUBLIC 17578 0 TIADocPropertyEntryNew::Resolve(IAStorage*)
+PUBLIC 175da 0 BTreeIterator::PushForward(Page*)
+PUBLIC 17688 0 IATaskDispose
+PUBLIC 17752 0 IAPThreadTaskDispose
+PUBLIC 17767 0 ConditionDispose
+PUBLIC 1779c 0 BTree::GrowTree()
+PUBLIC 17894 0 AIATReportError
+PUBLIC 178d6 0 AIATRegisterReportErrorUPP
+PUBLIC 178ec 0 AIATSetAllocator
+PUBLIC 1790f 0 AIATStringCompare
+PUBLIC 1793a 0 AIATCompareData
+PUBLIC 1795c 0 UInt32DictionaryEqual
+PUBLIC 1796d 0 UInt32DictionaryCopyDescription
+PUBLIC 179a6 0 UInt32DictionaryRemove
+PUBLIC 179e6 0 UInt32DictionaryDestroy
+PUBLIC 179ef 0 UInt32DictionaryClone
+PUBLIC 17a13 0 UInt32ArrayEqual
+PUBLIC 17a24 0 UInt32ArrayCopyDescription
+PUBLIC 17a5d 0 UInt32SetGetItemPosition
+PUBLIC 17a8c 0 UInt32VoidMapRetainCallback
+PUBLIC 17a94 0 UInt32VoidMapReleaseCallback
+PUBLIC 17a99 0 UInt32VoidMapEqual
+PUBLIC 17aae 0 UInt32VoidMapCopyDescription
+PUBLIC 17af0 0 UInt32VoidMapRemoveByPosition
+PUBLIC 17b66 0 UInt32VoidMapPop
+PUBLIC 17b92 0 UInt32VoidMapGetByPosition
+PUBLIC 17bfc 0 UInt32VoidMapAtOrBefore
+PUBLIC 17c83 0 UInt32VoidMapRemove
+PUBLIC 17cec 0 UInt32VoidMapGet
+PUBLIC 17d3a 0 UInt32VoidMapGetItemPosition
+PUBLIC 17d69 0 UInt32VoidMapCount
+PUBLIC 17d7a 0 UInt32VoidMapAdd
+PUBLIC 17e28 0 UInt32VoidMapCreate
+PUBLIC 17ebf 0 UInt32VoidMapDispose
+PUBLIC 17f0e 0 HighLevelQuery::IsExclude(unsigned short)
+PUBLIC 17f24 0 HighLevelQuery::IsRequired(unsigned short)
+PUBLIC 17f3a 0 HighLevelQuery::CombineQuery(__CFString const*, __CFString const*, unsigned short)
+PUBLIC 18048 0 HighLevelQuery::MakeQuery(__CFArray const*, unsigned short)
+PUBLIC 18134 0 HighLevelQuery::BuildQueries(__CFString const*, __CFArray*, __CFArray*, __CFArray*)
+PUBLIC 183a2 0 HighLevelQuery::SetUpQuery(Similarity*, Progress*)
+PUBLIC 18410 0 HighLevelQuery::ResetMins()
+PUBLIC 18444 0 HighLevelQuery::Reset()
+PUBLIC 18478 0 HighLevelQuery::Evaluate(unsigned int, float*, int*)
+PUBLIC 18538 0 HighLevelQuery::GetMin()
+PUBLIC 18566 0 HighLevelQuery::InitializeQuery(InvertedIndex*, unsigned int)
+PUBLIC 185c0 0 HighLevelQuery::Initialize(__CFArray const*, __CFArray const*, __CFArray const*)
+PUBLIC 18834 0 HighLevelQuery::Initialize(__CFString const*)
+PUBLIC 189d6 0 HighLevelQuery::~HighLevelQuery()
+PUBLIC 18a64 0 HighLevelQuery::~HighLevelQuery()
+PUBLIC 18aea 0 HighLevelQuery::~HighLevelQuery()
+PUBLIC 18af4 0 HighLevelQuery::HighLevelQuery(InvertedAccessor*)
+PUBLIC 18b4c 0 HighLevelQuery::Count()
+PUBLIC 18b6c 0 HighLevelQuery::HighLevelQuery(InvertedAccessor*)
+PUBLIC 18bc4 0 IAAccessor::IAClassID()
+PUBLIC 18bcc 0 IAAccessor::IANarrowInternal(long)
+PUBLIC 18be6 0 IAAccessor::Constructing(IAIndex**, unsigned int, unsigned int)
+PUBLIC 18c0a 0 IAAccessor::InitValidationSize()
+PUBLIC 18c1c 0 IAAccessor::StoreInitValidation(IAOutputBlock*)
+PUBLIC 18c70 0 IAAccessor::UpdateInitValidation(IAInputBlock*)
+PUBLIC 18cc6 0 IAAccessor::RestoreInitValidation(IAInputBlock*)
+PUBLIC 18d26 0 IAAccessor::~IAAccessor()
+PUBLIC 18d5e 0 IAAccessor::~IAAccessor()
+PUBLIC 18d7e 0 IAAccessor::~IAAccessor()
+PUBLIC 18d88 0 IAProgressReport::~IAProgressReport()
+PUBLIC 18dc0 0 IAProgressReport::~IAProgressReport()
+PUBLIC 18de0 0 IAProgressReport::~IAProgressReport()
+PUBLIC 18dea 0 IAHit::~IAHit()
+PUBLIC 18e4a 0 IAHit::~IAHit()
+PUBLIC 18ea2 0 IAHit::~IAHit()
+PUBLIC 18eac 0 IAAccessor::IAAccessor(IAIndex**, unsigned int, unsigned int)
+PUBLIC 18ef6 0 IAAccessor::IAAccessor()
+PUBLIC 18f2e 0 IAProgressReport::IAProgressReport()
+PUBLIC 18f74 0 IAHit::IAHit(IAIndex*, IADoc*)
+PUBLIC 18fd0 0 IAHit::IAHit(IAIndex*, IADoc*)
+PUBLIC 18fda 0 IAAccessor::Initialize(IAStorage*, unsigned long)
+PUBLIC 190fc 0 IAAccessor::Update(IAStorage*, unsigned long)
+PUBLIC 1922e 0 IAAccessor::IsInitializationValid(IAStorage*, unsigned long)
+PUBLIC 192c4 0 IAAccessor::Store(IAStorage*, unsigned long)
+PUBLIC 193ae 0 IAAccessor::StoreInitialization(IAStorage*, unsigned long)
+PUBLIC 194a4 0 IAAccessor::IAAccessor()
+PUBLIC 194dc 0 IAProgressReport::IAProgressReport()
+PUBLIC 19522 0 IAAccessor::IAAccessor(IAIndex**, unsigned int, unsigned int)
+PUBLIC 1956c 0 TSimpleStack::TSimpleStack()
+PUBLIC 19582 0 TSimpleStack::TSimpleStack()
+PUBLIC 19598 0 TSimpleStack::~TSimpleStack()
+PUBLIC 1959e 0 TSimpleStack::~TSimpleStack()
+PUBLIC 195a4 0 TSimpleStack::IsEmpty() const
+PUBLIC 195b6 0 TSimpleStack::IsFull() const
+PUBLIC 195c8 0 TSimpleStack::Count() const
+PUBLIC 195d2 0 TSimpleStack::Pop()
+PUBLIC 195ec 0 TSimpleStack::ExamineTop() const
+PUBLIC 19600 0 TSimpleStack::GetEntry(int) const
+PUBLIC 1961c 0 IAParser::IAParser()
+PUBLIC 1965e 0 IAParser::IAParser()
+PUBLIC 196a0 0 IAParser::IsValid(unsigned char) const
+PUBLIC 196ae 0 IAParser::IsOperator(unsigned short) const
+PUBLIC 196ee 0 IAParser::GetCharType(unsigned short)
+PUBLIC 19744 0 IAParser::CompareRightFence(TStackEntry*) const
+PUBLIC 19780 0 IAParser::CompareLeftFence(TStackEntry*) const
+PUBLIC 197bc 0 IAParser::CreateTreeInternal(TStackEntry*, IABooleanQueryTermNodeList*)
+PUBLIC 198e4 0 IAParser::CreateTree(TStackEntry*, IABooleanQueryTermNodeList*)
+PUBLIC 19984 0 TSimpleStack::Push(TStackEntry*)
+PUBLIC 199d2 0 TSimpleStack::Destroy()
+PUBLIC 19a22 0 IAParser::~IAParser()
+PUBLIC 19a64 0 IAParser::~IAParser()
+PUBLIC 19a6e 0 IAParser::IAParser(__CFString const*)
+PUBLIC 19ad8 0 IAParser::IAParser(__CFString const*)
+PUBLIC 19ae2 0 IAParser::SetText(__CFString const*)
+PUBLIC 19b60 0 IAParser::Lexical(TStackEntry**)
+PUBLIC 19e36 0 IAParser::Parse(IABooleanQueryTermNodeList*)
+PUBLIC 1a2ee 0 IABooleanQueryTermNode::IABooleanQueryTermNode()
+PUBLIC 1a31c 0 IABooleanQueryTermNode::IABooleanQueryTermNode()
+PUBLIC 1a34a 0 IABooleanQueryTermNodeList::IABooleanQueryTermNodeList()
+PUBLIC 1a358 0 IABooleanQueryTermNodeList::IABooleanQueryTermNodeList()
+PUBLIC 1a366 0 IAQueryTree::~IAQueryTree()
+PUBLIC 1a36c 0 IAQueryTree::~IAQueryTree()
+PUBLIC 1a372 0 IAQueryTree::Initialize()
+PUBLIC 1a39c 0 IAQueryTree::SetOperator(IAQueryTree::IAOperator)
+PUBLIC 1a3b2 0 IAQueryTree::GetOperator() const
+PUBLIC 1a3bc 0 IAQueryTree::GetTerm() const
+PUBLIC 1a3ca 0 IAQueryTree::HasChild() const
+PUBLIC 1a3de 0 IAQueryTree::HasTerm() const
+PUBLIC 1a3f0 0 IAQueryTree::DumpTree() const
+PUBLIC 1a3f6 0 IAQueryTree::ResetMins()
+PUBLIC 1a422 0 IABooleanQuery::ResetMins()
+PUBLIC 1a434 0 IABooleanQuery::SetAndOperator(unsigned short)
+PUBLIC 1a446 0 IABooleanQuery::SetOrOperator(unsigned short)
+PUBLIC 1a458 0 IABooleanQuery::SetNotOperator(unsigned short)
+PUBLIC 1a46a 0 IABooleanQuery::SetLeftFence(unsigned short)
+PUBLIC 1a47c 0 IABooleanQuery::SetRightFence(unsigned short)
+PUBLIC 1a48e 0 IABooleanQuery::GetAndOperator() const
+PUBLIC 1a49e 0 IABooleanQuery::GetOrOperator() const
+PUBLIC 1a4ae 0 IABooleanQuery::GetNotOperator() const
+PUBLIC 1a4be 0 IABooleanQuery::GetLeftFence() const
+PUBLIC 1a4ce 0 IABooleanQuery::GetRightFence() const
+PUBLIC 1a4de 0 IAQueryTree::GetTermLength() const
+PUBLIC 1a4fc 0 IAQueryTree::DeleteTree(IAQueryTree*)
+PUBLIC 1a548 0 IAQueryTree::DestroyTree()
+PUBLIC 1a560 0 IAQueryTree::Validate() const
+PUBLIC 1a5ca 0 IABooleanQuery::IABooleanQuery()
+PUBLIC 1a62a 0 IABooleanQuery::IABooleanQuery()
+PUBLIC 1a634 0 IAQueryTree::GetMin()
+PUBLIC 1a6da 0 IABooleanQuery::GetMin()
+PUBLIC 1a70e 0 IAQueryTree::Evaluate(unsigned int, float*, int*)
+PUBLIC 1a9b2 0 IABooleanQuery::Evaluate(unsigned int, float*, int*)
+PUBLIC 1a9e0 0 IABooleanQueryTermNodeList::AddNode(__CFString const*)
+PUBLIC 1aa70 0 IAQueryTree::SetTerm(__CFString const*, IABooleanQueryTermNodeList*)
+PUBLIC 1aabe 0 IABooleanQueryTermNode::SetUpQuery(InvertedAccessor*, Similarity*, Progress*)
+PUBLIC 1ab8e 0 IABooleanQueryTermNodeList::SetUpQuery(InvertedAccessor*, Similarity*, Progress*)
+PUBLIC 1ace8 0 IABooleanQuery::SetUpQuery(InvertedAccessor*, Similarity*, Progress*)
+PUBLIC 1ad16 0 IABooleanQueryTermNode::~IABooleanQueryTermNode()
+PUBLIC 1ad68 0 IABooleanQueryTermNodeList::~IABooleanQueryTermNodeList()
+PUBLIC 1ad9e 0 IABooleanQueryTermNodeList::~IABooleanQueryTermNodeList()
+PUBLIC 1ada8 0 IABooleanQueryTermNode::~IABooleanQueryTermNode()
+PUBLIC 1adb2 0 IABooleanQueryTermNode::InitializeQuery(InvertedIndex*, unsigned int)
+PUBLIC 1ae42 0 IABooleanQueryTermNodeList::InitializeQuery(InvertedIndex*, unsigned int)
+PUBLIC 1ae7a 0 IAQueryTree::IAQueryTree()
+PUBLIC 1aea4 0 IAQueryTree::IAQueryTree(IAQueryTree::IAOperator)
+PUBLIC 1aece 0 IAQueryTree::IAQueryTree(IAQueryTree::IAOperator)
+PUBLIC 1aef8 0 IAQueryTree::IAQueryTree()
+PUBLIC 1af22 0 IABooleanQuery::Reset()
+PUBLIC 1af3e 0 IABooleanQuery::Initialize(__CFString const*)
+PUBLIC 1b04c 0 IABooleanQuery::~IABooleanQuery()
+PUBLIC 1b0aa 0 IABooleanQuery::~IABooleanQuery()
+PUBLIC 1b0b4 0 IABooleanQuery::InitializeQuery(InvertedIndex*, unsigned int)
+PUBLIC 1b0ee 0 IAQueryTree::IAQueryTree(__CFString const*, IABooleanQueryTermNodeList*)
+PUBLIC 1b13c 0 IAQueryTree::IAQueryTree(__CFString const*, IABooleanQueryTermNodeList*)
+PUBLIC 1b18a 0 IABooleanQueryTermNode::SetTerm(__CFString const*)
+PUBLIC 1b1c9 0 IASearchSetRemoveIndices
+PUBLIC 1b1d3 0 IASearchResultsDispose
+PUBLIC 1b221 0 IASearchSetGetIndices
+PUBLIC 1b29c 0 IASearchSetRelease
+PUBLIC 1b2ea 0 IASearchSetFindSimilarDocuments
+PUBLIC 1b3d5 0 _IASearchSetQuery(OpaqueIASearchSetRef*, __CFString const*, unsigned long, unsigned long, void*, unsigned char (*)(void*, OpaqueIAIndexRef*, OpaqueIADocKeyRef*), unsigned char (*)(void*, OpaqueIAIndexRef*, long), OpaqueIASearchResultsRef**)
+PUBLIC 1b4d4 0 IASearchSetQuery
+PUBLIC 1b51e 0 IASearchSetQueryNew
+PUBLIC 1b568 0 IASearchSetRankedQueryFromTextStream
+PUBLIC 1b61f 0 IASearchSetAddIndex(OpaqueIASearchSetRef*, OpaqueIAIndexRef*)
+PUBLIC 1b686 0 IASearchSetAddIndices
+PUBLIC 1b6e6 0 IASearchSetRetain
+PUBLIC 1b721 0 IASearchSetCreate
+PUBLIC 1b85d 0 IASearchSetCreateFromFSRef
+PUBLIC 1b99f 0 IASearchResultsGetCount
+PUBLIC 1b9d1 0 IASearchResultsGetInfoBulk
+PUBLIC 1bb65 0 IASearchSetGetIndexCount
+PUBLIC 1bb97 0 IASearchResultsCopyMatchingTerms
+PUBLIC 1bce7 0 FindSimilarStart
+PUBLIC 1bd4c 0 IASearchSetFindSimilarDocumentsAsync
+PUBLIC 1be3a 0 IASearchSetQueryAsync
+PUBLIC 1beeb 0 IASearchSetTaskGetSearchResults
+PUBLIC 1bf1e 0 QueryDispose
+PUBLIC 1bf87 0 QueryStart
+PUBLIC 1bff2 0 ScorePowerOrder
+PUBLIC 1c01a 0 InVecAccessor::TrimQueryVector(TWVector*, unsigned char*)
+PUBLIC 1c158 0 virtual thunk to InVecAccessor::~InVecAccessor()
+PUBLIC 1c174 0 InVecAccessor::~InVecAccessor()
+PUBLIC 1c286 0 InVecAccessor::~InVecAccessor()
+PUBLIC 1c356 0 virtual thunk to InVecAccessor::UpdatingInits(IAInputBlock*)
+PUBLIC 1c372 0 InVecAccessor::UpdatingInits(IAInputBlock*)
+PUBLIC 1c46f 0 virtual thunk to InVecAccessor::~InVecAccessor()
+PUBLIC 1c48c 0 InVecAccessor::~InVecAccessor()
+PUBLIC 1c58f 0 virtual thunk to InVecAccessor::Initializing()
+PUBLIC 1c5ac 0 InVecAccessor::Initializing()
+PUBLIC 1c67d 0 virtual thunk to InVecAccessor::RestoringInits(IAInputBlock*)
+PUBLIC 1c69a 0 InVecAccessor::RestoringInits(IAInputBlock*)
+PUBLIC 1c801 0 virtual thunk to InVecAccessor::RankedSearch(__CFString const*, RankedQueryDoc*, unsigned int, RankedHit**, unsigned int, unsigned int, bool (*)(RankedProgress const*, void*), unsigned long, void*)
+PUBLIC 1c81e 0 InVecAccessor::RankedSearch(__CFString const*, RankedQueryDoc*, unsigned int, RankedHit**, unsigned int, unsigned int, bool (*)(RankedProgress const*, void*), unsigned long, void*)
+PUBLIC 1cc8c 0 virtual thunk to InVecAccessor::RankedSearch(OpaqueIATextStreamRef*, RankedQueryDoc*, unsigned int, RankedHit**, unsigned int, unsigned int, bool (*)(RankedProgress const*, void*), unsigned long, void*)
+PUBLIC 1cca8 0 InVecAccessor::RankedSearch(OpaqueIATextStreamRef*, RankedQueryDoc*, unsigned int, RankedHit**, unsigned int, unsigned int, bool (*)(RankedProgress const*, void*), unsigned long, void*)
+PUBLIC 1d120 0 InVecAccessor::CacheTermStats(TermInfo**)
+PUBLIC 1d28e 0 InVecAccessor::UpdateCacheTermStats(TermInfo**)
+PUBLIC 1d3fc 0 InVecAccessor::MakeMaxWeightCodec()
+PUBLIC 1d4b4 0 InVecAccessor::InVecAccessor(InVecIndex**, unsigned int, unsigned int)
+PUBLIC 1d5b4 0 InVecAccessor::InVecAccessor(InVecIndex**, unsigned int, unsigned int)
+PUBLIC 1d676 0 virtual thunk to InVecAccessor::StoringInits(IAOutputBlock*)
+PUBLIC 1d692 0 InVecAccessor::StoringInits(IAOutputBlock*)
+PUBLIC 1d77c 0 virtual thunk to InVecAccessor::InitsSize()
+PUBLIC 1d798 0 InVecAccessor::InitsSize()
+PUBLIC 1d814 0 virtual thunk to InVecAccessor::ExtendingInits()
+PUBLIC 1d830 0 InVecAccessor::ExtendingInits()
+PUBLIC 1da56 0 InvertedAccessor::IAClassID()
+PUBLIC 1da5d 0 InvertedAccessorInitializeProgressFn(float, void*)
+PUBLIC 1da8b 0 RQEScorePowerOrder
+PUBLIC 1dab0 0 InvertedAccessor::GetDocNorm(unsigned int, unsigned int)
+PUBLIC 1dadc 0 InvertedAccessor::TrimmedQuerySize(unsigned int)
+PUBLIC 1dbd0 0 InvertedAccessor::UpcastIndices(InvertedIndex**, unsigned int)
+PUBLIC 1dc18 0 InvertedAccessor::GetBooleanRightFence() const
+PUBLIC 1dc32 0 InvertedAccessor::GetBooleanLeftFence() const
+PUBLIC 1dc4c 0 InvertedAccessor::GetBooleanNotOperator() const
+PUBLIC 1dc66 0 InvertedAccessor::GetBooleanOrOperator() const
+PUBLIC 1dc80 0 InvertedAccessor::GetBooleanAndOperator() const
+PUBLIC 1dc9a 0 InvertedAccessor::SetBooleanRightFence(unsigned short)
+PUBLIC 1dcb4 0 InvertedAccessor::SetBooleanLeftFence(unsigned short)
+PUBLIC 1dcce 0 InvertedAccessor::SetBooleanNotOperator(unsigned short)
+PUBLIC 1dce8 0 InvertedAccessor::SetBooleanOrOperator(unsigned short)
+PUBLIC 1dd02 0 InvertedAccessor::SetBooleanAndOperator(unsigned short)
+PUBLIC 1dd1b 0 InvertedTopTerms(FreqPSHead*, unsigned int, unsigned int*, Similarity*)
+PUBLIC 1de1c 0 InvertedHitQueue::AddHit(InvertedIndex*, IADoc*, float, unsigned int, FreqPSHead*, unsigned int)
+PUBLIC 1dec8 0 InvertedHitQueue::~InvertedHitQueue()
+PUBLIC 1df00 0 InvertedHitQueue::~InvertedHitQueue()
+PUBLIC 1df20 0 InvertedHitQueue::~InvertedHitQueue()
+PUBLIC 1df2a 0 InvertedHitQueue::InvertedHitQueue()
+PUBLIC 1df5a 0 InvertedHitQueue::InvertedHitQueue(RankedAccessor*, Similarity*, unsigned int)
+PUBLIC 1dfa0 0 FreqPSQueue::Put(FreqPSHead*, FreqPSHead*)
+PUBLIC 1e000 0 FreqPSQueue::First()
+PUBLIC 1e012 0 FreqPSQueue::Pop(FreqPSHead*)
+PUBLIC 1e038 0 FreqPSQueue::Count()
+PUBLIC 1e04a 0 FreqPSQueue::FreqPSQueue()
+PUBLIC 1e0e6 0 FreqPSQueue::FreqPSQueue()
+PUBLIC 1e0f0 0 FreqPSHead::FreqPSHead()
+PUBLIC 1e116 0 FreqPSHead::FreqPSHead()
+PUBLIC 1e13c 0 InvertedAccessor::InvertedAccessor(InvertedIndex**, unsigned int, unsigned int)
+PUBLIC 1e220 0 InvertedAccessor::InvertedAccessor(InvertedIndex**, unsigned int, unsigned int)
+PUBLIC 1e2e2 0 virtual thunk to InvertedAccessor::IANarrowInternal(long)
+PUBLIC 1e2f4 0 InvertedAccessor::IANarrowInternal(long)
+PUBLIC 1e32a 0 InvertedAccessor::~InvertedAccessor()
+PUBLIC 1e3f2 0 virtual thunk to InvertedAccessor::UpdatingInits(IAInputBlock*)
+PUBLIC 1e404 0 InvertedAccessor::UpdatingInits(IAInputBlock*)
+PUBLIC 1e5bf 0 FreqPSHeadCompare
+PUBLIC 1e60b 0 virtual thunk to InvertedAccessor::~InvertedAccessor()
+PUBLIC 1e61e 0 InvertedAccessor::~InvertedAccessor()
+PUBLIC 1e719 0 virtual thunk to InvertedAccessor::~InvertedAccessor()
+PUBLIC 1e72c 0 InvertedAccessor::~InvertedAccessor()
+PUBLIC 1e81f 0 virtual thunk to InvertedAccessor::InitsSize()
+PUBLIC 1e832 0 InvertedAccessor::InitsSize()
+PUBLIC 1e8a3 0 virtual thunk to InvertedAccessor::RestoringInits(IAInputBlock*)
+PUBLIC 1e8b6 0 InvertedAccessor::RestoringInits(IAInputBlock*)
+PUBLIC 1ea8f 0 virtual thunk to InvertedAccessor::StoringInits(IAOutputBlock*)
+PUBLIC 1eaa2 0 InvertedAccessor::StoringInits(IAOutputBlock*)
+PUBLIC 1ebc6 0 virtual thunk to InvertedAccessor::ExtendingInits()
+PUBLIC 1ebd8 0 InvertedAccessor::ExtendingInits()
+PUBLIC 1ee59 0 virtual thunk to InvertedAccessor::Initializing()
+PUBLIC 1ee6c 0 InvertedAccessor::Initializing()
+PUBLIC 1f1c4 0 InvertedAccessor::PutAway(unsigned int, unsigned int, float, unsigned int, InvertedHitQueue*, unsigned int, Progress*, unsigned int)
+PUBLIC 1f3c2 0 InvertedAccessor::RankedSearchRequiredIndex(HighLevelQuery*, unsigned int, Progress*, InvertedHitQueue*, unsigned int)
+PUBLIC 1f4ba 0 InvertedHitQueue::InvertedHitQueue()
+PUBLIC 1f4ea 0 InvertedAccessor::RankedSearchBooleanIndex(unsigned int, Progress*, InvertedHitQueue*, unsigned int)
+PUBLIC 1f5e8 0 InvertedAccessor::RankedSearchRequiredIndecies(HighLevelQuery*, Progress*, RankedHit**, unsigned int)
+PUBLIC 1f716 0 InvertedAccessor::RankedSearchRequired(__CFString const*, RankedHit**, unsigned int, bool (*)(RankedProgress const*, void*), unsigned long, void*)
+PUBLIC 1f8d6 0 InvertedAccessor::RankSearchBooleanIndecies(Progress*, RankedHit**, unsigned int)
+PUBLIC 1f9fe 0 InvertedAccessor::RankedSearchBoolean(__CFString const*, RankedHit**, unsigned int, bool (*)(RankedProgress const*, void*), unsigned long, void*)
+PUBLIC 1fb5e 0 InvertedHitQueue::InvertedHitQueue(RankedAccessor*, Similarity*, unsigned int)
+PUBLIC 1fba4 0 InvertedAccessor::TrimRankedQuery(IAQuery*)
+PUBLIC 1fe14 0 FreqPSQueue::~FreqPSQueue()
+PUBLIC 1fea6 0 FreqPSQueue::~FreqPSQueue()
+PUBLIC 1ff30 0 FreqPSQueue::~FreqPSQueue()
+PUBLIC 1ff3a 0 FreqPSQueue::Initialize(IAQuery*, InvertedIndex*, unsigned int)
+PUBLIC 20062 0 InvertedAccessor::NonRankedSearchIndex(unsigned int, IAQuery*, Progress*, RankedHit**, unsigned int, unsigned int*)
+PUBLIC 20414 0 InvertedAccessor::NonRankedSearchIndices(IAQuery*, Progress*, RankedHit**, unsigned int, unsigned int)
+PUBLIC 204d4 0 InvertedAccessor::RankedSearchIndex(unsigned int, IAQuery*, Progress*, InvertedHitQueue*, unsigned int, unsigned int)
+PUBLIC 209c8 0 InvertedAccessor::RankedSearchIndices(IAQuery*, Progress*, RankedHit**, unsigned int, unsigned int)
+PUBLIC 20ae2 0 virtual thunk to InvertedAccessor::RankedSearch(OpaqueIATextStreamRef*, RankedQueryDoc*, unsigned int, RankedHit**, unsigned int, unsigned int, bool (*)(RankedProgress const*, void*), unsigned long, void*)
+PUBLIC 20af4 0 InvertedAccessor::RankedSearch(OpaqueIATextStreamRef*, RankedQueryDoc*, unsigned int, RankedHit**, unsigned int, unsigned int, bool (*)(RankedProgress const*, void*), unsigned long, void*)
+PUBLIC 20cf2 0 virtual thunk to InvertedAccessor::RankedSearch(__CFString const*, RankedQueryDoc*, unsigned int, RankedHit**, unsigned int, unsigned int, bool (*)(RankedProgress const*, void*), unsigned long, void*)
+PUBLIC 20d04 0 InvertedAccessor::RankedSearch(__CFString const*, RankedQueryDoc*, unsigned int, RankedHit**, unsigned int, unsigned int, bool (*)(RankedProgress const*, void*), unsigned long, void*)
+PUBLIC 21046 0 RankedProgress::GetTerm() const
+PUBLIC 21052 0 RankedProgress::SetTerm(IATerm*)
+PUBLIC 21060 0 RankedQueryDoc::RankedQueryDoc()
+PUBLIC 21066 0 RankedQueryDoc::RankedQueryDoc()
+PUBLIC 2106c 0 RankedQueryDoc::RankedQueryDoc(IADoc*, TermIndex*)
+PUBLIC 21080 0 RankedQueryDoc::RankedQueryDoc(IADoc*, TermIndex*)
+PUBLIC 21094 0 RankedAccessor::IsHit(IAIndex*, unsigned int)
+PUBLIC 2109e 0 RankedAccessor::HitLessThan(IAIndex*, IADoc const*, IAIndex*, IADoc const*)
+PUBLIC 210bc 0 RankedAccessor::HitEqual(IAIndex*, IADoc const*, IAIndex*, IADoc const*)
+PUBLIC 210d9 0 DefaultRankedProgressFn(RankedProgress const*, void*)
+PUBLIC 210e0 0 RankedPhaseProgressFn(float, void*)
+PUBLIC 21104 0 RankedAccessor::GetRankedCoordinationDegree() const
+PUBLIC 2114e 0 RankedAccessor::SetRankedCoordinationDegree(float)
+PUBLIC 2119a 0 RankedAccessor::~RankedAccessor()
+PUBLIC 211fa 0 RankedAccessor::~RankedAccessor()
+PUBLIC 21252 0 RankedAccessor::~RankedAccessor()
+PUBLIC 2125c 0 RankedAccessor::Constructing(IAIndex**, unsigned int, unsigned int)
+PUBLIC 212e4 0 RankedAccessor::RankedAccessor(IAIndex**, unsigned int, unsigned int)
+PUBLIC 21350 0 RankedAccessor::RankedAccessor(IAIndex**, unsigned int, unsigned int)
+PUBLIC 2135a 0 RankedAccessor::RankedAccessor()
+PUBLIC 2139a 0 RankedHit::~RankedHit()
+PUBLIC 2140a 0 RankedHit::~RankedHit()
+PUBLIC 21472 0 RankedHit::~RankedHit()
+PUBLIC 2147c 0 RankedHit::RankedHit(IAIndex*, IADoc*, float, IATerm**, unsigned int)
+PUBLIC 214cc 0 RankedProgress::~RankedProgress()
+PUBLIC 21504 0 RankedProgress::~RankedProgress()
+PUBLIC 21524 0 RankedProgress::~RankedProgress()
+PUBLIC 2152e 0 RankedProgress::RankedProgress()
+PUBLIC 21566 0 RankedHit::DeepCopy() const
+PUBLIC 21630 0 RankedAccessor::MergeHits(RankedHit const*, RankedHit const*)
+PUBLIC 21652 0 RankedHit::RankedHit(IAIndex*, IADoc*, float, IATerm**, unsigned int)
+PUBLIC 216a2 0 RankedProgressData::RankedProgressData(bool (*)(RankedProgress const*, void*), void*)
+PUBLIC 216f4 0 RankedAccessor::RankedAccessor()
+PUBLIC 21734 0 RankedAccessor::GetDocTopicInternal(RankedQueryDoc*, WeightedTermQueue*, unsigned int, bool (*)(RankedProgress const*, void*), unsigned long, void*)
+PUBLIC 21980 0 RankedAccessor::GetDocTopic(RankedQueryDoc*, IATerm**, unsigned int, bool (*)(RankedProgress const*, void*), unsigned long, void*)
+PUBLIC 21a72 0 RankedProgress::RankedProgress()
+PUBLIC 21aaa 0 RankedProgressData::RankedProgressData(bool (*)(RankedProgress const*, void*), void*)
+PUBLIC 21afc 0 RankedHitQueue::LowScore()
+PUBLIC 21b24 0 RankedHitQueue::Count()
+PUBLIC 21b36 0 RankedHitQueue::Remove(RankedHit*, RankedHit**)
+PUBLIC 21b62 0 RHQByDoc::Remove(RankedHit*, RankedHit**)
+PUBLIC 21b8e 0 RankedHitQueue::Get(RankedHit*, RankedHit**)
+PUBLIC 21bba 0 RHQByDoc::Get(RankedHit*, RankedHit**)
+PUBLIC 21be6 0 RankedHitQueue::Put(RankedHit*, RankedHit**)
+PUBLIC 21c46 0 RHQByDoc::Put(RankedHit*, RankedHit**)
+PUBLIC 21ca6 0 RankedHitQueue::Pop(RankedHit**)
+PUBLIC 21ccc 0 RHQByDoc::~RHQByDoc()
+PUBLIC 21d28 0 RHQByDoc::~RHQByDoc()
+PUBLIC 21d7c 0 RHQByDoc::~RHQByDoc()
+PUBLIC 21d86 0 RankedHitQueue::RankedHitQueue()
+PUBLIC 21dfc 0 RankedHitQueue::RankedHitQueue()
+PUBLIC 21e06 0 RHQByDoc::RHQByDoc(RankedAccessor*)
+PUBLIC 21ea4 0 RHQByDoc::RHQByDoc(RankedAccessor*)
+PUBLIC 21eae 0 RankedHitQueue::RankedHitQueue(RankedAccessor*, Similarity*, unsigned int)
+PUBLIC 21f80 0 RankedHitQueue::RankedHitQueue(RankedAccessor*, Similarity*, unsigned int)
+PUBLIC 21f89 0 RankedHitPtrCompare
+PUBLIC 2200a 0 RankedHitPtrCompareScores
+PUBLIC 220a4 0 RankedHitQueue::RemoveHit(RankedHit*)
+PUBLIC 2216a 0 RankedHitQueue::~RankedHitQueue()
+PUBLIC 221f4 0 RankedHitQueue::~RankedHitQueue()
+PUBLIC 22276 0 RankedHitQueue::~RankedHitQueue()
+PUBLIC 22280 0 RankedHitQueue::MoveToArray(RankedHit**)
+PUBLIC 22310 0 RankedHitQueue::PopLowScoreHit()
+PUBLIC 223c4 0 RankedHitQueue::AddHit(RankedHit*)
+PUBLIC 224e2 0 RQEntryCompare
+PUBLIC 22503 0 RankedQueryDocOrder
+PUBLIC 22560 0 IATextStreamQuery::GetQueryText()
+PUBLIC 2256c 0 IAQueryIterator::Next()
+PUBLIC 225a2 0 IAQueryIterator::~IAQueryIterator()
+PUBLIC 225da 0 IAQueryIterator::~IAQueryIterator()
+PUBLIC 225fa 0 IAQueryIterator::~IAQueryIterator()
+PUBLIC 22604 0 IAQueryIterator::IAQueryIterator(IAQuery*)
+PUBLIC 22660 0 IAQueryIterator::IAQueryIterator(IAQuery*)
+PUBLIC 2266a 0 IARankedQuery::SetTextQuery(__CFString const*)
+PUBLIC 226ce 0 TFMapPtrCompare
+PUBLIC 22726 0 TFMapQueue::Get(TFMap*, TFMap**)
+PUBLIC 22752 0 IAQuery::Get(RQEntry*, RQEntry*)
+PUBLIC 2277e 0 TFMapQueue::Put(TFMap*, TFMap**)
+PUBLIC 227de 0 IAQuery::Put(RQEntry*, RQEntry*)
+PUBLIC 2283e 0 TFMapQueue::Pop(TFMap**)
+PUBLIC 22864 0 IAQuery::Pop(RQEntry*)
+PUBLIC 2288a 0 TFMapQueue::~TFMapQueue()
+PUBLIC 228e6 0 TFMapQueue::~TFMapQueue()
+PUBLIC 2293a 0 TFMapQueue::~TFMapQueue()
+PUBLIC 22944 0 TFMapQueue::TFMapQueue()
+PUBLIC 229e0 0 TFMapQueue::TFMapQueue()
+PUBLIC 229ea 0 IAQuery::IAQuery()
+PUBLIC 22a8c 0 IARankedQuery::IARankedQuery()
+PUBLIC 22ad2 0 IAQuery::IAQuery()
+PUBLIC 22adc 0 IAQuery::ComputeDocTFMaps(RankedQueryDoc*, unsigned int, TFMap**)
+PUBLIC 22c74 0 IAQuery::Count()
+PUBLIC 22c86 0 RQEntry::~RQEntry()
+PUBLIC 22cbe 0 RQEntry::~RQEntry()
+PUBLIC 22cde 0 RQEntry::~RQEntry()
+PUBLIC 22ce8 0 RQEntry::RQEntry()
+PUBLIC 22d2e 0 IARankedQuery::IARankedQuery()
+PUBLIC 22d74 0 IAQuery::SetWeight(IATerm*, float)
+PUBLIC 22e64 0 IAQuery::SumWeights(TFMap**, unsigned int)
+PUBLIC 22fce 0 IAQuery::WeightTFMap(TFMap*)
+PUBLIC 2313e 0 IAQuery::AddTerms(TFMap*)
+PUBLIC 231dc 0 IAQuery::Initialize(unsigned char)
+PUBLIC 233ce 0 IAQuery::Remove(RQEntry*)
+PUBLIC 23492 0 IAQuery::~IAQuery()
+PUBLIC 23576 0 IATextStreamQuery::~IATextStreamQuery()
+PUBLIC 235d6 0 IATextStreamQuery::~IATextStreamQuery()
+PUBLIC 2362e 0 IATextStreamQuery::~IATextStreamQuery()
+PUBLIC 23638 0 IATextStreamQuery::IATextStreamQuery(OpaqueIATextStreamRef*, RankedQueryDoc*, unsigned int)
+PUBLIC 2369e 0 IATextStreamQuery::IATextStreamQuery(OpaqueIATextStreamRef*, RankedQueryDoc*, unsigned int)
+PUBLIC 236a8 0 IARankedQuery::~IARankedQuery()
+PUBLIC 23708 0 IARankedQuery::~IARankedQuery()
+PUBLIC 23760 0 IARankedQuery::~IARankedQuery()
+PUBLIC 2376a 0 IARankedQuery::IARankedQuery(__CFString const*, RankedQueryDoc*, unsigned int)
+PUBLIC 237fe 0 IARankedQuery::IARankedQuery(__CFString const*, RankedQueryDoc*, unsigned int)
+PUBLIC 23808 0 IAQuery::~IAQuery()
+PUBLIC 23812 0 RQEntry::RQEntry()
+PUBLIC 23858 0 IAQuery::ComputeTermScaleFactors()
+PUBLIC 23af2 0 IAQuery::InitializeForNonRanked(unsigned char)
+PUBLIC 23dc6 0 IAQuery::~IAQuery()
+PUBLIC 23eb2 0 IARankedQuery::GetNumberOfQueryDocs()
+PUBLIC 23ebe 0 IARankedQuery::GetQueryDocs()
+PUBLIC 23eca 0 IARankedQuery::GetQueryText()
+PUBLIC 23ed6 0 IATextStreamQuery::GetNumberOfQueryDocs()
+PUBLIC 23ee2 0 IATextStreamQuery::GetQueryDocs()
+PUBLIC 23eee 0 Similarity::TermScaleFactor(TermInfo**)
+PUBLIC 23f2a 0 Similarity::TotalDocCount(TermInfo**)
+PUBLIC 23f54 0 Similarity::DocNorm(DocInfo*)
+PUBLIC 23f94 0 Similarity::~Similarity()
+PUBLIC 2400c 0 Similarity::~Similarity()
+PUBLIC 2407c 0 Similarity::~Similarity()
+PUBLIC 24086 0 Similarity::SlowLog(unsigned int)
+PUBLIC 240d2 0 Similarity::SlowScale(unsigned int)
+PUBLIC 2413a 0 Similarity::Similarity(TermIndex**, unsigned int)
+PUBLIC 242a0 0 Similarity::Similarity(TermIndex**, unsigned int)
+PUBLIC 242ac 0 GetDefaultAccessorName()
+PUBLIC 242d4 0 TIAAccessor::Delete(IAStorage*, __CFString const*)
+PUBLIC 242da 0 TIASearchResults::RefToClass(OpaqueIASearchResultsRef*)
+PUBLIC 2431c 0 TIASearchResults::ClassToRef(TIASearchResults*)
+PUBLIC 2435e 0 TIASearchResults::GetNthRankedHit(unsigned long)
+PUBLIC 243b4 0 TIAAccessor::RefToClass(OpaqueIASearchSetRef*)
+PUBLIC 243f6 0 TIAAccessor::ClassToRef(TIAAccessor*)
+PUBLIC 24438 0 TIASearchResults::~TIASearchResults()
+PUBLIC 244b6 0 TIASearchResults::~TIASearchResults()
+PUBLIC 2452c 0 TIASearchResults::~TIASearchResults()
+PUBLIC 24536 0 TIASearchResults::TIASearchResults(RankedHit**, unsigned long, unsigned long)
+PUBLIC 24580 0 TIAAccessor::Initialize(IAStorage*, __CFString const*)
+PUBLIC 246fe 0 TIAAccessor::~TIAAccessor()
+PUBLIC 2478e 0 TIAAccessor::~TIAAccessor()
+PUBLIC 24816 0 TIAAccessor::~TIAAccessor()
+PUBLIC 24820 0 TIAAccessor::WriteHeader()
+PUBLIC 24a70 0 TIAAccessor::AddIndex(TIAIndex*, unsigned char)
+PUBLIC 24b7e 0 TIAAccessor::ReadHeader()
+PUBLIC 24e2a 0 TIAAccessor::IsHit(IAIndex*, unsigned int)
+PUBLIC 24f4a 0 TIAAccessor::RankedProgressInternal(RankedProgress const*)
+PUBLIC 24f96 0 TIAAccessor::RankedProgressFn(RankedProgress const*, void*)
+PUBLIC 24fba 0 TIAAccessor::TIAAccessor(IAStorage*, __CFString const*, unsigned long)
+PUBLIC 2515c 0 TIAAccessor::TIAAccessor(IAStorage*, __CFString const*, unsigned long)
+PUBLIC 25166 0 TIAAccessor::CreateAccessor()
+PUBLIC 253c0 0 TIAAccessor::VerifyAccessor(bool)
+PUBLIC 2548e 0 TIAAccessor::HitCompare(IAIndex*, IADoc*, IAIndex*, IADoc*)
+PUBLIC 2564a 0 TIASearchResults::TIASearchResults(RankedHit**, unsigned long, unsigned long)
+PUBLIC 25694 0 TIAAccessor::Query(__CFString const*, unsigned long, unsigned long, void*, unsigned char (*)(void*, OpaqueIAIndexRef*, OpaqueIADocKeyRef*), unsigned char (*)(void*, OpaqueIAIndexRef*, long))
+PUBLIC 25a9e 0 TIAAccessor::FindSimilar(OpaqueIADocKeyRef**, unsigned long, unsigned long, void*, unsigned char (*)(void*, OpaqueIAIndexRef*, OpaqueIADocKeyRef*))
+PUBLIC 25d9a 0 TIAAccessor::Query(OpaqueIATextStreamRef*, unsigned long, unsigned long, void*, unsigned char (*)(void*, OpaqueIAIndexRef*, OpaqueIADocKeyRef*), unsigned char (*)(void*, OpaqueIAIndexRef*, long))
+PUBLIC 25f5e 0 TIAInvertedAccessor::TIAInvertedAccessor(TIAAccessor*, InvertedIndex**, unsigned int)
+PUBLIC 25fe8 0 virtual thunk to TIAInvertedAccessor::~TIAInvertedAccessor()
+PUBLIC 25ffa 0 TIAInvertedAccessor::~TIAInvertedAccessor()
+PUBLIC 26074 0 virtual thunk to TIAInvertedAccessor::~TIAInvertedAccessor()
+PUBLIC 26086 0 TIAInvertedAccessor::~TIAInvertedAccessor()
+PUBLIC 260f8 0 TIAVectorAccessor::TIAVectorAccessor(TIAAccessor*, VectorIndex**, unsigned int)
+PUBLIC 26182 0 virtual thunk to TIAVectorAccessor::~TIAVectorAccessor()
+PUBLIC 26194 0 TIAVectorAccessor::~TIAVectorAccessor()
+PUBLIC 2620e 0 virtual thunk to TIAVectorAccessor::~TIAVectorAccessor()
+PUBLIC 26220 0 TIAVectorAccessor::~TIAVectorAccessor()
+PUBLIC 26292 0 TIAInVecAccessor::TIAInVecAccessor(TIAAccessor*, InVecIndex**, unsigned int)
+PUBLIC 26328 0 virtual thunk to TIAInVecAccessor::~TIAInVecAccessor()
+PUBLIC 26344 0 TIAInVecAccessor::~TIAInVecAccessor()
+PUBLIC 263ca 0 virtual thunk to TIAInVecAccessor::~TIAInVecAccessor()
+PUBLIC 263e6 0 TIAInVecAccessor::~TIAInVecAccessor()
+PUBLIC 26464 0 virtual thunk to TIAInVecAccessor::IsHit(IAIndex*, unsigned int)
+PUBLIC 26476 0 TIAInVecAccessor::IsHit(IAIndex*, unsigned int)
+PUBLIC 2649d 0 virtual thunk to TIAVectorAccessor::IsHit(IAIndex*, unsigned int)
+PUBLIC 264b0 0 TIAVectorAccessor::IsHit(IAIndex*, unsigned int)
+PUBLIC 264d7 0 virtual thunk to TIAInvertedAccessor::IsHit(IAIndex*, unsigned int)
+PUBLIC 264ea 0 TIAInvertedAccessor::IsHit(IAIndex*, unsigned int)
+PUBLIC 26511 0 virtual thunk to TIAInVecAccessor::HitEqual(IAIndex*, IADoc const*, IAIndex*, IADoc const*)
+PUBLIC 26524 0 TIAInVecAccessor::HitEqual(IAIndex*, IADoc const*, IAIndex*, IADoc const*)
+PUBLIC 2655f 0 virtual thunk to TIAInVecAccessor::HitLessThan(IAIndex*, IADoc const*, IAIndex*, IADoc const*)
+PUBLIC 26572 0 TIAInVecAccessor::HitLessThan(IAIndex*, IADoc const*, IAIndex*, IADoc const*)
+PUBLIC 265a8 0 virtual thunk to TIAVectorAccessor::HitEqual(IAIndex*, IADoc const*, IAIndex*, IADoc const*)
+PUBLIC 265ba 0 TIAVectorAccessor::HitEqual(IAIndex*, IADoc const*, IAIndex*, IADoc const*)
+PUBLIC 265f5 0 virtual thunk to TIAVectorAccessor::HitLessThan(IAIndex*, IADoc const*, IAIndex*, IADoc const*)
+PUBLIC 26608 0 TIAVectorAccessor::HitLessThan(IAIndex*, IADoc const*, IAIndex*, IADoc const*)
+PUBLIC 2663e 0 virtual thunk to TIAInvertedAccessor::HitEqual(IAIndex*, IADoc const*, IAIndex*, IADoc const*)
+PUBLIC 26650 0 TIAInvertedAccessor::HitEqual(IAIndex*, IADoc const*, IAIndex*, IADoc const*)
+PUBLIC 2668b 0 virtual thunk to TIAInvertedAccessor::HitLessThan(IAIndex*, IADoc const*, IAIndex*, IADoc const*)
+PUBLIC 2669e 0 TIAInvertedAccessor::HitLessThan(IAIndex*, IADoc const*, IAIndex*, IADoc const*)
+PUBLIC 266d4 0 TWVector::Similarity(TWVector*)
+PUBLIC 26755 0 TWComponentByTermOrder
+PUBLIC 26774 0 TWComponentByWeightOrder
+PUBLIC 2679f 0 TWComponentByAbsoluteWeightOrder
+PUBLIC 267e4 0 TWVector::HasNegativeComponents() const
+PUBLIC 26810 0 TWVector::SortByAbsoluteWeight()
+PUBLIC 2684a 0 TWVector::SortByWeight()
+PUBLIC 26884 0 TWVector::SortByTerm()
+PUBLIC 268be 0 TWVector::Normalize()
+PUBLIC 2692e 0 TWVector::~TWVector()
+PUBLIC 2698a 0 TWVector::~TWVector()
+PUBLIC 269de 0 TWVector::~TWVector()
+PUBLIC 269e8 0 TWVector::TWVector(unsigned int)
+PUBLIC 26a4a 0 TWVector::DeepCopy() const
+PUBLIC 26ab2 0 TWVector::TWVector(unsigned int)
+PUBLIC 26abc 0 TWVector::Store(IAOutputBlock*) const
+PUBLIC 26b20 0 TWVector::StoreSize() const
+PUBLIC 26b66 0 TWVector::AddWeightedAllowNegatives(TWVector const*, float, float)
+PUBLIC 26cae 0 TWVector::AddWeighted(TWVector const*, float, float)
+PUBLIC 26eb0 0 TWVector::AddIntoAverage(TWVector const*, unsigned int, bool)
+PUBLIC 270ca 0 TWVector::Restore(IAInputBlock*) const
+PUBLIC 27152 0 TWVector::Sum(TWVector*)
+PUBLIC 272e6 0 TWVector::TruncateByAbsoluteValue(unsigned int)
+PUBLIC 273c0 0 TWVector::Truncate(unsigned int)
+PUBLIC 2749a 0 TWCStreamCompare
+PUBLIC 274be 0 TWVectorAdder::Requeue(TWCStream*)
+PUBLIC 27552 0 TWVectorAdder::Add(TWVector*)
+PUBLIC 275dc 0 TWVectorAdder::Count()
+PUBLIC 275ee 0 TWVectorAdder::First()
+PUBLIC 27632 0 TWVectorAdder::Pop(TWCStream*)
+PUBLIC 27658 0 TWVectorAdder::TWVectorAdder()
+PUBLIC 276fa 0 TWVectorAdder::TWVectorAdder()
+PUBLIC 27704 0 TWVectorAdder::Sum()
+PUBLIC 2789e 0 TWVectorAdder::~TWVectorAdder()
+PUBLIC 2791a 0 TWVectorAdder::~TWVectorAdder()
+PUBLIC 2798e 0 TWVectorAdder::~TWVectorAdder()
+PUBLIC 27998 0 VectorAccessorInitializeProgressFn(float, void*)
+PUBLIC 279bf 0 TermWeightOrder
+PUBLIC 279e6 0 VectorAccessor::UpcastIndices(VectorIndex**, unsigned int)
+PUBLIC 27a2e 0 VectorScorer::Score(TFVector*, Similarity*)
+PUBLIC 27b1c 0 VectorAccessor::~VectorAccessor()
+PUBLIC 27bdc 0 VectorAccessor::CacheTermStats(TermInfo**)
+PUBLIC 27c5f 0 virtual thunk to VectorAccessor::~VectorAccessor()
+PUBLIC 27c72 0 VectorAccessor::~VectorAccessor()
+PUBLIC 27d5b 0 virtual thunk to VectorAccessor::~VectorAccessor()
+PUBLIC 27d6e 0 VectorAccessor::~VectorAccessor()
+PUBLIC 27e4f 0 MakeTWVector(IAQuery*, unsigned int)
+PUBLIC 27f32 0 VectorAccessor::MakeScaleFactorCodec()
+PUBLIC 28036 0 VectorAccessor::VectorAccessor(VectorIndex**, unsigned int, unsigned int)
+PUBLIC 280e2 0 VectorAccessor::VectorAccessor(VectorIndex**, unsigned int, unsigned int)
+PUBLIC 28164 0 VectorAccessor::GetTWVector(IADoc*, unsigned int)
+PUBLIC 282e0 0 VectorScorer::TopTerms(TFVector*, unsigned int*, Similarity*)
+PUBLIC 28404 0 VectorHitQueue::AddHit(VectorIndex*, IADoc*, TFVector*, float, VectorScorer*, unsigned int)
+PUBLIC 284b0 0 VectorAccessor::GetDocTopicInternal(RankedQueryDoc*, TWVector**, bool (*)(RankedProgress const*, void*), unsigned long, void*)
+PUBLIC 28637 0 virtual thunk to VectorAccessor::GetDocTopic(RankedQueryDoc*, IATerm**, unsigned int, bool (*)(RankedProgress const*, void*), unsigned long, void*)
+PUBLIC 2864a 0 VectorAccessor::GetDocTopic(RankedQueryDoc*, IATerm**, unsigned int, bool (*)(RankedProgress const*, void*), unsigned long, void*)
+PUBLIC 286f2 0 VectorAccessor::UpdateCacheTermStats(TermInfo**)
+PUBLIC 28776 0 VectorAccessor::VectorAccessor(VectorIndex**, TermIndex*)
+PUBLIC 289c2 0 VectorAccessor::VectorAccessor(VectorIndex**, TermIndex*)
+PUBLIC 28bef 0 virtual thunk to VectorAccessor::UpdatingInits(IAInputBlock*)
+PUBLIC 28c02 0 VectorAccessor::UpdatingInits(IAInputBlock*)
+PUBLIC 28d6e 0 VectorScorer::VectorScorer(IAQuery*, VectorAccessor*, unsigned int)
+PUBLIC 28e8a 0 VectorScorer::VectorScorer(IAQuery*, VectorAccessor*, unsigned int)
+PUBLIC 28e93 0 virtual thunk to VectorAccessor::RankedSearch(OpaqueIATextStreamRef*, RankedQueryDoc*, unsigned int, RankedHit**, unsigned int, unsigned int, bool (*)(RankedProgress const*, void*), unsigned long, void*)
+PUBLIC 28ea6 0 VectorAccessor::RankedSearch(OpaqueIATextStreamRef*, RankedQueryDoc*, unsigned int, RankedHit**, unsigned int, unsigned int, bool (*)(RankedProgress const*, void*), unsigned long, void*)
+PUBLIC 294ba 0 virtual thunk to VectorAccessor::RankedSearch(__CFString const*, RankedQueryDoc*, unsigned int, RankedHit**, unsigned int, unsigned int, bool (*)(RankedProgress const*, void*), unsigned long, void*)
+PUBLIC 294cc 0 VectorAccessor::RankedSearch(__CFString const*, RankedQueryDoc*, unsigned int, RankedHit**, unsigned int, unsigned int, bool (*)(RankedProgress const*, void*), unsigned long, void*)
+PUBLIC 29add 0 virtual thunk to VectorAccessor::RestoringInits(IAInputBlock*)
+PUBLIC 29af0 0 VectorAccessor::RestoringInits(IAInputBlock*)
+PUBLIC 29c30 0 virtual thunk to VectorAccessor::StoringInits(IAOutputBlock*)
+PUBLIC 29c42 0 VectorAccessor::StoringInits(IAOutputBlock*)
+PUBLIC 29d05 0 virtual thunk to VectorAccessor::InitsSize()
+PUBLIC 29d18 0 VectorAccessor::InitsSize()
+PUBLIC 29d7b 0 virtual thunk to VectorAccessor::ExtendingInits()
+PUBLIC 29d8e 0 VectorAccessor::ExtendingInits()
+PUBLIC 29f7a 0 VectorAccessor::MergeTermInfos()
+PUBLIC 2a3e9 0 virtual thunk to VectorAccessor::Initializing()
+PUBLIC 2a3fc 0 VectorAccessor::Initializing()
+PUBLIC 2a4e8 0 VectorAccessor::EncodeScaleFactorInternal(unsigned int)
+PUBLIC 2a59c 0 VectorHitQueue::~VectorHitQueue()
+PUBLIC 2a5d4 0 VectorHitQueue::~VectorHitQueue()
+PUBLIC 2a5f4 0 VectorHitQueue::~VectorHitQueue()
+PUBLIC 2a5fe 0 VectorScorer::~VectorScorer()
+PUBLIC 2a66a 0 VectorScorer::~VectorScorer()
+PUBLIC 2a6ce 0 VectorScorer::~VectorScorer()
+PUBLIC 2a6d8 0 WeightedTermCompare
+PUBLIC 2a71c 0 WeightedTermQueue::Add(IATerm*, float)
+PUBLIC 2a78a 0 WeightedTermQueue::LowWeight()
+PUBLIC 2a7d4 0 WeightedTermQueue::Count()
+PUBLIC 2a7e6 0 WeightedTermQueue::Pop(WeightedTerm*)
+PUBLIC 2a80c 0 WeightedTermQueue::WeightedTermQueue(unsigned int)
+PUBLIC 2a8ae 0 WeightedTermQueue::WeightedTermQueue(unsigned int)
+PUBLIC 2a8b8 0 WeightedTermQueue::MoveToArray(IATerm**)
+PUBLIC 2a906 0 WeightedTermQueue::~WeightedTermQueue()
+PUBLIC 2a97a 0 WeightedTermQueue::~WeightedTermQueue()
+PUBLIC 2a984 0 WeightedTermQueue::Update(IATerm*, float)
+PUBLIC 2a9fc 0 WeightedTermQueue::~WeightedTermQueue()
+PUBLIC 2aa78 0 IAAnalysis::~IAAnalysis()
+PUBLIC 2aae4 0 IAAnalysis::~IAAnalysis()
+PUBLIC 2ab48 0 IAAnalysis::~IAAnalysis()
+PUBLIC 2ab52 0 IATokenStream::IATokenStream(IAAnalysis*, OpaqueIATextStreamRef*)
+PUBLIC 2ab9c 0 IAAnalysis::IAAnalysis(OpaqueIATextAnalysisRef**, unsigned long)
+PUBLIC 2ac52 0 IAAnalysis::IAAnalysis(OpaqueIATextAnalysisRef**, unsigned long)
+PUBLIC 2ac5c 0 IATokenStream::GetNextTokenData(unsigned char*, unsigned long, unsigned long*)
+PUBLIC 2ad30 0 IATokenStream::~IATokenStream()
+PUBLIC 2ad9c 0 IATokenStream::~IATokenStream()
+PUBLIC 2ae00 0 IATerm::CopyDescription()
+PUBLIC 2ae4c 0 IATerm::EqualNonVirtual(IAOrderedStorable const*) const
+PUBLIC 2ae88 0 IATerm::~IATerm()
+PUBLIC 2aeca 0 IATerm::~IATerm()
+PUBLIC 2af04 0 IATerm::~IATerm()
+PUBLIC 2af0e 0 IATerm::IATerm(unsigned char*, unsigned int, bool)
+PUBLIC 2afd8 0 IATerm::IATerm(unsigned char*, unsigned int, bool)
+PUBLIC 2afe2 0 IATerm::IATerm(unsigned char const*, unsigned int)
+PUBLIC 2afec 0 IATokenStream::GetNextToken()
+PUBLIC 2b0a0 0 IATerm::RestoreFromBuffer(unsigned char const**) const
+PUBLIC 2b12a 0 IATokenStream::IATokenStream(IAAnalysis*, OpaqueIATextStreamRef*)
+PUBLIC 2b174 0 IATerm::Equal(IAOrderedStorable const*) const
+PUBLIC 2b1b2 0 IATerm::LessThan(IAOrderedStorable const*) const
+PUBLIC 2b1fd 0 CFDataDocAccessorClose
+PUBLIC 2b224 0 CFDataSetDocAccessorReadPosition
+PUBLIC 2b26a 0 CFDataGetDocAccessorReadPosition
+PUBLIC 2b287 0 CFDataGetDocAccessorEOF
+PUBLIC 2b299 0 CFDataDocAccessorRead
+PUBLIC 2b2fc 0 CFDataDocAccessorOpen
+PUBLIC 2b331 0 CFDataDocAccessorDispose
+PUBLIC 2b34c 0 CFDataDocAccessorCreate
+PUBLIC 2b39b 0 CreateCFDataDocAccessorRecord
+PUBLIC 2b403 0 DisposeCFDataDocAccessorRecord
+PUBLIC 2b424 0 IACFDataDocAccessorDispose
+PUBLIC 2b449 0 IACFDataDocAccessorCreate
+PUBLIC 2b4b1 0 GetDefaultTextExtractorType
+PUBLIC 2b4d8 0 IADefaultTextExtractorGetTextRunEncoding
+PUBLIC 2b4e9 0 GetDefaultTextExtractorCallbacks
+PUBLIC 2b51a 0 IADefaultTextExtractorGetNextTextRun
+PUBLIC 2b6df 0 IADefaultTextExtractorDispose
+PUBLIC 2b6f8 0 IADefaultTextExtractorCreate
+PUBLIC 2b749 0 DocKeyGetCacheData
+PUBLIC 2b75a 0 DocKeyCompare
+PUBLIC 2b7d8 0 SKDocumentEqual
+PUBLIC 2b7f5 0 DocKeySetCacheData
+PUBLIC 2b838 0 DocKeySetName
+PUBLIC 2b876 0 DocKeySetSchemeName
+PUBLIC 2b8b4 0 DocKeySetParent
+PUBLIC 2b8f0 0 DocKeyIteratorCopyNext
+PUBLIC 2b902 0 DocKeyIteratorDispose
+PUBLIC 2b92e 0 DocKeyIteratorCreate
+PUBLIC 2b99e 0 DocSchemeGetName
+PUBLIC 2b9a9 0 DocSchemeCopyModDate
+PUBLIC 2b9bb 0 DocSchemeCopyDocMIMEType
+PUBLIC 2b9cd 0 DocSchemeCopyURLEncodedName
+PUBLIC 2b9df 0 DocSchemeCanCreateIterator
+PUBLIC 2b9fd 0 DocSchemeCanCreateAccessor
+PUBLIC 2ba1b 0 DocSchemeIteratorCopyNextDoc
+PUBLIC 2ba30 0 DocSchemeAccessorGetLength
+PUBLIC 2ba55 0 DocSchemeAccessorRead
+PUBLIC 2baa4 0 DocSchemeAccessorGetAccessorRecord
+PUBLIC 2baaf 0 DocSchemeAccessorRetain
+PUBLIC 2bad1 0 DocSchemeIteratorRetain
+PUBLIC 2baf3 0 DocSchemeRetain
+PUBLIC 2bb15 0 DocSchemeEntryRetain
+PUBLIC 2bb37 0 DocSchemeRelease
+PUBLIC 2bb88 0 DocSchemeAccessorRelease
+PUBLIC 2bbe5 0 DocSchemeIteratorRelease
+PUBLIC 2bc39 0 DocSchemeEntryRelease
+PUBLIC 2bc85 0 DocSchemeCreateAccessor
+PUBLIC 2bd27 0 DocSchemeGetIterator
+PUBLIC 2bd8e 0 DocSchemeEntryCreate
+PUBLIC 2be0e 0 DocSchemeTermRegistry
+PUBLIC 2be73 0 DocSchemeCFDictionaryApplierFunction
+PUBLIC 2be8f 0 DocSchemeUnregister
+PUBLIC 2bf1a 0 DocSchemeRegistryInit
+PUBLIC 2bf96 0 DocSchemeRegistryResolve
+PUBLIC 2c00e 0 DocSchemeResolve
+PUBLIC 2c0d6 0 DocKeyGetURL
+PUBLIC 2c15e 0 IADocKeyCopyURL
+PUBLIC 2c1a6 0 DocSchemeRegistryResolveCallbacks
+PUBLIC 2c27d 0 DocSchemeRegister
+PUBLIC 2c39a 0 IADocKeyCopyURLEncodedName
+PUBLIC 2c3e5 0 IADocKeyCopyModDate
+PUBLIC 2c430 0 IADocKeyCopyMIMEType
+PUBLIC 2c47b 0 TokenizerRetain
+PUBLIC 2c49d 0 TextAnalysisAddPropertyApplierFunction
+PUBLIC 2c4b8 0 TextAnalysisTermRegistry
+PUBLIC 2c507 0 TextAnalysisUnregister
+PUBLIC 2c54f 0 HFSDocSchemeCreate
+PUBLIC 2c559 0 HFSDocSchemeDispose
+PUBLIC 2c560 0 IAGetHFSDocSchemeName
+PUBLIC 2c587 0 HFSDocAccessorCopyURL
+PUBLIC 2c5ac 0 HFSDocAccessorOpen
+PUBLIC 2c63f 0 HFSGetDocAccessorEOF
+PUBLIC 2c66e 0 HFSGetDocAccessorReadPosition
+PUBLIC 2c69d 0 HFSSetDocAccessorReadPosition
+PUBLIC 2c78e 0 HFSDocAccessorRead
+PUBLIC 2c9d0 0 GetHFSFolderMIMEType
+PUBLIC 2ca12 0 HFSDocSchemeDocIteratorDispose
+PUBLIC 2ca3b 0 HFSDocSchemeCopyURLEncodedDocName
+PUBLIC 2cd66 0 HFSAccessorClose
+PUBLIC 2cd91 0 HFSSetItemCache
+PUBLIC 2cde5 0 DocKeyFromFSRef
+PUBLIC 2cf79 0 IADocKeyCreateFromFSRef
+PUBLIC 2cf85 0 HFSGetItemCache
+PUBLIC 2cfa7 0 FSRefFromDocKey
+PUBLIC 2d2c7 0 IADocKeyGetFSRef
+PUBLIC 2d2f0 0 InstallHFSDocScheme
+PUBLIC 2d3a3 0 HFSDocSchemeDocIteratorCopyNext
+PUBLIC 2d52a 0 HFSDocSchemeDisposeAccessor
+PUBLIC 2d55f 0 HFSDocAccessorClose
+PUBLIC 2d58a 0 HFSDocSchemeCopySupportedTypes
+PUBLIC 2d5e3 0 HFSDocSchemeCopyDocMIMEType
+PUBLIC 2d7d8 0 HFSAccessorCreate
+PUBLIC 2d8a7 0 HFSDocSchemeCreateAccessor
+PUBLIC 2d918 0 HFSIteratorCreate
+PUBLIC 2d9e4 0 HFSDocSchemeDocIteratorCreate
+PUBLIC 2d9f3 0 HFSCanCreateDocIterator
+PUBLIC 2dab9 0 HFSCanCreateAccessor
+PUBLIC 2db85 0 HFSDocSchemeCopyDocModDate
+PUBLIC 2dce9 0 IADocKeyCompare
+PUBLIC 2dd04 0 IADocKeyGetCacheData
+PUBLIC 2dd0d 0 IADocKeySetCacheData
+PUBLIC 2dd32 0 IADocKeyAccessorRead
+PUBLIC 2dd3b 0 IADocKeyAccessorLength
+PUBLIC 2dd44 0 IADocKeyAccessorRelease
+PUBLIC 2dd59 0 IADocKeyAccessorRetain
+PUBLIC 2dd62 0 IADocKeyAccessorCreate
+PUBLIC 2ddbf 0 IADocKeyCanCreateAccessor
+PUBLIC 2de06 0 DocKeyCFArrayCopyDescription
+PUBLIC 2de0d 0 DocKeyCompartor
+PUBLIC 2de28 0 DocKeyCFArrayEqual
+PUBLIC 2de4b 0 DocKeyCFArrayRelease
+PUBLIC 2de5a 0 DocKeyCFArrayRetain
+PUBLIC 2de69 0 NewDocKeyArray
+PUBLIC 2dec3 0 IADocKeyIteratorCopyNextDoc
+PUBLIC 2df14 0 IADocKeyIteratorDispose
+PUBLIC 2df29 0 IADocKeyIteratorCreate
+PUBLIC 2dfd7 0 IADocKeyCanCreateIterator
+PUBLIC 2e022 0 IASentenceParserCopyNextSentence
+PUBLIC 2e02b 0 IASentenceParserSetSourceText
+PUBLIC 2e049 0 IASentenceParserRelease
+PUBLIC 2e067 0 IASentenceParserRetain
+PUBLIC 2e07b 0 IASentenceParserCreate
+PUBLIC 2e0c4 0 IATokenizerRetain
+PUBLIC 2e0d8 0 IATextAnalysisRetain
+PUBLIC 2e0ec 0 IATextAnalysisGetCallbacks
+PUBLIC 2e11b 0 IATextAnalysisUnregister
+PUBLIC 2e139 0 IATextAnalysisRegister
+PUBLIC 2e162 0 IATextStreamRewind
+PUBLIC 2e16b 0 IATextStreamGetCurrentEncoding
+PUBLIC 2e174 0 IATextStreamRead
+PUBLIC 2e17d 0 IATextStreamCreateFromCFData
+PUBLIC 2e1bd 0 IATextStreamCreate
+PUBLIC 2e203 0 MIMERegistryInit
+PUBLIC 2e395 0 IAMIMETypeResolve
+PUBLIC 2e44b 0 IAMIMETypeRegister
+PUBLIC 2e513 0 LoadPlugInExtractorCallbacks
+PUBLIC 2e54f 0 PlugInTextExtractorGetNextTextRun
+PUBLIC 2e571 0 PlugInTextExtractorGetTextRunEncoding
+PUBLIC 2e5e7 0 PlugInTextExtractorDispose
+PUBLIC 2e624 0 UnloadExtractorPlugIn
+PUBLIC 2e65a 0 PlugInFreeProc
+PUBLIC 2e663 0 PlugInTextExtractorCreate
+PUBLIC 2e6fa 0 PlugInAllocProc
+PUBLIC 2e703 0 RegisterExtractor
+PUBLIC 2e808 0 LoadExtractorPlugIn
+PUBLIC 2ea1f 0 IALoadExtractorPlugIn
+PUBLIC 2ea48 0 IALoadDefaultExtractorPlugIns
+PUBLIC 2ecc7 0 GetDefaultSentenceParserName
+PUBLIC 2ecee 0 SentenceParserSetSource
+PUBLIC 2ed00 0 SentenceParserCopyNextSentence
+PUBLIC 2ed12 0 SentenceParserRetain
+PUBLIC 2ed34 0 SentenceParserRelease
+PUBLIC 2ed85 0 SentenceParserTermRegistry
+PUBLIC 2edd4 0 SentenceParserUnregister
+PUBLIC 2ee1c 0 InstallDefaultSentenceParser
+PUBLIC 2ee69 0 SentenceParserRegistryInit
+PUBLIC 2eed8 0 SentenceParserRegistryResolve
+PUBLIC 2ef66 0 SentenceParserCreate
+PUBLIC 2f006 0 SentenceParserRegister
+PUBLIC 2f0cd 0 IASentenceParserRegister
+PUBLIC 2f0eb 0 TextExtractorGetTextRunEncoding
+PUBLIC 2f0fd 0 IADocAccessorStubOpen
+PUBLIC 2f104 0 IADocAccessorStubClose
+PUBLIC 2f10b 0 TextExtractorRewind
+PUBLIC 2f166 0 TextExtractorGetNextTextRun
+PUBLIC 2f1ff 0 TextExtractorRetain
+PUBLIC 2f221 0 TextExtractorRelease
+PUBLIC 2f294 0 TextExtractorUnregister
+PUBLIC 2f2dc 0 TextExtractorTermRegistry
+PUBLIC 2f32b 0 InstallDefaultTextExtractor
+PUBLIC 2f35c 0 TextExtractorRegistryInit
+PUBLIC 2f3cb 0 TextExtractorResolve
+PUBLIC 2f4c6 0 TextExtractorCreate
+PUBLIC 2f5e9 0 TextExtractorRegister
+PUBLIC 2f6d0 0 CopyPropertyList
+PUBLIC 2f774 0 ReleaseEncodingMap
+PUBLIC 2f7a3 0 GetEncodingMapURL
+PUBLIC 2f7f0 0 GetEncodingMap
+PUBLIC 2f887 0 CopyCFEncodingsForISOLanguages
+PUBLIC 2f98b 0 TextStreamGetCurrentEncoding
+PUBLIC 2f9de 0 TextStreamRead
+PUBLIC 2faa9 0 TextStreamRewind
+PUBLIC 2fae0 0 TextStreamCreateFromExtractor
+PUBLIC 2fb18 0 TextStreamCreateFromCFData
+PUBLIC 2fbac 0 FreqPosting::FreqPosting()
+PUBLIC 2fbb2 0 FreqPosting::FreqPosting()
+PUBLIC 2fbb8 0 FreqPosting::FreqPosting(unsigned int, unsigned int)
+PUBLIC 2fbcc 0 FreqPosting::FreqPosting(unsigned int, unsigned int)
+PUBLIC 2fbdf 0 FreqPostingsRestoreBlock(IAStorage*, unsigned long*, unsigned int*)
+PUBLIC 2fc4c 0 FreqPostingsStoreBlock(IAStorage*, unsigned long, unsigned long, FreqPosting*, unsigned int, unsigned long)
+PUBLIC 2fcc9 0 FreqPostingsPaginate(FreqPosting*, unsigned int, unsigned long*)
+PUBLIC 2fd50 0 FreqPostingsRestoreFromBuffer(unsigned int, unsigned char const**)
+PUBLIC 2fdf9 0 FreqPostingsRemove(FreqPosting*, unsigned int*, BitArray*)
+PUBLIC 2fe98 0 FreqTermCompare
+PUBLIC 2fed6 0 FreqTermQueue::Add(IATerm*, unsigned int)
+PUBLIC 2ff44 0 FreqTermQueue::LowestFreq()
+PUBLIC 2ff86 0 FreqTermQueue::Pop(FreqTerm*)
+PUBLIC 2ffac 0 FreqTermQueue::Count()
+PUBLIC 2ffbe 0 FreqTermQueue::FreqTermQueue(unsigned int)
+PUBLIC 30060 0 FreqTermQueue::FreqTermQueue(unsigned int)
+PUBLIC 3006a 0 FreqTermQueue::~FreqTermQueue()
+PUBLIC 300d2 0 FreqTermQueue::~FreqTermQueue()
+PUBLIC 300dc 0 FreqTermQueue::MoveToArray(FreqTerm*)
+PUBLIC 30132 0 FreqTermQueue::Update(IATerm*, unsigned int)
+PUBLIC 3019c 0 GetHighFreqTerms(TermIndex*, unsigned int*)
+PUBLIC 30286 0 FreqTermQueue::~FreqTermQueue()
+PUBLIC 302f6 0 IAIndexGetTermID
+PUBLIC 30329 0 IAIndexCopyTermData
+PUBLIC 3035c 0 IAIndexCopyTermDocIDArrray
+PUBLIC 3038f 0 IAIndexGetTermDocCount
+PUBLIC 303c2 0 IAIndexGetDocTermFrequency
+PUBLIC 303fc 0 IAIndexCopyDocTermIDArrray
+PUBLIC 3042f 0 IAIndexGetDocTermCount
+PUBLIC 30462 0 IAIndexGetMaxDocID
+PUBLIC 3048e 0 IAIndexDocIteratorDispose
+PUBLIC 304e4 0 IAIndexDocIteratorCopyNext
+PUBLIC 30510 0 IAIndexDocIteratorCreate
+PUBLIC 3054b 0 IAIndexReplaceRootDocKey
+PUBLIC 305b9 0 IAIndexGetRootDocKeys
+PUBLIC 305f3 0 IAIndexGetRootDocKeyCount
+PUBLIC 3061f 0 IAIndexMakeRootDocKey
+PUBLIC 30684 0 IAIndexGetNumDocuments
+PUBLIC 306b0 0 IAIndexGetFlushProgressFrequency
+PUBLIC 306dc 0 IAIndexSetFlushProgressFrequency
+PUBLIC 30731 0 IAIndexGetBytesForUpdate
+PUBLIC 3075d 0 IAIndexSetBytesForUpdate
+PUBLIC 307b2 0 IAIndexGetDocKeyID
+PUBLIC 307ed 0 IAIndexGetDocState
+PUBLIC 30820 0 IAIndexCopyDocProperties
+PUBLIC 3088a 0 IAIndexMoveDoc
+PUBLIC 308e6 0 IAIndexRenameDoc
+PUBLIC 30942 0 IAIndexRemoveDoc
+PUBLIC 3099f 0 IAIndexUpdate
+PUBLIC 30a09 0 IAIndexAddDoc
+PUBLIC 30af4 0 IAIndexRetain
+PUBLIC 30b27 0 IAIndexInitialize
+PUBLIC 30c49 0 IAIndexOpenFromFilePath
+PUBLIC 30d62 0 IAIndexInitializeFromFilePath
+PUBLIC 30e9c 0 IAIndexOpenFromFSRef
+PUBLIC 30fbd 0 IAIndexInitializeFromFSRef
+PUBLIC 31104 0 IAIndexGetStorage
+PUBLIC 31163 0 IAIndexCompact
+PUBLIC 311f2 0 IAIndexFlush
+PUBLIC 31285 0 IAIndexUpdateAsync
+PUBLIC 31308 0 UpdateAsyncDispose
+PUBLIC 31317 0 IAIndexRemoveDocAsync
+PUBLIC 3138e 0 RemoveDocAsyncDispose
+PUBLIC 3139d 0 IAIndexCompactAsync
+PUBLIC 31415 0 CompactAsyncDispose
+PUBLIC 31424 0 UpdateAsyncStart
+PUBLIC 3147d 0 RemoveDocAsyncStart
+PUBLIC 314c1 0 CompactAsyncStart
+PUBLIC 31501 0 IAIndexAddDocWithTextStreamAsync
+PUBLIC 3159d 0 IAIndexAddDocAsync
+PUBLIC 31639 0 AddDocWithTextStreamAsyncDispose
+PUBLIC 3165f 0 AddDocWithTextStreamAsyncStart
+PUBLIC 316b2 0 AddDocAsyncDispose
+PUBLIC 316d8 0 AddDocAsyncStart
+PUBLIC 3172c 0 IADocIterator::GetNextDoc()
+PUBLIC 31734 0 IADoc::SetName(__CFString const*)
+PUBLIC 3176c 0 IADoc::SetSchemeName(__CFString const*)
+PUBLIC 317a4 0 IADoc::CopyDescription()
+PUBLIC 317ee 0 IADoc::~IADoc()
+PUBLIC 3186c 0 IADoc::~IADoc()
+PUBLIC 318e2 0 IADoc::IADoc(__CFString const*, __CFString const*, unsigned long, unsigned long, OpaqueIADocKeyRef*)
+PUBLIC 3198a 0 IADoc::IADoc(__CFString const*, __CFString const*, unsigned long, unsigned long, OpaqueIADocKeyRef*)
+PUBLIC 31994 0 IADoc::IADoc()
+PUBLIC 319ee 0 IADocIterator::~IADocIterator()
+PUBLIC 31a26 0 IADocIterator::~IADocIterator()
+PUBLIC 31a46 0 IADocIterator::~IADocIterator()
+PUBLIC 31a50 0 IADocIterator::IADocIterator()
+PUBLIC 31a80 0 IADoc::GetTextStream(__CFString const*)
+PUBLIC 31bac 0 IADocIterator::IADocIterator()
+PUBLIC 31bdc 0 IADoc::IADoc()
+PUBLIC 31c36 0 IAIndex::IAClassID()
+PUBLIC 31c3e 0 IAIndex::IANarrowInternal(long)
+PUBLIC 31c58 0 IAIndex::Initializing()
+PUBLIC 31c5e 0 IAIndex::GetQueryAnalysis() const
+PUBLIC 31c70 0 IAIndex::Update()
+PUBLIC 31c76 0 IAIndexTypes::IAIndexTypes()
+PUBLIC 31c9c 0 IAIndexTypes::IAIndexTypes()
+PUBLIC 31cc2 0 IAIndexTypes::IAIndexTypes(unsigned int, unsigned int)
+PUBLIC 31ce6 0 IAIndexTypes::IAIndexTypes(unsigned int, unsigned int)
+PUBLIC 31d0a 0 IAIndexTypes::Equal(IAIndexTypes*)
+PUBLIC 31d56 0 IAIndex::GetIndexTypes(IAIndexTypes*)
+PUBLIC 31d6e 0 IAIndex::Compact()
+PUBLIC 31dac 0 IAIndex::SetPreferredAnalysis(IAAnalysis const*)
+PUBLIC 31df5 0 IAReadIndexTypes(IAStorage*, unsigned long, IAIndexTypes*)
+PUBLIC 31e4e 0 IAIndex::Initialize()
+PUBLIC 31f1e 0 IAIndex::~IAIndex()
+PUBLIC 31fa2 0 IAIndex::~IAIndex()
+PUBLIC 3201e 0 IAIndex::~IAIndex()
+PUBLIC 32028 0 IAIndex::Constructing(IAStorage*, IAAnalysis*, unsigned int, unsigned long, unsigned int)
+PUBLIC 320bc 0 IAIndex::IAIndex(IAStorage*, IAAnalysis*, unsigned int, unsigned long, unsigned int)
+PUBLIC 32136 0 IAIndex::IAIndex(IAStorage*, IAAnalysis*, unsigned int, unsigned long, unsigned int)
+PUBLIC 32140 0 IAIndex::IAIndex()
+PUBLIC 3217c 0 IAIndex::IAIndex()
+PUBLIC 321b8 0 IAQueue::Remove()
+PUBLIC 321f8 0 IAQueue::IAQueue()
+PUBLIC 3223e 0 IAQueue::Add(void*)
+PUBLIC 322be 0 IAObjectQueue::IAObjectQueue()
+PUBLIC 32304 0 IAQueue::IAQueue()
+PUBLIC 3234a 0 IAObjectQueue::IAObjectQueue()
+PUBLIC 32390 0 IAQueue::~IAQueue()
+PUBLIC 3240a 0 IAQueue::~IAQueue()
+PUBLIC 3247c 0 IAObjectQueue::~IAObjectQueue()
+PUBLIC 324b4 0 IAObjectQueue::~IAObjectQueue()
+PUBLIC 324d4 0 IAObjectQueue::~IAObjectQueue()
+PUBLIC 324de 0 IAQueue::~IAQueue()
+PUBLIC 324e8 0 IAQueue::DeleteItem(void*)
+PUBLIC 324ee 0 IAObjectQueue::DeleteItem(void*)
+PUBLIC 32506 0 IAQueueNode::~IAQueueNode()
+PUBLIC 3253e 0 IAQueueNode::~IAQueueNode()
+PUBLIC 3255e 0 IAQueueNode::~IAQueueNode()
+PUBLIC 32568 0 InVecIndex::IAClassID()
+PUBLIC 3256f 0 virtual thunk to InVecIndex::IANarrowInternal(long)
+PUBLIC 3258c 0 InVecIndex::IANarrowInternal(long)
+PUBLIC 325ea 0 virtual thunk to InVecIndex::DeletingDoc(DocInfo*)
+PUBLIC 3260a 0 InVecIndex::DeletingDoc(DocInfo*)
+PUBLIC 3263e 0 InVecIndex::InVecIndex(IAStorage*, IAAnalysis*, unsigned int, unsigned long, unsigned int)
+PUBLIC 3272e 0 InVecIndex::InVecIndex(IAStorage*, IAAnalysis*, unsigned int, unsigned long, unsigned int)
+PUBLIC 327ee 0 virtual thunk to InVecIndex::~InVecIndex()
+PUBLIC 3280a 0 InVecIndex::~InVecIndex()
+PUBLIC 328bc 0 virtual thunk to InVecIndex::~InVecIndex()
+PUBLIC 328d8 0 InVecIndex::~InVecIndex()
+PUBLIC 32982 0 InvertedIndex::IAClassID()
+PUBLIC 3298a 0 FreqPS::Next(FreqPosting*)
+PUBLIC 32992 0 FreqPS::NeedsUpdating()
+PUBLIC 3299a 0 InvertedTermInfo::FirstBlock()
+PUBLIC 329a2 0 InvertedBlockTermInfo::FirstBlock()
+PUBLIC 329ad 0 virtual thunk to InvertedIndex::DeletingPostings(IATerm*, unsigned int)
+PUBLIC 329c2 0 InvertedIndex::DeletingPostings(IATerm*, unsigned int)
+PUBLIC 329d9 0 CallCompactProgressFn(float, void*)
+PUBLIC 32a08 0 InvertedIndex::UpdateTermMaxDocFreq(InvertedTermInfo*, FreqPosting*, unsigned int)
+PUBLIC 32a35 0 FreqPostingsRename(FreqPosting*, unsigned int, unsigned int)
+PUBLIC 32a56 0 InvertedIndex::ResetDeletedDoc(DocInfo*)
+PUBLIC 32ab6 0 InvertedIndex::GetDeletedDocCount()
+PUBLIC 32b08 0 virtual thunk to InvertedIndex::MergeTermCost()
+PUBLIC 32b1e 0 InvertedIndex::MergeTermCost()
+PUBLIC 32b38 0 FreqPSImpl::RefillBuffer()
+PUBLIC 32bcc 0 FreqPSImpl::Next(FreqPosting*)
+PUBLIC 32c52 0 InvertedIndex::UpdatePostingBlocks(InvertedBlockTermInfo*, FreqPosting*, unsigned int)
+PUBLIC 32e1f 0 virtual thunk to InvertedIndex::Initializing()
+PUBLIC 32e32 0 InvertedIndex::Initializing()
+PUBLIC 32ead 0 virtual thunk to InvertedIndex::RestoreRoot(IAInputBlock*)
+PUBLIC 32ec1 0 virtual thunk to InvertedIndex::StoreRoot(IAOutputBlock*)
+PUBLIC 32ed5 0 virtual thunk to InvertedIndex::RootSize()
+PUBLIC 32ee9 0 virtual thunk to InvertedIndex::~InvertedIndex()
+PUBLIC 32efc 0 InvertedIndex::~InvertedIndex()
+PUBLIC 32f70 0 virtual thunk to InvertedIndex::~InvertedIndex()
+PUBLIC 32f82 0 InvertedIndex::~InvertedIndex()
+PUBLIC 32fee 0 InvertedIndex::~InvertedIndex()
+PUBLIC 33028 0 InvertedIndex::InvertedIndex(IAStorage*, IAAnalysis*, unsigned int, unsigned long, unsigned int)
+PUBLIC 330dc 0 InvertedIndex::InvertedIndex(IAStorage*, IAAnalysis*, unsigned int, unsigned long, unsigned int)
+PUBLIC 33166 0 InvertedBlockTermInfo::Store(IAOutputBlock*) const
+PUBLIC 331da 0 InvertedBlockTermInfo::StoreSize() const
+PUBLIC 33232 0 InvertedBlockTermInfo::DeepCopying(IAStorable const*)
+PUBLIC 33264 0 InvertedTermInfo::~InvertedTermInfo()
+PUBLIC 332ca 0 InvertedTermInfo::~InvertedTermInfo()
+PUBLIC 33328 0 InvertedTermInfo::~InvertedTermInfo()
+PUBLIC 33332 0 FreqPS::~FreqPS()
+PUBLIC 3336a 0 FreqPS::~FreqPS()
+PUBLIC 3338a 0 FreqPSImpl::~FreqPSImpl()
+PUBLIC 333fe 0 FreqPSImpl::~FreqPSImpl()
+PUBLIC 3346a 0 FreqPSImpl::~FreqPSImpl()
+PUBLIC 33474 0 FreqPS::~FreqPS()
+PUBLIC 3347e 0 FreqPS::FreqPS()
+PUBLIC 334af 0 virtual thunk to InvertedIndex::Initialize()
+PUBLIC 334c2 0 InvertedIndex::Initialize()
+PUBLIC 334f2 0 virtual thunk to InvertedIndex::ValidateTermInfos(bool)
+PUBLIC 33504 0 InvertedIndex::ValidateTermInfos(bool)
+PUBLIC 335c6 0 virtual thunk to InvertedIndex::MergeTermInfo(TermInfo*, TermInfo*, TermIndex*, unsigned int)
+PUBLIC 335d8 0 InvertedIndex::MergeTermInfo(TermInfo*, TermInfo*, TermIndex*, unsigned int)
+PUBLIC 33714 0 InvertedIndex::ExpungeTermIds(UInt32Set*)
+PUBLIC 33874 0 InvertedBlockTermInfo::InvertedBlockTermInfo()
+PUBLIC 338b9 0 virtual thunk to InvertedIndex::MergeDocIDs(TermIndex*, unsigned int)
+PUBLIC 338cc 0 InvertedIndex::MergeDocIDs(TermIndex*, unsigned int)
+PUBLIC 33958 0 InvertedBlockTermInfo::InvertedBlockTermInfo(IATerm*, unsigned int)
+PUBLIC 339ba 0 InvertedIndex::ExpungePostings(InvertedTermInfo*)
+PUBLIC 33b4c 0 FreqPSImpl::FreqPSImpl(InvertedTermInfo*, BitArray*, IAStorage*)
+PUBLIC 33bd4 0 FreqPSImpl::FreqPSImpl(InvertedTermInfo*, BitArray*, IAStorage*)
+PUBLIC 33bde 0 InvertedIndex::GetFreqPostings(TermInfo*)
+PUBLIC 33c50 0 InvertedIndex::TermInfoNeedsUpdating(InvertedTermInfo*)
+PUBLIC 33cd5 0 virtual thunk to InvertedIndex::ResetPostings(TermInfo*)
+PUBLIC 33cea 0 InvertedIndex::ResetPostings(TermInfo*)
+PUBLIC 33e37 0 virtual thunk to InvertedIndex::GetTermInfo(IATerm*, bool)
+PUBLIC 33e4a 0 InvertedIndex::GetTermInfo(IATerm*, bool)
+PUBLIC 3400c 0 virtual thunk to InvertedIndex::Compact()
+PUBLIC 3401e 0 InvertedIndex::Compact()
+PUBLIC 3430e 0 FreqPS::FreqPS()
+PUBLIC 3433e 0 InvertedBlockTermInfo::InvertedBlockTermInfo()
+PUBLIC 34384 0 InvertedBlockTermInfo::InvertedBlockTermInfo(IATerm*, unsigned int)
+PUBLIC 343e6 0 InvertedBlockTermInfo::DeepCopy() const
+PUBLIC 34460 0 InvertedTermInfo::RestoreFromBuffer(unsigned char const**) const
+PUBLIC 3464c 0 FreqPSImpl::NeedsUpdating()
+PUBLIC 34658 0 InvertedBlockTermInfo::~InvertedBlockTermInfo()
+PUBLIC 34690 0 InvertedBlockTermInfo::~InvertedBlockTermInfo()
+PUBLIC 346b0 0 InvertedBlockTermInfo::~InvertedBlockTermInfo()
+PUBLIC 346ba 0 TermIndex::IAClassID()
+PUBLIC 346c1 0 GetProgressKeyStr()
+PUBLIC 346e8 0 GetDocNameKeyStr()
+PUBLIC 34710 0 TermInfo::RestoringFromBuffer(unsigned char const**, IAStorable const*)
+PUBLIC 34782 0 TermInfo::Skip(unsigned char const*) const
+PUBLIC 347bc 0 IDTerm::Equal(IAOrderedStorable const*) const
+PUBLIC 347d4 0 IDDoc::Store(IAOutputBlock*) const
+PUBLIC 3480c 0 IDDoc::Skip(unsigned char const*) const
+PUBLIC 3483e 0 IDDoc::Equal(IAOrderedStorable const*) const
+PUBLIC 34856 0 TIDRename::Store(IAOutputBlock*) const
+PUBLIC 3488e 0 DocIDInfoCompareKeyDataWithBuffer(int, unsigned char const*, void*)
+PUBLIC 34919 0 BulkDocIDInfoQSortCompare(void const*, void const*)
+PUBLIC 34937 0 DocUpdateCompare(void const*, void const*, void*)
+PUBLIC 34956 0 QSortProximityListItemCompare(void const*, void const*)
+PUBLIC 34972 0 TermIndex::AddDoc(IADoc*)
+PUBLIC 34978 0 TermIndex::AddDoc(IADoc*, unsigned int*)
+PUBLIC 3497e 0 TermIndex::MergeTermCost()
+PUBLIC 34988 0 TermIndex::MergeDocCost()
+PUBLIC 34992 0 TermIndex::MergeDocIDs(TermIndex*, unsigned int)
+PUBLIC 34998 0 TermIndex::Validate(bool, bool)
+PUBLIC 349ee 0 TermIndex::ValidateDocInfos(bool)
+PUBLIC 349f8 0 TermIndex::ValidateTermInfos(bool)
+PUBLIC 34a02 0 TermIndex::Purge()
+PUBLIC 34a57 0 TermUpdateCFSetHashCallBack(void const*)
+PUBLIC 34ad0 0 ProximityInfo::Compare(IAOrderedStorable const*) const
+PUBLIC 34b08 0 ProximityInfo::Store(IAOutputBlock*) const
+PUBLIC 34b7a 0 ProximityInfo::DeepCopying(IAStorable const*)
+PUBLIC 34bc0 0 ProtoPostingCFSetReleaseCallBack(__CFAllocator const*, void const*)
+PUBLIC 34bd0 0 ProximityInfo::StoreSize() const
+PUBLIC 34c2c 0 ProximityInfo::ProximityInfo()
+PUBLIC 34c80 0 IDDoc::IDDoc(unsigned int, IADoc*)
+PUBLIC 34cbc 0 IDDoc::IDDoc()
+PUBLIC 34cf4 0 IDTerm::IDTerm(unsigned int, IATerm*)
+PUBLIC 34d30 0 IDTerm::IDTerm()
+PUBLIC 34d68 0 DocInfo::DocInfo(IADoc*, unsigned int)
+PUBLIC 34dac 0 DocInfo::DocInfo()
+PUBLIC 34de4 0 TermInfo::TermInfo(IATerm*, unsigned int)
+PUBLIC 34e28 0 TermInfo::TermInfo()
+PUBLIC 34e60 0 TermOffsets::Restoring(IAInputBlock*, IAStorable const*)
+PUBLIC 34e92 0 TermInfo::Restoring(IAInputBlock*, IAStorable const*)
+PUBLIC 34ed8 0 ProximityInfo::~ProximityInfo()
+PUBLIC 34f38 0 ProximityInfo::~ProximityInfo()
+PUBLIC 34f90 0 ProximityInfo::~ProximityInfo()
+PUBLIC 34f9a 0 IDDoc::~IDDoc()
+PUBLIC 34ffa 0 IDDoc::~IDDoc()
+PUBLIC 35052 0 IDDoc::~IDDoc()
+PUBLIC 3505c 0 IDTerm::~IDTerm()
+PUBLIC 350b4 0 IDTerm::~IDTerm()
+PUBLIC 350be 0 DocInfo::~DocInfo()
+PUBLIC 3511e 0 DocInfo::~DocInfo()
+PUBLIC 35176 0 DocInfo::~DocInfo()
+PUBLIC 35180 0 TermInfo::~TermInfo()
+PUBLIC 351e0 0 TermInfo::~TermInfo()
+PUBLIC 35238 0 TermInfo::~TermInfo()
+PUBLIC 35242 0 IDDoc::CopyDescription()
+PUBLIC 352a8 0 IDTerm::CopyDescription()
+PUBLIC 3530e 0 DocInfo::CopyDescription()
+PUBLIC 35374 0 TermInfo::CopyDescription()
+PUBLIC 353da 0 TermOffsets::Get(unsigned int) const
+PUBLIC 35408 0 TermOffsets::Add(unsigned int)
+PUBLIC 3542e 0 ProximityInfo::ProximityInfo(unsigned int, unsigned int, TermOffsets*, unsigned long)
+PUBLIC 354a2 0 ProximityInfo::ProximityInfo(unsigned int, unsigned int, TermOffsets*, unsigned long)
+PUBLIC 354ac 0 TermOffsets::Count() const
+PUBLIC 354be 0 TermOffsets::~TermOffsets()
+PUBLIC 3551a 0 TermOffsets::~TermOffsets()
+PUBLIC 3556e 0 TermOffsets::~TermOffsets()
+PUBLIC 35578 0 TermOffsets::TermOffsets()
+PUBLIC 355f4 0 ProximityInfo::Offsets(IAStorage*)
+PUBLIC 356b2 0 TermOffsets::TermOffsets()
+PUBLIC 356bc 0 TermIndex::ResetPostings(TermInfo*)
+PUBLIC 356f2 0 TermIndex::GetDocInfoIterator()
+PUBLIC 35740 0 TermIndex::GetTermInfoIterator()
+PUBLIC 3578e 0 TermIndex::GetTermCount()
+PUBLIC 357dd 0 OSSetFirst(IAOrderedStorableSet*)
+PUBLIC 35826 0 TermUpdateCFSetEqualCallBack(void const*, void const*)
+PUBLIC 3585f 0 TermUpdateCFSetCopyDescriptionCallBack(void const*)
+PUBLIC 358db 0 ProtoPostingCFSetCopyDescriptionCallBack(void const*)
+PUBLIC 35960 0 TermUpdateCreate(__CFAllocator const*, unsigned char*, unsigned long)
+PUBLIC 35a2a 0 TermIndex::AddDocTermInternal(unsigned int, void*, void*)
+PUBLIC 35b39 0 CFInversionApplierFunction(void const*, void*)
+PUBLIC 35b70 0 TermIndex::GetProtoTermInfo() const
+PUBLIC 35bec 0 TermIndex::DeletedDocUpdate(unsigned int)
+PUBLIC 35c1a 0 TermInfo::CompareBuffer(unsigned char const*) const
+PUBLIC 35c8e 0 QSortTermUpdateCompare(void const*, void const*)
+PUBLIC 35cdc 0 TermIndex::~TermIndex()
+PUBLIC 35e26 0 TermIndex::~TermIndex()
+PUBLIC 35f68 0 TermIndex::~TermIndex()
+PUBLIC 35f72 0 TermIndex::TermIndex()
+PUBLIC 35fa2 0 DocUpdateSet::Count()
+PUBLIC 35fb4 0 DocUpdateSet::Remove(DocUpdate*, DocUpdate*)
+PUBLIC 35fe0 0 DocUpdateSet::Get(DocUpdate*, DocUpdate*)
+PUBLIC 3600c 0 DocUpdateSet::Pop(DocUpdate*)
+PUBLIC 36032 0 DocUpdateSet::Next(DocUpdate*)
+PUBLIC 36044 0 DocUpdateSet::First()
+PUBLIC 36056 0 DocUpdateSet::DocUpdateSet()
+PUBLIC 360f2 0 TermIndex::Constructing(IAStorage*, IAAnalysis*, unsigned int, unsigned long, unsigned int)
+PUBLIC 3625c 0 TermIndex::TermIndex(IAStorage*, IAAnalysis*, unsigned int, unsigned long, unsigned int)
+PUBLIC 362d2 0 TermIndex::TermIndex(IAStorage*, IAAnalysis*, unsigned int, unsigned long, unsigned int)
+PUBLIC 362dc 0 TIDocIterator::~TIDocIterator()
+PUBLIC 3633c 0 TIDocIterator::~TIDocIterator()
+PUBLIC 36394 0 TIDocIterator::~TIDocIterator()
+PUBLIC 3639e 0 TIDocIterator::TIDocIterator(IAOrderedStorableIterator*)
+PUBLIC 363d4 0 TIDocIterator::TIDocIterator()
+PUBLIC 3640b 0 DocIDInfoMatchKeyDataWithBuffer(int, unsigned char const*, void*)
+PUBLIC 3679a 0 TermIndex::Initialize()
+PUBLIC 367fe 0 TermInfo::Equal(IAOrderedStorable const*) const
+PUBLIC 36822 0 TermIndex::IANarrowInternal(long)
+PUBLIC 36852 0 ProtoPostingCFSetHashCallBack(void const*)
+PUBLIC 368cc 0 ProtoPostingCFSetEqualCallBack(void const*, void const*)
+PUBLIC 3690a 0 TermIndex::FinishingUpdate()
+PUBLIC 36970 0 DocIDInfoMatchKeyDataWithObj(int, IAOrderedStorable*, void*)
+PUBLIC 369d6 0 TermIndex::GetNorm()
+PUBLIC 36a8e 0 TermIndex::MergeTermInfo(TermInfo*, TermInfo*, TermIndex*, unsigned int)
+PUBLIC 36aa0 0 TermIndex::UpdateTermInfo(TermInfo*, FreqPosting*, unsigned int, unsigned int)
+PUBLIC 36ab4 0 TermIndex::UpdateDocInfo(DocInfo*, TFVector*)
+PUBLIC 36ada 0 TermIndex::AddTermForFullUpdate(IATerm*)
+PUBLIC 36b56 0 TermIndex::DeletingPostings(IATerm*, unsigned int)
+PUBLIC 36c3c 0 TermIndex::MergeDocInfo(DocInfo*, DocInfo*, TermIndex*, unsigned int*)
+PUBLIC 36c4e 0 TermIndex::CopyInfoForDocumentIDs(long, long*, __CFString const**, long*, unsigned long*)
+PUBLIC 36eee 0 TermIndex::FlushTermUpdatesMergeCallback(void**, IAOrderedStorable*, void*)
+PUBLIC 370c6 0 DocIDInfoCompareKeyDataWithObj(int, IAOrderedStorable*, void*)
+PUBLIC 370ee 0 TermIndex::FlushTermUpdatesCancelCallback(void*)
+PUBLIC 37110 0 TIDRename::Restore(IAInputBlock*) const
+PUBLIC 37188 0 TermIndex::FlushTermUpdatesCompareCallback(void*, unsigned char const*)
+PUBLIC 371f8 0 ProximityInfo::Restoring(IAInputBlock*, IAStorable const*)
+PUBLIC 37296 0 TermOffsets::Restore(IAInputBlock*) const
+PUBLIC 372ec 0 TermOffsets::DeepCopy() const
+PUBLIC 3733c 0 TermOffsets::Store(IAOutputBlock*) const
+PUBLIC 37382 0 TermIndex::CopyTermOffsets(unsigned int, unsigned int)
+PUBLIC 37438 0 TermIndex::TermIndex()
+PUBLIC 37468 0 TIDocIterator::TIDocIterator(IAOrderedStorableIterator*)
+PUBLIC 3749e 0 TermIndex::GetDocIterator()
+PUBLIC 37506 0 TIDocIterator::TIDocIterator()
+PUBLIC 3753e 0 TermInfo::TermInfo()
+PUBLIC 37576 0 IDTerm::IDTerm()
+PUBLIC 375ae 0 IDDoc::IDDoc()
+PUBLIC 375e6 0 DocInfo::DocInfo()
+PUBLIC 3761e 0 IDDoc::IDDoc(unsigned int, IADoc*)
+PUBLIC 3765a 0 IDTerm::IDTerm(unsigned int, IATerm*)
+PUBLIC 37696 0 DocUpdateSet::~DocUpdateSet()
+PUBLIC 37720 0 DocInfo::DocInfo(IADoc*, unsigned int)
+PUBLIC 37764 0 DocUpdateSet::~DocUpdateSet()
+PUBLIC 377e6 0 DocUpdateSet::~DocUpdateSet()
+PUBLIC 377f0 0 TermInfo::RestoreFromBuffer(unsigned char const**) const
+PUBLIC 37864 0 TermInfo::TermInfo(IATerm*, unsigned int)
+PUBLIC 378a8 0 TermIndex::GetTermInfoIterator(IATerm*)
+PUBLIC 37958 0 TermIndex::MergeDocInfos(IAIndex**, unsigned int*, Progress*)
+PUBLIC 37e0e 0 TermIndex::GetIDTerm(unsigned int)
+PUBLIC 37f70 0 TermInfo::Restore(IAInputBlock*) const
+PUBLIC 37fe2 0 TermIndex::MergeTermInfos(IAIndex**, unsigned int*, Progress*)
+PUBLIC 382c0 0 TermIndex::Merge(IAIndex**, unsigned int)
+PUBLIC 38640 0 ProximityInfo::ProximityInfo()
+PUBLIC 38694 0 TermIndex::MakeTermInfo(IATerm*, unsigned int)
+PUBLIC 386fe 0 TermInfo::DeepCopy() const
+PUBLIC 3876a 0 TermOffsets::RestoreOffsets(IAInputBlock*, unsigned int)
+PUBLIC 387b6 0 TermIndex::InvertDocument(IADoc*, OpaqueIATextStreamRef*, unsigned long*)
+PUBLIC 38ba2 0 TermIndex::InvertDocumentToUpdateSet(IADoc*, OpaqueIATextStreamRef*, unsigned long*)
+PUBLIC 3901a 0 TermIndex::DefaultInvertDocumentToUpdateSet(OpaqueIATextAnalysisRef*, IADoc*, OpaqueIATextStreamRef*, unsigned long*)
+PUBLIC 3959e 0 TermOffsets::CopyDescription()
+PUBLIC 39674 0 TermOffsets::DeepCopying(IAStorable const*)
+PUBLIC 396d8 0 TermOffsets::StoreOffsets(IAOutputBlock*) const
+PUBLIC 39748 0 TermOffsets::StoreSize() const
+PUBLIC 397c2 0 TermIndex::IsDocIndexed(IADoc const*)
+PUBLIC 397fe 0 TermIndex::GetTFMaps(IADoc**, unsigned int, TFMap**, Progress*)
+PUBLIC 39938 0 ProximityInfo::DeepCopy() const
+PUBLIC 399c0 0 TermIndex::DeleteUpdate(IADoc*)
+PUBLIC 39b38 0 TermIndex::GetDocIDParentID(unsigned int)
+PUBLIC 39bee 0 TermIndex::RenameDoc(IADoc const*, IADoc const*)
+PUBLIC 39f36 0 ProximityInfo::Restore(IAInputBlock*) const
+PUBLIC 39fc4 0 TermIndex::CopyDocIDName(unsigned int)
+PUBLIC 3a084 0 TermIndex::StoreUpdatesInternal(TermUpdate**, unsigned long)
+PUBLIC 3a462 0 TermIndex::FlushTermUpdatesBulk(Progress*)
+PUBLIC 3a62e 0 TermIndex::StoreUpdates()
+PUBLIC 3a6e2 0 TermIndex::CopyDocIDInfo(unsigned int, __CFString const**, unsigned int*)
+PUBLIC 3a7b6 0 TermIndex::Initializing()
+PUBLIC 3aa5a 0 IDDoc::DeepCopy() const
+PUBLIC 3aace 0 ProximityInfo::LessThan(IAOrderedStorable const*) const
+PUBLIC 3aaec 0 ProximityInfo::Equal(IAOrderedStorable const*) const
+PUBLIC 3ab0e 0 TermIndex::SetNextTermToValidate(IATerm*)
+PUBLIC 3ab52 0 TIDRename::LessThan(IAOrderedStorable const*) const
+PUBLIC 3ab6a 0 TIDRename::Equal(IAOrderedStorable const*) const
+PUBLIC 3ab82 0 TIDRename::Compare(IAOrderedStorable const*) const
+PUBLIC 3aba2 0 TIDRename::StoreSize() const
+PUBLIC 3abd4 0 TIDRename::~TIDRename()
+PUBLIC 3ac0c 0 TIDRename::~TIDRename()
+PUBLIC 3ac2c 0 TIDRename::~TIDRename()
+PUBLIC 3ac36 0 IDDocCount::~IDDocCount()
+PUBLIC 3ac6e 0 IDDocCount::~IDDocCount()
+PUBLIC 3ac8e 0 IDDocCount::~IDDocCount()
+PUBLIC 3ac98 0 DocInfoKey::~DocInfoKey()
+PUBLIC 3acc0 0 DocInfoKey::~DocInfoKey()
+PUBLIC 3acca 0 TermInfoKey::~TermInfoKey()
+PUBLIC 3ad08 0 TermInfoKey::~TermInfoKey()
+PUBLIC 3ad30 0 TermInfoKey::~TermInfoKey()
+PUBLIC 3ad3a 0 IATermKey::~IATermKey()
+PUBLIC 3ad80 0 IATermKey::~IATermKey()
+PUBLIC 3adae 0 IATermKey::~IATermKey()
+PUBLIC 3adb8 0 DocInfoKey::~DocInfoKey()
+PUBLIC 3adf6 0 TIDRename::DeepCopy() const
+PUBLIC 3ae62 0 TermInfoStreamQueue::First()
+PUBLIC 3ae74 0 TermInfoStreamQueue::Put(TISHead*, TISHead*)
+PUBLIC 3aed4 0 TermInfoStreamQueue::Requeue(TISHead*)
+PUBLIC 3af38 0 TermInfoStreamQueue::AddStream(TermIndex*, unsigned int)
+PUBLIC 3af8e 0 TermInfoStreamQueue::Count()
+PUBLIC 3afa0 0 TermInfoStreamQueue::Pop(TISHead*)
+PUBLIC 3afc6 0 TermInfoStreamQueue::TermInfoStreamQueue()
+PUBLIC 3b062 0 TermInfoStreamQueue::TermInfoStreamQueue()
+PUBLIC 3b06b 0 TISHeadCompare
+PUBLIC 3b0b4 0 TermInfoStreamQueue::~TermInfoStreamQueue()
+PUBLIC 3b13e 0 TermInfoStreamQueue::~TermInfoStreamQueue()
+PUBLIC 3b1c0 0 TermInfoStreamQueue::~TermInfoStreamQueue()
+PUBLIC 3b1ca 0 TFComponentOrder
+PUBLIC 3b1e8 0 TFVector::ComponentsWrite(IAOutputBlock*)
+PUBLIC 3b264 0 TFVector::Validate(bool)
+PUBLIC 3b2d6 0 TFVector::ComponentsRead(IAInputBlock*)
+PUBLIC 3b32c 0 TFVector::ComponentsSize()
+PUBLIC 3b3b2 0 TFVector::~TFVector()
+PUBLIC 3b40e 0 TFVector::~TFVector()
+PUBLIC 3b462 0 TFVector::~TFVector()
+PUBLIC 3b46c 0 TFVector::TFVector(unsigned int)
+PUBLIC 3b4ce 0 TFVector::TFVector(unsigned int)
+PUBLIC 3b4d8 0 TIADocPropertyEntry::Store(IAOutputBlock*) const
+PUBLIC 3b520 0 TIADocPropertyEntry::StoreSize() const
+PUBLIC 3b554 0 TIADocPropertyEntry::~TIADocPropertyEntry()
+PUBLIC 3b5c4 0 TIADocPropertyEntry::~TIADocPropertyEntry()
+PUBLIC 3b62c 0 TIADocPropertyEntry::~TIADocPropertyEntry()
+PUBLIC 3b636 0 TIADocPropertyEntry::TIADocPropertyEntry(unsigned long, __CFString const*, void const*)
+PUBLIC 3b6bc 0 TIADocPropertyEntry::TIADocPropertyEntry(unsigned long, __CFString const*, void const*)
+PUBLIC 3b6c6 0 TIADocPropertyEntry::TIADocPropertyEntry()
+PUBLIC 3b70c 0 TIADocPropertyEntry::DeepCopy() const
+PUBLIC 3b786 0 TIADocPropertyEntry::Resolve(IAStorage*)
+PUBLIC 3b78c 0 TIADocPropertyEntryNew::~TIADocPropertyEntryNew()
+PUBLIC 3b7c4 0 TIADocPropertyEntryNew::~TIADocPropertyEntryNew()
+PUBLIC 3b7e4 0 TIADocPropertyEntryNew::~TIADocPropertyEntryNew()
+PUBLIC 3b7ee 0 TIAIndex::SetBytesForUpdate(unsigned int)
+PUBLIC 3b802 0 TIAIndex::GetBytesForUpdate()
+PUBLIC 3b814 0 TIAIndex::SetFlushProgressFreq(unsigned long)
+PUBLIC 3b828 0 TIAIndex::GetFlushProgressFreq()
+PUBLIC 3b83a 0 TIAIndex::Initializing()
+PUBLIC 3b840 0 TIAIndex::GetNumDocuments()
+PUBLIC 3b854 0 virtual thunk to TIAVectorIndex::~TIAVectorIndex()
+PUBLIC 3b866 0 TIAVectorIndex::~TIAVectorIndex()
+PUBLIC 3b8e0 0 virtual thunk to TIAVectorIndex::~TIAVectorIndex()
+PUBLIC 3b8f2 0 TIAVectorIndex::~TIAVectorIndex()
+PUBLIC 3b964 0 TIAVectorIndex::~TIAVectorIndex()
+PUBLIC 3b99e 0 TIAInvertedIndex::~TIAInvertedIndex()
+PUBLIC 3ba18 0 virtual thunk to TIAInvertedIndex::~TIAInvertedIndex()
+PUBLIC 3ba2a 0 TIAInvertedIndex::~TIAInvertedIndex()
+PUBLIC 3ba9c 0 TIAInvertedIndex::~TIAInvertedIndex()
+PUBLIC 3bad5 0 virtual thunk to TIAInVecIndex::~TIAInVecIndex()
+PUBLIC 3baf2 0 TIAInVecIndex::~TIAInVecIndex()
+PUBLIC 3bb78 0 virtual thunk to TIAInVecIndex::~TIAInVecIndex()
+PUBLIC 3bb94 0 TIAInVecIndex::~TIAInVecIndex()
+PUBLIC 3bc12 0 TIAInVecIndex::~TIAInVecIndex()
+PUBLIC 3bc52 0 DocKeyDictionaryCopyDescription
+PUBLIC 3bc6c 0 TIAIndexDocIterator::ClassToRef(TIAIndexDocIterator*)
+PUBLIC 3bcae 0 TIAIndexDocIterator::RefToClass(OpaqueIAIndexDocIteratorRef*)
+PUBLIC 3bcf0 0 TIAIndexDocIterator::~TIAIndexDocIterator()
+PUBLIC 3bd6e 0 TIAIndexDocIterator::~TIAIndexDocIterator()
+PUBLIC 3bde4 0 TIAIndexDocIterator::~TIAIndexDocIterator()
+PUBLIC 3bdee 0 TIAIndexDocIterator::TIAIndexDocIterator(TIAIndex*, IADocIterator*, unsigned long)
+PUBLIC 3bec2 0 TIAIndexDocIterator::TIAIndexDocIterator(TIAIndex*, IADocIterator*, unsigned long)
+PUBLIC 3becc 0 TIAIndex::GetDocTermCount(unsigned long)
+PUBLIC 3bf28 0 TIAIndex::GetMaxDocID()
+PUBLIC 3bf3a 0 TIAIndex::GetDocParentIDFromID(unsigned long)
+PUBLIC 3bf96 0 TIAIndex::CopyDocNameFromID(unsigned long)
+PUBLIC 3bff2 0 TIAIndex::CopyInfoForDocumentIDs(long, long*, __CFString const**, long*, unsigned long*)
+PUBLIC 3c060 0 TIAIndex::GetRootKeyCount()
+PUBLIC 3c07a 0 TIAIndex::ShouldFlushUpdates()
+PUBLIC 3c0a0 0 GetBooleanProperty(__CFDictionary const*, __CFString const*, unsigned char)
+PUBLIC 3c16d 0 StoreAnalysis(IAStorage*, unsigned long, OpaqueIATextAnalysisRef*)
+PUBLIC 3c22e 0 RestoreAnalysis(IAStorage*, unsigned long)
+PUBLIC 3c40e 0 TIAIndex::Flush(unsigned long)
+PUBLIC 3c736 0 TIAIndex::~TIAIndex()
+PUBLIC 3c7e8 0 TIAIndex::~TIAIndex()
+PUBLIC 3c892 0 TIAIndex::~TIAIndex()
+PUBLIC 3c89c 0 TIAInVecIndex::TIAInVecIndex(TIAIndex*, IAStorage*, IAAnalysis*, unsigned long, unsigned int)
+PUBLIC 3c992 0 TIAInVecIndex::TIAInVecIndex(TIAIndex*, IAStorage*, IAAnalysis*, unsigned long, unsigned int)
+PUBLIC 3ca46 0 TIAVectorIndex::TIAVectorIndex(TIAIndex*, IAStorage*, IAAnalysis*, unsigned long, unsigned int)
+PUBLIC 3cb30 0 TIAVectorIndex::TIAVectorIndex(TIAIndex*, IAStorage*, IAAnalysis*, unsigned long, unsigned int)
+PUBLIC 3cbde 0 TIAInvertedIndex::TIAInvertedIndex(TIAIndex*, IAStorage*, IAAnalysis*, unsigned long, unsigned int)
+PUBLIC 3ccc8 0 TIAIndex::TIAIndex(IAStorage*, __CFString const*, unsigned char, unsigned long)
+PUBLIC 3d40c 0 TIAIndex::TIAIndex(IAStorage*, __CFString const*, unsigned char, unsigned long)
+PUBLIC 3d41c 0 TIAInvertedIndex::TIAInvertedIndex(TIAIndex*, IAStorage*, IAAnalysis*, unsigned long, unsigned int)
+PUBLIC 3d4ca 0 TIAIndex::GetTermDataID(__CFData const*)
+PUBLIC 3d564 0 TIAIndex::CopyTermData(unsigned long)
+PUBLIC 3d606 0 TIAIndex::GetTermDocCount(unsigned long)
+PUBLIC 3d6ba 0 TIAIndex::MatchQueryForDocumentIDs(__CFString const*, unsigned long, long*, long*)
+PUBLIC 3d90a 0 TIAIndex::Compact()
+PUBLIC 3dc74 0 TIAIndex::ContainsContent(unsigned long, __CFString const*)
+PUBLIC 3de3a 0 TIAIndex::FlushUpdates()
+PUBLIC 3df18 0 TIAIndex::CopyTermDocIDArray(unsigned long)
+PUBLIC 3e2c6 0 TIAIndex::GetDocTermFrequency(unsigned long, unsigned long)
+PUBLIC 3e4f8 0 TIAIndex::CopyDocTermIDArray(unsigned long)
+PUBLIC 3e7e6 0 TIAIndex::Create(IAStorage*, __CFString const*, unsigned long, OpaqueIATextAnalysisRef**, unsigned long)
+PUBLIC 3f06a 0 TIAIndex::GetRootDocKeys(OpaqueIADocKeyRef**, unsigned long)
+PUBLIC 3f112 0 TIAIndex::GetRootKey(unsigned long, unsigned char)
+PUBLIC 3f1a6 0 TIAIndex::CopyDocKeyFromID(unsigned long)
+PUBLIC 3f278 0 TIAIndex::GetDocKeyID(OpaqueIADocKeyRef*, unsigned char)
+PUBLIC 3f2da 0 TIAIndex::MakeRootKey(OpaqueIADocKeyRef*, unsigned long, unsigned char)
+PUBLIC 3f3f8 0 TIAIndex::ReplaceRootKey(OpaqueIADocKeyRef*, OpaqueIADocKeyRef*, unsigned char)
+PUBLIC 3f486 0 TIAIndex::SetDocProperties(OpaqueIADocKeyRef*, __CFString const**, void const**, unsigned long)
+PUBLIC 3f77e 0 TIAIndex::CopyDocProperties(OpaqueIADocKeyRef*, __CFString const**, void const**, unsigned long)
+PUBLIC 3f8ca 0 TIAIndex::AddDoc(OpaqueIADocKeyRef*, __CFString const*, unsigned char)
+PUBLIC 3fa34 0 TIAIndex::MoveDoc(OpaqueIADocKeyRef*, OpaqueIADocKeyRef*)
+PUBLIC 3fc0a 0 TIAIndex::RenameDoc(OpaqueIADocKeyRef*, __CFString const*)
+PUBLIC 3fe90 0 TIAIndex::AddDocAndChildren(OpaqueIADocKeyRef*, unsigned long, OpaqueIATextStreamRef*, __CFString const*, void*, unsigned long (*)(OpaqueIAIndexRef*, OpaqueIADocKeyRef*, void*, OpaqueIATextStreamRef**, __CFString const**))
+PUBLIC 40072 0 TIAIndex::Update(OpaqueIADocKeyRef*, void*, unsigned long (*)(OpaqueIAIndexRef*, OpaqueIADocKeyRef*, void*, OpaqueIATextStreamRef**, __CFString const**), unsigned char (*)(OpaqueIAIndexRef*, OpaqueIADocKeyRef*, void*))
+PUBLIC 40640 0 virtual thunk to TIAInVecIndex::StoreRoot(IAOutputBlock*)
+PUBLIC 40652 0 TIAInVecIndex::StoreRoot(IAOutputBlock*)
+PUBLIC 40685 0 virtual thunk to TIAInVecIndex::FlushUpdates()
+PUBLIC 406a4 0 TIAInVecIndex::FlushUpdates()
+PUBLIC 406b1 0 virtual thunk to TIAVectorIndex::FlushUpdates()
+PUBLIC 406c6 0 TIAVectorIndex::FlushUpdates()
+PUBLIC 406d0 0 virtual thunk to TIAVectorIndex::StoreRoot(IAOutputBlock*)
+PUBLIC 406e2 0 TIAVectorIndex::StoreRoot(IAOutputBlock*)
+PUBLIC 4071e 0 InVecIndex::~InVecIndex()
+PUBLIC 40794 0 IADocRefQueue::DeleteItem(void*)
+PUBLIC 407a4 0 IADocRefQueue::~IADocRefQueue()
+PUBLIC 407dc 0 IADocRefQueue::~IADocRefQueue()
+PUBLIC 407fc 0 IADocRefQueue::~IADocRefQueue()
+PUBLIC 40805 0 virtual thunk to TIAInVecIndex::RestoreRoot(IAInputBlock*)
+PUBLIC 40818 0 TIAInVecIndex::RestoreRoot(IAInputBlock*)
+PUBLIC 4084b 0 virtual thunk to TIAVectorIndex::RestoreRoot(IAInputBlock*)
+PUBLIC 4085e 0 TIAVectorIndex::RestoreRoot(IAInputBlock*)
+PUBLIC 40899 0 virtual thunk to TIAInVecIndex::RootSize()
+PUBLIC 408ac 0 TIAInVecIndex::RootSize()
+PUBLIC 408da 0 virtual thunk to TIAVectorIndex::RootSize()
+PUBLIC 408ec 0 TIAVectorIndex::RootSize()
+PUBLIC 40922 0 virtual thunk to TIAInVecIndex::Initializing()
+PUBLIC 40934 0 TIAInVecIndex::Initializing()
+PUBLIC 4093d 0 virtual thunk to TIAVectorIndex::Initializing()
+PUBLIC 40950 0 TIAVectorIndex::Initializing()
+PUBLIC 40964 0 virtual thunk to TIAInvertedIndex::Initializing()
+PUBLIC 40976 0 TIAInvertedIndex::Initializing()
+PUBLIC 40980 0 VectorIndex::IAClassID()
+PUBLIC 40987 0 TermIdUpdateCompare
+PUBLIC 409a6 0 TermIDSet::AddTerms(TFVector*)
+PUBLIC 409de 0 VectorIndex::ReadTFVector(IAStorage*, unsigned long)
+PUBLIC 40a6e 0 VectorIndex::ReadTFVector(unsigned long)
+PUBLIC 40b06 0 VectorIndex::WriteTFVector(TFVector*, unsigned long)
+PUBLIC 40b98 0 IDTermMap::TFVectorToTFMap(TFVector*, TFMap*)
+PUBLIC 40c08 0 IDTermMap::Initialize(TermIDSet*, TermIndex*, Progress*)
+PUBLIC 40cc2 0 IDTermMap::~IDTermMap()
+PUBLIC 40d30 0 IDTermMap::~IDTermMap()
+PUBLIC 40d96 0 IDTermMap::~IDTermMap()
+PUBLIC 40d9f 0 virtual thunk to VectorIndex::MergeDocCost()
+PUBLIC 40db4 0 VectorIndex::MergeDocCost()
+PUBLIC 40dd1 0 virtual thunk to VectorIndex::MakeDocInfo(IADoc*, unsigned int)
+PUBLIC 40de6 0 VectorIndex::MakeDocInfo(IADoc*, unsigned int)
+PUBLIC 40e52 0 virtual thunk to VectorIndex::~VectorIndex()
+PUBLIC 40e64 0 VectorIndex::~VectorIndex()
+PUBLIC 40ed8 0 virtual thunk to VectorIndex::~VectorIndex()
+PUBLIC 40eea 0 VectorIndex::~VectorIndex()
+PUBLIC 40f56 0 VectorIndex::~VectorIndex()
+PUBLIC 40f90 0 TermIdUpdateSet::Put(TermIdUpdate*, TermIdUpdate*)
+PUBLIC 40ff0 0 TermIdUpdateSet::Get(TermIdUpdate*, TermIdUpdate*)
+PUBLIC 4101c 0 TermIdUpdateSet::Pop(TermIdUpdate*)
+PUBLIC 41042 0 TermIdUpdateSet::~TermIdUpdateSet()
+PUBLIC 4109e 0 TermIdUpdateSet::~TermIdUpdateSet()
+PUBLIC 410f2 0 TermIdUpdateSet::~TermIdUpdateSet()
+PUBLIC 410fc 0 TermIdUpdateSet::TermIdUpdateSet()
+PUBLIC 41198 0 TermIdUpdateSet::TermIdUpdateSet()
+PUBLIC 411a2 0 VectorDocInfo::Restoring(IAInputBlock*, IAStorable const*)
+PUBLIC 411da 0 VectorDocInfo::DeepCopy() const
+PUBLIC 41246 0 VectorDocInfo::Store(IAOutputBlock*) const
+PUBLIC 4127c 0 VectorDocInfo::StoreSize() const
+PUBLIC 412aa 0 VectorDocInfo::DeepCopying(IAStorable const*)
+PUBLIC 412d6 0 virtual thunk to VectorIndex::IANarrowInternal(long)
+PUBLIC 412e8 0 VectorIndex::IANarrowInternal(long)
+PUBLIC 4131d 0 virtual thunk to VectorIndex::ValidateDocInfos(bool)
+PUBLIC 41330 0 VectorIndex::ValidateDocInfos(bool)
+PUBLIC 41458 0 VectorIndex::GetTFVector(IADoc*)
+PUBLIC 414bf 0 virtual thunk to VectorIndex::UpdateDocInfo(DocInfo*, TFVector*)
+PUBLIC 414d4 0 VectorIndex::UpdateDocInfo(DocInfo*, TFVector*)
+PUBLIC 41563 0 virtual thunk to VectorIndex::MergeDocInfo(DocInfo*, DocInfo*, TermIndex*, unsigned int*)
+PUBLIC 41578 0 VectorIndex::MergeDocInfo(DocInfo*, DocInfo*, TermIndex*, unsigned int*)
+PUBLIC 416a0 0 VectorDocInfo::Restore(IAInputBlock*) const
+PUBLIC 41712 0 VectorIndex::VectorIndex(IAStorage*, IAAnalysis*, unsigned int, unsigned long, unsigned int)
+PUBLIC 417be 0 VectorIndex::VectorIndex(IAStorage*, IAAnalysis*, unsigned int, unsigned long, unsigned int)
+PUBLIC 41840 0 virtual thunk to VectorIndex::DeletingDoc(DocInfo*)
+PUBLIC 41856 0 VectorIndex::DeletingDoc(DocInfo*)
+PUBLIC 4193e 0 VectorIndex::FlushTermIdUpdates()
+PUBLIC 419ae 0 virtual thunk to VectorIndex::FlushUpdates()
+PUBLIC 419c4 0 VectorIndex::FlushUpdates()
+PUBLIC 419e8 0 VectorIndex::ExpungeTermPostings()
+PUBLIC 41add 0 virtual thunk to VectorIndex::GetTFMaps(IADoc**, unsigned int, TFMap**, Progress*)
+PUBLIC 41af2 0 VectorIndex::GetTFMaps(IADoc**, unsigned int, TFMap**, Progress*)
+PUBLIC 41cb2 0 VectorDocInfo::~VectorDocInfo()
+PUBLIC 41cea 0 VectorDocInfo::~VectorDocInfo()
+PUBLIC 41d0a 0 VectorDocInfo::~VectorDocInfo()
+PUBLIC 41d14 0 TermIDSet::~TermIDSet()
+PUBLIC 41d4c 0 TermIDSet::~TermIDSet()
+PUBLIC 41d6c 0 TermIDSet::~TermIDSet()
+PUBLIC 41d75 0 StorageGetMutex
+PUBLIC 41d80 0 StorageIsOpen
+PUBLIC 41d8c 0 StorageGetMaxBlockID
+PUBLIC 41d97 0 StorageSetIsValid
+PUBLIC 41da5 0 AddressRangeCompare
+PUBLIC 41dc3 0 StorageGetDiskBlockSize
+PUBLIC 41dce 0 StorageSetDiskBlockSize
+PUBLIC 41ddc 0 StorageBlockInfoSize
+PUBLIC 41df3 0 StorageMaxChunkIndex
+PUBLIC 41e07 0 StorageInfoChunk
+PUBLIC 41e1b 0 StorageBuddyAddress
+PUBLIC 41e2e 0 StorageInfo
+PUBLIC 41e4c 0 MakeStorageInfo
+PUBLIC 41e58 0 StorageSizeLogSize
+PUBLIC 41ea6 0 StorageLogSize
+PUBLIC 41ecc 0 StorageAddress
+PUBLIC 41eee 0 StoragePopFreeID
+PUBLIC 41f2f 0 StoragePushFreeID
+PUBLIC 41f67 0 StorageCopyBytes
+PUBLIC 42043 0 StorageTotalSpace
+PUBLIC 42054 0 StorageTOCSize
+PUBLIC 42090 0 StorageFreedIDsSize
+PUBLIC 420ad 0 StorageNewFreeSpace
+PUBLIC 4213f 0 StorageOldFreeSpace
+PUBLIC 421d1 0 StorageFreeSpace
+PUBLIC 421fc 0 StorageNewAddress
+PUBLIC 4221d 0 StorageCopyBlockNames
+PUBLIC 4227a 0 StorageTOCAddName
+PUBLIC 4228f 0 StorageTOC_Remove
+PUBLIC 422e3 0 StorageTOC_Set
+PUBLIC 4235a 0 StorageDeallocateInternal
+PUBLIC 42412 0 StorageDeallocate
+PUBLIC 4251f 0 StorageRemoveNamedBlock
+PUBLIC 42578 0 StorageAllocateNamedBlock
+PUBLIC 425d4 0 StorageGetNamedBlock
+PUBLIC 42610 0 StorageCompactInternal
+PUBLIC 42899 0 StorageCompact
+PUBLIC 42abe 0 StorageInitialize
+PUBLIC 42bac 0 IAFileStoreStreamIsOpen
+PUBLIC 42bc5 0 IAFileStoreStreamIsWritable
+PUBLIC 42bdd 0 IAFileStoreStreamSetLength
+PUBLIC 42c14 0 IAFileStoreStreamEqual
+PUBLIC 42c3b 0 IAFileStoreStreamInitialize
+PUBLIC 42c8c 0 IAFileStoreStreamStore
+PUBLIC 42cc9 0 IAFileStoreStreamRestore
+PUBLIC 42cd2 0 InitFSRefStreamCallbacks
+PUBLIC 42d6e 0 IAFSRefStoreStreamIsOpen
+PUBLIC 42d86 0 IAFSRefStoreStreamIsWritable
+PUBLIC 42d9d 0 IAFSRefStoreStreamClose
+PUBLIC 42dd5 0 IAFSRefStoreStreamRead
+PUBLIC 42e48 0 IAFSRefStoreStreamSetLength
+PUBLIC 42e88 0 IAFSRefStoreStreamWrite
+PUBLIC 42f5b 0 IAFSRefStoreStreamGetLength
+PUBLIC 42fa5 0 IAFSRefStoreStreamFlush
+PUBLIC 42fce 0 IAFSRefStoreStreamOpen
+PUBLIC 4313c 0 IAFSRefStoreStreamInitialize
+PUBLIC 432f1 0 IAFSRefStoreStreamEqual
+PUBLIC 43314 0 IAFSRefStoreStreamStore
+PUBLIC 433ab 0 IAFSRefStoreStreamDispose
+PUBLIC 433ec 0 IAFSRefStoreStreamNew
+PUBLIC 434a3 0 IAFSRefStoreStreamRestore
+PUBLIC 435a7 0 IAInputBlockGetPosition
+PUBLIC 435d5 0 IAInputBlockReadVInt64
+PUBLIC 435de 0 IAInputBlockReadUInt64
+PUBLIC 435e7 0 IAInputBlockReadVInt32
+PUBLIC 435f0 0 IAOutputBlockGetPosition
+PUBLIC 43620 0 IAOutputBlockWriteVIntCFString
+PUBLIC 43645 0 IAOutputBlockWriteVInt64
+PUBLIC 43656 0 IAOutputBlockWriteUInt64
+PUBLIC 43667 0 IAOutputBlockWriteByte
+PUBLIC 43680 0 GetFSRefStreamType
+PUBLIC 436a7 0 GetFileStreamType
+PUBLIC 436ce 0 GetMemoryStreamType
+PUBLIC 436f5 0 IAStorageGetFSRef
+PUBLIC 436ff 0 IAStorageGetCFData
+PUBLIC 43706 0 IAStorageCopyFilePath
+PUBLIC 4370e 0 IAInputBlockReadCFData
+PUBLIC 4379c 0 IAOutputBlockWriteCFData
+PUBLIC 437f8 0 StoreCFDictionaryApplierFunction
+PUBLIC 4382b 0 StoreCFSetApplierFunction
+PUBLIC 43840 0 StoreCFArrayApplierFunction
+PUBLIC 43855 0 IAStorageCFDataSize
+PUBLIC 43884 0 StoreSizeCFDictionaryApplierFunction
+PUBLIC 438bd 0 StoreSizeCFSetApplierFunction
+PUBLIC 438e5 0 StoreSizeCFArrayApplierFunction
+PUBLIC 4390d 0 IAStorageVInt64Size
+PUBLIC 4392a 0 IAStorageSetIsValid
+PUBLIC 43949 0 IAStorageSetDiskBlockSize
+PUBLIC 4395b 0 IAStorageGetDiskBlockSize
+PUBLIC 4396f 0 IAStorageGetWriteAddress
+PUBLIC 439a6 0 IAStorageGetReadAddress
+PUBLIC 439d6 0 IAStorageGetStream
+PUBLIC 43a0c 0 IAStorageGetStreamCallbacks
+PUBLIC 43a98 0 IAStorageCopyBlockNames
+PUBLIC 43aac 0 IAStorageGetMaxBlockID
+PUBLIC 43ac0 0 IAStorageFreeSpace
+PUBLIC 43ad4 0 IAStorageTotalSpace
+PUBLIC 43ae8 0 IAStorageRemoveBlockName
+PUBLIC 43b17 0 IAStorageSetBlockName
+PUBLIC 43b47 0 IAStorageDeallocateNamedBlock
+PUBLIC 43b73 0 IAStorageAllocateNamedBlock
+PUBLIC 43b8e 0 IAStorageDeallocateBlock
+PUBLIC 43bb1 0 IAStorageCopyPersistentReference
+PUBLIC 43bd3 0 IAStorageGetType
+PUBLIC 43bf5 0 IAStorageIsOpen
+PUBLIC 43c14 0 IAStorageCompact
+PUBLIC 43c30 0 IAStorageUnlockMutex
+PUBLIC 43c47 0 IAStorageLockMutex
+PUBLIC 43c60 0 IAStorageClose
+PUBLIC 43ca8 0 IAStorageEqual
+PUBLIC 43d03 0 IAStorageOpenFromFSRef
+PUBLIC 43e3b 0 IAStorageOpenFromPersistentRef
+PUBLIC 43f91 0 IAFSGetCatalogInfoBulk
+PUBLIC 43fdd 0 IAFSCloseIterator
+PUBLIC 43ff1 0 IAFSOpenIterator
+PUBLIC 44013 0 IAFSGetVolumeInfo
+PUBLIC 44052 0 IAFSCreateFileUnicode
+PUBLIC 44090 0 IAFSMakeFSRefUnicode
+PUBLIC 440c0 0 IAFSGetCatalogInfo
+PUBLIC 440f7 0 IAFSpMakeFSRef
+PUBLIC 44112 0 IAFSFlushFork
+PUBLIC 44127 0 IAFSGetForkSize
+PUBLIC 44143 0 IAFSSetForkSize
+PUBLIC 44173 0 IAFSWriteFork
+PUBLIC 441b8 0 IAFSReadFork
+PUBLIC 441fd 0 IAFSCloseFork
+PUBLIC 44212 0 IAFSOpenFork
+PUBLIC 44243 0 IAMemoryStoreStreamIsOpen
+PUBLIC 44255 0 IAMemoryStoreStreamIsWritable
+PUBLIC 44267 0 IAMemoryStoreStreamEqual
+PUBLIC 4427c 0 IAMemoryStoreStreamFlush
+PUBLIC 44295 0 IAMemoryStoreStreamClose
+PUBLIC 442b8 0 IAMemoryStoreStreamSetLength
+PUBLIC 44303 0 IAMemoryStoreStreamInitialize
+PUBLIC 44340 0 IAMemoryStoreStreamWrite
+PUBLIC 443d0 0 IAMemoryStoreStreamStore
+PUBLIC 443e9 0 IAMemoryStoreStreamDispose
+PUBLIC 44416 0 IAMemoryStoreStreamRestore
+PUBLIC 4441f 0 StoreStreamClose
+PUBLIC 44435 0 StoreStreamIsOpen
+PUBLIC 44441 0 StoreStreamStore
+PUBLIC 44453 0 StoreStreamGetName
+PUBLIC 4445e 0 StoreStreamInitialize
+PUBLIC 44470 0 StoreStreamSetLength
+PUBLIC 44482 0 StoreStreamWrite
+PUBLIC 44494 0 StoreStreamRead
+PUBLIC 444c3 0 StoreStreamGetCallbacks
+PUBLIC 444cb 0 StoreStreamGetRef
+PUBLIC 444d6 0 CreateStringForUInt64
+PUBLIC 4456c 0 ReadVIntCFStringFromBuffer
+PUBLIC 445ee 0 ReadCFStringFromBuffer
+PUBLIC 446c8 0 UInt64ForString
+PUBLIC 44826 0 VIntCFStringStoreSize
+PUBLIC 44845 0 StoreStreamEqual
+PUBLIC 44894 0 StoreStreamReadUInt64
+PUBLIC 448d2 0 StoreStreamReadVInt64
+PUBLIC 449ad 0 StoreStreamReadVIntCFString
+PUBLIC 449ee 0 StoreStreamWriteUInt64
+PUBLIC 44a21 0 StoreStreamWriteVInt64
+PUBLIC 44ac0 0 StoreStreamWriteVIntCFString
+PUBLIC 44ae3 0 StoreStreamDictionaryRemove
+PUBLIC 44b23 0 StoreStreamDictionaryPut
+PUBLIC 44ba9 0 StoreStreamDictionaryDispose
+PUBLIC 44bbb 0 StoreStreamDictionaryGet
+PUBLIC 44c1a 0 StoreStreamDictionaryCount
+PUBLIC 44c23 0 StoreStreamDictionaryDestroy
+PUBLIC 44c2c 0 StoreStreamDictionaryCreate
+PUBLIC 44c68 0 VInt64Size
+PUBLIC 44c98 0 IATaskGetContext
+PUBLIC 44ca2 0 IATaskCancel
+PUBLIC 44cb4 0 IATaskIsDone
+PUBLIC 44cc9 0 IATaskYield
+PUBLIC 44cd2 0 IATaskGetProgress
+PUBLIC 44ce1 0 IATaskSetProperties
+PUBLIC 44d93 0 IATaskCopyProperties
+PUBLIC 44e4d 0 IAPThreadTaskYield
+PUBLIC 44e52 0 IAPThreadTaskGetCurrent
+PUBLIC 44e5c 0 BitArray::Clear(unsigned int)
+PUBLIC 44e7e 0 BitArray::Count()
+PUBLIC 44ec6 0 BitArray::ClearAll()
+PUBLIC 44ee6 0 BitArray::~BitArray()
+PUBLIC 44f4c 0 BitArray::~BitArray()
+PUBLIC 44faa 0 BitArray::~BitArray()
+PUBLIC 44fb4 0 BitArray::BitArray(unsigned int)
+PUBLIC 44fbe 0 PageReadInfoCompare(void const*, void const*)
+PUBLIC 44ff6 0 BTree::SetSizes(unsigned long)
+PUBLIC 45014 0 BTree::GetMutex()
+PUBLIC 4501f 0 LevelInfoEntryAddressSortCompare(void const*, void const*)
+PUBLIC 4505c 0 BTree::ObjectsForKeys(int, IAOrderedStorable**, IAOrderedStorable**)
+PUBLIC 4509c 0 BTree::TotalSize()
+PUBLIC 450ae 0 BTree::PositionEstimate(IAOrderedStorable const*)
+PUBLIC 4516e 0 BTreeIterator::UnlockPage(unsigned long, unsigned int)
+PUBLIC 451ee 0 BTreeIterator::~BTreeIterator()
+PUBLIC 452d6 0 BTreeIterator::~BTreeIterator()
+PUBLIC 452e0 0 BTreeIterator::GetLockedPage(unsigned long, unsigned int)
+PUBLIC 45350 0 BTree::GetPage(unsigned long, unsigned int)
+PUBLIC 453ee 0 BTree::DestroyNonLeaf(Page*, unsigned int)
+PUBLIC 45460 0 BTree::DestroySubPage(unsigned long, unsigned int)
+PUBLIC 454b4 0 BTree::Destroy()
+PUBLIC 45544 0 BTree::RemovePage(unsigned long)
+PUBLIC 4555a 0 BTree::Initialize(IAStorage*, unsigned long, bool)
+PUBLIC 4560e 0 BTree::ResolveCachedPage(unsigned long, unsigned int)
+PUBLIC 456a7 0 PageReadInfoAppend(PageReadInfo*, unsigned long*, Page*, unsigned long, CFRange, IAStorage*)
+PUBLIC 45772 0 BTree::ProcessPageReadInfo(PageReadInfo*, int, ObjectsForSortedKeysContext*, unsigned long*)
+PUBLIC 45e72 0 BTree::ProcessPageReadInfos(PageReadInfo*, unsigned long, int, ObjectsForSortedKeysContext*)
+PUBLIC 4603a 0 BTree::WritePage(unsigned long, unsigned long, unsigned long, unsigned char const*, unsigned long)
+PUBLIC 460f0 0 BTree::SplitPageEntries(LevelInfoEntry*, IAMemoryOutputBlock*, unsigned long, unsigned long)
+PUBLIC 463ac 0 BTree::PutValuesProcessLevelEntryLeaf(LevelInfoList**, unsigned long, LevelInfoEntry*, void**, unsigned char*, int (*)(void*, unsigned char const*), IAOrderedStorable* (*)(void**, IAOrderedStorable*, void*), void*)
+PUBLIC 46698 0 BTree::PutValuesProcessLevelEntryNonLeaf(LevelInfoList**, unsigned long, LevelInfoEntry*, void**, unsigned char*, int (*)(void*, unsigned char const*), IAOrderedStorable* (*)(void**, IAOrderedStorable*, void*), void*)
+PUBLIC 468da 0 BTree::Dump()
+PUBLIC 46a54 0 BTree::CopyDescription()
+PUBLIC 46aae 0 BTree::~BTree()
+PUBLIC 46b5a 0 BTree::~BTree()
+PUBLIC 46bfe 0 BTree::~BTree()
+PUBLIC 46c08 0 Scroll::~Scroll()
+PUBLIC 46c84 0 Scroll::~Scroll()
+PUBLIC 46cf8 0 Scroll::~Scroll()
+PUBLIC 46d02 0 BTreeIterator::~BTreeIterator()
+PUBLIC 46df2 0 BTreeIterator::BTreeIterator(BTree*, IAOrderedStorable const*)
+PUBLIC 46e52 0 BTreeIterator::BTreeIterator(BTree*, IAOrderedStorable const*)
+PUBLIC 46e5c 0 BTreeIterator::BTreeIterator(BTree*)
+PUBLIC 46ebc 0 BTreeIterator::BTreeIterator(BTree*)
+PUBLIC 46ec6 0 BTree::PutValuesUpdateNonLeafLevel(LevelInfoList**, unsigned long)
+PUBLIC 47326 0 BTree::PutValuesProcessLevel(LevelInfoList**, unsigned long, void**, int (*)(void*, unsigned char const*), IAOrderedStorable* (*)(void**, IAOrderedStorable*, void*), bool (*)(void*), void*)
+PUBLIC 4756c 0 BTree::PutValuesSorted(int, void**, int (*)(void*, unsigned char const*), IAOrderedStorable* (*)(void**, IAOrderedStorable*, void*), bool (*)(void*), void*)
+PUBLIC 47a5c 0 BTree::MakeIterator()
+PUBLIC 47ad0 0 BTree::MergeTwo(Page*, PageEntry*, Page*, Page*, unsigned int)
+PUBLIC 47b86 0 BTree::ShrinkTree()
+PUBLIC 47c28 0 BTree::ReplaceWithPrevObj(Page*, PageEntry*, Page*, Page*, PageEntry*, unsigned int)
+PUBLIC 47d04 0 BTree::Open(IAStorage*, unsigned long, bool, bool)
+PUBLIC 47eec 0 BTree::BTree(IAOrderedStorable*, unsigned long)
+PUBLIC 47fce 0 BTree::BTree(IAOrderedStorable*, unsigned long)
+PUBLIC 47fd8 0 BulkUpdateList::BulkUpdateEntrySortCompare(void const*, void const*)
+PUBLIC 47ff8 0 LevelInfoEntry::Clear()
+PUBLIC 48040 0 LevelInfoList::LevelInfoListDisposeItem(void*)
+PUBLIC 48070 0 BulkUpdateList::BulkUpdateListDisposeItem(void*)
+PUBLIC 480a0 0 IteratorFrame::~IteratorFrame()
+PUBLIC 48100 0 IteratorFrame::~IteratorFrame()
+PUBLIC 48158 0 IteratorFrame::~IteratorFrame()
+PUBLIC 48162 0 PtrList::Clear()
+PUBLIC 481b8 0 PtrList::~PtrList()
+PUBLIC 48212 0 PtrList::~PtrList()
+PUBLIC 48264 0 LevelInfoList::~LevelInfoList()
+PUBLIC 4829c 0 LevelInfoList::~LevelInfoList()
+PUBLIC 482bc 0 LevelInfoList::~LevelInfoList()
+PUBLIC 482c6 0 BulkUpdateList::~BulkUpdateList()
+PUBLIC 482fe 0 BulkUpdateList::~BulkUpdateList()
+PUBLIC 4831e 0 BulkUpdateList::~BulkUpdateList()
+PUBLIC 48328 0 PtrList::~PtrList()
+PUBLIC 48332 0 PtrList::Append(void*)
+PUBLIC 4841c 0 LevelInfoEntry::Append(BulkUpdateEntry*)
+PUBLIC 484be 0 Page::IsLeaf()
+PUBLIC 484c6 0 PageCache::RemoveEntry(PageCacheEntry*)
+PUBLIC 484f2 0 PageCache::AddMruEntry(PageCacheEntry*)
+PUBLIC 4851c 0 PageCache::Next(PageCacheEntry**)
+PUBLIC 4852e 0 PageCache::First()
+PUBLIC 48540 0 PageCache::Pop(PageCacheEntry**)
+PUBLIC 48566 0 Page::Pop(PageEntry*)
+PUBLIC 4858c 0 PageCache::Count()
+PUBLIC 4859e 0 PageCache::~PageCache()
+PUBLIC 4861c 0 PageCache::~PageCache()
+PUBLIC 48692 0 PageCache::PageCache(IAStorage*, IAOrderedStorable*, unsigned long, unsigned int)
+PUBLIC 48762 0 PageCache::PageCache(IAStorage*, IAOrderedStorable*, unsigned long, unsigned int)
+PUBLIC 4876c 0 Page::Page(unsigned long)
+PUBLIC 48820 0 Page::Page(unsigned long)
+PUBLIC 4882a 0 Page::PushEntry(PageEntry*)
+PUBLIC 48866 0 Page::AppendEntry(PageEntry*)
+PUBLIC 488a2 0 ReadPage(unsigned long, IAStorage*, IAOrderedStorable*)
+PUBLIC 489f0 0 Page::RemoveEntry(PageEntry*)
+PUBLIC 48a34 0 Page::FingeredEntry(void**)
+PUBLIC 48a46 0 PageCacheEntry::~PageCacheEntry()
+PUBLIC 48aa6 0 PageCacheEntry::~PageCacheEntry()
+PUBLIC 48ab0 0 PageCacheEntry::PageCacheEntry(unsigned long)
+PUBLIC 48aee 0 PageCacheEntry::PageCacheEntry(Page*, unsigned int)
+PUBLIC 48b4c 0 Leaf::CopyDescription()
+PUBLIC 48c72 0 Page::CopyDescription()
+PUBLIC 48dac 0 Page::~Page()
+PUBLIC 48e28 0 Page::~Page()
+PUBLIC 48e9c 0 PageCache::Remove(unsigned long)
+PUBLIC 48f78 0 PageCache::Delete(unsigned long)
+PUBLIC 48fa4 0 PageCacheEntry::PageCacheEntry(unsigned long)
+PUBLIC 48fe2 0 PageCache::Unlock(unsigned long, unsigned int, bool)
+PUBLIC 49102 0 PageCache::Resolve(unsigned long)
+PUBLIC 4918c 0 PageCache::Get(unsigned long, unsigned int, bool)
+PUBLIC 492ce 0 PageCacheEntry::PageCacheEntry(Page*, unsigned int)
+PUBLIC 4932c 0 Leaf::~Leaf()
+PUBLIC 49364 0 Leaf::~Leaf()
+PUBLIC 49384 0 Leaf::~Leaf()
+PUBLIC 4938e 0 IAStruct::IAStruct()
+PUBLIC 493a8 0 IAStruct::IAStruct()
+PUBLIC 493c2 0 IAObject::IAObject()
+PUBLIC 493dc 0 IADeleteOnUnwind::~IADeleteOnUnwind()
+PUBLIC 493f6 0 IADeleteOnUnwind::~IADeleteOnUnwind()
+PUBLIC 49410 0 IADeleteArrayOnUnwind::IADeleteArrayOnUnwind(void*)
+PUBLIC 4941e 0 IADeleteArrayOnUnwind::IADeleteArrayOnUnwind(void*)
+PUBLIC 4942c 0 IADeletePointerArrayOnUnwind::IADeletePointerArrayOnUnwind(IAObject**, unsigned int)
+PUBLIC 49440 0 IADeletePointerArrayOnUnwind::IADeletePointerArrayOnUnwind(IAObject**, unsigned int)
+PUBLIC 49454 0 IADeletePointerArrayOnUnwind::~IADeletePointerArrayOnUnwind()
+PUBLIC 49498 0 IADeletePointerArrayOnUnwind::~IADeletePointerArrayOnUnwind()
+PUBLIC 494a2 0 IADeleteArrayOnUnwind::~IADeleteArrayOnUnwind()
+PUBLIC 494b4 0 IADeleteArrayOnUnwind::~IADeleteArrayOnUnwind()
+PUBLIC 494c6 0 IAObject::CopyDescription()
+PUBLIC 494fe 0 IAObject::~IAObject()
+PUBLIC 4951e 0 IAObject::~IAObject()
+PUBLIC 49538 0 IAObject::~IAObject()
+PUBLIC 49552 0 IAStruct::~IAStruct()
+PUBLIC 49572 0 IAStruct::~IAStruct()
+PUBLIC 4958c 0 IAStruct::~IAStruct()
+PUBLIC 495a5 0 _IAAssertionFunc(char const*, int, char const*, char const*, int)
+PUBLIC 49606 0 IAThrowException(int)
+PUBLIC 4963e 0 IAObject::IAObject()
+PUBLIC 49657 0 IAMallocSized
+PUBLIC 49660 0 IALock::IALock(IAMutex*)
+PUBLIC 49676 0 IALock::IALock(IAMutex*)
+PUBLIC 4968c 0 IALock::~IALock()
+PUBLIC 496a0 0 IALock::~IALock()
+PUBLIC 496b4 0 IAMutex::~IAMutex()
+PUBLIC 496d4 0 IAMutex::~IAMutex()
+PUBLIC 496ee 0 IAMutex::~IAMutex()
+PUBLIC 49712 0 IADefaultMutex::~IADefaultMutex()
+PUBLIC 49780 0 IADefaultMutex::~IADefaultMutex()
+PUBLIC 497f0 0 IADefaultMutex::~IADefaultMutex()
+PUBLIC 497fa 0 IARefCount::IARefCount()
+PUBLIC 4981a 0 IARefCount::IARefCount()
+PUBLIC 4983a 0 IAReleaseOnUnwind::IAReleaseOnUnwind(IARefCount*)
+PUBLIC 49848 0 IAObjReleaseOnUnwind::IAObjReleaseOnUnwind(IAObjRefCount*)
+PUBLIC 49856 0 IAObjReleaseOnUnwind::IAObjReleaseOnUnwind(IAObjRefCount*)
+PUBLIC 49864 0 IARefCount::~IARefCount()
+PUBLIC 49884 0 IARefCount::~IARefCount()
+PUBLIC 4989e 0 IARefCount::~IARefCount()
+PUBLIC 498b8 0 IAObjReleaseOnUnwind::~IAObjReleaseOnUnwind()
+PUBLIC 498d0 0 IAObjReleaseOnUnwind::~IAObjReleaseOnUnwind()
+PUBLIC 498e8 0 IAObjRefCount::~IAObjRefCount()
+PUBLIC 49920 0 IAObjRefCount::~IAObjRefCount()
+PUBLIC 49940 0 IAObjRefCount::~IAObjRefCount()
+PUBLIC 4994a 0 IAObjRefCount::IAObjRefCount()
+PUBLIC 49982 0 IAObjRefCount::IAObjRefCount()
+PUBLIC 499ba 0 IAReleaseOnUnwind::~IAReleaseOnUnwind()
+PUBLIC 499de 0 IAOrderedStorableIterator::Next()
+PUBLIC 499e6 0 IAOrderedStorable::LessThan(IAOrderedStorable const*) const
+PUBLIC 499ee 0 IAOrderedStorable::Equal(IAOrderedStorable const*) const
+PUBLIC 499f6 0 IAStorable::DeepCopying(IAStorable const*)
+PUBLIC 499fc 0 IAStorable::Restoring(IAInputBlock*, IAStorable const*)
+PUBLIC 49a02 0 IAOrderedStorableSet::ReportStats()
+PUBLIC 49a08 0 IAStorable::CompareBuffer(unsigned char const*) const
+PUBLIC 49a3e 0 IAStorable::Skip(unsigned char const*) const
+PUBLIC 49a74 0 IAStorable::RestoreFromBuffer(unsigned char const**) const
+PUBLIC 49aaa 0 IAOrderedStorableSet::~IAOrderedStorableSet()
+PUBLIC 49ae2 0 IAOrderedStorableSet::~IAOrderedStorableSet()
+PUBLIC 49b02 0 IAOrderedStorableSet::~IAOrderedStorableSet()
+PUBLIC 49b0c 0 IAOrderedStorableIterator::~IAOrderedStorableIterator()
+PUBLIC 49b44 0 IAOrderedStorableIterator::~IAOrderedStorableIterator()
+PUBLIC 49b64 0 IAOrderedStorableIterator::~IAOrderedStorableIterator()
+PUBLIC 49b6e 0 IAStorable::~IAStorable()
+PUBLIC 49ba6 0 IAStorable::~IAStorable()
+PUBLIC 49bc6 0 IAOrderedStorable::~IAOrderedStorable()
+PUBLIC 49bfe 0 IAOrderedStorable::~IAOrderedStorable()
+PUBLIC 49c1e 0 IAOrderedStorable::~IAOrderedStorable()
+PUBLIC 49c28 0 IAStorable::~IAStorable()
+PUBLIC 49c32 0 IAOrderedStorableSet::IAOrderedStorableSet()
+PUBLIC 49c62 0 IAOrderedStorableIterator::IAOrderedStorableIterator()
+PUBLIC 49c92 0 IAStorable::IAStorable()
+PUBLIC 49cc2 0 IAOrderedStorableIterator::IAOrderedStorableIterator()
+PUBLIC 49cf2 0 IAOrderedStorableSet::IAOrderedStorableSet()
+PUBLIC 49d22 0 IAOrderedStorable::IAOrderedStorable()
+PUBLIC 49d52 0 IAStorable::IAStorable()
+PUBLIC 49d82 0 IAOrderedStorable::IAOrderedStorable()
+PUBLIC 49db2 0 IAMemoryOutputBlock::WriteCFType(void const*)
+PUBLIC 49de6 0 IAMemoryOutputBlock::WriteCFString(__CFString const*)
+PUBLIC 49e1a 0 IAMemoryOutputBlock::WriteVIntCFString(__CFString const*)
+PUBLIC 49e4e 0 IAMemoryOutputBlock::WriteVInt64(unsigned long long)
+PUBLIC 49e82 0 IAMemoryOutputBlock::WriteUInt64(unsigned long long)
+PUBLIC 49eb6 0 IAMemoryOutputBlock::Grow()
+PUBLIC 49f10 0 IAMemoryOutputBlock::WriteVInt32(unsigned long)
+PUBLIC 49f64 0 IAMemoryOutputBlock::WriteBuffer(void const*, unsigned long)
+PUBLIC 49fa8 0 IAMemoryOutputBlock::WriteUInt32(unsigned long)
+PUBLIC 49fe0 0 IAMemoryOutputBlock::WriteByte(unsigned char)
+PUBLIC 4a01a 0 IAInputBlock::ReadVIntCFString()
+PUBLIC 4a066 0 IAInputBlock::ReadBuffer(void*, unsigned long)
+PUBLIC 4a0b6 0 IAInputBlock::ReadVInt64()
+PUBLIC 4a106 0 IAInputBlock::ReadUInt64()
+PUBLIC 4a156 0 IAInputBlock::~IAInputBlock()
+PUBLIC 4a17e 0 IAInputBlock::~IAInputBlock()
+PUBLIC 4a188 0 IAOutputBlock::GetPosition()
+PUBLIC 4a1d4 0 IAOutputBlock::WriteVIntCFString(__CFString const*)
+PUBLIC 4a21e 0 IAOutputBlock::WriteVInt64(unsigned long long)
+PUBLIC 4a268 0 IAOutputBlock::WriteVInt32(unsigned long)
+PUBLIC 4a2b2 0 IAOutputBlock::WriteUInt64(unsigned long long)
+PUBLIC 4a302 0 IAOutputBlock::WriteBuffer(void const*, unsigned long)
+PUBLIC 4a352 0 IAOutputBlock::WriteUInt32(unsigned long)
+PUBLIC 4a39c 0 IAOutputBlock::WriteByte(unsigned char)
+PUBLIC 4a3e6 0 IAOutputBlock::~IAOutputBlock()
+PUBLIC 4a454 0 IAOutputBlock::~IAOutputBlock()
+PUBLIC 4a4ba 0 IAMemoryOutputBlock::~IAMemoryOutputBlock()
+PUBLIC 4a500 0 IAMemoryOutputBlock::~IAMemoryOutputBlock()
+PUBLIC 4a53e 0 IAMemoryOutputBlock::~IAMemoryOutputBlock()
+PUBLIC 4a548 0 IAMemoryOutputBlock::IAMemoryOutputBlock()
+PUBLIC 4a5fa 0 IAMemoryOutputBlock::IAMemoryOutputBlock()
+PUBLIC 4a604 0 IAOutputBlock::~IAOutputBlock()
+PUBLIC 4a60e 0 IAOutputBlock::IAOutputBlock(IAStorage*, unsigned long, unsigned long)
+PUBLIC 4a6ca 0 IAOutputBlock::IAOutputBlock(IAStorage*, unsigned long, unsigned long)
+PUBLIC 4a6d4 0 IAStorage::GetPersistentReference(unsigned char)
+PUBLIC 4a750 0 IAStorage::GetName()
+PUBLIC 4a762 0 IAStorage::GetBlockAddress(unsigned long)
+PUBLIC 4a790 0 IAInputBlock::IAInputBlock(IAStorage*, unsigned long)
+PUBLIC 4a838 0 IAInputBlock::IAInputBlock(IAStorage*, unsigned long)
+PUBLIC 4a842 0 IAStorage::GetBlockSize(unsigned long)
+PUBLIC 4a854 0 IAStorage::SetValid(bool)
+PUBLIC 4a86e 0 IAStorage::IsValidBlockID(unsigned long)
+PUBLIC 4a894 0 IAStorage::Compact()
+PUBLIC 4a8d6 0 IAStorage::FreeSpace()
+PUBLIC 4a8e8 0 IAStorage::TotalSpace()
+PUBLIC 4a8fa 0 IAStorage::TOC_Remove(__CFString const*)
+PUBLIC 4a920 0 IAStorage::TOC_Set(__CFString const*, unsigned long)
+PUBLIC 4a970 0 IAStorage::Deallocate(unsigned long)
+PUBLIC 4a9ba 0 IAStorage::Equal(IAStorage*)
+PUBLIC 4a9e2 0 IAStorage::IsOpen()
+PUBLIC 4aa00 0 IAStorage::~IAStorage()
+PUBLIC 4aa6c 0 IAStorage::~IAStorage()
+PUBLIC 4aad0 0 IAStorage::~IAStorage()
+PUBLIC 4aada 0 IAStorage::IAStorage(OpaqueIAStorageRef*, unsigned char)
+PUBLIC 4ab86 0 IAStorage::RemoveNamedBlock(__CFString const*)
+PUBLIC 4abe2 0 IAStorage::AllocateNamedBlock(__CFString const*)
+PUBLIC 4ac68 0 IAStorage::GetNamedBlock(__CFString const*)
+PUBLIC 4acb0 0 IAMemoryOutputBlock::GetPosition()
+PUBLIC 4acbc 0 IAMemoryOutputBlock::Reset()
+PUBLIC 4accb 0 IASummaryGetHitCount
+PUBLIC 4acdc 0 IASummaryGetParagraphCount
+PUBLIC 4aced 0 QSortParagraphRelevanceCompare
+PUBLIC 4ad18 0 QSortParagraphIndexCompare
+PUBLIC 4ad37 0 IASummaryGetSentenceCount
+PUBLIC 4ad50 0 SummaryOrderedSentenceComparator
+PUBLIC 4ada1 0 IASummaryGetNthRankedSentence
+PUBLIC 4ae6c 0 IASummaryGetNthSentence
+PUBLIC 4af2f 0 IASummaryGetParagraphSummaryInfo
+PUBLIC 4b104 0 IASummaryCopyParagraphAtIndex
+PUBLIC 4b244 0 IASummaryCopyParagraphs
+PUBLIC 4b33b 0 IASummaryCopyRankedSentenceArray
+PUBLIC 4b408 0 SummaryBuildSentenceInfo
+PUBLIC 4b8f6 0 SummaryDispose
+PUBLIC 4b942 0 IASummaryDispose
+PUBLIC 4b95b 0 SummaryCreate
+PUBLIC 4ba5c 0 DoSummary
+PUBLIC 4bea3 0 IASummaryTaskGetSummary
+PUBLIC 4bede 0 IASummarizeAsync
+PUBLIC 4bfda 0 IASummaryCopyText
+PUBLIC 4c29e 0 IASummmaryCopyText
+PUBLIC 4c2a7 0 IASummaryCopySentenceArray
+PUBLIC 4c2e4 0 IASummaryCreateWithQuery
+PUBLIC 4c39e 0 IASummaryCreate
+PUBLIC 4c3d5 0 SummarizeAsyncStart
+PUBLIC 4c430 0 SummarizeAsyncDispose
+PUBLIC 4c494 0 ListGetRefCon
+PUBLIC 4c49f 0 ListCount
+PUBLIC 4c4aa 0 ListNodeGet
+PUBLIC 4c4c9 0 ListFirstNode
+PUBLIC 4c4dd 0 ListLastNode
+PUBLIC 4c4f8 0 ListNextNode
+PUBLIC 4c521 0 ListPrevNode
+PUBLIC 4c53c 0 ListNodeGetData
+PUBLIC 4c56e 0 ListSet
+PUBLIC 4c5b4 0 ListGetItem
+PUBLIC 4c5fa 0 IASkipListNodeGetData
+PUBLIC 4c630 0 Phase::~Phase()
+PUBLIC 4c664 0 Progress::Progress(unsigned long, bool (*)(float, void*), void*)
+PUBLIC 4c69a 0 Progress::Progress(unsigned long, bool (*)(float, void*), void*)
+PUBLIC 4c6d0 0 Progress::PercentComplete()
+PUBLIC 4c74c 0 Phase::Phase(unsigned int, Progress*)
+PUBLIC 4c790 0 Phase::~Phase()
+PUBLIC 4c7c3 0 CopyFunc(char*, char*, int, int)
+PUBLIC 4c802 0 IASort(void*, unsigned long, unsigned long, int (*)(void const*, void const*))
+PUBLIC 4cb8a 0 TFEntry::TFEntry()
+PUBLIC 4cb98 0 TFEntry::TFEntry()
+PUBLIC 4cba6 0 TFEntryCompare
+PUBLIC 4cbc6 0 TFMap::Next(TFEntry*)
+PUBLIC 4cbd8 0 TFMap::First()
+PUBLIC 4cbea 0 TFMap::Pop(TFEntry*)
+PUBLIC 4cc10 0 TFMap::Put(TFEntry*, TFEntry*)
+PUBLIC 4cc48 0 TFMap::AddPrefixTerm(OpaqueIASkipListRef*, IATerm*)
+PUBLIC 4ccdc 0 TFMap::AddTerm(OpaqueIASkipListRef*, IATerm*)
+PUBLIC 4cd74 0 TFMap::Count()
+PUBLIC 4cd86 0 TFMap::~TFMap()
+PUBLIC 4ce00 0 TFMap::~TFMap()
+PUBLIC 4ce0a 0 TFMap::TFMap()
+PUBLIC 4cea6 0 TFMap::TFMap()
+PUBLIC 4ceb0 0 TFMap::~TFMap()
+PUBLIC 4cf32 0 TFMap::AddDocText(IAIndex*, OpaqueIATextStreamRef*, Progress*, unsigned char)
+PUBLIC 4d23e 0 UInt32Compare
+PUBLIC 4d25e 0 UInt32Set::Remove(unsigned long)
+PUBLIC 4d28c 0 UInt32Set::Pop(unsigned long*)
+PUBLIC 4d2b2 0 UInt32Set::Member(unsigned long)
+PUBLIC 4d2e0 0 UInt32Set::Put(unsigned long)
+PUBLIC 4d33a 0 UInt32Set::~UInt32Set()
+PUBLIC 4d396 0 UInt32Set::~UInt32Set()
+PUBLIC 4d3ea 0 UInt32Set::~UInt32Set()
+PUBLIC 4d3f4 0 UInt32Set::UInt32Set(unsigned char, short (*)(void const*, void const*, void*))
+PUBLIC 4d404 0 UInt32VoidPairCompare
+PUBLIC 4d424 0 UInt32VoidMap::Count()
+PUBLIC 4d436 0 UInt32VoidMap::Pop(UInt32VoidPair*)
+PUBLIC 4d45c 0 UInt32VoidMap::Remove(unsigned long)
+PUBLIC 4d490 0 UInt32VoidMap::Get(unsigned long)
+PUBLIC 4d4c2 0 UInt32VoidMap::Put(unsigned long, void*)
+PUBLIC 4d528 0 UInt32VoidMap::~UInt32VoidMap()
+PUBLIC 4d584 0 UInt32VoidMap::~UInt32VoidMap()
+PUBLIC 4d5d8 0 UInt32VoidMap::~UInt32VoidMap()
+PUBLIC 4d5e2 0 UInt32VoidMap::UInt32VoidMap(unsigned char, short (*)(void const*, void const*, void*))
+PUBLIC 4d694 0 UInt32VoidMap::UInt32VoidMap(unsigned char, short (*)(void const*, void const*, void*))
+PUBLIC 4d6a3 0 NewIASearchIsHitFilterUPP
+PUBLIC 4d6ab 0 DisposeIASearchIsHitFilterUPP
+PUBLIC 4d6b0 0 InvokeIASearchIsHitFilterUPP
+PUBLIC 4d6d2 0 IAGetFileDocSchemeName
+PUBLIC 4d6e3 0 FileDocSchemeCreate
+PUBLIC 4d6ed 0 FileDocSchemeDispose
+PUBLIC 4d6f4 0 FileDocSchemeCopyURLEncodedDocName
+PUBLIC 4d6fb 0 FileCanCreateAccessor
+PUBLIC 4d705 0 FileCanCreateDocIterator
+PUBLIC 4d70f 0 GetFileFolderMIMEType
+PUBLIC 4d736 0 FileDocAccessorCopyURL
+PUBLIC 4d76b 0 FileDocAccessorOpen
+PUBLIC 4d81e 0 FileGetDocAccessorEOF
+PUBLIC 4d8eb 0 FileGetDocAccessorReadPosition
+PUBLIC 4d948 0 FileSetDocAccessorReadPosition
+PUBLIC 4d9c5 0 FileDocAccessorRead
+PUBLIC 4da18 0 FileDocSchemeDocIteratorCopyNext
+PUBLIC 4da86 0 FileDocSchemeDocIteratorDispose
+PUBLIC 4dabd 0 FileAccessorClose
+PUBLIC 4dae5 0 FileDocSchemeCopyDocMIMEType
+PUBLIC 4dbb7 0 BuildPath
+PUBLIC 4dc2a 0 IADocKeyCopyFilePath
+PUBLIC 4dc65 0 FileAccessorCreate
+PUBLIC 4dcb8 0 FileDocSchemeCreateAccessor
+PUBLIC 4dd29 0 FileIteratorCreate
+PUBLIC 4dfa1 0 FileDocSchemeDocIteratorCreate
+PUBLIC 4dfb0 0 IADocKeyCreateFromFilePath
+PUBLIC 4e075 0 InstallFileDocScheme
+PUBLIC 4e109 0 FileCopySupportedDocumentTypes
+PUBLIC 4e162 0 FileDocAccessorClose
+PUBLIC 4e18a 0 FileDocSchemeDisposeAccessor
+PUBLIC 4e1c7 0 EndsWithCVC
+PUBLIC 4e267 0 RemoveAnE
+PUBLIC 4e282 0 AddAnE
+PUBLIC 4e298 0 ContainsVowel
+PUBLIC 4e2f7 0 ReplaceEnd
+PUBLIC 4e419 0 StemEnglishWord
+PUBLIC 4e5c6 0 StemUnicode
+PUBLIC 4ebca 0 SKDocumentCreate
+PUBLIC 4ec22 0 SKIndexGetTypeID
+PUBLIC 4ec33 0 SKIndexGetIndexType
+PUBLIC 4ec3e 0 SKIndexDocumentIteratorGetTypeID
+PUBLIC 4ec4f 0 SKSearchGroupGetTypeID
+PUBLIC 4ec60 0 SKSearchGetTypeID
+PUBLIC 4ec71 0 _SKSearchSynchCallBack(__SKIndex*, SKDocIDScorePosting*, void*)
+PUBLIC 4ecac 0 SKSearchResultsGetTypeID
+PUBLIC 4ecbd 0 SKSetDefault
+PUBLIC 4ecff 0 TermStringCFComparatorFunction(void const*, void const*, void*)
+PUBLIC 4ed0f 0 SKDocumentCopyText
+PUBLIC 4ed97 0 MyNewCallBack(void*, OpaqueIAIndexRef*, long)
+PUBLIC 4edd8 0 SKIndexGetVersion
+PUBLIC 4ee10 0 GetInversionTermsCFSetApplierFunction(void const*, void*)
+PUBLIC 4eea7 0 SKLoadDefaultExtractorPlugIns
+PUBLIC 4eebe 0 createAnalysisWithProperties(__CFDictionary const*)
+PUBLIC 4ef02 0 SKSearchResultsCopyMatchingTerms
+PUBLIC 4ef14 0 SKSearchResultsGetCount
+PUBLIC 4ef26 0 InitSKSearchResults()
+PUBLIC 4efb3 0 CreateSKSearchResults(OpaqueIASearchResultsRef*)
+PUBLIC 4f00d 0 InitSKSearch()
+PUBLIC 4f0bd 0 InitSKSearchGroup()
+PUBLIC 4f14a 0 InitSKIndexDocumentIterator()
+PUBLIC 4f1d7 0 InitSKIndex()
+PUBLIC 4f287 0 SKSearchResultsDealloc(void const*)
+PUBLIC 4f29f 0 SKIndexCopyDocumentURLsForDocumentIDs
+PUBLIC 4f320 0 SKIndexCopyInfoForDocumentIDs
+PUBLIC 4f3a1 0 SKSearchCancel
+PUBLIC 4f3ca 0 CreateSKIndex(OpaqueIAIndexRef*, void const*)
+PUBLIC 4f455 0 SKSearchContextDispose(SKSearchContext*)
+PUBLIC 4f4b6 0 SKSearchDealloc(void const*)
+PUBLIC 4f51a 0 _SKSearchEntry(OpaqueIATaskRef*, void*)
+PUBLIC 4f5c8 0 _SKSearchFindMatchesCallBack(__SKIndex*, SKDocIDScorePosting*, void*)
+PUBLIC 4f641 0 SKSearchGroupCreate
+PUBLIC 4f796 0 SKSearchGroupDealloc(void const*)
+PUBLIC 4f7ae 0 SKIndexMatchQueryForDocumentIDs
+PUBLIC 4f874 0 SKIndexContainsContentForDocumentID
+PUBLIC 4f8cb 0 SKIndexGetParentDocumentIDForDocumentID
+PUBLIC 4f909 0 SKIndexCopyDocumentNameForDocumentID
+PUBLIC 4f947 0 SKIndexGetTermIDForTermString
+PUBLIC 4f9bb 0 SKIndexCopyTermStringForTermID
+PUBLIC 4fa16 0 SKIndexCopyDocumentIDArrayForTermID
+PUBLIC 4fa32 0 SKIndexGetTermDocumentCount
+PUBLIC 4fa4e 0 SKIndexGetDocumentTermFrequency
+PUBLIC 4fa6a 0 SKIndexCopyTermIDArrayForDocumentID
+PUBLIC 4fa86 0 SKIndexGetDocumentTermCount
+PUBLIC 4faa2 0 SKIndexGetMaximumDocumentID
+PUBLIC 4fabe 0 SKIndexDocumentIteratorCopyNext
+PUBLIC 4fad0 0 SKIndexDocumentIteratorCreate
+PUBLIC 4fb4c 0 SKIndexDocumentIteratorDealloc(void const*)
+PUBLIC 4fb85 0 SKIndexMoveDocument
+PUBLIC 4fbf5 0 SKIndexRenameDocument
+PUBLIC 4fc65 0 SKIndexCopyDocumentForDocumentID
+PUBLIC 4fc89 0 SKIndexGetDocumentID
+PUBLIC 4fceb 0 SKIndexGetDocumentState
+PUBLIC 4fd3e 0 SKIndexRemoveDocument
+PUBLIC 4fda0 0 SKIndexAddDocument
+PUBLIC 4fef8 0 SKIndexGetDocumentCount
+PUBLIC 4ff14 0 SKIndexGetAnalysisProperties
+PUBLIC 4ff97 0 SKIndexGetMaximumBytesBeforeFlush
+PUBLIC 4ffb3 0 SKIndexSetMaximumBytesBeforeFlush
+PUBLIC 4ffdd 0 SKIndexFlushCache
+PUBLIC 5007f 0 SKIndexShouldFlushCache
+PUBLIC 500b9 0 SKGetMutex()
+PUBLIC 5010e 0 SKCopyDefaultIndexAnalysis()
+PUBLIC 5014e 0 SKSearchResultsCreateWithDocuments
+PUBLIC 502d2 0 SKSearchResultsCreateWithQuery
+PUBLIC 50426 0 SKIndexCompact
+PUBLIC 50497 0 SKIndexInitialize(void const*, __CFString const*, unsigned long, OpaqueIATextAnalysisRef**, unsigned long)
+PUBLIC 508f7 0 SKIndexCreateWithMutableData
+PUBLIC 50961 0 SKIndexCreateWithURL
+PUBLIC 50a72 0 SKSearchGroupCopyIndexes
+PUBLIC 50b3f 0 SKSearchResultsGetInfoInRange
+PUBLIC 50bab 0 MyOldCallBack(void*, OpaqueIAIndexRef*, void const*)
+PUBLIC 50bec 0 SKIndexCreateTermIterator
+PUBLIC 50c91 0 SKIndexTermIteratorCopyNext
+PUBLIC 50d04 0 SKIndexDealloc(void const*)
+PUBLIC 50e31 0 SKIndexOpen(void const*, __CFString const*, unsigned char)
+PUBLIC 512d6 0 SKIndexOpenWithMutableData
+PUBLIC 512ec 0 SK_switch_to_buffer
+PUBLIC 51362 0 SK_load_buffer_state
+PUBLIC 513a0 0 SK_flush_buffer
+PUBLIC 5140f 0 SK_scan_buffer
+PUBLIC 51519 0 SK_scan_bytes
+PUBLIC 5159d 0 SK_scan_string
+PUBLIC 515c1 0 SK_delete_buffer
+PUBLIC 51618 0 SKQueryScannerFatalError
+PUBLIC 5161d 0 SKerror
+PUBLIC 51625 0 NodeDisposeApplierFunction
+PUBLIC 51655 0 SKQueryCopyDescription
+PUBLIC 51888 0 QueryTermInfoCompareTerms(void const*, void const*)
+PUBLIC 518a3 0 MatchesHitsSetApplierFunction(void const*, void*)
+PUBLIC 518c4 0 SKDocIDScorePostingCFSetEqualCallBack(void const*, void const*)
+PUBLIC 518d9 0 SKDocIDScorePostingCFSetHashCallBack(void const*)
+PUBLIC 518e6 0 QueryTermInfoReleaseCallBack(__CFAllocator const*, void const*)
+PUBLIC 518fd 0 QSortSKDocIDScorePostingCompare(void const*, void const*)
+PUBLIC 51920 0 SKQueryNodeCopyDescriptionCallBack(void const*)
+PUBLIC 51929 0 SKQueryNodeReleaseCallBack(__CFAllocator const*, void const*)
+PUBLIC 51938 0 SKDocIDScorePostingCFSetReleaseCallBack(__CFAllocator const*, void const*)
+PUBLIC 51941 0 SKDocIDScorePostingCFSetCopyDescriptionCallBack(void const*)
+PUBLIC 5198a 0 OrSetRankedApplierFunction(void const*, void*)
+PUBLIC 519ea 0 OrSetApplierFunction(void const*, void*)
+PUBLIC 519ff 0 MergeAndSetApplierFunction(void const*, void*)
+PUBLIC 51a62 0 SKGetMatchFactor(int)
+PUBLIC 51af1 0 InvertedIndexFromSKIndexRef(__SKIndex*)
+PUBLIC 51b33 0 MatchTermInfosDispose(MatchInfo**, long)
+PUBLIC 51bb8 0 _UpdateTermInfoDictionary(__CFDictionary*, int, __CFString const*)
+PUBLIC 51dc3 0 _CreateQueryNodeForNonNormalizedTerm(__CFDictionary*, __CFString const*, int, int)
+PUBLIC 51ec3 0 SKQueryUpdateForIndex(SKQueryNode*, OpaqueIAIndexRef*, __CFDictionary*)
+PUBLIC 521a4 0 MatchInfoGetRankedPostingInfo(SearchContext*, MatchInfo**, unsigned long)
+PUBLIC 5253f 0 SearchTermInfoBlockIDCompareByAddress(void*, void const*, void const*)
+PUBLIC 525b3 0 ExcludeSetApplierFunction(void const*, void*)
+PUBLIC 525f4 0 SKIndexSearchCompareKeyDataWithObjOrBuffer(IAOrderedStorable*, unsigned char const*, void*)
+PUBLIC 52a08 0 SKIndexSearchCompareKeyDataWithObj(int, IAOrderedStorable*, void*)
+PUBLIC 52a19 0 SKIndexSearchCompareKeyDataWithBuffer(int, unsigned char const*, void*)
+PUBLIC 52a2a 0 SearchTermCompareObjOrBuffer(int, IAOrderedStorable*, unsigned char const*, void*)
+PUBLIC 52b2c 0 SearchTermCompareObj(int, IAOrderedStorable*, void*)
+PUBLIC 52b43 0 SearchTermCompareBuffer(int, unsigned char const*, void*)
+PUBLIC 52b5a 0 QueryTermInfoCompareTermIDs(void const*, void const*)
+PUBLIC 52ba4 0 MatchTermInfoCreate(__CFAllocator const*, __CFString const*)
+PUBLIC 52c52 0 EvalProximitySetApplierFunction(void const*, void*)
+PUBLIC 52f89 0 SearchTermDocMatch(SearchContext*, MatchInfo*, SearchTermInfo*, unsigned long, unsigned long)
+PUBLIC 531e0 0 SearchTermHandleMatch(int, int, QueryTermInfo*, IAOrderedStorable*, unsigned char const*, SearchContext*, unsigned short)
+PUBLIC 53a18 0 SearchTermMatchObjOrBuffer(int, IAOrderedStorable*, unsigned char const*, void*)
+PUBLIC 53a84 0 SearchTermMatchObj(int, IAOrderedStorable*, void*)
+PUBLIC 53a9b 0 SearchTermMatchBuffer(int, unsigned char const*, void*)
+PUBLIC 53ab2 0 SearchPrefixMatchObjOrBuffer(int, IAOrderedStorable*, unsigned char const*, void*)
+PUBLIC 53b81 0 SearchPrefixMatchObj(int, IAOrderedStorable*, void*)
+PUBLIC 53b98 0 SearchPrefixMatchBuffer(int, unsigned char const*, void*)
+PUBLIC 53baf 0 SearchAllMatchObjOrBuffer(int, IAOrderedStorable*, unsigned char const*, void*)
+PUBLIC 53dc2 0 SearchAllMatchObj(int, IAOrderedStorable*, void*)
+PUBLIC 53dd9 0 SearchAllMatchBuffer(int, unsigned char const*, void*)
+PUBLIC 53df0 0 MatchInfoAddTermUpdate(MatchInfo**, long, TermUpdate*, SearchContext*, unsigned short)
+PUBLIC 53f49 0 TermUpdateMatchInfoApplier(void const*, void*)
+PUBLIC 540db 0 MatchInfoLoadPostings(SearchContext*, MatchInfo**, unsigned long)
+PUBLIC 54639 0 SKDocIDScorePostingCreateSet
+PUBLIC 546c8 0 QueryTermInfo::UpdatePostings(__CFAllocator const*, TIAIndex*, TermUpdate*)
+PUBLIC 5478a 0 QueryTermInfo::UpdatePostingsRanked(__CFAllocator const*, TIAIndex*, TermUpdate*, unsigned char)
+PUBLIC 54a0c 0 QueryTermInfo::LoadPostings(__CFAllocator const*, InvertedIndex*, unsigned long, TIAIndex*)
+PUBLIC 55052 0 SKQueryEvaluateNew(SKQueryNode*, SearchContext*)
+PUBLIC 55bc4 0 SKQueryEvaluate(SKQueryNode*, SKEvaluateInfo*)
+PUBLIC 56460 0 EvaluateParitalTerm(SKQueryNode*, __CFDictionary const*, SKEvaluateInfo*)
+PUBLIC 56551 0 UpdateForPartialTerm(__CFAllocator const*, TIAIndex*, unsigned long, QueryTermInfo*, TermUpdate*, __CFDictionary*, __CFDictionary*)
+PUBLIC 566fd 0 TermUpdateQueryInfoApplier(void const*, void*)
+PUBLIC 56878 0 SKDocIDScorePostingSet::Append(SKDocIDScorePosting*)
+PUBLIC 5690b 0 SKDocIDScorePostingSet::AppendSetValues(void const*, void*)
+PUBLIC 56920 0 QueryTermInfo::~QueryTermInfo()
+PUBLIC 5699e 0 SKDocIDScorePostingSet::MergeToArray()
+PUBLIC 56a2e 0 QueryTokenizer::_Increment(bool)
+PUBLIC 56b08 0 QueryTokenizer::CopyNextToken(unsigned long*)
+PUBLIC 56b58 0 QueryTokenizer::QueryTokenizer(OpaqueIAIndexRef*, __CFString const*)
+PUBLIC 56c1c 0 QueryTokenizer::~QueryTokenizer()
+PUBLIC 56c6c 0 DocIDBitMap::Set(unsigned long)
+PUBLIC 56d2c 0 QueryTermInfo::~QueryTermInfo()
+PUBLIC 56dac 0 SKSummaryGetTypeID
+PUBLIC 56dbd 0 CompareCFIndexes(void const*, void const*)
+PUBLIC 56ddb 0 SKSummaryGetParagraphSummaryInfo
+PUBLIC 56ded 0 SKSummaryGetSentenceCount
+PUBLIC 56dff 0 SKSummaryGetSentenceSummaryInfo
+PUBLIC 56f92 0 SKSummaryCopyParagraphSummaryString
+PUBLIC 56fc7 0 SKSummaryCopySentenceSummaryString
+PUBLIC 56ffc 0 SKSummaryCopyParagraphAtIndex
+PUBLIC 5700e 0 SKSummaryCopySentenceAtIndex
+PUBLIC 5706c 0 SKSummaryGetParagraphCount
+PUBLIC 5707e 0 InitSKSummary()
+PUBLIC 5710b 0 SKSummaryCreateWithString
+PUBLIC 571f5 0 SKSummaryDealloc(void const*)
+PUBLIC 5720d 0 CompareCFIndexesFromOtherArray(void*, void const*, void const*)
+PUBLIC 57241 0 CreateCFCharacterSetFromUSet
+PUBLIC 57484 0 CreateFastCharSet
+PUBLIC 57584 0 CreateNeedNormCharSet
+PUBLIC 57750 0 ImportersLoaded
+PUBLIC 57776 0 ResolveInterfaceForUTIType
+PUBLIC 57ac4 0 ImportContentsFromURL
+PUBLIC 57cde 0 ImportAttributesFromURLInternal
+PUBLIC 58257 0 ImportAttributesFromURL
+PUBLIC 583a5 0 ProcessImporterPlugIn
+PUBLIC 58573 0 ProcessDirectoryForImporters
+PUBLIC 58670 0 ImportersLoad
+PUBLIC 58870 0 GetStripMarksChar
+PUBLIC 588a3 0 TaskAllocatorCopyDescription
+PUBLIC 588b4 0 TaskAllocatorDeallocate
+PUBLIC 588b9 0 TaskAllocatorPreferredSize
+PUBLIC 588d5 0 TaskAllocatorReallocate
+PUBLIC 588f8 0 SKSIPreSyncCallback(void*)
+PUBLIC 588fd 0 SKSIReimportCallback(void*, long long, __SIUserCtx*)
+PUBLIC 58902 0 SKSIFinalizeCallback(_SIIndexCallbacks*)
+PUBLIC 58907 0 SKSIReopenCallback(void*)
+PUBLIC 5890c 0 SKSISearchCancel
+PUBLIC 58956 0 SKSIIndexCopyInfoForDocumentIDs
+PUBLIC 58a81 0 SKSISearchFindMatches
+PUBLIC 58c60 0 InitSKSearch()
+PUBLIC 58ced 0 SKSISearchCreate
+PUBLIC 58f6b 0 InitSKIndex()
+PUBLIC 58ff8 0 SKSearchDealloc(void const*)
+PUBLIC 590a6 0 SoptlightIndexGetOID(__SKIndex*, void const*)
+PUBLIC 591f4 0 SKSIIndexSetDocumentProperties
+PUBLIC 59249 0 SKSIIndexGetDocumentID
+PUBLIC 5925c 0 SKSIIndexRemoveDocument
+PUBLIC 592ab 0 SKSIIndexCopyDocumentPropertiesByNames
+PUBLIC 593d6 0 SKSIIndexCopyDocumentProperties
+PUBLIC 5952a 0 SKSIIndexMoveDocument
+PUBLIC 59803 0 SKSIIndexRenameDocument
+PUBLIC 59a02 0 SKSIIndexCopyDocumentForDocumentID
+PUBLIC 59b56 0 SKSIIndexCopyDocumentURLsForDocumentIDs
+PUBLIC 59b9b 0 SKSIIndexAddDocument
+PUBLIC 59c56 0 SKSIIndexAddDocumentWithText
+PUBLIC 59d6b 0 SKSIIndexFlush
+PUBLIC 59dd4 0 SKSIIndexOpenWithURL
+PUBLIC 59e5d 0 SKSIIndexCreateWithURL
+PUBLIC 59ed9 0 CreateSKIndex()
+PUBLIC 59f62 0 sk_index_open_entry(void*)
+PUBLIC 5a257 0 SKIndexDealloc(void const*)
+PUBLIC 5a2c2 0 SKSISyncFinishedCallback(void*, unsigned char, long, long)
+PUBLIC 5a2d8 0 sk_index_create_entry(void*)
+PUBLIC 5a57e 0 GetSymbolFromHeader
+PUBLIC 5a5ac 0 LoadSpotlightIndex
+PUBLIC 5a85e 0 GetDefaultSentenceParserCallbacks
+PUBLIC 5a893 0 IsFloatingPoint
+PUBLIC 5a947 0 IADefaultSentenceParserSetSourceText
+PUBLIC 5a94e 0 IADefaultSentenceParserCopyNextSentence
+PUBLIC 5a955 0 IADefaultSentenceParserDispose
+PUBLIC 5a981 0 IADefaultSentenceParserCreate
+PUBLIC 5a99f 0 IADefaultTokenizerGetNextTokenNew
+PUBLIC 5aded 0 UniCharParserPushChar
+PUBLIC 5adff 0 UniCharParserGetNextChar
+PUBLIC 5b596 0  stub helpers
+PUBLIC 5cc83 0 BLANK
+PUBLIC 5d830 0 SearchKitVersionString
+PUBLIC 5d990 0 uniBOM2.41056
+PUBLIC 5d992 0 uniBOM1.41055
+PUBLIC 5d994 0 machoData.41054
+PUBLIC 5d998 0 cfmData.41053
+PUBLIC 5d9a0 0 AIAT_URLAcceptable
+PUBLIC 5da18 0 name.41897
+PUBLIC 5da26 0 uniBOM2.63629
+PUBLIC 5da29 0 uniBOM1.63628
+PUBLIC 5daac 0 BuddyStorageType
+PUBLIC 5dab0 0 MaxBlockSize
+PUBLIC 5dab4 0 MinBlockSize
+PUBLIC 5dab8 0 InfoLogSizeMask
+PUBLIC 5dabc 0 InfoChunkBits
+PUBLIC 5dac0 0 InfoChunkSize
+PUBLIC 5dac4 0 InfoChunkMask
+PUBLIC 5dac8 0 SysBlockID
+PUBLIC 5dacc 0 LogSizeBits
+PUBLIC 5dacd 0 MaxLogSize
+PUBLIC 5dace 0 MinLogSize
+PUBLIC 5db48 0 IACloneOSSetStoreStreams
+PUBLIC 5db80 0 yy_ec
+PUBLIC 5df80 0 yy_def
+PUBLIC 5e040 0 yy_meta
+PUBLIC 5e0c0 0 yy_base
+PUBLIC 5e180 0 yy_chk
+PUBLIC 5e340 0 yy_nxt
+PUBLIC 5e500 0 yy_accept
+PUBLIC 5e5a0 0 yy_acclist
+PUBLIC 5e6a0 0 yypact
+PUBLIC 5e700 0 yytranslate
+PUBLIC 5e820 0 yycheck
+PUBLIC 5e880 0 yytable
+PUBLIC 5e8e0 0 yydefact
+PUBLIC 5e940 0 yyr2
+PUBLIC 5e980 0 yyr1
+PUBLIC 5e9b4 0 yypgoto
+PUBLIC 5e9d0 0 yydefgoto
+PUBLIC 5ea40 0 sNeedNormBytes
+PUBLIC 60a40 0 sFastBytes
+PUBLIC 62a40 0 uniChars00
+PUBLIC 62c40 0 uniChars100
+PUBLIC 62e40 0 uniChars200
+PUBLIC 63040 0 uniChars300
+PUBLIC 63240 0 uniChars400
+PUBLIC 63440 0 uniChars500
+PUBLIC 63640 0 uniChars600
+PUBLIC 63840 0 uniChars700
+PUBLIC 63a40 0 uniChars900
+PUBLIC 63c40 0 uniCharsa00
+PUBLIC 63e40 0 uniCharsb00
+PUBLIC 64040 0 uniCharsc00
+PUBLIC 64240 0 uniCharsd00
+PUBLIC 64440 0 uniCharsf00
+PUBLIC 64640 0 uniChars1000
+PUBLIC 64840 0 uniChars1700
+PUBLIC 64a40 0 uniChars1800
+PUBLIC 64c40 0 uniChars1900
+PUBLIC 64e40 0 uniChars1e00
+PUBLIC 65040 0 uniChars1f00
+PUBLIC 65240 0 uniChars2000
+PUBLIC 65440 0 uniChars2100
+PUBLIC 65640 0 uniChars2200
+PUBLIC 65848 0 num_ligatures
+PUBLIC 65860 0 kFastLowercaseAndStripDiacriticals
+PUBLIC 658e0 0 kFastStripDiacriticals
+PUBLIC 65960 0 ligatures
+PUBLIC 65978 0 SearchKitVersionNumber
+PUBLIC 817e8 0 VTT for InVecAccessor
+PUBLIC 81820 0 construction vtable for InvertedAccessor-in-InVecAccessor
+PUBLIC 81900 0 construction vtable for VectorAccessor-in-InVecAccessor
+PUBLIC 81b08 0 VTT for InvertedAccessor
+PUBLIC 81e00 0 VTT for TIAInvertedAccessor
+PUBLIC 81f00 0 construction vtable for InvertedAccessor-in-TIAInvertedAccessor
+PUBLIC 81fd0 0 VTT for TIAVectorAccessor
+PUBLIC 820c0 0 construction vtable for VectorAccessor-in-TIAVectorAccessor
+PUBLIC 821a0 0 VTT for TIAInVecAccessor
+PUBLIC 82300 0 construction vtable for InVecAccessor-in-TIAInVecAccessor
+PUBLIC 82420 0 construction vtable for InvertedAccessor-in-TIAInVecAccessor
+PUBLIC 82500 0 construction vtable for VectorAccessor-in-TIAInVecAccessor
+PUBLIC 826e8 0 VTT for VectorAccessor
+PUBLIC 82bb0 0 VTT for InVecIndex
+PUBLIC 82be0 0 construction vtable for InvertedIndex-in-InVecIndex
+PUBLIC 82da0 0 construction vtable for VectorIndex-in-InVecIndex
+PUBLIC 83138 0 VTT for InvertedIndex
+PUBLIC 83b00 0 VTT for TIAInVecIndex
+PUBLIC 83b40 0 construction vtable for InVecIndex-in-TIAInVecIndex
+PUBLIC 83d40 0 construction vtable for InvertedIndex-in-TIAInVecIndex
+PUBLIC 83f00 0 construction vtable for VectorIndex-in-TIAInVecIndex
+PUBLIC 84240 0 VTT for TIAVectorIndex
+PUBLIC 84260 0 construction vtable for VectorIndex-in-TIAVectorIndex
+PUBLIC 845b8 0 VTT for TIAInvertedIndex
+PUBLIC 845e0 0 construction vtable for InvertedIndex-in-TIAInvertedIndex
+PUBLIC 849d0 0 VTT for VectorIndex
+PUBLIC 850e0 0 step0_rules
+PUBLIC 85180 0 step1a_rules
+PUBLIC 85220 0 step1b_rules
+PUBLIC 852a0 0 step1b1_rules
+PUBLIC 85460 0 step1c_rules
+PUBLIC 854a0 0 step2_rules
+PUBLIC 85740 0 step3_rules
+PUBLIC 85820 0 step4_rules
+PUBLIC 85aa0 0 step5a_rules
+PUBLIC 85ae0 0 step5b_rules
+PUBLIC 85b18 0 kSKLanguageTypes
+PUBLIC 85b1c 0 kSKSubstitutions
+PUBLIC 85b20 0 kSKStopWords
+PUBLIC 85b24 0 kSKMinTermLength
+PUBLIC 85b28 0 kSKProximityIndexing
+PUBLIC 85b2c 0 kSKMaximumTerms
+PUBLIC 85b30 0 kSKTermChars
+PUBLIC 85b34 0 kSKStartTermChars
+PUBLIC 85b38 0 kSKEndTermChars
+PUBLIC 85ba0 0 attrNameArray.65197
+PUBLIC 85bc0 0 sUniChars
+PUBLIC 85fc0 0 kSIFileOps
+PUBLIC 86960 0 AIAT_hexchars
+PUBLIC 86964 0 ProtoPostingCFSetCallBacks
+PUBLIC 8697c 0 TermUpdateCFSetCallBacks
+PUBLIC 86994 0 OrderedStorableSetType
+PUBLIC 869a4 0 IANewMutex
+PUBLIC 869a8 0 SKDocIDScorePostingCFSetCallBacks
+PUBLIC 869c0 0 SKDocIDScorePostingClientCFSetCallBacks
+PUBLIC 869d8 0 QueryTermInfoCFDictionaryValueCallBacks
+PUBLIC 869ec 0 SKQueryNodeCFDictionaryValueCallBacks
+PUBLIC 86a04 0 gAIATAllocator
+PUBLIC 86a08 0 IAAnalysis::sMutex
+PUBLIC 86a0c 0 kIAFSRefDocScheme
+PUBLIC 86a20 0 sLoadExtractorMutex.41900
+PUBLIC 86a4c 0 gEncodingMap
+PUBLIC 86a50 0 kIAIndexDefaultAnalysis
+PUBLIC 86a54 0 kIAStoreStreamFSRefType
+PUBLIC 86a58 0 kIAStoreStreamCFDataType
+PUBLIC 86a5c 0 kIAStoreStreamFileType
+PUBLIC 86a60 0 sASCIIEncoding
+PUBLIC 86a64 0 initializeIAGlobalMutexOnce
+PUBLIC 86a6c 0 initializeIATaskKeyOnce
+PUBLIC 86a74 0 gIAPageSize
+PUBLIC 86a80 0 sInitMutex.40553
+PUBLIC 86ac0 0 gSKGlobalFlags
+PUBLIC 86ac4 0 sSKDocumentNumberTermLimit
+PUBLIC 86ae0 0 SKGetMutex()::sInitMutex
+PUBLIC 86b0c 0 SKin
+PUBLIC 86b10 0 SKout
+PUBLIC 86b14 0 SKlineno
+PUBLIC 86b18 0 yy_init
+PUBLIC 86b20 0 sSKParserMutex
+PUBLIC 86b4c 0 gMySIPersistentIDStoreGetOIDForCPathProcPtr
+PUBLIC 86b50 0 gMySIPersistentIDStoreGetRealPathForOidProcPtr
+PUBLIC 86b54 0 gMySIPersistentIDStoreRenameProcPtr
+PUBLIC 86b58 0 gMySIPersistentIDStoreCreateProcPtr
+PUBLIC 86b5c 0 gMySIPersistentIDStoreCloseProcPtr
+PUBLIC 86b60 0 gMySICreateIndexProcPtr
+PUBLIC 86b64 0 gMySIOpenIndexProcPtr
+PUBLIC 86b68 0 gMySISetScanCountProcPtr
+PUBLIC 86b6c 0 gMySICloseIndexProcPtr
+PUBLIC 86b70 0 gMySISyncIndexProcPtr
+PUBLIC 86b74 0 gMySISetAttributesProcPtr
+PUBLIC 86b78 0 gMySIDeleteAttributesProcPtr
+PUBLIC 86b7c 0 gMySIGetAttributesProcPtr
+PUBLIC 86b80 0 gMySIBulkGetAttributeNamesProcPtr
+PUBLIC 86b84 0 gMySIExecuteQueryProcPtr
+PUBLIC 86b88 0 gMySICancelProcPtr
+PUBLIC 86b8c 0 gMySIResultQueueCreateProcPtr
+PUBLIC 86b90 0 gMySIResultQueueReleaseProcPtr
+PUBLIC 86b94 0 gMySIResultQueueDequeueProcPtr
+PUBLIC 86b98 0 gMySIResultBatchFreeProcPtr
+PUBLIC 86b9c 0 gMySIQueryCreateProcPtr
+PUBLIC 86ba0 0 gMySIQueryReleaseProcPtr
+PUBLIC 86bc0 0 gAIATReportErrorCallback
+PUBLIC 86bc4 0 GetDefaultAccessorName()::defaultAccessorName
+PUBLIC 86bc8 0 defaultTextExtractorName.41019
+PUBLIC 86be0 0 sSKDocumentTypeID
+PUBLIC 86c00 0 sSKDocumentClassInfo.40677
+PUBLIC 86c28 0 sInited.40676
+PUBLIC 86c2c 0 sDocSchemeRegistry
+PUBLIC 86c30 0 sDocSchemeInited
+PUBLIC 86c34 0 sTextAnalysisRegistry
+PUBLIC 86c38 0 sTextAnalysisInited
+PUBLIC 86c3c 0 sHFSFolderMIMEType.41561
+PUBLIC 86c40 0 sExtensionMappings
+PUBLIC 86c44 0 sTypeMappings
+PUBLIC 86c48 0 sInited.41899
+PUBLIC 86c4c 0 sSentenceParserRegistry
+PUBLIC 86c50 0 defaultSentenceParserName.41064
+PUBLIC 86c54 0 sTextExtractorRegistry
+PUBLIC 86c58 0 unicodeStr.63599
+PUBLIC 86c5c 0 GetDocNameKeyStr()::sDocNameKeyStr
+PUBLIC 86c60 0 GetProgressKeyStr()::sProgressKey
+PUBLIC 86c64 0 sMutex
+PUBLIC 86c68 0 sTaskKey
+PUBLIC 86c6c 0 whereWeLeftOffLastTime.42432
+PUBLIC 86c70 0 lastInI.42431
+PUBLIC 86c74 0 lastSummaryRef.42430
+PUBLIC 86c80 0 sRefCountInited
+PUBLIC 86ca0 0 sRefCountMutex
+PUBLIC 86ccc 0 sFileFolderMIMEType.41547
+PUBLIC 86ce0 0 sSKSearchResultsTypeID
+PUBLIC 86d00 0 InitSKSearchResults()::sSKSearchResultsClassInfo
+PUBLIC 86d28 0 InitSKSearchResults()::sInited
+PUBLIC 86d2c 0 sSKSearchTypeID
+PUBLIC 86d40 0 InitSKSearch()::sSKSearchClassInfo
+PUBLIC 86d68 0 InitSKSearch()::sInited
+PUBLIC 86d6c 0 sSKSearchGroupTypeID
+PUBLIC 86d80 0 InitSKSearchGroup()::sSKSearchGroupClassInfo
+PUBLIC 86da8 0 InitSKSearchGroup()::sInited
+PUBLIC 86dac 0 sSKIndexDocumentIteratorTypeID
+PUBLIC 86dc0 0 InitSKIndexDocumentIterator()::sSKIndexDocumentIteratorClassInfo
+PUBLIC 86de8 0 InitSKIndexDocumentIterator()::sInited
+PUBLIC 86dec 0 sIndexStorageDictionary
+PUBLIC 86df0 0 sSKIndexTypeID
+PUBLIC 86e00 0 InitSKIndex()::sSKIndexClassInfo
+PUBLIC 86e28 0 InitSKIndex()::sInited
+PUBLIC 86e2c 0 sSKMutex
+PUBLIC 86e30 0 LoggingEnabled()::sEnabled
+PUBLIC 86e31 0 LoggingEnabled()::sInited
+PUBLIC 86e34 0 yy_current_buffer
+PUBLIC 86e38 0 yy_start
+PUBLIC 86e3c 0 yy_c_buf_p
+PUBLIC 86e40 0 yy_hold_char
+PUBLIC 86e44 0 yy_n_chars
+PUBLIC 86e48 0 yy_did_buffer_switch_on_eof
+PUBLIC 86e4c 0 yy_state_buf
+PUBLIC 86e50 0 yy_state_ptr
+PUBLIC 86e54 0 yy_full_match
+PUBLIC 86e58 0 yy_lp
+PUBLIC 86e5c 0 sSKAutoRelease
+PUBLIC 86e60 0 sSKGrammarNodes
+PUBLIC 86e64 0 sSKInputBuffer
+PUBLIC 86e68 0 sSKInputBufferLength
+PUBLIC 86e6c 0 sSKInputBufferPosition
+PUBLIC 86e70 0 sClosenessMultiplier
+PUBLIC 86e74 0 sLogQueryInited
+PUBLIC 86e75 0 sLogQuery
+PUBLIC 86e80 0 sSKSummaryTypeID
+PUBLIC 86ea0 0 InitSKSummary()::sSKSummaryClassInfo
+PUBLIC 86ec8 0 InitSKSummary()::sInited
+PUBLIC 86ecc 0 sImportersDictionary
+PUBLIC 86ed0 0 sInterfacesDictionary
+PUBLIC 86ee0 0 sSKSearchTypeID
+PUBLIC 86f00 0 InitSKSearch()::sSKSearchClassInfo
+PUBLIC 86f28 0 InitSKSearch()::sInited
+PUBLIC 86f2c 0 sSKIndexTypeID
+PUBLIC 86f40 0 InitSKIndex()::sSKIndexClassInfo
+PUBLIC 86f68 0 InitSKIndex()::sInited
+PUBLIC 86f69 0 sValid.64815
+PUBLIC 86f6a 0 sInited.64814
+PUBLIC 86f6c 0 SKleng
+PUBLIC 86f70 0 SKtext
+PUBLIC 86f74 0 SKchar
+PUBLIC 86f78 0 SKlval
+PUBLIC 86f7c 0 SKnerrs
+PUBLIC 86f80 0 gSKParseResult
+PUBLIC 86f84 0 gSKSpaceMeansOr

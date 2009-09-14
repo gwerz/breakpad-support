@@ -1,0 +1,2489 @@
+MODULE mac x86 C8590D53E46AF58A7CF203A8159D85690 LaunchServices
+PUBLIC 14fc 0 _LSRegisterFilePropertyProvider
+PUBLIC 1733 0 GetIconRef
+PUBLIC 1819 0 AddImageByTypeInfo
+PUBLIC 2052 0 _LSCreateDeviceTypeIdentifierWithModelCode
+PUBLIC 21fd 0 UTTypeCreatePreferredIdentifierForTag
+PUBLIC 2321 0 _LSContextInit
+PUBLIC 278d 0 _LSCopyLocalDatabase
+PUBLIC 2816 0 _LSGetSession(unsigned int)
+PUBLIC 2923 0 _LSLockMutex
+PUBLIC 2953 0 _LSPrepareMutex
+PUBLIC 29aa 0 _LSCopyServerStore
+PUBLIC 2a2e 0 _LSPluginGetServerPort
+PUBLIC 2a75 0 _LSPluginClient_GetStore
+PUBLIC 2ca9 0 _LSDatabaseCreate
+PUBLIC 2e23 0 _LSDatabaseInit(void const*)
+PUBLIC 2e65 0 _LSSchemaInitForStore(LSSchema*, __CSStore const*)
+PUBLIC 3158 0 CSStringStoreInit
+PUBLIC 31e8 0 CSMapInit
+PUBLIC 32ae 0 CSMapSync
+PUBLIC 3352 0 CSArrayStoreInit
+PUBLIC 33aa 0 CSGetStringForCharacters
+PUBLIC 349f 0 XCFHash8Bit
+PUBLIC 3516 0 CSMapGetKeyAndValueForKeyData
+PUBLIC 3630 0 _CSStringStoreUnitMatchesString
+PUBLIC 368b 0 CSStringBindingStoreInit
+PUBLIC 370e 0 _LSDatabaseGetPrefsAreLoaded
+PUBLIC 3743 0 _LS_vm_deallocate
+PUBLIC 3775 0 _LSSetLocalDatabase
+PUBLIC 3805 0 _UTGetBindableArrayForTag
+PUBLIC 3888 0 _UTGetStringForCFString
+PUBLIC 391c 0 XCFBufInitWithCFStringRange
+PUBLIC 3aa7 0 XCFBufDestroy
+PUBLIC 3ae7 0 _LSDatabaseFindBindingMapIndex
+PUBLIC 3b1a 0 CSStringBindingGetBindings
+PUBLIC 3b9b 0 CSMapGetValue
+PUBLIC 3bf2 0 _CSMapFindBucketForKey
+PUBLIC 3d98 0 CSArrayGetValues
+PUBLIC 3e1c 0 _UTGetActiveTypeForCFString
+PUBLIC 3e5a 0 _UTGetActiveTypeForIdentifier
+PUBLIC 3f01 0 _UTTypeConformsTo
+PUBLIC 3f53 0 _UTTypeSearchConformsToTypes
+PUBLIC 3fbf 0 _UTTypeSearchConformsToTypesCore
+PUBLIC 4083 0 _UTTypeSearchEqual
+PUBLIC 4097 0 _LSBindingListGetEntryWithClass
+PUBLIC 4118 0 _UTTypeGet
+PUBLIC 4147 0 CSStringCopyCFString
+PUBLIC 4206 0 _LSContextDestroy
+PUBLIC 422c 0 _UTTypeGetStatus
+PUBLIC 426f 0 _LSDatabaseNeedsUpdate(LSDatabase*)
+PUBLIC 42b0 0 _UTTypeGetStatusUsingDB
+PUBLIC 42f7 0 _UTTypeIdentifierIsValid
+PUBLIC 442b 0 _UTTypeIdentifierIsDynamic
+PUBLIC 4493 0 _UTTypeCopyIconFileName
+PUBLIC 45d6 0 _LSBundleCopyOrCheckNode
+PUBLIC 4dd6 0 _LSContainerGet
+PUBLIC 4e05 0 _LSContainerCheckState
+PUBLIC 4f4b 0 _LSAliasGet
+PUBLIC 503c 0 FSNodeCreateWithPath
+PUBLIC 507f 0 _FSNodeCreateWithPathBytes
+PUBLIC 5494 0 _FSNodeInit
+PUBLIC 551f 0 FSNodePrepareStatInfo
+PUBLIC 5658 0 _FSNodeInfoLifetimeAbsolute
+PUBLIC 56f7 0 _LSNodeHasChanged
+PUBLIC 5746 0 FSNodePrepareCatalogInfo
+PUBLIC 5aaf 0 FSNodePrepareFSRef
+PUBLIC 5c10 0 _FSNodeSetMoreInfo
+PUBLIC 5ce6 0 _LSUTCDateTimeToCFAbsoluteSeconds
+PUBLIC 5d18 0 _LSBundleDataGetModTime
+PUBLIC 5d25 0 _UTTypeDataGetFlags
+PUBLIC 5d2e 0 AddImageFromLSInfo(FSRef const*, unsigned long, unsigned long, __CFString const*, unsigned char, unsigned long, OpaqueISImageRef**)
+PUBLIC 625c 0 CDynamicArray::CDynamicArray(unsigned long, unsigned long, unsigned long, SegmentAllocators*)
+PUBLIC 6282 0 MakeIconRefFromImageInternal(OpaqueISImageRef*, OpaqueIconRef**)
+PUBLIC 632c 0 GetIconRefArray()
+PUBLIC 638c 0 CIconRefArray::CIconRefArray()
+PUBLIC 63e5 0 InitIconRef()
+PUBLIC 6426 0 CIconRefArray::FindMatchByImageLayer(OpaqueISImageRef*)
+PUBLIC 6492 0 CArrayIterator::CArrayIterator(CDynamicArray*)
+PUBLIC 64a4 0 CArrayIterator::FindFirst(void**, unsigned long*)
+PUBLIC 64fc 0 CCIteratorFindFirst
+PUBLIC 6524 0 CDynamicArray::Add(void const*, unsigned long*)
+PUBLIC 657a 0 CCCreateDynamicArray
+PUBLIC 6624 0 DefaultSegmentAllocator
+PUBLIC 662d 0 CCArrayAddEntry
+PUBLIC 6703 0 AcquireIconRef
+PUBLIC 676a 0 IS_GetIconRefEntry(OpaqueIconRef*, unsigned long*, unsigned long*)
+PUBLIC 67c0 0 CDynamicArray::Get(unsigned long)
+PUBLIC 67da 0 CCArrayGetEntryPtr
+PUBLIC 684b 0 ReleaseIconRef
+PUBLIC 68a5 0 ReleaseIconRefInternal(OpaqueIconRef*)
+PUBLIC 68fc 0 _LSCopyItemInfoForRefInfo
+PUBLIC 6999 0 _LSCreateNodeOrURLFromExtendedInfoNoCopy
+PUBLIC 6b43 0 FSNodeCreateWithFSRef
+PUBLIC 6d1d 0 FSNodeUseExternalInfoNoCopy
+PUBLIC 6daf 0 _LSCopyInfoForNode
+PUBLIC 794e 0 _LSGetExtensionInfo
+PUBLIC 7a9b 0 _LSGetBundleClassForNode
+PUBLIC 7d24 0 FSNodeCopyExtension
+PUBLIC 7ea3 0 XCFBufInit
+PUBLIC 7eca 0 _FSNodeDestroy
+PUBLIC 7f4c 0 _LSNodeIsPackage
+PUBLIC 8020 0 AddRegisteredIconToImage
+PUBLIC 80ce 0 CCIteratorFindNext
+PUBLIC 8138 0 CIconRefEntry::GetImageLayer()
+PUBLIC 8144 0 CArrayIterator::FindNext(void**, unsigned long*)
+PUBLIC 818e 0 LSSharedFileListCreate
+PUBLIC 8a6d 0 GetIconRefFromTypeInfo
+PUBLIC 8b4a 0 _LSCopyBindingInfoForTypeInfo
+PUBLIC 9228 0 LSBinding::LSBinding()
+PUBLIC 924b 0 _LSCharsAreAppExtension
+PUBLIC 927b 0 _LSGetBindingForTypeInfo
+PUBLIC 94c2 0 LSSharedFileListAddObserver
+PUBLIC 96ae 0 LSTypeData::LSTypeData()
+PUBLIC 9710 0 LSBindingState::LSBindingState(LSContext*, unsigned long, unsigned long, unsigned long, unsigned long)
+PUBLIC 97d4 0 XCFBufInitWithOSType
+PUBLIC 98e6 0 _LSTypeDataGetBestType(LSContext*, unsigned long, LSTypeData*)
+PUBLIC 9cf2 0 _LSGetTypeForUTIChars(LSDatabase*, XCFChars const*, unsigned long*)
+PUBLIC 9d46 0 _LSGetTypeForTagChars(LSDatabase*, unsigned long, XCFChars const*, unsigned long)
+PUBLIC 9e17 0 _LSBindableGetClass
+PUBLIC 9e23 0 _LSBindableGetUnitID
+PUBLIC 9e30 0 _LSGetBinding(LSBindingState*)
+PUBLIC a397 0 _LSEvaluateClaimArray(LSBindingState*, unsigned long const*, unsigned long)
+PUBLIC aa72 0 _LSClaimGet
+PUBLIC aa9e 0 _LSBundleGet
+PUBLIC aaca 0 LSTypeData::~LSTypeData()
+PUBLIC ab00 0 _LSBundleDataGetAllItemInfoFlags
+PUBLIC ab1e 0 _LSBundleDataGetUnsupportedFormatFlag
+PUBLIC abfa 0 _LSGetPhysicalCPUType
+PUBLIC acf6 0 IOAllowedForFSRef
+PUBLIC ad39 0 IOAllowedForVolume
+PUBLIC add2 0 LSImages::FindImageByKind(unsigned long, OpaqueISImageRef**)
+PUBLIC ae3c 0 _LSCopyDisplayNameForRefInfo
+PUBLIC ae7d 0 _LSCopyItemAttributeForRefInfoWithOptions
+PUBLIC afc5 0 _LSFindOrRegisterBundleNode
+PUBLIC b7d0 0 _LSCopyNodeAttribute
+PUBLIC b8da 0 _LSInitializeAttributeDispatch(LSNodeAttributeStateCache*, __CFString const*)
+PUBLIC b924 0 _LSInitializeAttributeDispatchOnce()
+PUBLIC bb10 0 _LSShowDashF
+PUBLIC bb95 0 _LSGetBooleanFromCFType
+PUBLIC bcbb 0 _LSCopyNodeAttributeWithState(LSNodeAttributeStateCache*, __CFString const*)
+PUBLIC bd29 0 _LSCopyNodeAttribute_DisplayName(LSNodeAttributeStateCache*)
+PUBLIC bd7f 0 _LSCopyNodeAttribute_DisplayNameIfDifferentFromFSName(LSNodeAttributeStateCache*)
+PUBLIC c111 0 _LSCopyLocalizedSystemFolderNameForNode
+PUBLIC c1bd 0 _LSGetLocalizedNameForCanonicalName
+PUBLIC c3cd 0 _LSGetSystemFolderLocalizationsBundle
+PUBLIC c44d 0 _LSCopyBundleStringsForPreferredLocale
+PUBLIC c492 0 _LSCopyBundlePreferredLocale
+PUBLIC c4fc 0 _LSCopyBundleStringsForLocale
+PUBLIC c5d2 0 _LSGetBundle
+PUBLIC c664 0 _LSGetShowAllExtensionsPreference
+PUBLIC c75f 0 GetIconRefFromUTI
+PUBLIC c820 0 AddImageByUTI
+PUBLIC ca4e 0 UTTypeEqual
+PUBLIC ca78 0 LSPropertyProviderCopyValues(__CFURL const*, __FileCache const*, __CFString const* const*, void const**, void const**, long, void const*)
+PUBLIC cae7 0 copyLocalizedNameValue(__CFURL const*, __FileCache const*, void*)
+PUBLIC cb3b 0 copyDistinctLocalizedNameValue(__CFURL const*, __FileCache const*, void*)
+PUBLIC cba9 0 LSPropertyProviderPrepareValues(__CFURL const*, __FileCache*, __CFString const* const*, void const**, long, void const*, __CFError**)
+PUBLIC cbef 0 prepareBasicFlags(__CFURL const*, __FileCache*, __CFError**)
+PUBLIC cced 0 FSNodeCreateWithURL
+PUBLIC cddd 0 prepareLocalizedNameValue(__CFURL const*, __FileCache*, __CFError**)
+PUBLIC ce01 0 prepareDistinctLocalizedNameValue(__CFURL const*, __FileCache*, __CFError**)
+PUBLIC ce92 0 prepareAttributeValueForKey(__CFURL const*, __FileCache*, __CFString const*, void const**, __CFError**)
+PUBLIC cf53 0 _LSCopyItemAttributeForRefInfo
+PUBLIC cf83 0 LSPropertyProviderCopyAndCacheValues(__CFURL const*, __FileCache*, __CFString const* const*, void const**, void const**, long, void const*)
+PUBLIC cfc3 0 copyCanSetHiddenExtensionValue(__CFURL const*, __FileCache const*, void*)
+PUBLIC d008 0 copyIsPackageValue(__CFURL const*, __FileCache const*, void*)
+PUBLIC d04d 0 copyIsApplicationValue(__CFURL const*, __FileCache const*, void*)
+PUBLIC d092 0 _LSHFSTypeIsSymLink
+PUBLIC d0cf 0 _LSApplicationCheckIn
+PUBLIC e27d 0 NormalizeLSSessionID(LSSessionID)
+PUBLIC e2ae 0 GetOurLSSessionAttributeBits()
+PUBLIC e2df 0 GetOurLSSessionIDInit()
+PUBLIC e465 0 GetOurLSSessionID()
+PUBLIC e496 0 GetCFDictionaryRef(void const*, unsigned char)
+PUBLIC e524 0 IsLSServerConnected(bool)
+PUBLIC e554 0 SetupCoreApplicationServicesCommunicationPort()
+PUBLIC ebfb 0 _LSDoInitializeProcessesServices
+PUBLIC ed96 0 LASPortForDeathNotificationsInitFunc()
+PUBLIC edf8 0 CFMutableDictionary::CreateFrom(__CFDictionary const*)
+PUBLIC ee4c 0 CFMutableDictionary::CFMutableDictionary(__CFDictionary*, bool)
+PUBLIC ee56 0 CFMutableDictionary::CFMutableDictionary(__CFDictionary*, bool)
+PUBLIC ef30 0 CFDictionary::CFDictionary(__CFDictionary const*, bool)
+PUBLIC ef78 0 getProcessDispatchTable()
+PUBLIC efaa 0 FlattenedCFItem::Encode()
+PUBLIC efca 0 FlattenedCFItem::Encode(void const*)
+PUBLIC f862 0 FlattenedCFItem::Append(void const*, unsigned long)
+PUBLIC f8b0 0 FlattenedCFItem::Resize(unsigned long)
+PUBLIC fa12 0 _LSASNGetTypeID
+PUBLIC fa43 0 _LSASNRegisterClass()
+PUBLIC fa6c 0 round_vm_page_size(unsigned long)
+PUBLIC fac4 0 FlattenedCFItem::WriteDouble(double)
+PUBLIC faf8 0 getProcessesServerPort
+PUBLIC fb4e 0 _LSDoRegisterApplication
+PUBLIC fce4 0 UnflattenedCFItem::GetAndRelease(void const*, unsigned int, bool)
+PUBLIC fd46 0 UnflattenedCFItem::CopyRef()
+PUBLIC fd82 0 UnflattenedCFItem::Decode()
+PUBLIC 103e8 0 _LSASNCreate
+PUBLIC 10448 0 CFString::CFString(void const*, bool)
+PUBLIC 10490 0 CFURL::CFURL(void const*, bool)
+PUBLIC 10514 0 UnflattenedCFItem::ReadDoubleValue()
+PUBLIC 10546 0 UnflattenedCFItem::~UnflattenedCFItem()
+PUBLIC 105a4 0 GetLSASNRef(void const*, unsigned char)
+PUBLIC 10632 0 GetPSNLow(__LSASN const*)
+PUBLIC 1065e 0 _LSASNExtractHighAndLowParts
+PUBLIC 106e0 0 CFMutableDictionary::CFMutableDictionary(bool)
+PUBLIC 1073f 0 _LSSetApplicationInformation
+PUBLIC 1098d 0 LSGetRealPSNHighAndLow(__LSASN const*, unsigned int*, unsigned int*)
+PUBLIC 10a00 0 LSGetRealPSNHighAndLow(unsigned int*, unsigned int*)
+PUBLIC 10a77 0 _LSDoSetApplicationInformation
+PUBLIC 10bf3 0 _LSCopyCurrentApplicationASN
+PUBLIC 10c42 0 __LSInitialize()
+PUBLIC 10cc0 0 LSASN::LSASN(__LSASN const*, bool)
+PUBLIC 10d08 0 _LSCompareASNs
+PUBLIC 10d80 0 DoWeHaveACanonicalPSNForOurProcess()
+PUBLIC 10dc3 0 GetOurCanonicalPSNLowHalf()
+PUBLIC 10e29 0 _LSCompareASNsLong
+PUBLIC 10ffa 0 LSSetCurrentApplicationInformation(__CFDictionary const*)
+PUBLIC 11078 0 FlattenedCFItem::~FlattenedCFItem()
+PUBLIC 11082 0 FlattenedCFItem::~FlattenedCFItem()
+PUBLIC 110f0 0 CFDictionary::EqualValue(void const*, void const*)
+PUBLIC 11141 0 _LSCopyFrontUIApplication
+PUBLIC 1124c 0 LSClientSideSharedMemory::GetClientSideSharedMemory(LSSessionID, bool)
+PUBLIC 114a8 0 IsRealLSSessionID(LSSessionID)
+PUBLIC 114b3 0 LSClientSideSharedMemoryInitFunc()
+PUBLIC 114f6 0 SharedMemoryPageLock::SharedMemoryPageLock()
+PUBLIC 1152e 0 SharedMemoryPageLock::OnceFunc()
+PUBLIC 1159c 0 _LSDoInitializeProcessSharedMemory
+PUBLIC 11798 0 SharedMemoryPageLock::~SharedMemoryPageLock()
+PUBLIC 117d0 0 _LSIsApplicationRunning
+PUBLIC 1189f 0 ConvertToCanonicalASNLow(LSClientSideSharedMemory*, __LSASN const*)
+PUBLIC 1197a 0 LASSharedMemoryPage::GetApplicationInformation(unsigned int, unsigned int*, unsigned int*, unsigned int*, int*)
+PUBLIC 11a67 0 _LSCopyApplicationInformationItem
+PUBLIC 11b32 0 _LSCopyApplicationInformationItemFromSharedMemory(LSClientSideSharedMemory*, __LSASN const*, void const*)
+PUBLIC 11c47 0 _LSAppInfoGetASNFunc(LSClientSideSharedMemory*, unsigned int)
+PUBLIC 11cf9 0 _LSCopyApplicationInformation
+PUBLIC 125be 0 ApplicationInfoLock::ApplicationInfoLock()
+PUBLIC 125f6 0 ApplicationInfoLock::OnceFunc()
+PUBLIC 12665 0 CachedApplicationInformationMapInitFunc()
+PUBLIC 126a8 0 ApplicationInfoLock::~ApplicationInfoLock()
+PUBLIC 126e0 0 _LSDoGetApplicationInformation
+PUBLIC 1283a 0 CFDictionary::CopyValue(void const*) const
+PUBLIC 1287a 0 LSASN::LSASN(void const*, bool)
+PUBLIC 128c2 0 CFBetterGetBooleanValue(void const*, bool)
+PUBLIC 129b8 0 _LSRegisterSelf
+PUBLIC 12d1b 0 _LSGetStringFromDict
+PUBLIC 12d5e 0 XCFBufAddCapacity
+PUBLIC 12dd3 0 _LSGetBundleClassForExtension
+PUBLIC 13037 0 _LSBundleFindWithNode
+PUBLIC 1347d 0 XCFBufInitWithUnicode
+PUBLIC 13634 0 CSStringBindingFindStringAndBindings
+PUBLIC 136b1 0 _LSBundleDataGetInoBundle
+PUBLIC 136c1 0 _LSAliasCompareToNode
+PUBLIC 13a02 0 _LSCompareUTCDateTime
+PUBLIC 13a3f 0 _LSBundleNeedsRegistration(LSContext*, FSNode*, unsigned long, unsigned long, LSBundleData const*)
+PUBLIC 13bd5 0 _LSBundleDataGetRegTime
+PUBLIC 13be5 0 FSNodeCompare
+PUBLIC 13ce2 0 _LSGetBooleanFromDict
+PUBLIC 13d07 0 _LSCopyMetaApplicationInformationItem
+PUBLIC 13d94 0 _LSCopyMetaApplicationInformation
+PUBLIC 14035 0 _LSCopyMetaApplicationInformationItemFromSharedMemory(LSClientSideSharedMemory*, void const*, bool&)
+PUBLIC 141e1 0 _LSMetaInfoGetSessionID(LSClientSideSharedMemory*, bool&)
+PUBLIC 14262 0 _LSGetCurrentApplicationASN
+PUBLIC 1429c 0 _LSScheduleNotificationFunction
+PUBLIC 14620 0 CopyNormalizedPSNArray(void const*)
+PUBLIC 14732 0 CFMutableArray::CFMutableArray(bool)
+PUBLIC 14786 0 CFArray::CFArray(__CFArray const*, bool)
+PUBLIC 147cd 0 NormalizePSNsArrayApplyFunc(void const*, __CFArray const*, void*)
+PUBLIC 1488e 0 _LSASNCreateWithPid
+PUBLIC 148b0 0 _LSDoRegisterNotificationFunction
+PUBLIC 14a32 0 NotificationIDLock::NotificationIDLock()
+PUBLIC 14a6a 0 NotificationIDLock::OnceFunc()
+PUBLIC 14ad8 0 GetActiveNotificationsInitFunc()
+PUBLIC 14b1c 0 std::_Rb_tree<void const*, std::pair<void const* const, NotificationInformationStruct*>, std::_Select1st<std::pair<void const* const, NotificationInformationStruct*> >, std::less<void const*>, std::allocator<std::pair<void const* const, NotificationInformationStruct*> > >::_M_insert_unique(std::pair<void const* const, NotificationInformationStruct*> const&)
+PUBLIC 14ba8 0 std::_Rb_tree<void const*, std::pair<void const* const, NotificationInformationStruct*>, std::_Select1st<std::pair<void const* const, NotificationInformationStruct*> >, std::less<void const*>, std::allocator<std::pair<void const* const, NotificationInformationStruct*> > >::_M_create_node(std::pair<void const* const, NotificationInformationStruct*> const&)
+PUBLIC 14c0c 0 NotificationIDLock::~NotificationIDLock()
+PUBLIC 14c44 0 _LSModifyNotification
+PUBLIC 14ea4 0 GetNotificationInformationForID(void const*)
+PUBLIC 14f56 0 _LSDoModifyNotification
+PUBLIC 150fd 0 _LSCopyLaunchModifiers
+PUBLIC 151c2 0 _LSDoGetLaunchModifiers
+PUBLIC 15322 0 GetCFArrayRef(void const*, unsigned char)
+PUBLIC 153b0 0 _LSMetaGetDisableAllPostLaunchBringForwardRequestsKey(LSClientSideSharedMemory*, bool&)
+PUBLIC 153df 0 _LSMetaGetFrontReservationExists(LSClientSideSharedMemory*, bool&)
+PUBLIC 1540e 0 LSASN::GetLowerHalf() const
+PUBLIC 15444 0 std::_Rb_tree<unsigned int, std::pair<unsigned int const, __CFDictionary const*>, std::_Select1st<std::pair<unsigned int const, __CFDictionary const*> >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, __CFDictionary const*> > >::_M_insert_unique(std::pair<unsigned int const, __CFDictionary const*> const&)
+PUBLIC 154d0 0 std::_Rb_tree<unsigned int, std::pair<unsigned int const, __CFDictionary const*>, std::_Select1st<std::pair<unsigned int const, __CFDictionary const*> >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, __CFDictionary const*> > >::_M_insert(std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::pair<unsigned int const, __CFDictionary const*> const&)
+PUBLIC 15544 0 std::_Rb_tree<unsigned int, std::pair<unsigned int const, __CFDictionary const*>, std::_Select1st<std::pair<unsigned int const, __CFDictionary const*> >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, __CFDictionary const*> > >::_M_create_node(std::pair<unsigned int const, __CFDictionary const*> const&)
+PUBLIC 155a8 0 _LSCopyFrontApplication
+PUBLIC 1568e 0 CFNumber::CFNumber(void const*, bool)
+PUBLIC 156d6 0 _UTTypeCreateDynamicIdentifierForTag
+PUBLIC 15a19 0 _UTAbbreviateTerm
+PUBLIC 15ae4 0 _UTAppendCharactersAddingEscapes
+PUBLIC 15b48 0 XCFBufAppend
+PUBLIC 15b92 0 UTTypeConformsTo
+PUBLIC 15cbc 0 _UTBase32EncodedLength
+PUBLIC 15cea 0 _UTBase32Encode
+PUBLIC 15d53 0 _UTBase32EncodeDatum
+PUBLIC 16022 0 copyTypeIdentifierValue(__CFURL const*, __FileCache const*, void*)
+PUBLIC 16071 0 prepareTypeIdentifierValue(__CFURL const*, __FileCache*, __CFError**)
+PUBLIC 160e7 0 _LSCopyNodeAttribute_ContentType(LSNodeAttributeStateCache*)
+PUBLIC 16221 0 _LSTypeDataInitForNode(LSContext*, LSTypeData*, FSNode*, __CFString const*, unsigned long)
+PUBLIC 1645f 0 _UTTypeCopyIdentifier
+PUBLIC 164aa 0 _LSCanSetExtensionHidden
+PUBLIC 1650c 0 _LSCanHideExtension(LSContext*, FSNode*, LSUniChars const*, LSUniChars const*)
+PUBLIC 16595 0 FSNodeIsDirectory
+PUBLIC 165e3 0 _LSIsKnownExtensionUnicode
+PUBLIC 166c3 0 _LSCopyNodeAttribute_NonLocalizedDisplayNameIfDifferentFromFSName(LSNodeAttributeStateCache*)
+PUBLIC 1682e 0 _LSGetBindingForNode
+PUBLIC 1696e 0 _LSGetBindingStateForNode(LSBindingState*, FSNode*)
+PUBLIC 16a28 0 _LSGetCurrentSystemVersion
+PUBLIC 16aaa 0 _LSAppInfoGetApplicationTypeFunc(LSClientSideSharedMemory*, unsigned int)
+PUBLIC 16b2a 0 LSSharedFileListCopySnapshot
+PUBLIC 17158 0 ImageInvalidator(OpaqueISImageRef*)
+PUBLIC 171ee 0 LSImages::ImageIsInvalid(OpaqueISImageRef*)
+PUBLIC 17280 0 _GetIconRefFromISImageRef
+PUBLIC 172eb 0 _LSAppInfoGetApplicationHiddenFunc(LSClientSideSharedMemory*, unsigned int)
+PUBLIC 1735d 0 LSSharedFileListItemCopyAliasData
+PUBLIC 173c8 0 LSSharedFileListItemCopyProperty
+PUBLIC 17702 0 LSSharedFileListItemCopyDisplayName
+PUBLIC 17822 0 LSSharedFileListItemCopyIconRef
+PUBLIC 17a40 0 _LSIsPackageExtension(LSContext*, XCFChars const*)
+PUBLIC 17b1b 0 _LSIsHardPackageExtension(XCFChars const*)
+PUBLIC 17b9b 0 _LSIsClaimedPackageExtension(LSContext*, XCFChars const*)
+PUBLIC 17c8d 0 _LSGetNodePkgInfo(LSContext*, FSNode*, LSBundleData const**, FSNodePkgInfo*)
+PUBLIC 17d5b 0 _LSUniCharCompare
+PUBLIC 17e23 0 FSNodePreparePkgInfo
+PUBLIC 18035 0 __LSSharedFileListItemEqual
+PUBLIC 1806e 0 FSNodePrepareBundleInfoDictionary
+PUBLIC 180fc 0 __LSSharedFileListItemDeallocate
+PUBLIC 18196 0 FSNodeCopyURL
+PUBLIC 1820d 0 FSNodePrepareCanonicalPath
+PUBLIC 18462 0 _LSCopyBaseName
+PUBLIC 184d4 0 FSNodeCopyBundle
+PUBLIC 18537 0 _LSBundleCopyLocalizedName
+PUBLIC 1879f 0 _LSBundleHasActiveLocalizedName(LSDatabase*, unsigned long, FSNode*)
+PUBLIC 1886d 0 _LSUniCharCaseInsensitiveEqual
+PUBLIC 188a0 0 _LSSignalApplicationReady
+PUBLIC 189ac 0 _LSDoSignalApplicationReady
+PUBLIC 18b06 0 std::_Rb_tree<unsigned int, std::pair<unsigned int const, __CFDictionary const*>, std::_Select1st<std::pair<unsigned int const, __CFDictionary const*> >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, __CFDictionary const*> > >::erase(std::_Rb_tree_iterator<std::pair<unsigned int const, __CFDictionary const*> >)
+PUBLIC 18b35 0 GetIconRefFromFileInfo
+PUBLIC 18fdf 0 IS_GetFileID
+PUBLIC 190f0 0 GetImageForFSItem
+PUBLIC 196a7 0 IS_IsFolder
+PUBLIC 196b5 0 IS_HasCustomBadge
+PUBLIC 196d3 0 ISBuildBaseImage(FSRef const*, HFSUniStr255 const*, unsigned long*, FSCatalogInfo*, CustomBadgeResource*, unsigned long, unsigned char*, OpaqueISImageRef**, long)
+PUBLIC 1a4a2 0 IS_GetFileAndCreator
+PUBLIC 1a4bc 0 GetCustomIconsEnabled
+PUBLIC 1a4d8 0 IS_HasCustomIcon
+PUBLIC 1a4ea 0 GetFolderType(FSRef const*, short, long, long, HFSUniStr255 const*, unsigned char, unsigned long, unsigned char*)
+PUBLIC 1b379 0 _LSCopyBindingInfoForItemRefInfo
+PUBLIC 1bc45 0 _UTTypeGetFolderType
+PUBLIC 1bcb4 0 _LSDatabaseGetStringForOSType
+PUBLIC 1bd42 0 _LSCopyStrongBindingForNode
+PUBLIC 1c243 0 _LSBundleClassHasUnregisteredPersonality
+PUBLIC 1c267 0 IS_IsStationery
+PUBLIC 1c279 0 IS_IsLocked
+PUBLIC 1c28a 0 _LSCopyNodeAttribute_DisplayKind(LSNodeAttributeStateCache*)
+PUBLIC 1c4b4 0 LSNodeAttributeStateCache::hasBinding()
+PUBLIC 1c58c 0 FSNodeMayBeOnNetworkVolume_NoIO
+PUBLIC 1c644 0 FSGetResourceForkNamePtr
+PUBLIC 1c692 0 _LSClaimCopyKindString
+PUBLIC 1c93f 0 XCFTypeOrNullDictionaryValueCallBacks
+PUBLIC 1c987 0 XCFRetainIfNotNull
+PUBLIC 1c99e 0 _UTTypeGetDataType
+PUBLIC 1ca0c 0 _UTTypeCopyInheritedDescription
+PUBLIC 1ca8d 0 _UTTypeCopyDescription
+PUBLIC 1cd26 0 _LSCopyNodeAttribute_DisplayKindWithPlatformInfo(LSNodeAttributeStateCache*)
+PUBLIC 1cf59 0 _GetISImageRefFromIconRef
+PUBLIC 1cfbc 0 _GetISImageRefFromIconRefInternal(OpaqueIconRef*, OpaqueISImageRef**)
+PUBLIC 1d01b 0 _LSCopyLibraryItemURLs
+PUBLIC 1d374 0 _LSCheckAllContainerStates(LSContext*)
+PUBLIC 1d43b 0 _LSAppendMatchingLibraryItems(LSDatabase*, XCFChars const*, XCFChars const*, __CFURL const*, LSBundleData const*, __CFArray**)
+PUBLIC 1d6b7 0 CSStringGetCharactersPtr
+PUBLIC 1d73e 0 LSSharedFileListCopyProperty
+PUBLIC 1da49 0 _LSMetaGetCGSSessionID(LSClientSideSharedMemory*, bool&)
+PUBLIC 1dae4 0 _LSDoGetMetaApplicationInformation
+PUBLIC 1dc3c 0 IsDataAvailableInIconRef
+PUBLIC 1dcf8 0 _ExtractISImageRefFromIconRef
+PUBLIC 1dd3f 0 CheckIfDataAvailable(unsigned long, void*)
+PUBLIC 1dda0 0 IsDataAvailableInImageRef
+PUBLIC 1ddf5 0 _LSFindApplicationsItem
+PUBLIC 1de8e 0 _LSFindApplications
+PUBLIC 1e3db 0 _LSDoFindProcesses
+PUBLIC 1e54b 0 _LSMetaGetUIPresentationMode(LSClientSideSharedMemory*, bool&)
+PUBLIC 1e56c 0 LASSharedMemoryPage::UIPresentationModeIntToStrRef(unsigned int)
+PUBLIC 1e576 0 GetUIPresentationModeString(unsigned int)
+PUBLIC 1e60a 0 UTTypeCopyPreferredTagWithClass
+PUBLIC 1e7a8 0 UTGetOSTypeFromString
+PUBLIC 1e7b1 0 _LSGetRawOSTypeForPossibleString
+PUBLIC 1e876 0 XCFBufInitWithBytes
+PUBLIC 1e919 0 _UTTypeGetPackageType
+PUBLIC 1e98a 0 _LSGetBindingSearchProc(UTTypeSearchInfo const*)
+PUBLIC 1e9f2 0 LSGetExtensionInfo
+PUBLIC 1ea23 0 _LSCopyItemExtension
+PUBLIC 1eac4 0 LSSharedFileListItemSet
+PUBLIC 1edcb 0 LSSharedFileListItemResolve
+PUBLIC 1f0cf 0 LSSharedFileListItemGetFSRef
+PUBLIC 1f87f 0 LSCopyDisplayNameForRef
+PUBLIC 1f8ca 0 LSSharedFileListCallback
+PUBLIC 1f8ec 0 _LSMetaGetRecordingAppleEvents(LSClientSideSharedMemory*, bool&)
+PUBLIC 1fa9e 0 LASSharedMemoryPage::GetIndexedApplicationInformation(unsigned int, unsigned int*, unsigned int*, unsigned int*, unsigned int*, int*)
+PUBLIC 1fb9e 0 UTCreateStringForOSType
+PUBLIC 1fc31 0 _UTDynamicValuesSearch
+PUBLIC 200c8 0 _UTBase32DecodedLength
+PUBLIC 200ec 0 _UTBase32Decode
+PUBLIC 20155 0 _UTBase32DecodeDatum
+PUBLIC 20360 0 _UTDynamicConformsTo
+PUBLIC 203e7 0 UTTypeCopyDescription
+PUBLIC 20447 0 _UTTypeSearchHasDescription
+PUBLIC 2045d 0 _LSGetSKServiceDescription
+PUBLIC 204e8 0 _LSServer_SessionBirthNotification
+PUBLIC 20503 0 _LSSetEffectiveServerUID
+PUBLIC 20545 0 _LSNoteSessionBirth
+PUBLIC 20608 0 safe_fork_exec(unsigned int, char* const*)
+PUBLIC 2066e 0 LSPlugin_server_routine
+PUBLIC 20699 0 LSPlugin_server
+PUBLIC 20722 0 _XGetStore
+PUBLIC 20838 0 _LSPluginServer_GetStore
+PUBLIC 2089f 0 _LSServer_GetStore
+PUBLIC 20919 0 _LSMakeStoreNameAndPath(unsigned int, char*, long, char*, long)
+PUBLIC 20a99 0 _LSCreateStoreWithFileContents(char const*, __CSStore const**)
+PUBLIC 20bcb 0 _LSDatabaseClean(LSDatabase*)
+PUBLIC 20d54 0 LSHandlerPref::CopyHandlers()
+PUBLIC 20ea5 0 _LSPrefsArePersistent()
+PUBLIC 20eea 0 LSHandlerPref::Load(LSDatabase*, __CFArray const*)
+PUBLIC 213d6 0 _LSDatabaseGetIsSeeded
+PUBLIC 21432 0 FSNodePreparePath
+PUBLIC 2144a 0 FSNodeGetPath
+PUBLIC 21455 0 _LSGetRootVolume
+PUBLIC 214b1 0 FSGetRootVolumeRefNum
+PUBLIC 21535 0 _LSSetContainerState
+PUBLIC 215e7 0 _LSDispatchRegistration(LSContext*, char const*, LSRegistrationInfo*, AliasRecord const*, AliasRecord const*, unsigned char const*, unsigned long, unsigned long*)
+PUBLIC 21668 0 _LSHasServer
+PUBLIC 216ad 0 _LSRegisterItemInfo
+PUBLIC 21783 0 _LSPluginClient_RegisterItemInfo
+PUBLIC 21a06 0 _XRegisterItemInfo
+PUBLIC 21bd9 0 _LSPluginServer_RegisterItemInfo
+PUBLIC 21cb9 0 _LSServer_RegisterItemInfo
+PUBLIC 21d85 0 _LSSetServerStore
+PUBLIC 21dfc 0 _LSPluginClient_SetStore
+PUBLIC 22058 0 _XSetStore
+PUBLIC 2222e 0 _LSPluginServer_SetStore
+PUBLIC 222ab 0 _LSServer_SetStore
+PUBLIC 22344 0 _LSDatabaseCommit
+PUBLIC 223bf 0 _LSSetKernelPackageExtensions
+PUBLIC 22584 0 _LSApplyFunctionToAllContexts
+PUBLIC 22627 0 _LSContextApplier_UnionPackageExtensions(LSContext*, void*)
+PUBLIC 2269e 0 _LSCopyPackageExtensions
+PUBLIC 22823 0 CSStringBindingCopyCFStrings
+PUBLIC 22922 0 CSMapGetFirstKeyAndValue
+PUBLIC 2299e 0 CSMapGetNextKeyAndValue
+PUBLIC 22a2c 0 XCFArrayCreateWithSet
+PUBLIC 22adc 0 _LS_munmap(void*, unsigned long)
+PUBLIC 22ae6 0 _LSDatabaseDestroy(void const*)
+PUBLIC 22bd3 0 _LSServer_ProcessDeathNotification
+PUBLIC 22bec 0 _LSPollChildren
+PUBLIC 22ce1 0 _LSGetStatus
+PUBLIC 22d0a 0 _LSGetServerStatus
+PUBLIC 22d36 0 _LSPluginClient_GetServerStatus
+PUBLIC 22e7b 0 _XGetServerStatus
+PUBLIC 22f41 0 _LSPluginServer_GetServerStatus
+PUBLIC 22f5b 0 _LSServer_GetStatus
+PUBLIC 22f73 0 _LSGetSessionStatus
+PUBLIC 2300b 0 LSInit
+PUBLIC 23098 0 _LSSetDatabaseIsSeeded
+PUBLIC 230d0 0 _LSPluginClient_SetDatabaseIsSeeded
+PUBLIC 231e1 0 _XSetDatabaseIsSeeded
+PUBLIC 232b3 0 _LSPluginServer_SetDatabaseIsSeeded
+PUBLIC 232d0 0 _LSServer_SetDatabaseIsSeeded
+PUBLIC 23373 0 _LSSetSeedingInProgress
+PUBLIC 233f3 0 _LSDatabaseSetIsSeeded
+PUBLIC 2345b 0 _LSArmSaveTimer
+PUBLIC 235ce 0 _LSSaveTimerFired(__CFRunLoopTimer*, void*)
+PUBLIC 23686 0 _LSInitiateSessionSave(LSSession*, int)
+PUBLIC 2377a 0 CIconRefEntry::Unload()
+PUBLIC 237b4 0 CIconRefEntry::SetImageLayer(OpaqueISImageRef*)
+PUBLIC 237da 0 CIconRefEntry::SetOverride(OpaqueIconRef*)
+PUBLIC 2381c 0 CIconRefEntry::Init()
+PUBLIC 2383a 0 CDynamicArray::Free(unsigned long, unsigned char)
+PUBLIC 23890 0 CCArrayFreeEntry
+PUBLIC 238f4 0 IS_IsAlias
+PUBLIC 23906 0 _LSCopyDefaultKindString
+PUBLIC 23c22 0 _LSDataLockAcquire
+PUBLIC 23c43 0 _LSDataLockRelease
+PUBLIC 23c6a 0 _LSGetArchFlagsForURL(__CFURL const*)
+PUBLIC 23ee3 0 UTTypeCopyParentIdentifiers
+PUBLIC 24047 0 LSBindingListEntryGetCount
+PUBLIC 24051 0 FSErrorTranslate
+PUBLIC 24229 0 CSStringCopyCharacters
+PUBLIC 24281 0 _UTTypeCreateDynamicIdentifierForFileInfo
+PUBLIC 244ce 0 _LSSetMetaApplicationInformationItem
+PUBLIC 2466a 0 _LASGetSKServiceDescription
+PUBLIC 246f5 0 _LSASServer_SessionBirthNotification
+PUBLIC 246fa 0 LSAPlugin_server_routine
+PUBLIC 24725 0 LSAPlugin_server
+PUBLIC 247ae 0 _XInitializeProcessesServices
+PUBLIC 24947 0 _LSServerInitializeProcessesServices
+PUBLIC 24c4e 0 LSSession::FindBestLSSession(LSSessionID, LSSessionID, unsigned int, audit_token_t, unsigned char)
+PUBLIC 257a8 0 GetUIDFromToken(audit_token_t)
+PUBLIC 2582e 0 GetEUIDFromToken(audit_token_t)
+PUBLIC 258b6 0 LSSessionsMapOnceInitFunc()
+PUBLIC 258fc 0 LSSession::LSSession(LSSessionID, unsigned long, unsigned int)
+PUBLIC 25e80 0 LSServerSideSharedMemory::LSServerSideSharedMemory(LSSessionID)
+PUBLIC 25e8a 0 LSServerSideSharedMemory::LSServerSideSharedMemory(LSSessionID)
+PUBLIC 2602a 0 _LSGetCurrentDebugLoggingPriority
+PUBLIC 26208 0 GetThisProcessIsTheCoreApplicationServer()
+PUBLIC 26248 0 LASSharedMemoryPage::GetSharedMemoryDebugLevel(LSSessionID, int*)
+PUBLIC 2629e 0 std::_Rb_tree<LSSessionID, std::pair<LSSessionID const, LSSession*>, std::_Select1st<std::pair<LSSessionID const, LSSession*> >, std::less<LSSessionID>, std::allocator<std::pair<LSSessionID const, LSSession*> > >::_M_create_node(std::pair<LSSessionID const, LSSession*> const&)
+PUBLIC 26302 0 LSSession::AddAuditTokenInformationToSession(unsigned int, audit_token_t)
+PUBLIC 26510 0 GetAuditSessionIDFromToken(audit_token_t)
+PUBLIC 26596 0 GetPIDFromToken(audit_token_t)
+PUBLIC 2661c 0 std::set<int, std::less<int>, std::allocator<int> >::insert(int const&)
+PUBLIC 26658 0 std::_Rb_tree<int, int, std::_Identity<int>, std::less<int>, std::allocator<int> >::_M_insert_unique(int const&)
+PUBLIC 266e4 0 std::_Rb_tree<int, int, std::_Identity<int>, std::less<int>, std::allocator<int> >::_M_insert(std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, int const&)
+PUBLIC 26758 0 std::_Rb_tree<int, int, std::_Identity<int>, std::less<int>, std::allocator<int> >::_M_create_node(int const&)
+PUBLIC 267b0 0 LogStatusToFlattenenedData(void const**, unsigned int*)
+PUBLIC 2689e 0 LogStatusStreamClear()
+PUBLIC 268c3 0 SetThisProcessIsTheCoreApplicationServer(unsigned char)
+PUBLIC 26902 0 _LSDoSetMetaApplicationInformation
+PUBLIC 26a2c 0 _XSetMetaApplicationInformation
+PUBLIC 26b64 0 _LSServerSetMetaApplicationInformation
+PUBLIC 26e5c 0 CFDictionary::CFDictionary(void const*, bool)
+PUBLIC 26ea4 0 _LSSave
+PUBLIC 26f7e 0 _LSDatabaseSave
+PUBLIC 271b8 0 _LSCreateDatabaseChangeNotificationNameForCurrentUser
+PUBLIC 27200 0 _LSASServer_ProcessDeathNotification
+PUBLIC 27209 0 ReapPidFromAllSessions
+PUBLIC 272db 0 ReapPidFromAllSessionsMainThreadCallback(__CFRunLoopTimer*, void*)
+PUBLIC 27352 0 LSSession::GetSessionCount()
+PUBLIC 27388 0 LSSession::GetIndexedSession(unsigned long)
+PUBLIC 27407 0 void std::__advance<std::_Rb_tree_iterator<std::pair<LSSessionID const, LSSession*> >, int>(std::_Rb_tree_iterator<std::pair<LSSessionID const, LSSession*> >&, int, std::bidirectional_iterator_tag)
+PUBLIC 27448 0 LSSession::ReapPidFromSession(int)
+PUBLIC 2760d 0 _LSSetProcessQuarantineProperties
+PUBLIC 278b4 0 fillMetadataBuf(char*, int, __CFString const*, __CFString const*)
+PUBLIC 27943 0 _LSMetaGetMouseButtonDown(LSClientSideSharedMemory*, bool&)
+PUBLIC 27970 0 _LSMetaInfoGetFrontApplicationSeed(LSClientSideSharedMemory*, bool&)
+PUBLIC 27a0b 0 _LSMetaGetUserActivityCount(LSClientSideSharedMemory*, bool&)
+PUBLIC 27a8d 0 _LSCopyDownloadAssessmentDictionary
+PUBLIC 27bd8 0 _LSCopyDownloadAssessmentDictionaryInternal(LSContext*, unsigned long, FSNode*, __CFDictionary const*)
+PUBLIC 29ce6 0 initializePolicy()
+PUBLIC 29e4a 0 getFullPathRelativeToHome(char const*)
+PUBLIC 29eb0 0 loadPolicyFromFile(LSDatabase*, char const*, unsigned char)
+PUBLIC 29fea 0 FSCreateDataWithContentsOfFile
+PUBLIC 2a10c 0 mergeRiskCategory(LSDatabase*, __CFDictionary const*, long, unsigned long)
+PUBLIC 2a1f1 0 mergeRiskLevelKeys(LSDatabase*, __CFDictionary const*, __CFString const*, long, unsigned long, __CFDictionary*)
+PUBLIC 2a304 0 XCFSetCreateWithArray
+PUBLIC 2a3fb 0 XCFStringHashCaseInsensitive
+PUBLIC 2a4f5 0 XCFHash8BitCaseInsensitive
+PUBLIC 2a593 0 XCFStringEqualCaseInsensitive
+PUBLIC 2a5bd 0 XCFDictionaryAddValueForKeySet
+PUBLIC 2a5f8 0 addValueForKey_CFSetApplier
+PUBLIC 2a61b 0 XCFTypeCollectionRetain
+PUBLIC 2a62b 0 invertKeyAndValueArray_CFDictionaryApplier(void const*, void const*, void*)
+PUBLIC 2a68e 0 addSubtypesForKey_CFDictionaryApplier(void const*, void const*, void*)
+PUBLIC 2a6ee 0 _UTTypeCopyConformingTypeSet
+PUBLIC 2a70b 0 _UTTypeCopyRelatedTypeSet
+PUBLIC 2a79a 0 _UTApplier_BuildConformsToTypeToSet
+PUBLIC 2a854 0 _UTTypeSearchConformingTypes
+PUBLIC 2a8c0 0 _UTTypeSearchConformingTypesCore
+PUBLIC 2a9b4 0 _UTTypeAddToSet
+PUBLIC 2a9f7 0 XCFDictionaryAddKeysAndValuesFromDictionary
+PUBLIC 2aa26 0 addValueForKey_CFDictionaryApplier
+PUBLIC 2aa41 0 XCFTypeCollectionRelease
+PUBLIC 2aa51 0 copyFileNameForURL(__CFURL const*)
+PUBLIC 2ac6b 0 UTTypeCreateAllIdentifiersForTag
+PUBLIC 2ae0c 0 CreateWebGuessedMIMEType(__CFData const*, __CFAllocator const*)
+PUBLIC 2b16b 0 isXMLData(__CFData const*)
+PUBLIC 2b1cb 0 challengeRiskLevel(long*, __CFString const**, __CFDictionary const*, __CFString const*)
+PUBLIC 2b270 0 _LSCopyDefaultSchemeHandlerURL
+PUBLIC 2b2cb 0 _LSCopyDefaultSchemeHandlerNode(__CFString const*, FSNode**)
+PUBLIC 2b374 0 _LSGetBindingForURLScheme
+PUBLIC 2b550 0 LSCopyItemAttribute
+PUBLIC 2b5a5 0 _LSCopyNodeAttribute_QuarantineProperties(LSNodeAttributeStateCache*)
+PUBLIC 2b5f6 0 _LSCopyNodeQuarantineProperties
+PUBLIC 2b70e 0 copyEffectiveIconValue_NS(__CFURL const*, __FileCache const*, void*)
+PUBLIC 2b76a 0 copyEffectiveIconValue(__CFURL const*, __FileCache const*, void*)
+PUBLIC 2b7b9 0 LSFindApplicationForInfo
+PUBLIC 2b8db 0 _LSOSTypeIsNull
+PUBLIC 2b8f5 0 _LSBundleFindWithInfo
+PUBLIC 2bcd6 0 _LSBundleCopyNode
+PUBLIC 2bd02 0 LSCopyItemInfoForRef
+PUBLIC 2bd8a 0 CCCleanupArray
+PUBLIC 2bdc2 0 CCDestroyDynamicArray
+PUBLIC 2bdf4 0 DefaultSegmentReleaser
+PUBLIC 2bdfd 0 XCFReleaseIfNotNull
+PUBLIC 2be12 0 _UTDynamicCopyFirstTag
+PUBLIC 2be5c 0 CreateWebGuessedMIMETypeForXML(__CFData const*, __CFAllocator const*)
+PUBLIC 2c094 0 _LSOpenApplicationURL
+PUBLIC 2c166 0 _LSOpenApplication_Common(LSApplicationParameters_V1 const*, AEKeyDesc const*, ProcessSerialNumber*, FSRef*)
+PUBLIC 2c26b 0 _LSOpenStuff
+PUBLIC 2d454 0 _LSSyncEffectiveUID
+PUBLIC 2d488 0 FSNodeCopyResolvedNode
+PUBLIC 2d793 0 _LSOpenItemsWithHandler_CFDictionaryApplier(void const*, void const*, void*)
+PUBLIC 2eff1 0 _LSIgnoreQuarantine
+PUBLIC 2f0ab 0 FSNodeGetReferringAliasNode
+PUBLIC 2f0b6 0 _LSOpenApp(LSOpenState*, unsigned long, FSNode*, unsigned long, unsigned char*, ProcessSerialNumber*)
+PUBLIC 2f333 0 _LSLaunch(LSContext*, FSNode*, unsigned long, void*, __CFArray const*, AEDesc const*, __CFArray const*, __CFDictionary const*, unsigned long, ProcessSerialNumber*)
+PUBLIC 31aa1 0 _LSBundleDataGetInoExec
+PUBLIC 31ab4 0 _LSAppMeetsMinimumVersionRequirement
+PUBLIC 31b02 0 _LSInitializeExceptions()
+PUBLIC 31f37 0 _LSAppCheckDictionaryVersion(__CFDictionary const*, LSContext*, FSNode*, unsigned long, long)
+PUBLIC 3201c 0 _LSAppCheckType(LSBundleData const*, void const*, long)
+PUBLIC 32149 0 _LSAppMeetsRosettaRequirement
+PUBLIC 321ce 0 CFString::CFString(__CFString const*, bool)
+PUBLIC 32216 0 _LSCopyStringForOSType
+PUBLIC 32271 0 _LSLog
+PUBLIC 32276 0 _LSLaunchApplication
+PUBLIC 34184 0 CFBoolean::CFBoolean(void const*, bool)
+PUBLIC 341cc 0 EnvironmentVariables::Contains(void const*)
+PUBLIC 342d6 0 CFString::operator std::string() const
+PUBLIC 3440e 0 EnvironmentVariables::Add(void const*, void const*)
+PUBLIC 346f6 0 std::vector<char*, std::allocator<char*> >::push_back(char* const&)
+PUBLIC 34732 0 std::vector<char*, std::allocator<char*> >::_M_insert_aux(__gnu_cxx::__normal_iterator<char**, std::vector<char*, std::allocator<char*> > >, char* const&)
+PUBLIC 34858 0 char** std::uninitialized_copy<char**, char**>(char**, char**, char**)
+PUBLIC 3488a 0 GenerateAppropriateDisplayName(CFMutableDictionary&)
+PUBLIC 34cd6 0 GetNumericValue32Default(void const*, int)
+PUBLIC 34d28 0 LaunchApplicationViaLaunchD(LSSessionID, CFMutableDictionary&, CFMutableDictionary&, __CFArray const*, char const* const*, __LSASN const**, __CFDictionary const**)
+PUBLIC 35d88 0 ProcessArgumentList::ProcessArgumentList(__CFDictionary const*, __CFArray const*)
+PUBLIC 35fba 0 std::vector<char*, std::allocator<char*> >::reserve(unsigned long)
+PUBLIC 3604c 0 char** std::vector<char*, std::allocator<char*> >::_M_allocate_and_copy<char**>(unsigned long, char**, char**)
+PUBLIC 3608f 0 ConvertCFStringToUTF8EncodedArgString(__CFString const*)
+PUBLIC 36182 0 _LSAllocatePSN
+PUBLIC 362d7 0 _LSDoAllocatePSN
+PUBLIC 36448 0 ProcessArgumentList::Add(std::string)
+PUBLIC 36492 0 CFMutableDictionary::CFMutableDictionary(CFMutableDictionary const&)
+PUBLIC 364de 0 NotifyServerSideAboutLaunchedApplication(LSSessionID, CFMutableDictionary&, CFMutableDictionary&, int, unsigned int, __CFDictionary const**)
+PUBLIC 36758 0 _LSDoNotifyAboutLaunchedApplication
+PUBLIC 368fd 0 _LSSendNotification
+PUBLIC 36ae4 0 _LSDoSendNotification
+PUBLIC 36c27 0 LSASN CFRetainIfNonNULL<LSASN>(LSASN)
+PUBLIC 36c68 0 ProcessArgumentList::~ProcessArgumentList()
+PUBLIC 36c9a 0 std::vector<char*, std::allocator<char*> >::~vector()
+PUBLIC 36ca4 0 std::_Vector_base<char*, std::allocator<char*> >::~_Vector_base()
+PUBLIC 36cbc 0 EnvironmentVariables::~EnvironmentVariables()
+PUBLIC 36cf2 0 aeHintApp
+PUBLIC 36d81 0 __CFLookupAppleEventsFunction
+PUBLIC 36dd3 0 AEDisposeDesc
+PUBLIC 36e1c 0 CFArray::GetValueAtIndex(int) const
+PUBLIC 36e62 0 _LSPostLaunchModifiers
+PUBLIC 36fc8 0 _LSDoPostLaunchModifiers
+PUBLIC 370fe 0 createPropertiesWithFileQuarantine(_qtn_file*, FSNode*)
+PUBLIC 3783c 0 copyMetadataFromBuf(void const*, int, __CFString const**, __CFString const**)
+PUBLIC 378fe 0 _LSCopyVolumeQuarantineProperties
+PUBLIC 379c4 0 LSSetItemAttribute
+PUBLIC 37a1f 0 _LSSetItemAttributeForRefInfoWithOptions
+PUBLIC 37b2e 0 _LSSetNodeQuarantineProperties
+PUBLIC 37b90 0 LSOpenFromRefSpec
+PUBLIC 37c75 0 _LSOpenItemsWithRole_Common(FSRef const*, long, unsigned long, AEKeyDesc const*, LSApplicationParameters_V1 const*, ProcessSerialNumber*, long, FSRef*)
+PUBLIC 37ee7 0 XCFTypeOrNullArrayCallBacks
+PUBLIC 37f2f 0 FSNodeCopyURLFromLocatorContent
+PUBLIC 381d9 0 CSStringGetCharacters
+PUBLIC 38249 0 AECreateList
+PUBLIC 382b3 0 copyEffectiveIconFlattenedReferenceDataValue(__CFURL const*, __FileCache const*, void*)
+PUBLIC 3830c 0 prepareBindingValue(__CFURL const*, __FileCache*, __CFError**)
+PUBLIC 385a0 0 _BindingInitClass()
+PUBLIC 385c7 0 _BindingInit(void const*)
+PUBLIC 385e4 0 prepareEffectiveIconFlattenedReferenceDataValue(__CFURL const*, __FileCache*, __CFError**)
+PUBLIC 385ee 0 _FlattenIconRef
+PUBLIC 386bf 0 AEPutPtr
+PUBLIC 38723 0 _BindingFinalize(void const*)
+PUBLIC 38775 0 AECreateAppleEvent
+PUBLIC 387e6 0 _LSAddOptionalParamToAE(AEDesc*, AEKeyDesc const*)
+PUBLIC 388fa 0 AEPutParamDesc
+PUBLIC 38950 0 _LSGetVersionFromString
+PUBLIC 38aa0 0 UniCharsToUInt32
+PUBLIC 38af5 0 AESizeOfFlattenedDesc
+PUBLIC 38b4a 0 CFMutableData::CFMutableData(long, bool)
+PUBLIC 38bb0 0 CFData::CFData(__CFData const*, bool)
+PUBLIC 38bf8 0 AEFlattenDesc
+PUBLIC 38c74 0 _LSGetCPUArchitecture
+PUBLIC 38ceb 0 _LSPrefsGetApplicationArchitectureForCPUArchitecture
+PUBLIC 38ec6 0 _LSGetIndexForCPUArchitecture(__CFString const*)
+PUBLIC 38f30 0 _LSPrefsInit(long*)
+PUBLIC 3924f 0 _LSAddRecentNode
+PUBLIC 3934c 0 _LSGetRecentItemsSharedList(short, unsigned long**)
+PUBLIC 393e0 0 _LSCopyDisplayNameForNode
+PUBLIC 397d4 0 LSSharedFileListInsertItemFSRef
+PUBLIC 39c3a 0 LSSharedFileListInsertItemBookmark
+PUBLIC 3a1a0 0 _LSGetRecentItemCount
+PUBLIC 3a245 0 LSCopyItemInfoForURL
+PUBLIC 3a2d0 0 LSSession::CreateSession(LSSessionID, unsigned long, audit_token_t)
+PUBLIC 3a3d8 0 _XGetMetaApplicationInformation
+PUBLIC 3a549 0 _LSServerGetMetaApplicationInformation
+PUBLIC 3a7b0 0 LSSession::FindBestLSSession(LSSessionID, unsigned int, audit_token_t)
+PUBLIC 3a814 0 LSSession::CopyMetaApplicationInformation()
+PUBLIC 3b7b3 0 CFMutableDictionary::CreateFrom(__CFDictionary*)
+PUBLIC 3b808 0 FlattenedCFItem::FlattenItem(void const*, void const**, unsigned int*)
+PUBLIC 3b8dc 0 LSSession::SetMetaApplicationInformation(__CFDictionary const*)
+PUBLIC 3bfa2 0 _XRegisterApplication
+PUBLIC 3c14d 0 _LSServerRegisterApplication
+PUBLIC 3c824 0 LSSession::RegisterApplication(__CFDictionary const*, unsigned int, __CFDictionary const**)
+PUBLIC 3cdb2 0 LSApplication::FindProcessByPid(LSSession*, int, bool)
+PUBLIC 3ce59 0 GetProcessesByPIDMap()
+PUBLIC 3cee8 0 LSApplication::FindProcess(LSSession*, __LSASN const*)
+PUBLIC 3cf3a 0 LSApplication::FindProcess(LSSession*, unsigned long, unsigned long)
+PUBLIC 3cffe 0 GetProcessesByPSNMap()
+PUBLIC 3d08e 0 LSApplication::CreateProcess(LSSession*, __CFDictionary*, __LSASN const*, __CFDictionary const*, unsigned int)
+PUBLIC 3d336 0 LSApplication::LSApplication(LSSession*, __LSASN const*, __CFDictionary*, unsigned int)
+PUBLIC 3d8a2 0 std::map<unsigned int, LSApplication*, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, LSApplication*> > >::operator[](unsigned int const&)
+PUBLIC 3d90a 0 std::_Rb_tree<unsigned int, std::pair<unsigned int const, LSApplication*>, std::_Select1st<std::pair<unsigned int const, LSApplication*> >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, LSApplication*> > >::_M_insert_unique(std::pair<unsigned int const, LSApplication*> const&)
+PUBLIC 3d996 0 std::_Rb_tree<unsigned int, std::pair<unsigned int const, LSApplication*>, std::_Select1st<std::pair<unsigned int const, LSApplication*> >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, LSApplication*> > >::_M_insert(std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::pair<unsigned int const, LSApplication*> const&)
+PUBLIC 3da0a 0 std::_Rb_tree<unsigned int, std::pair<unsigned int const, LSApplication*>, std::_Select1st<std::pair<unsigned int const, LSApplication*> >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, LSApplication*> > >::_M_create_node(std::pair<unsigned int const, LSApplication*> const&)
+PUBLIC 3da6e 0 GetCFNumberValueDefault32(void const*, int)
+PUBLIC 3dace 0 std::map<int, LSApplication*, std::less<int>, std::allocator<std::pair<int const, LSApplication*> > >::operator[](int const&)
+PUBLIC 3db36 0 std::_Rb_tree<int, std::pair<int const, LSApplication*>, std::_Select1st<std::pair<int const, LSApplication*> >, std::less<int>, std::allocator<std::pair<int const, LSApplication*> > >::_M_insert_unique(std::pair<int const, LSApplication*> const&)
+PUBLIC 3dbc2 0 std::_Rb_tree<int, std::pair<int const, LSApplication*>, std::_Select1st<std::pair<int const, LSApplication*> >, std::less<int>, std::allocator<std::pair<int const, LSApplication*> > >::_M_insert(std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::pair<int const, LSApplication*> const&)
+PUBLIC 3dc36 0 std::_Rb_tree<int, std::pair<int const, LSApplication*>, std::_Select1st<std::pair<int const, LSApplication*> >, std::less<int>, std::allocator<std::pair<int const, LSApplication*> > >::_M_create_node(std::pair<int const, LSApplication*> const&)
+PUBLIC 3dc9b 0 GetParentPID(int)
+PUBLIC 3dd5a 0 LSSession::AddToApplicationList(LSApplication*)
+PUBLIC 3ddde 0 LSApplication::IsForegroundApplication() const
+PUBLIC 3de30 0 LSApplication::IsUIElementApplication() const
+PUBLIC 3de82 0 LSSession::ApplicationListChanged()
+PUBLIC 3dff6 0 LSServerSideSharedMemory::Lock()
+PUBLIC 3e026 0 LSApplication::GetSharedMemoryApplicationFlags() const
+PUBLIC 3e19c 0 LSServerSideSharedMemory::SetIndexedApplicationInformation(unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, int)
+PUBLIC 3e216 0 LSServerSideSharedMemory::Unlock()
+PUBLIC 3e256 0 std::set<unsigned int, std::less<unsigned int>, std::allocator<unsigned int> >::insert(unsigned int const&)
+PUBLIC 3e292 0 std::_Rb_tree<unsigned int, unsigned int, std::_Identity<unsigned int>, std::less<unsigned int>, std::allocator<unsigned int> >::_M_insert_unique(unsigned int const&)
+PUBLIC 3e31e 0 std::_Rb_tree<unsigned int, unsigned int, std::_Identity<unsigned int>, std::less<unsigned int>, std::allocator<unsigned int> >::_M_insert(std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, unsigned int const&)
+PUBLIC 3e392 0 std::_Rb_tree<unsigned int, unsigned int, std::_Identity<unsigned int>, std::less<unsigned int>, std::allocator<unsigned int> >::_M_create_node(unsigned int const&)
+PUBLIC 3e3ec 0 LSSession::UpdateLaunchProgressSharedMemory(bool)
+PUBLIC 3e4da 0 LSApplication::RegisterApplication(__CFDictionary const*)
+PUBLIC 3ec54 0 LSApplication::GetApplicationInformationDictionaryRef()
+PUBLIC 3ece8 0 LSNotification::Broadcast(LSSession*, LSNotificationCode, void const*, __LSASN const*)
+PUBLIC 3ef57 0 LSNotificationsByIDInitFunc()
+PUBLIC 3ef9a 0 std::vector<unsigned int, std::allocator<unsigned int> >::reserve(unsigned long)
+PUBLIC 3f02c 0 LSNotificationCodeToLSNotificationInitFunc()
+PUBLIC 3f070 0 std::vector<unsigned int, std::allocator<unsigned int> >::~vector()
+PUBLIC 3f07a 0 std::_Vector_base<unsigned int, std::allocator<unsigned int> >::~_Vector_base()
+PUBLIC 3f092 0 GetCFStringRef(void const*, unsigned char)
+PUBLIC 3f120 0 LSApplication::SetApplicationType(LSApplication*, __CFString const*, void const*, void const*)
+PUBLIC 3f5fc 0 LSSession::RemoveFromVisibleApplicationList(LSApplication*)
+PUBLIC 3f648 0 LSApplication::UpdateSharedMemoryEntry(bool)
+PUBLIC 3f6a4 0 LSApplication::IncrementProcessInformationSeed()
+PUBLIC 3f71c 0 LSServerSideSharedMemory::SetApplicationInformation(unsigned int, unsigned int*, unsigned int*, unsigned int*, int*)
+PUBLIC 3f81c 0 LSApplication::IsListeningForProcessDeath() const
+PUBLIC 3f830 0 LSApplication::SetDeathNotificationPort(unsigned int, bool)
+PUBLIC 3f978 0 LSApplication::CopyProcessInformationDictionaryRef(bool)
+PUBLIC 3f9a0 0 LSApplication::UnblockWaitingSyncronousLaunches(long)
+PUBLIC 3fa36 0 LSSession::SetFrontProcess(LSApplication*, void const*)
+PUBLIC 40720 0 LSApplication::SetProcessInformationItem(__CFString const*, void const*, bool)
+PUBLIC 40ce2 0 LSApplication::SetApplicationPresentationMode(LSApplication*, __CFString const*, void const*, void const*)
+PUBLIC 41088 0 LSSession::CopyVisibleProcessArrayRef(unsigned char)
+PUBLIC 41160 0 LSApplication::GetApplicationInformationItem(void const*) const
+PUBLIC 41294 0 LSSession::GetFrontApplication(unsigned char)
+PUBLIC 412a0 0 LSNotification::IsAnyoneListening(LSSessionID, LSNotificationCode)
+PUBLIC 41358 0 LSSession::FrontApplicationChanged()
+PUBLIC 413a0 0 LSApplication::GetUIPresentationOptions() const
+PUBLIC 41446 0 LSApplication::SetApplicationIsInFront(bool)
+PUBLIC 414ac 0 GetCoreApplicationsOurServicePort
+PUBLIC 414bd 0 _XSetApplicationInformation
+PUBLIC 41661 0 _LSServerSetApplicationInformation
+PUBLIC 417ca 0 LSApplication::SetProcessInformation(__CFDictionary const*)
+PUBLIC 419f8 0 LSApplication::SetProcessInformationFunc(void const*, void const*, void*)
+PUBLIC 41a58 0 _LSServerItemInfoRegistration
+PUBLIC 44237 0 _LSServerSetContainerState(LSContext*, LSRegistrationInfo*, unsigned long*)
+PUBLIC 44318 0 _LSValidateUnit
+PUBLIC 443bb 0 _LSContainerSet
+PUBLIC 443f9 0 _XRegisterNotificationFunction
+PUBLIC 4456c 0 _LSServerRegisterNotificationFunction
+PUBLIC 446a4 0 LSNotification::LSNotification(LSSession*, unsigned int, __CFArray const*)
+PUBLIC 446ae 0 LSNotification::LSNotification(LSSession*, unsigned int, __CFArray const*)
+PUBLIC 44816 0 CopyCanonicalPSNArray(LSSession*, void const*)
+PUBLIC 449b2 0 std::_Deque_base<LSNotification::NotificationMachMessageStruct*, std::allocator<LSNotification::NotificationMachMessageStruct*> >::_Deque_base(std::allocator<LSNotification::NotificationMachMessageStruct*> const&, unsigned long)
+PUBLIC 44a1c 0 std::_Deque_base<LSNotification::NotificationMachMessageStruct*, std::allocator<LSNotification::NotificationMachMessageStruct*> >::_M_initialize_map(unsigned long)
+PUBLIC 44b22 0 std::_Deque_base<LSNotification::NotificationMachMessageStruct*, std::allocator<LSNotification::NotificationMachMessageStruct*> >::_M_create_nodes(LSNotification::NotificationMachMessageStruct***, LSNotification::NotificationMachMessageStruct***)
+PUBLIC 44b86 0 std::_Deque_base<LSNotification::NotificationMachMessageStruct*, std::allocator<LSNotification::NotificationMachMessageStruct*> >::_M_allocate_node()
+PUBLIC 44bcc 0 std::map<unsigned long, LSNotification*, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, LSNotification*> > >::operator[](unsigned long const&)
+PUBLIC 44c34 0 std::_Rb_tree<unsigned long, std::pair<unsigned long const, LSNotification*>, std::_Select1st<std::pair<unsigned long const, LSNotification*> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, LSNotification*> > >::_M_insert_unique(std::pair<unsigned long const, LSNotification*> const&)
+PUBLIC 44cc0 0 std::_Rb_tree<unsigned long, std::pair<unsigned long const, LSNotification*>, std::_Select1st<std::pair<unsigned long const, LSNotification*> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, LSNotification*> > >::_M_insert(std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::pair<unsigned long const, LSNotification*> const&)
+PUBLIC 44d34 0 std::_Rb_tree<unsigned long, std::pair<unsigned long const, LSNotification*>, std::_Select1st<std::pair<unsigned long const, LSNotification*> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, LSNotification*> > >::_M_create_node(std::pair<unsigned long const, LSNotification*> const&)
+PUBLIC 44d98 0 _XModifyNotification
+PUBLIC 44f94 0 _LSServerModifyNotification
+PUBLIC 45284 0 LSNotification::FindNotification(unsigned int)
+PUBLIC 45318 0 CFArray::CFArray(void const*, bool)
+PUBLIC 45360 0 LSNotification::AddNotifications(unsigned long, LSNotificationCode const*)
+PUBLIC 453d6 0 LSNotification::AddNotification(LSNotificationCode)
+PUBLIC 454fc 0 std::multimap<LSNotificationCode, LSNotification*, std::less<LSNotificationCode>, std::allocator<std::pair<LSNotificationCode const, LSNotification*> > >::insert(std::pair<LSNotificationCode const, LSNotification*> const&)
+PUBLIC 45548 0 std::_Rb_tree<LSNotificationCode, std::pair<LSNotificationCode const, LSNotification*>, std::_Select1st<std::pair<LSNotificationCode const, LSNotification*> >, std::less<LSNotificationCode>, std::allocator<std::pair<LSNotificationCode const, LSNotification*> > >::_M_create_node(std::pair<LSNotificationCode const, LSNotification*> const&)
+PUBLIC 455ac 0 LSNotification::AddPSNs(__CFArray const*)
+PUBLIC 456d2 0 LSNotification::RemovePSNs(__CFArray const*)
+PUBLIC 45846 0 _LSGetApplicationInformationSeed
+PUBLIC 45966 0 _XInitializeProcessSharedMemory
+PUBLIC 45aaa 0 _LSServerInitializeProcessSharedMemory
+PUBLIC 45b2e 0 _XGetLaunchModifiers
+PUBLIC 45ccf 0 _LSServerGetLaunchModifiers
+PUBLIC 45da2 0 LSApplication::CopyLaunchModifiers(bool)
+PUBLIC 45de6 0 _XGetApplicationInformation
+PUBLIC 45f78 0 _LSServerGetApplicationInformation
+PUBLIC 46084 0 LSSession::HasAccessToSession(unsigned int, audit_token_t)
+PUBLIC 4624e 0 LSSession::SetSessionLauncherApplication(LSApplication*)
+PUBLIC 46332 0 LSSession::SetSystemProcessApplication(LSApplication*)
+PUBLIC 46416 0 _LSGetVisibleApplicationListSeed
+PUBLIC 4644c 0 _LSCopyApplicationArrayInFrontToBackOrder
+PUBLIC 46922 0 _LSCopyApplicationArrayInFrontToBackOrder::VisibleApplicationArrayLock::VisibleApplicationArrayLock()
+PUBLIC 4695d 0 _LSCopyApplicationArrayInFrontToBackOrder::VisibleApplicationArrayLock::OnceFunc()
+PUBLIC 469cc 0 _LSCopyApplicationArrayInFrontToBackOrder::VisibleApplicationArrayLock::~VisibleApplicationArrayLock()
+PUBLIC 46a07 0 _LSSetApplicationInformationItem
+PUBLIC 46ac6 0 LSScheduleNotificationReceiveMessageCallbackFunc(__CFMachPort*, void*, long, void*)
+PUBLIC 46c1a 0 _XSignalApplicationReady
+PUBLIC 46dac 0 _LSServerSignalApplicationReady
+PUBLIC 46ed0 0 LSApplication::SignalApplicationReady()
+PUBLIC 4704c 0 std::_Rb_tree<unsigned int, unsigned int, std::_Identity<unsigned int>, std::less<unsigned int>, std::allocator<unsigned int> >::erase(unsigned int const&)
+PUBLIC 470c0 0 std::_Rb_tree<unsigned int, unsigned int, std::_Identity<unsigned int>, std::less<unsigned int>, std::allocator<unsigned int> >::erase(std::_Rb_tree_iterator<unsigned int>, std::_Rb_tree_iterator<unsigned int>)
+PUBLIC 4712a 0 std::_Rb_tree<unsigned int, unsigned int, std::_Identity<unsigned int>, std::less<unsigned int>, std::allocator<unsigned int> >::_M_erase(std::_Rb_tree_node<unsigned int>*)
+PUBLIC 47164 0 unsigned int* std::vector<unsigned int, std::allocator<unsigned int> >::_M_allocate_and_copy<unsigned int*>(unsigned long, unsigned int*, unsigned int*)
+PUBLIC 471c8 0 unsigned int* std::uninitialized_copy<unsigned int*, unsigned int*>(unsigned int*, unsigned int*, unsigned int*)
+PUBLIC 471fa 0 _LSSetExtensionHiddenForRefInfo
+PUBLIC 47231 0 _LSSetFileQuarantineProperties
+PUBLIC 472d6 0 allocateFileQuarantineWithProperties(__CFDictionary const*)
+PUBLIC 47a4f 0 getApplicationName()
+PUBLIC 47b88 0 getApplicationIdentifier()
+PUBLIC 47ba7 0 GetQuarantineType(unsigned int)
+PUBLIC 47c46 0 QuarantineEventDB::setEventProperties(__CFDictionary const*)
+PUBLIC 4832c 0 QuarantineEventDB::open()
+PUBLIC 484c4 0 FSNodeCreateWithFolderType
+PUBLIC 48563 0 FSNodeCopyChild
+PUBLIC 48715 0 _LSCopyTypeIdentifierForItemRefInfo
+PUBLIC 4875f 0 _UTTypeCopyPedigree
+PUBLIC 4884e 0 _UTTypeFindPedigree
+PUBLIC 488c5 0 _collectIntQueryResult(void*, int, char**, char**)
+PUBLIC 488f2 0 QuarantineEventDB::~QuarantineEventDB()
+PUBLIC 48930 0 std::vector<int, std::allocator<int> >::push_back(int const&)
+PUBLIC 4896c 0 std::vector<int, std::allocator<int> >::_M_insert_aux(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&)
+PUBLIC 48a92 0 int* std::uninitialized_copy<int*, int*>(int*, int*, int*)
+PUBLIC 48ac4 0 LSNotification::IsNotificationActive(LSNotificationCode)
+PUBLIC 48b06 0 std::vector<unsigned int, std::allocator<unsigned int> >::push_back(unsigned int const&)
+PUBLIC 48b42 0 __LSASNEqual
+PUBLIC 48b6c 0 LSNotification::Send(LSNotificationCode, void const*, unsigned int, __LSASN const*)
+PUBLIC 48ddc 0 LSNotification::HaveAllDelayedNotificationsBeenSent(bool)
+PUBLIC 48f8a 0 LSNotification::RemoveNotifications(unsigned long, LSNotificationCode const*)
+PUBLIC 48fc4 0 LSApplication::IsBackgroundApplication() const
+PUBLIC 49016 0 LSApplication::LaunchProgressCallback(__CFRunLoopTimer*, void*)
+PUBLIC 490c8 0 LSApplication::DeathPortInvalidationCallback(__CFMachPort*, void*)
+PUBLIC 49102 0 LSApplication::IsProcessValid(LSApplication*)
+PUBLIC 49146 0 LSSession::UnregisterApplication(LSApplication*, int)
+PUBLIC 496fc 0 LSApplication::~LSApplication()
+PUBLIC 49956 0 std::_Rb_tree<unsigned int, std::pair<unsigned int const, LSApplication*>, std::_Select1st<std::pair<unsigned int const, LSApplication*> >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, LSApplication*> > >::erase(std::_Rb_tree_iterator<std::pair<unsigned int const, LSApplication*> >)
+PUBLIC 49984 0 std::_Rb_tree<int, std::pair<int const, LSApplication*>, std::_Select1st<std::pair<int const, LSApplication*> >, std::less<int>, std::allocator<std::pair<int const, LSApplication*> > >::erase(std::_Rb_tree_iterator<std::pair<int const, LSApplication*> >)
+PUBLIC 499b2 0 LSSession::RemoveFromApplicationList(LSApplication*)
+PUBLIC 49ad2 0 std::vector<int, std::allocator<int> >::~vector()
+PUBLIC 49adc 0 std::_Vector_base<int, std::allocator<int> >::~_Vector_base()
+PUBLIC 49af4 0 LSNotification::LSNotificationPortDeathCallbackFunc(__CFMachPort*, void*)
+PUBLIC 49b1e 0 LSNotification::~LSNotification()
+PUBLIC 49dc2 0 std::_Rb_tree<unsigned long, std::pair<unsigned long const, LSNotification*>, std::_Select1st<std::pair<unsigned long const, LSNotification*> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, LSNotification*> > >::erase(std::_Rb_tree_iterator<std::pair<unsigned long const, LSNotification*> >)
+PUBLIC 49df0 0 std::deque<LSNotification::NotificationMachMessageStruct*, std::allocator<LSNotification::NotificationMachMessageStruct*> >::~deque()
+PUBLIC 49dfa 0 std::_Deque_base<LSNotification::NotificationMachMessageStruct*, std::allocator<LSNotification::NotificationMachMessageStruct*> >::~_Deque_base()
+PUBLIC 49e42 0 std::_Rb_tree<int, int, std::_Identity<int>, std::less<int>, std::allocator<int> >::erase(std::_Rb_tree_const_iterator<int>)
+PUBLIC 49e70 0 _UTCopyFirstTag
+PUBLIC 49ea6 0 LSHandlerPref::Remove(LSDatabase*, unsigned long)
+PUBLIC 49f60 0 LSHandlerPref::Get(LSDatabase*, unsigned long)
+PUBLIC 49f90 0 _LSBindableMake
+PUBLIC 49f9e 0 _LSBindableDeactivate
+PUBLIC 4a06a 0 CSArrayRemoveValueAtIndex
+PUBLIC 4a181 0 _CSArraySetValueRange
+PUBLIC 4a1f6 0 _CSArraySetCapacity
+PUBLIC 4a2b6 0 _LSDatabaseReleaseString
+PUBLIC 4a2d5 0 CSStringRelease
+PUBLIC 4a3b5 0 CSStringBindingRemoveBindings
+PUBLIC 4a3be 0 CSMapRemoveValue
+PUBLIC 4a527 0 _CSMapSetBucketRange
+PUBLIC 4a636 0 _CSStringBindingReleaseString
+PUBLIC 4a648 0 CSArrayDispose
+PUBLIC 4a6bc 0 _LSDatabaseCreateStringForCFString
+PUBLIC 4a757 0 CSCopyStringForCharacters
+PUBLIC 4a895 0 CSStringRetain
+PUBLIC 4a93e 0 LSHandlerPref::GetOrAddHandlerPref(LSDatabase*, unsigned long, long, unsigned char, unsigned long*)
+PUBLIC 4a9f0 0 LSHandlerPref::Add(LSDatabase*, unsigned long, long)
+PUBLIC 4aaca 0 _LSDatabaseRetainString
+PUBLIC 4aae8 0 _LSBindableActivate
+PUBLIC 4ac05 0 _LSBindableComparePriority
+PUBLIC 4ad5a 0 CSArrayInsertValueAtIndex
+PUBLIC 4adc7 0 _CSArrayInsertValueCommon
+PUBLIC 4aedc 0 LSHandlerPref::SetRoleHandler(LSDatabase*, unsigned long, unsigned long, unsigned long)
+PUBLIC 4b133 0 _LSDatabaseGetStringForCFString
+PUBLIC 4b1ce 0 CSArrayCreate
+PUBLIC 4b289 0 CSStringBindingSetBindings
+PUBLIC 4b292 0 CSMapSetValue
+PUBLIC 4b84a 0 _CSStringBindingRetainString
+PUBLIC 4b85c 0 LSHandlerPref::roleHandler(unsigned long) const
+PUBLIC 4b896 0 _LSEvaluateBundleArray(LSBindingState*, unsigned long const*, unsigned long)
+PUBLIC 4bc40 0 XCFSetCreateUnion
+PUBLIC 4bcb9 0 XCFSetApplier_AddValue
+PUBLIC 4bcce 0 LSRegisterURL
+PUBLIC 4bd3d 0 _LSRegisterNode
+PUBLIC 4bdee 0 _LSGetLibraryBundleIdentifierAndItemIndexForNode(LSContext*, FSNode*, long*)
+PUBLIC 4c086 0 getLibIDs()
+PUBLIC 4c106 0 _LSPathForBundleLibraryIdentifier(__CFString const*)
+PUBLIC 4c2df 0 _LSCopyItemAttributesForRefInfo
+PUBLIC 4c30f 0 _LSCopyItemAttributesForRefInfoWithOptions
+PUBLIC 4c463 0 _LSCopyNodeAttributes
+PUBLIC 4c62f 0 _LSCopyNodeAttribute_DisplayNameLocalizationDictionary(LSNodeAttributeStateCache*)
+PUBLIC 4cb9c 0 _LSCopyNodeAttribute_DisplayKindLocalizationDictionary(LSNodeAttributeStateCache*)
+PUBLIC 4ce60 0 FSNodeIsResolvable
+PUBLIC 4cef0 0 _LSBundleCopyStringDictionaryForKey
+PUBLIC 4d18d 0 _LSCopyBundleStringDictionariesForLocales
+PUBLIC 4d261 0 _LSAddToStringDictionaries
+PUBLIC 4d352 0 LSSession::~LSSession()
+PUBLIC 4dbc0 0 LSServerSideSharedMemory::~LSServerSideSharedMemory()
+PUBLIC 4dc22 0 std::_Rb_tree<LSSessionID, std::pair<LSSessionID const, LSSession*>, std::_Select1st<std::pair<LSSessionID const, LSSession*> >, std::less<LSSessionID>, std::allocator<std::pair<LSSessionID const, LSSession*> > >::erase(std::_Rb_tree_iterator<std::pair<LSSessionID const, LSSession*> >)
+PUBLIC 4dc50 0 std::vector<LSApplication*, std::allocator<LSApplication*> >::~vector()
+PUBLIC 4dc5a 0 std::_Vector_base<LSApplication*, std::allocator<LSApplication*> >::~_Vector_base()
+PUBLIC 4dc72 0 std::_Rb_tree<int, int, std::_Identity<int>, std::less<int>, std::allocator<int> >::_M_erase(std::_Rb_tree_node<int>*)
+PUBLIC 4dcac 0 std::_Rb_tree<unsigned int, std::pair<unsigned int const, MachPortDeathNotifier*>, std::_Select1st<std::pair<unsigned int const, MachPortDeathNotifier*> >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, MachPortDeathNotifier*> > >::_M_erase(std::_Rb_tree_node<std::pair<unsigned int const, MachPortDeathNotifier*> >*)
+PUBLIC 4dce6 0 std::_Rb_tree<unsigned int, std::pair<unsigned int const, LSApplication*>, std::_Select1st<std::pair<unsigned int const, LSApplication*> >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, LSApplication*> > >::_M_erase(std::_Rb_tree_node<std::pair<unsigned int const, LSApplication*> >*)
+PUBLIC 4dd20 0 _LSServer_PendingDeletionNotification
+PUBLIC 4dd3b 0 _LSNoteSessionDeathPending
+PUBLIC 4ddd9 0 _LSASServer_PendingDeletionNotification
+PUBLIC 4ddde 0 _UTDynamicGetPedigree
+PUBLIC 4def1 0 _LSServer_SessionDeathNotification
+PUBLIC 4df0f 0 _LSNoteSessionDeath
+PUBLIC 4e01f 0 _LSASServer_SessionDeathNotification
+PUBLIC 4e026 0 FSNodeIsVolume
+PUBLIC 4e084 0 FSNodeIsExecutable
+PUBLIC 4e136 0 _LSGetBundleStringDictionaries
+PUBLIC 4e1a5 0 _LSGetSystemFolderLocalizedNameDictionaries
+PUBLIC 4e21a 0 std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&)
+PUBLIC 4e266 0 std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&)
+PUBLIC 4e2c9 0 int* std::uninitialized_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, int*>(__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, int*)
+PUBLIC 4e2fc 0 _LSMakeDotLocalizedFSRef
+PUBLIC 4e352 0 _LSRecentsInit
+PUBLIC 4e41a 0 EnvironmentVariables::AddToEnvironmentDictionaryFunc(void const*, void const*, void*)
+PUBLIC 4e435 0 _XAllocatePSN
+PUBLIC 4e5b8 0 _LSServerAllocatePSN
+PUBLIC 4e74e 0 LSSession::GenerateNewPSN()
+PUBLIC 4e78e 0 _XNotifyAboutLaunchedApplication
+PUBLIC 4e955 0 _LSServerNotifyAboutLaunchedApplication
+PUBLIC 4edee 0 LSApplication::ListenForProcessDeathOnPid(int)
+PUBLIC 4ef2c 0 LSApplication::AddLaunchModifiersItem(void const*)
+PUBLIC 4eff4 0 _XSendNotification
+PUBLIC 4f17d 0 _LSServerSendNotification
+PUBLIC 4f2b1 0 LSSharedFileListMakeSnapshotFromPrefs
+PUBLIC 4f986 0 __LSSharedFileListDeallocate
+PUBLIC 4fa93 0 SyncWithOldLoginItemsPrefs
+PUBLIC 50a8e 0 _LSSharedFileListFindItemIndexWithPath
+PUBLIC 50bcc 0 LSOpenApplication
+PUBLIC 50bf8 0 _LSBundleCopyArchitecturesValidOnCurrentSystem
+PUBLIC 50e40 0 _LSBundleCopyPlistRarities
+PUBLIC 50eff 0 _LSBundleCopyArchitectures_Common(LSBundleData const*, __CFDictionary const*)
+PUBLIC 51035 0 _LSGetVersionForArchitecture
+PUBLIC 5105e 0 _XFindProcesses
+PUBLIC 511e1 0 _LSServerFindProcesses
+PUBLIC 514c2 0 LSSession::FindProcesses(__CFDictionary const*)
+PUBLIC 515f6 0 LSApplication::MatchCriteria(__CFDictionary const*)
+PUBLIC 517a1 0 _LSGetApplicationListSeed
+PUBLIC 517d6 0 std::_Rb_tree<unsigned int, unsigned int, std::_Identity<unsigned int>, std::less<unsigned int>, std::allocator<unsigned int> >::erase(std::_Rb_tree_iterator<unsigned int>)
+PUBLIC 51804 0 _LSCreateContainerNodesAndFlagsForNode
+PUBLIC 519b6 0 FSNodeCopyVolume
+PUBLIC 51b8b 0 _LSContainerFindWithNodesAndFlags
+PUBLIC 51e47 0 _LSRegistrationWarning
+PUBLIC 51efa 0 _LSCopyNodeAttribute_IsInBackupSnapshot(LSNodeAttributeStateCache*)
+PUBLIC 52044 0 Copy_FSNodeCatalogInfo_To_FSNodeCatalogInfo_ILP32
+PUBLIC 52172 0 FSNodeNewAlias
+PUBLIC 5246e 0 _LSPathIsTrusted(char const*)
+PUBLIC 524be 0 _LSRegisterDirectoryNode(LSContext*, FSNode*, LSRegistrationInfo*, AliasRecord const*, unsigned long*)
+PUBLIC 52859 0 _LSCopyMutableBundleInfoDictionary(__CFBundle*)
+PUBLIC 52945 0 _LSPathifyIconKey(FSNode*, __CFBundle*, __CFString const*, __CFDictionary*, __CFString const*, __CFString const*)
+PUBLIC 52b97 0 _LSPathifyIconKeysInPlistKey(FSNode*, __CFBundle*, __CFString const*, __CFDictionary*, __CFString const*, __CFString const*, __CFString const*)
+PUBLIC 52c3f 0 _LSCopyPathRelativeToBase(__CFString const*, __CFString const*)
+PUBLIC 52d03 0 _LSFixTypeCreator(FSNode*, __CFDictionary*)
+PUBLIC 53135 0 _LSAddBundleExecutableInfo(__CFBundle*, LSRegistrationInfo*, __CFDictionary*)
+PUBLIC 53343 0 _LSAddExecutableFormatInfo(__CFBundle*, char const*, unsigned long, OpaqueResourceFileRef*, unsigned long long*, __CFDictionary*)
+PUBLIC 53ad3 0 _LSGetBundleClassForHFSType
+PUBLIC 53b3b 0 XCFBundleCopyLibraryURL
+PUBLIC 53b9b 0 _LSAddBundleLibraryInfo(LSContext*, __CFURL const*, __CFBundle*, LSRegistrationInfo*, __CFDictionary*)
+PUBLIC 53e73 0 _LSApplyInfoDictionaryExceptions(__CFDictionary*)
+PUBLIC 540ec 0 _LSCopyBinaryPlistData(void const*)
+PUBLIC 5417e 0 _LSGetAliasSizeFromPtr
+PUBLIC 5418e 0 _LSContextUpdate
+PUBLIC 541cc 0 LSApplication::HandleProcessDeathNotification1(void*)
+PUBLIC 54242 0 LSSession::GetLSSession(LSSessionID)
+PUBLIC 542e2 0 LSApplication::HandleProcessDeathNotification2(void*)
+PUBLIC 543b3 0 _LSCopyApplicationArray
+PUBLIC 54828 0 _LSCopyApplicationArray::ApplicationArrayLock::ApplicationArrayLock()
+PUBLIC 54861 0 _LSCopyApplicationArray::ApplicationArrayLock::OnceFunc()
+PUBLIC 548d0 0 _LSCopyApplicationArray::ApplicationArrayLock::~ApplicationArrayLock()
+PUBLIC 5490a 0 LSApplication::SetApplicationPresentationOptions(LSApplication*, __CFString const*, void const*, void const*)
+PUBLIC 54d60 0 LSSession::AddToVisibleApplicationList(LSApplication*, bool, bool)
+PUBLIC 54e32 0 std::list<LSApplication*, std::allocator<LSApplication*> >::_M_insert(std::_List_iterator<LSApplication*>, LSApplication* const&)
+PUBLIC 54ea4 0 LSSession::VisibleApplicationListChanged()
+PUBLIC 54fac 0 CFBoolean::CFBoolean(CFType const&, bool)
+PUBLIC 54ffa 0 _LSSetFrontApplication
+PUBLIC 55068 0 _LSSetFrontApplicationLong
+PUBLIC 55192 0 _LSDoSetFrontProcess
+PUBLIC 552c8 0 _XSetFrontProcess
+PUBLIC 5541e 0 _LSServerSetFrontProcess
+PUBLIC 5551e 0 std::list<LSApplication*, std::allocator<LSApplication*> >::_M_erase(std::_List_iterator<LSApplication*>)
+PUBLIC 55540 0 LSSession::SetMenuBarOwningApplication(LSApplication*)
+PUBLIC 555a0 0 _LSPassDownCurrentEventState
+PUBLIC 556ab 0 _LSGetFrontApplicationSeed
+PUBLIC 556e0 0 LSApplication::SetApplicationName(LSApplication*, __CFString const*, void const*, void const*)
+PUBLIC 55744 0 LSApplication::IsHidden() const
+PUBLIC 55784 0 LSNotification::AddDelayedNotificationMessage(LSNotification::NotificationMachMessageStruct*, bool)
+PUBLIC 55900 0 LSNotification::RemoveNotification(LSNotificationCode)
+PUBLIC 55ab4 0 LSNotification::LSNotificationDelayedNotificationTimerCallback(__CFRunLoopTimer*, void*)
+PUBLIC 55ad0 0 _LSBundleRemove
+PUBLIC 56040 0 CSArrayGetCount
+PUBLIC 56078 0 CSArrayGetValueAtIndex
+PUBLIC 560eb 0 _LSClaimRemove
+PUBLIC 561b8 0 _CSStringStoreGetHashForUnit
+PUBLIC 561f8 0 _LSBindingListDeactivate
+PUBLIC 56303 0 _LSBindingListRelease
+PUBLIC 56405 0 _LSBindingListDataReleaseContents
+PUBLIC 56489 0 _LSAliasRemove
+PUBLIC 564b2 0 _LSAliasAdd
+PUBLIC 56518 0 _LSGetApplicationFlagsFromPlist
+PUBLIC 566c4 0 _LSBundleDataSetModTime
+PUBLIC 566d4 0 _LSBundleDataSetRegTime
+PUBLIC 566e6 0 _LSCreateString(LSDatabase*, void const*, unsigned char)
+PUBLIC 5673a 0 _LSBundleAdd
+PUBLIC 5678d 0 _LSRegisterDocumentTypes(LSDatabase*, unsigned long, LSBundleData const*, __CFDictionary const*)
+PUBLIC 5745c 0 _LSBindingListBufferInit
+PUBLIC 57479 0 _LSGetHandlerRankFromDictKey(__CFDictionary const*, void const*)
+PUBLIC 57557 0 _LSGetRoleFromDictKey(__CFDictionary const*, void const*)
+PUBLIC 5767a 0 LSClaimDataSetRole
+PUBLIC 57687 0 _LSBindingListBufferAppend
+PUBLIC 5781a 0 _LSBindingListCreate
+PUBLIC 5789b 0 _LSClaimAdd
+PUBLIC 578e4 0 CSArrayAppendValue
+PUBLIC 57950 0 _LSBindingListActivate
+PUBLIC 57a7b 0 _LSBindingListBufferReset
+PUBLIC 57aac 0 LSSession::DeleteSessionTimerCallback(__CFRunLoopTimer*, void*)
+PUBLIC 57ada 0 LSSession::IsValidSession(void const*)
+PUBLIC 57b50 0 _LSCopyFileQuarantineProperties
+PUBLIC 57c22 0 QuarantineEventDB::getEventProperties(__CFDictionary*)
+PUBLIC 57ef6 0 _XComparePSNs
+PUBLIC 58076 0 _LSServerComparePSNs
+PUBLIC 58138 0 _XSetContentTypeHandler
+PUBLIC 582cf 0 _LSPluginServer_SetContentTypeHandler
+PUBLIC 582fe 0 _LSServer_SetContentTypeHandler
+PUBLIC 5854e 0 LSHandlerPref::CreateTagForContentType(LSDatabase*, __CFString const*, long*)
+PUBLIC 58578 0 LSHandlerPref::GetOrCreateTagForContentType(LSDatabase*, __CFString const*, unsigned char, long*)
+PUBLIC 5877c 0 LSHandlerPref::SetRoleHandlerForTag(LSDatabase*, unsigned long, long, unsigned long, unsigned long)
+PUBLIC 587ce 0 _XSetContentTypeOptions
+PUBLIC 5890b 0 _LSPluginServer_SetContentTypeOptions
+PUBLIC 58933 0 _LSServer_SetContentTypeOptions
+PUBLIC 58a24 0 LSHandlerPref::SetOptionsForTag(LSDatabase*, unsigned long, long, unsigned long)
+PUBLIC 58a70 0 LSHandlerPref::SetOptions(LSDatabase*, unsigned long, unsigned long)
+PUBLIC 58ab6 0 _XSetSchemeHandler
+PUBLIC 58c10 0 _LSPluginServer_SetSchemeHandler
+PUBLIC 58c38 0 _LSServer_SetSchemeHandler
+PUBLIC 58e4a 0 _XUnregisterNotificationFunction
+PUBLIC 58f65 0 _LSServerUnregisterNotificationFunction
+PUBLIC 58f96 0 LSNotification::~LSNotification()
+PUBLIC 58fa0 0 _XPostLaunchModifiers
+PUBLIC 590f6 0 _LSServerPostLaunchModifiers
+PUBLIC 591e1 0 _XPassDownCurrentEventState
+PUBLIC 59339 0 _LSServerPassDownCurrentEventState
+PUBLIC 593e2 0 LSSession::HandleEventState(unsigned int, unsigned int, unsigned int, unsigned int, unsigned int)
+PUBLIC 594fa 0 LSApplication::SetApplicationDesiresAttentionItem(LSApplication*, __CFString const*, void const*, void const*)
+PUBLIC 595a4 0 LSApplication::SetApplicationDesiresAttention(bool)
+PUBLIC 597f2 0 _XBlockUntilApplicationRegisters
+PUBLIC 59940 0 _LSServerBlockUntilApplicationRegisters
+PUBLIC 59a52 0 std::vector<unsigned int, std::allocator<unsigned int> >::_M_insert_aux(__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, unsigned int const&)
+PUBLIC 59b56 0 LASSharedMemoryPage::UIPresentationModeToInt(void const*)
+PUBLIC 59b96 0 LSSession::SetPermittedFrontASNs(__CFArray const*)
+PUBLIC 5a2e8 0 CFType::Set(CFType&)
+PUBLIC 5a32e 0 CFArray::Contains(void const*) const
+PUBLIC 5a376 0 _LSUseCoreApplicationServices
+PUBLIC 5a380 0 _LSCopyNULLApplicationASN
+PUBLIC 5a3cf 0 _LSCopySystemApplicationASN
+PUBLIC 5a41e 0 _LSNullInitializeProcessesServices(unsigned int, LSSessionID, LSSessionID, unsigned int, unsigned int*, unsigned int*, int*, void const**, unsigned int*)
+PUBLIC 5a45e 0 _LSNullInitializeProcessSharedMemory(unsigned int, LSSessionID, char*)
+PUBLIC 5a472 0 _LSNullRegisterApplication(unsigned int, LSSessionID, void const*, unsigned int, unsigned int, void const**, unsigned int*, unsigned int*)
+PUBLIC 5a47c 0 _LSNullUnregisterApplication(unsigned int, LSSessionID, unsigned int, unsigned int, unsigned int)
+PUBLIC 5a486 0 _LSNullSignalApplicationReady(unsigned int, LSSessionID, unsigned int, unsigned int, void const**, unsigned int*)
+PUBLIC 5a490 0 _LSNullGetProcessesArray(unsigned int, LSSessionID, void const**, unsigned int*)
+PUBLIC 5a49a 0 _LSNullGetPendingProcessesArray(unsigned int, LSSessionID, void const**, unsigned int*)
+PUBLIC 5a4a4 0 _LSNullGetVisibleProcessesArray(unsigned int, LSSessionID, unsigned int, void const**, unsigned int*)
+PUBLIC 5a4ae 0 _LSNullFindProcesses(unsigned int, LSSessionID, void const*, unsigned int, void const**, unsigned int*)
+PUBLIC 5a4b8 0 _LSNullGetFrontProcess(unsigned int, LSSessionID, unsigned int*, unsigned int*)
+PUBLIC 5a4c2 0 _LSNullSetFrontProcess(unsigned int, LSSessionID, unsigned int, unsigned int, void const*, unsigned int)
+PUBLIC 5a4cc 0 _LSNullGetApplicationInformation(unsigned int, LSSessionID, unsigned int, unsigned int, void const**, unsigned int*)
+PUBLIC 5a4d6 0 _LSNullSetApplicationInformation(unsigned int, LSSessionID, unsigned int, unsigned int, void const*, unsigned int, void const**, unsigned int*)
+PUBLIC 5a4e0 0 _LSNullComparePSNs(unsigned int, LSSessionID, unsigned int, unsigned int, unsigned int, unsigned int, int*)
+PUBLIC 5a4ea 0 _LSNullGetMetaApplicationInformation(unsigned int, LSSessionID, void const**, unsigned int*)
+PUBLIC 5a4f4 0 _LSNullSetMetaApplicationInformation(unsigned int, LSSessionID, void const*, unsigned int)
+PUBLIC 5a4fe 0 _LSNullAllocatePSN(unsigned int, LSSessionID, void const*, unsigned int, void const**, unsigned int*)
+PUBLIC 5a508 0 _LSNullLaunchApplication(unsigned int, LSSessionID, void const*, unsigned int, void const*, unsigned int, void const**, unsigned int*)
+PUBLIC 5a512 0 _LSNullBlockUntilApplicationRegisters(unsigned int, LSSessionID, unsigned int, unsigned int, unsigned int)
+PUBLIC 5a51c 0 _LSNullNotifyAboutLaunchedApplication(unsigned int, LSSessionID, void const*, unsigned int, void const*, unsigned int, int, unsigned int, void const**, unsigned int*)
+PUBLIC 5a526 0 _LSNullGetLaunchModifiers(unsigned int, LSSessionID, unsigned int, unsigned int, unsigned int, void const**, unsigned int*)
+PUBLIC 5a530 0 _LSNullPostLaunchModifiers(unsigned int, LSSessionID, unsigned int, unsigned int, void const*, unsigned int)
+PUBLIC 5a53a 0 _LSNullRegisterNotificationFunction(unsigned int, LSSessionID, unsigned int, void const*, unsigned int, unsigned int*)
+PUBLIC 5a544 0 _LSNullUnregisterNotificationFunction(unsigned int, unsigned int)
+PUBLIC 5a54e 0 _LSNullModifyNotification(unsigned int, LSSessionID, unsigned int, LSNotificationCode const*, unsigned int, LSNotificationCode const*, unsigned int, void const*, unsigned int, void const*, unsigned int)
+PUBLIC 5a558 0 _LSNullSendNotification(unsigned int, LSSessionID, unsigned int, unsigned int, unsigned int, double, void const*, unsigned int)
+PUBLIC 5a562 0 _LSNullPassCurrentEventState(unsigned int, LSSessionID, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int)
+PUBLIC 5a569 0 _LSNullOrderApplications(unsigned int, LSSessionID, void const*, unsigned int, unsigned int, unsigned int)
+PUBLIC 5a573 0 _LSDummyLastFunction()
+PUBLIC 5a578 0 LaunchApplicationSynInvalidationCallback(__CFMachPort*, void*)
+PUBLIC 5a593 0 LaunchApplicationSyncCallback(__CFMachPort*, void*, long, void*)
+PUBLIC 5a5bf 0 _LSKillApplication
+PUBLIC 5a73e 0 EnvironmentVariables::CopyDictionaryRef()
+PUBLIC 5a8b2 0 BestSession::ConsiderSession(LSSessionID)
+PUBLIC 5aac1 0 DetermineBestSessionToLaunchIn(LSSessionID, CFMutableDictionary&, CFMutableDictionary&)
+PUBLIC 5ac85 0 LaunchApplicationViaFork(LSSessionID, CFMutableDictionary&, CFMutableDictionary&, __CFArray const*, char const* const*, __LSASN const**, __CFDictionary const**)
+PUBLIC 5b9d3 0 setEnvVar(void const*, void const*, void*)
+PUBLIC 5bb32 0 BestSession::ConsiderSessionFunc(void const*, __CFArray const*, void*)
+PUBLIC 5bbc9 0 char** std::__copy_backward<true, std::random_access_iterator_tag>::__copy_b<char*>(char* const*, char* const*, char**)
+PUBLIC 5bbf8 0 std::vector<char*, std::allocator<char*> >::erase(__gnu_cxx::__normal_iterator<char**, std::vector<char*, std::allocator<char*> > >)
+PUBLIC 5bc34 0 _LSSetMetaApplicationInformation
+PUBLIC 5bd5a 0 _LSMetaGetLaunchInProgress(LSClientSideSharedMemory*, bool&)
+PUBLIC 5bd86 0 _LSMetaInfoGetApplicationCount(LSClientSideSharedMemory*, bool&)
+PUBLIC 5be0a 0 _LSMetaInfoGetSessionLauncherASN(LSClientSideSharedMemory*, bool&)
+PUBLIC 5be9f 0 _LSMetaInfoGetSystemProcessASN(LSClientSideSharedMemory*, bool&)
+PUBLIC 5bf34 0 _LSMetaInfoGetUnhiddenApplicationCount(LSClientSideSharedMemory*, bool&)
+PUBLIC 5c0ab 0 _LSMetaGetPermittedFrontASNsKey(LSClientSideSharedMemory*, bool&)
+PUBLIC 5c25d 0 _LSMetaInfoGetApplicationListSeed(LSClientSideSharedMemory*, bool&)
+PUBLIC 5c2f8 0 _LSMetaInfoGetVisibleApplicationCount(LSClientSideSharedMemory*, bool&)
+PUBLIC 5c463 0 _LSMetaInfoGetDebugLevel(LSClientSideSharedMemory*, bool&)
+PUBLIC 5c4e4 0 _LSMetaInfoGetVisibleApplicationListSeed(LSClientSideSharedMemory*, bool&)
+PUBLIC 5c57f 0 _LSMetaCopyUIPresentationOptions(LSClientSideSharedMemory*, bool&)
+PUBLIC 5c606 0 _LSMetaInfoGetHiddenApplicationCount(LSClientSideSharedMemory*, bool&)
+PUBLIC 5c76a 0 _LSMetaInfoGetMenuBarOwnerApplicationSeed(LSClientSideSharedMemory*, bool&)
+PUBLIC 5c805 0 _LSGetNotificationInformation
+PUBLIC 5c80f 0 LSScheduleNotificationInvalidationCallbackFunc(__CFMachPort*, void*)
+PUBLIC 5c872 0 _LSUnscheduleNotificationFunction
+PUBLIC 5ca28 0 std::_Rb_tree<void const*, std::pair<void const* const, NotificationInformationStruct*>, std::_Select1st<std::pair<void const* const, NotificationInformationStruct*> >, std::less<void const*>, std::allocator<std::pair<void const* const, NotificationInformationStruct*> > >::erase(std::_Rb_tree_iterator<std::pair<void const* const, NotificationInformationStruct*> >)
+PUBLIC 5ca56 0 std::_Rb_tree<void const*, std::pair<void const* const, NotificationInformationStruct*>, std::_Select1st<std::pair<void const* const, NotificationInformationStruct*> >, std::less<void const*>, std::allocator<std::pair<void const* const, NotificationInformationStruct*> > >::_M_insert(std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::pair<void const* const, NotificationInformationStruct*> const&)
+PUBLIC 5caca 0 LSAppInfoGetRecordingAppleEventsFunc(LSClientSideSharedMemory*, unsigned int)
+PUBLIC 5cb35 0 _LSAppInfoGetApplicationHasRegisteredFunc(LSClientSideSharedMemory*, unsigned int)
+PUBLIC 5cb9f 0 _LSAppInfoGetApplicationHasSignalledReadyFunc(LSClientSideSharedMemory*, unsigned int)
+PUBLIC 5cc09 0 _LSCopyPendingApplicationArray
+PUBLIC 5ccb4 0 _LSOrderApplications
+PUBLIC 5ce0f 0 _LSRequestProcessBecomeFrontmost
+PUBLIC 5cf69 0 _LSAppInfoGetPIDFunc(LSClientSideSharedMemory*, unsigned int)
+PUBLIC 5d022 0 _LSFindApplicationsByPath
+PUBLIC 5d522 0 void const** std::uninitialized_copy<void const**, void const**>(void const**, void const**, void const**)
+PUBLIC 5d554 0 void const** std::__copy_backward<true, std::random_access_iterator_tag>::__copy_b<void const*>(void const* const*, void const* const*, void const**)
+PUBLIC 5d5a6 0 std::vector<void const*, std::allocator<void const*> >::_M_insert_aux(__gnu_cxx::__normal_iterator<void const**, std::vector<void const*, std::allocator<void const*> > >, void const* const&)
+PUBLIC 5d6aa 0 std::vector<void const*, std::allocator<void const*> >::push_back(void const* const&)
+PUBLIC 5d6e6 0 std::_Vector_base<void const*, std::allocator<void const*> >::~_Vector_base()
+PUBLIC 5d6fe 0 std::vector<void const*, std::allocator<void const*> >::~vector()
+PUBLIC 5d708 0 LSDeathNotificationMessageCallback(__CFMachPort*, void*, long, void*)
+PUBLIC 5d70d 0 LSNeedToReRegisterApplicationMessageReceivedCallBack(__CFMachPort*, void*, long, void*)
+PUBLIC 5d712 0 _LSApplicationQuitting
+PUBLIC 5d7b2 0 LSClientNeedToReRegisterApplicationCallBack(__CFMachPort*, void*)
+PUBLIC 5d899 0 LSReCheckInApplication()
+PUBLIC 5db7a 0 LSReCheckInApplicationTimerCallback(__CFRunLoopTimer*, void*)
+PUBLIC 5dcf4 0 LASSharedMemoryPage::GetApplicationInformationForPid(int, unsigned int*, unsigned int*, unsigned int*, unsigned int*)
+PUBLIC 5ddd6 0 LSServerSideSharedMemory::~LSServerSideSharedMemory()
+PUBLIC 5de30 0 LSServerSideSharedMemory::~LSServerSideSharedMemory()
+PUBLIC 5de3a 0 LSClientSideSharedMemory::~LSClientSideSharedMemory()
+PUBLIC 5df12 0 LSClientSideSharedMemory::~LSClientSideSharedMemory()
+PUBLIC 5df1c 0 LSClientSideSharedMemory::~LSClientSideSharedMemory()
+PUBLIC 5e000 0 _LSDebugGetSharedMemoryPageAddress
+PUBLIC 5e032 0 _LSGetMenuBarOwnerApplicationSeed
+PUBLIC 5e068 0 _LSGetSharedMemoryPageInfoTEST
+PUBLIC 5e0c4 0 std::_Rb_tree<LSSessionID, std::pair<LSSessionID const, LSClientSideSharedMemory*>, std::_Select1st<std::pair<LSSessionID const, LSClientSideSharedMemory*> >, std::less<LSSessionID>, std::allocator<std::pair<LSSessionID const, LSClientSideSharedMemory*> > >::erase(std::_Rb_tree_iterator<std::pair<LSSessionID const, LSClientSideSharedMemory*> >)
+PUBLIC 5e0f2 0 std::_Rb_tree<LSSessionID, std::pair<LSSessionID const, LSClientSideSharedMemory*>, std::_Select1st<std::pair<LSSessionID const, LSClientSideSharedMemory*> >, std::less<LSSessionID>, std::allocator<std::pair<LSSessionID const, LSClientSideSharedMemory*> > >::_M_create_node(std::pair<LSSessionID const, LSClientSideSharedMemory*> const&)
+PUBLIC 5e132 0 std::_Rb_tree<LSSessionID, std::pair<LSSessionID const, LSClientSideSharedMemory*>, std::_Select1st<std::pair<LSSessionID const, LSClientSideSharedMemory*> >, std::less<LSSessionID>, std::allocator<std::pair<LSSessionID const, LSClientSideSharedMemory*> > >::_M_insert(std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::pair<LSSessionID const, LSClientSideSharedMemory*> const&)
+PUBLIC 5e1a6 0 std::_Rb_tree<LSSessionID, std::pair<LSSessionID const, LSClientSideSharedMemory*>, std::_Select1st<std::pair<LSSessionID const, LSClientSideSharedMemory*> >, std::less<LSSessionID>, std::allocator<std::pair<LSSessionID const, LSClientSideSharedMemory*> > >::_M_insert_unique(std::pair<LSSessionID const, LSClientSideSharedMemory*> const&)
+PUBLIC 5e232 0 _LSDoPassDownCurrentEventState
+PUBLIC 5e2d0 0 _LSDoUnregisterNotificationFunction
+PUBLIC 5e3e1 0 _LSDoBlockUntilApplicationRegisters
+PUBLIC 5e50a 0 _LSDoLaunchApplication
+PUBLIC 5e695 0 _LSDoOrderProcesses
+PUBLIC 5e7cb 0 _LSDoGetFrontProcess
+PUBLIC 5e936 0 _LSDoGetVisibleProcessesArray
+PUBLIC 5ea93 0 _LSDoGetPendingProcessesArray
+PUBLIC 5ebea 0 _LSDoGetProcessesArray
+PUBLIC 5ed41 0 _LSDoComparePSNs
+PUBLIC 5eeab 0 _LSDoUnregisterApplication
+PUBLIC 5efc5 0 _XGetApplicationInformationItem
+PUBLIC 5f169 0 _XLaunchApplication
+PUBLIC 5f30d 0 _XOrderProcesses
+PUBLIC 5f463 0 _XGetFrontProcess
+PUBLIC 5f5b1 0 _XGetVisibleProcessesArray
+PUBLIC 5f731 0 _XGetPendingProcessesArray
+PUBLIC 5f8a2 0 _XGetProcessesArray
+PUBLIC 5fa13 0 _XUnregisterApplication
+PUBLIC 5fb59 0 _LSDummyLastFunction()
+PUBLIC 5fb5e 0 LSClientServerMachPortMessageReceivedCallBack(__CFMachPort*, void*, long, void*)
+PUBLIC 5fb63 0 _LSStopLSServerTest
+PUBLIC 5fb6d 0 _LSTestingOnlySetApplicationServicesClientPort
+PUBLIC 5fb83 0 LSClientServerMachPortReconnectCallBack(void*)
+PUBLIC 5fbb9 0 LSCopyCurrentApplicationInformation()
+PUBLIC 5fc03 0 _LSASServer_VolumeNotification
+PUBLIC 5fc08 0 _LSASServer_Dump
+PUBLIC 5fc12 0 LSApplication::DeathPortMessageCallback(__CFMachPort*, void*, long, void*)
+PUBLIC 5fc17 0 ____taskDispatchSourceKill_block_invoke_2
+PUBLIC 5fc80 0 ____taskDispatchSourceKill_block_invoke_1
+PUBLIC 5fc92 0 __taskDispatchSourceKill(dispatch_source_s*, dispatch_queue_s*)
+PUBLIC 5fd26 0 LSApplication::SetBundleName(LSApplication*, __CFString const*, void const*, void const*)
+PUBLIC 5fdba 0 LSApplication::SetApplicationInStoppedState(LSApplication*, __CFString const*, void const*, void const*)
+PUBLIC 5fe9c 0 LSApplication::SetApplicationHidden(LSApplication*, __CFString const*, void const*, void const*)
+PUBLIC 60200 0 LSApplication::SetApplicationRecordingAppleEvents(bool)
+PUBLIC 6044e 0 LSApplication::SetApplicationRecordingAppleEvents(LSApplication*, __CFString const*, void const*, void const*)
+PUBLIC 604f8 0 LSApplication::~LSApplication()
+PUBLIC 6074a 0 LSApplication::~LSApplication()
+PUBLIC 60754 0 LSApplication::SetApplicationPid(LSApplication*, __CFString const*, void const*, void const*)
+PUBLIC 60a7a 0 std::_Rb_tree<int, std::pair<int const, LSApplication*>, std::_Select1st<std::pair<int const, LSApplication*> >, std::less<int>, std::allocator<std::pair<int const, LSApplication*> > >::_M_erase(std::_Rb_tree_node<std::pair<int const, LSApplication*> >*)
+PUBLIC 60ab4 0 std::list<LSApplication*, std::allocator<LSApplication*> >::_M_create_node(LSApplication* const&)
+PUBLIC 60ae8 0 std::list<LSApplication*, std::allocator<LSApplication*> >::insert(std::_List_iterator<LSApplication*>, LSApplication* const&)
+PUBLIC 60b1a 0 int* std::__copy_backward<true, std::random_access_iterator_tag>::__copy_b<int>(int const*, int const*, int*)
+PUBLIC 60b4a 0 std::_Rb_tree<int, std::pair<int const, LSApplication*>, std::_Select1st<std::pair<int const, LSApplication*> >, std::less<int>, std::allocator<std::pair<int const, LSApplication*> > >::_M_insert_unique(std::_Rb_tree_iterator<std::pair<int const, LSApplication*> >, std::pair<int const, LSApplication*> const&)
+PUBLIC 60c22 0 std::_Rb_tree<unsigned int, std::pair<unsigned int const, LSApplication*>, std::_Select1st<std::pair<unsigned int const, LSApplication*> >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, LSApplication*> > >::_M_insert_unique(std::_Rb_tree_iterator<std::pair<unsigned int const, LSApplication*> >, std::pair<unsigned int const, LSApplication*> const&)
+PUBLIC 60cfa 0 CFBoolean::CFBoolean(__CFBoolean const*, bool)
+PUBLIC 60d42 0 CFURL::CFURL(CFString const&, bool)
+PUBLIC 60da2 0 CFArray::GetValueAtIndexAs(int, unsigned long)
+PUBLIC 60ddc 0 std::_Rb_tree<LSNotificationCode, std::pair<LSNotificationCode const, LSNotification*>, std::_Select1st<std::pair<LSNotificationCode const, LSNotification*> >, std::less<LSNotificationCode>, std::allocator<std::pair<LSNotificationCode const, LSNotification*> > >::erase(std::_Rb_tree_iterator<std::pair<LSNotificationCode const, LSNotification*> >)
+PUBLIC 60e0a 0 std::_Rb_tree<LSNotificationCode, std::pair<LSNotificationCode const, LSNotification*>, std::_Select1st<std::pair<LSNotificationCode const, LSNotification*> >, std::less<LSNotificationCode>, std::allocator<std::pair<LSNotificationCode const, LSNotification*> > >::_M_insert(std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::pair<LSNotificationCode const, LSNotification*> const&)
+PUBLIC 60e7f 0 LSNotification::NotificationMachMessageStruct*** std::__copy_backward<true, std::random_access_iterator_tag>::__copy_b<LSNotification::NotificationMachMessageStruct**>(LSNotification::NotificationMachMessageStruct** const*, LSNotification::NotificationMachMessageStruct** const*, LSNotification::NotificationMachMessageStruct***)
+PUBLIC 60eae 0 unsigned int* std::__copy_backward<true, std::random_access_iterator_tag>::__copy_b<unsigned int>(unsigned int const*, unsigned int const*, unsigned int*)
+PUBLIC 60ede 0 std::_Rb_tree<unsigned int, unsigned int, std::_Identity<unsigned int>, std::less<unsigned int>, std::allocator<unsigned int> >::_M_insert_unique(std::_Rb_tree_iterator<unsigned int>, unsigned int const&)
+PUBLIC 60fb6 0 void std::_Rb_tree<unsigned int, unsigned int, std::_Identity<unsigned int>, std::less<unsigned int>, std::allocator<unsigned int> >::_M_insert_unique<LSNotificationCode*>(LSNotificationCode*, LSNotificationCode*)
+PUBLIC 60ff6 0 std::_Rb_tree<unsigned long, std::pair<unsigned long const, LSNotification*>, std::_Select1st<std::pair<unsigned long const, LSNotification*> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, LSNotification*> > >::_M_insert_unique(std::_Rb_tree_iterator<std::pair<unsigned long const, LSNotification*> >, std::pair<unsigned long const, LSNotification*> const&)
+PUBLIC 610ce 0 std::deque<LSNotification::NotificationMachMessageStruct*, std::allocator<LSNotification::NotificationMachMessageStruct*> >::_M_reallocate_map(unsigned long, bool)
+PUBLIC 6121e 0 std::deque<LSNotification::NotificationMachMessageStruct*, std::allocator<LSNotification::NotificationMachMessageStruct*> >::_M_reserve_map_at_back(unsigned long)
+PUBLIC 61260 0 std::deque<LSNotification::NotificationMachMessageStruct*, std::allocator<LSNotification::NotificationMachMessageStruct*> >::_M_push_back_aux(LSNotification::NotificationMachMessageStruct* const&)
+PUBLIC 612c6 0 std::deque<LSNotification::NotificationMachMessageStruct*, std::allocator<LSNotification::NotificationMachMessageStruct*> >::_M_pop_front_aux()
+PUBLIC 612fb 0 _LSServerWrapperUnregisterApplication(unsigned int, LSSessionID, unsigned int, unsigned int, unsigned int)
+PUBLIC 61305 0 _LSServerWrapperSignalApplicationReady(unsigned int, LSSessionID, unsigned int, unsigned int, void const**, unsigned int*)
+PUBLIC 6130f 0 _LSServerWrapperGetProcessesArray(unsigned int, LSSessionID, void const**, unsigned int*)
+PUBLIC 61319 0 _LSServerWrapperGetPendingProcessesArray(unsigned int, LSSessionID, void const**, unsigned int*)
+PUBLIC 61323 0 _LSServerWrapperGetVisibleProcessesArray(unsigned int, LSSessionID, unsigned int, void const**, unsigned int*)
+PUBLIC 6132d 0 _LSServerWrapperFindProcesses(unsigned int, LSSessionID, void const*, unsigned int, void const**, unsigned int*)
+PUBLIC 61337 0 _LSServerWrapperGetFrontProcess(unsigned int, LSSessionID, unsigned int*, unsigned int*)
+PUBLIC 61341 0 _LSServerWrapperSetFrontProcess(unsigned int, LSSessionID, unsigned int, unsigned int, void const*, unsigned int)
+PUBLIC 6134b 0 _LSServerWrapperOrderProcesses(unsigned int, LSSessionID, void const*, unsigned int, unsigned int, unsigned int)
+PUBLIC 61355 0 _LSServerWrapperGetApplicationInformation(unsigned int, LSSessionID, unsigned int, unsigned int, void const**, unsigned int*)
+PUBLIC 6135f 0 _LSServerWrapperSetApplicationInformation(unsigned int, LSSessionID, unsigned int, unsigned int, void const*, unsigned int, void const**, unsigned int*)
+PUBLIC 61369 0 _LSServerWrapperGetMetaApplicationInformation(unsigned int, LSSessionID, void const**, unsigned int*)
+PUBLIC 61373 0 _LSServerWrapperSetMetaApplicationInformation(unsigned int, LSSessionID, void const*, unsigned int)
+PUBLIC 6137d 0 _LSServerWrapperAllocatePSN(unsigned int, LSSessionID, void const*, unsigned int, void const**, unsigned int*)
+PUBLIC 61387 0 _LSServerWrapperLaunchApplication(unsigned int, LSSessionID, void const*, unsigned int, void const*, unsigned int, void const**, unsigned int*)
+PUBLIC 61391 0 _LSServerWrapperBlockUntilApplicationRegisters(unsigned int, LSSessionID, unsigned int, unsigned int, unsigned int)
+PUBLIC 6139b 0 _LSServerDummyFunction()
+PUBLIC 613a0 0 _LSServerWrapperPassDownCurrentEventState(unsigned int, LSSessionID, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int)
+PUBLIC 6144b 0 _LSServerWrapperSendNotification(unsigned int, LSSessionID, unsigned int, unsigned int, unsigned int, double, void const*, unsigned int)
+PUBLIC 614fd 0 _LSServerWrapperModifyNotification(unsigned int, LSSessionID, unsigned int, LSNotificationCode const*, unsigned int, LSNotificationCode const*, unsigned int, void const*, unsigned int, void const*, unsigned int)
+PUBLIC 615c4 0 _LSServerWrapperUnregisterNotificationFunction(unsigned int, unsigned int)
+PUBLIC 61655 0 _LSServerWrapperRegisterNotificationFunction(unsigned int, LSSessionID, unsigned int, void const*, unsigned int, unsigned int*)
+PUBLIC 616f9 0 _LSServerWrapperPostLaunchModifiers(unsigned int, LSSessionID, unsigned int, unsigned int, void const*, unsigned int)
+PUBLIC 6179d 0 _LSServerWrapperGetLaunchModifiers(unsigned int, LSSessionID, unsigned int, unsigned int, unsigned int, void const**, unsigned int*)
+PUBLIC 61848 0 _LSServerWrapperNotifyAboutLaunchedApplication(unsigned int, LSSessionID, void const*, unsigned int, void const*, unsigned int, int, unsigned int, void const**, unsigned int*)
+PUBLIC 61908 0 _LSServerWrapperComparePSNs(unsigned int, LSSessionID, unsigned int, unsigned int, unsigned int, unsigned int, int*)
+PUBLIC 619b3 0 _LSServerWrapperRegisterApplication(unsigned int, LSSessionID, void const*, unsigned int, unsigned int, void const**, unsigned int*, unsigned int*)
+PUBLIC 61a65 0 _LSServerWrapperInitializeProcessSharedMemory(unsigned int, LSSessionID, char*)
+PUBLIC 61afd 0 _LSServerWrapperInitializeProcessesServices(unsigned int, LSSessionID, LSSessionID, unsigned int, unsigned int*, unsigned int*, int*, void const**, unsigned int*)
+PUBLIC 61bb6 0 _LSServerGetApplicationInformationItem
+PUBLIC 620a5 0 _LASServer_DumpState
+PUBLIC 62286 0 LSSession::SetNextApplicationToBringForward(LSApplication*)
+PUBLIC 6236c 0 LSSession::CopyPendingProcessArrayRef()
+PUBLIC 62424 0 LSSession::IsLegalToBeFrontmost(LSApplication*)
+PUBLIC 62474 0 LSSession::CopyProcessArrayRef()
+PUBLIC 62532 0 LSSession::PickNewFrontProcess(LSApplication*)
+PUBLIC 6266a 0 LSSession::OrderProcesses(__CFArray const*, __LSASN const*)
+PUBLIC 62a2a 0 appInfoAsString(LSApplication*, bool)
+PUBLIC 62ca4 0 LSSession::~LSSession()
+PUBLIC 63506 0 LSSession::~LSSession()
+PUBLIC 63510 0 LSSession::Describe(char const*)
+PUBLIC 638fe 0 std::hex(std::ios_base&)
+PUBLIC 63935 0 LSApplication** std::uninitialized_copy<LSApplication**, LSApplication**>(LSApplication**, LSApplication**, LSApplication**)
+PUBLIC 63968 0 LSApplication** std::__copy_backward<true, std::random_access_iterator_tag>::__copy_b<LSApplication*>(LSApplication* const*, LSApplication* const*, LSApplication**)
+PUBLIC 63998 0 std::vector<LSApplication*, std::allocator<LSApplication*> >::_M_insert_aux(__gnu_cxx::__normal_iterator<LSApplication**, std::vector<LSApplication*, std::allocator<LSApplication*> > >, LSApplication* const&)
+PUBLIC 63a9c 0 std::vector<LSApplication*, std::allocator<LSApplication*> >::push_back(LSApplication* const&)
+PUBLIC 63ad8 0 std::list<LSApplication*, std::allocator<LSApplication*> >::splice(std::_List_iterator<LSApplication*>, std::list<LSApplication*, std::allocator<LSApplication*> >&)
+PUBLIC 63af6 0 std::_Rb_tree<LSSessionID, std::pair<LSSessionID const, LSSession*>, std::_Select1st<std::pair<LSSessionID const, LSSession*> >, std::less<LSSessionID>, std::allocator<std::pair<LSSessionID const, LSSession*> > >::_M_insert(std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::pair<LSSessionID const, LSSession*> const&)
+PUBLIC 63b6a 0 std::list<LSApplication*, std::allocator<LSApplication*> >::list<std::_List_const_iterator<LSApplication*> >(std::_List_const_iterator<LSApplication*>, std::_List_const_iterator<LSApplication*>, std::allocator<LSApplication*> const&)
+PUBLIC 63bc4 0 void std::list<LSApplication*, std::allocator<LSApplication*> >::insert<std::_List_const_iterator<LSApplication*> >(std::_List_iterator<LSApplication*>, std::_List_const_iterator<LSApplication*>, std::_List_const_iterator<LSApplication*>)
+PUBLIC 63c48 0 std::list<LSApplication*, std::allocator<LSApplication*> >::operator=(std::list<LSApplication*, std::allocator<LSApplication*> > const&)
+PUBLIC 63cb0 0 std::list<LSApplication*, std::allocator<LSApplication*> >::list(std::list<LSApplication*, std::allocator<LSApplication*> > const&)
+PUBLIC 63d09 0 _LSServerLaunchApplication
+PUBLIC 63de7 0 _LSServerGetFrontProcess
+PUBLIC 63e82 0 _LSServerOrderProcesses
+PUBLIC 63ff0 0 _LSServerGetPendingProcessesArray
+PUBLIC 640e7 0 _LSServerGetVisibleProcessesArray
+PUBLIC 641ed 0 _LSServerGetProcessesArray
+PUBLIC 642e4 0 _LSServerUnregisterApplication
+PUBLIC 64394 0 CFArrayWrapperFunc(void const*, void*)
+PUBLIC 643c0 0 LSASN::GetUpperHalf() const
+PUBLIC 643f6 0 mergeDictionaryFunc(void const*, void const*, void*)
+PUBLIC 64412 0 CFArray::Apply(void (*)(void const*, __CFArray const*, void*), void*)
+PUBLIC 6447e 0 CFMutableArray::Append(__CFArray const*)
+PUBLIC 644d6 0 LSASN::isNullASN() const
+PUBLIC 64514 0 CFMutableArray::Remove(void const*)
+PUBLIC 64576 0 CFMutableArray::CFMutableArray(__CFArray const*, bool)
+PUBLIC 645f4 0 CFMutableArray::CFMutableArray(__CFArray const*, bool)
+PUBLIC 645fe 0 CFMutableDictionary::CFMutableDictionary(__CFDictionary const*, bool)
+PUBLIC 646f4 0 CFMutableDictionary::CFMutableDictionary(__CFDictionary const*, bool)
+PUBLIC 646fe 0 CFMutableArray::CFMutableArray(unsigned int, void const**)
+PUBLIC 64798 0 CFMutableArray::CFMutableArray(unsigned int, void const**)
+PUBLIC 647a2 0 CFMutableDictionary::Merge(__CFDictionary const*)
+PUBLIC 64826 0 FlattenedCFItem::~FlattenedCFItem()
+PUBLIC 6489a 0 FlattenedCFItem::WriteFloat(float)
+PUBLIC 648c5 0 LogStatusSetCrashLogInformationString(int, char const*)
+PUBLIC 64960 0 GetLogStatusStream()
+PUBLIC 64992 0 StatusLogStreamBuf::~StatusLogStreamBuf()
+PUBLIC 649ec 0 StatusLogStreamBuf::~StatusLogStreamBuf()
+PUBLIC 64a3e 0 StatusLogStreamBuf::~StatusLogStreamBuf()
+PUBLIC 64a48 0 StatusLogStreamBuf::StatusLogStreamBuf()
+PUBLIC 64ad7 0 _LSSetCurrentDebugLoggingPriority
+PUBLIC 64b1c 0 StatusLogStreamOnceFunc()
+PUBLIC 64b92 0 StatusLogStreamBuf::overflow(int)
+PUBLIC 64c30 0 StatusLogStreamBuf::reset()
+PUBLIC 64c82 0 StatusLogStreamBuf::CopyAsCFStringRef(bool)
+PUBLIC 64d14 0 __LSASNCopyDescription
+PUBLIC 64d62 0 _LSASNCreateCopy
+PUBLIC 64e03 0 FSIterateContainerLevel
+PUBLIC 65204 0 FSIterateContainer
+PUBLIC 654c5 0 HFSUnicodeGetUTF8
+PUBLIC 6553a 0 FSNodeCreateDictionaryFromClippingContent
+PUBLIC 65741 0 FSNodeIsOnDiskImage
+PUBLIC 6577c 0 FSNodeCopyParent
+PUBLIC 65905 0 FSNodeCopyDiskImageNode
+PUBLIC 65e7a 0 XCFDictionarySetKeysAndValuesFromDictionary
+PUBLIC 65ea9 0 setValueForKey_CFDictionaryApplier
+PUBLIC 65ec4 0 setValueForKey_CFSetApplier
+PUBLIC 65ee7 0 XCFDictionarySetValueForKeySet
+PUBLIC 65f22 0 XCFSetIntersects
+PUBLIC 65fed 0 XCFURLCopyRelativePath
+PUBLIC 660fb 0 CSMapAddMapTable
+PUBLIC 6626b 0 XCFBufGetCharsPtr
+PUBLIC 66270 0 FSNodeGetFSRef
+PUBLIC 66278 0 LSClaimDataGetBundle
+PUBLIC 66280 0 LSClaimDataGetDelegate
+PUBLIC 66288 0 _LSOpenURLsWithRole_Common(__CFArray const*, unsigned long, AEKeyDesc const*, LSApplicationParameters_V1 const*, ProcessSerialNumber*, long, FSRef*)
+PUBLIC 6659c 0 LSOpenURLsWithRole
+PUBLIC 66603 0 LSOpenFromURLSpec
+PUBLIC 66789 0 LSOpenCFURLRef
+PUBLIC 6681a 0 LSOpenFSRef
+PUBLIC 66866 0 _LSBindableGetClaimID
+PUBLIC 66885 0 _LSDatabaseCopyCFStringFromString
+PUBLIC 668a3 0 LSCopyApplicationURLsForURL
+PUBLIC 668ce 0 XCFBufInitWithCFString
+PUBLIC 66924 0 LSSetExtensionHiddenForRef
+PUBLIC 66b09 0 LSTerm
+PUBLIC 66b12 0 LSCopyItemAttributes
+PUBLIC 66b65 0 LSCopyDisplayNameForURL
+PUBLIC 66bb0 0 LSSetExtensionHiddenForURL
+PUBLIC 66c2f 0 LSCopyKindStringForRef
+PUBLIC 66c7a 0 LSCopyKindStringForURL
+PUBLIC 66cc5 0 LSCopyKindStringForTypeInfo
+PUBLIC 66f8f 0 LSCopyKindStringForMIMEType
+PUBLIC 67132 0 LSGetApplicationForItem
+PUBLIC 6718d 0 LSGetApplicationForInfo
+PUBLIC 675e1 0 LSCopyApplicationForMIMEType
+PUBLIC 676e1 0 LSGetApplicationForURL
+PUBLIC 6773c 0 LSCanRefAcceptItem
+PUBLIC 677c2 0 LSCanURLAcceptURL
+PUBLIC 67848 0 LSRegisterFSRef
+PUBLIC 678b7 0 LSCopyDefaultRoleHandlerForContentType
+PUBLIC 67949 0 LSCopyAllRoleHandlersForContentType
+PUBLIC 67b45 0 LSSetDefaultRoleHandlerForContentType
+PUBLIC 67c08 0 LSGetHandlerOptionsForContentType
+PUBLIC 67c7f 0 LSSetHandlerOptionsForContentType
+PUBLIC 67cfe 0 LSCopyDefaultHandlerForURLScheme
+PUBLIC 67d8b 0 LSCopyAllHandlersForURLScheme
+PUBLIC 67f52 0 LSSetDefaultHandlerForURLScheme
+PUBLIC 68007 0 LSOpenItemsWithRole
+PUBLIC 68078 0 LSHandlerPref::options() const
+PUBLIC 68084 0 _LSSaveAndRefresh
+PUBLIC 6808b 0 _LSCopyMIMETypesForExtension
+PUBLIC 68092 0 _LSCopyExtensionsForMIMEType
+PUBLIC 68099 0 _LSUnregisterItemFromItemInfo
+PUBLIC 680a3 0 _LSGetLaunchInClassicOverride
+PUBLIC 680bc 0 _LSSetLaunchInClassicOverride
+PUBLIC 680c6 0 LSGetOpenRoles
+PUBLIC 680d0 0 _LSBindableGetClaimID
+PUBLIC 680ef 0 _LSPrintableVersion(unsigned long, char*)
+PUBLIC 681b5 0 _LSInstall_ocon_EventHandler
+PUBLIC 681ee 0 _LSHandlePasteboardUsingApplication
+PUBLIC 68292 0 _LSCanApplicationHandlePasteboard
+PUBLIC 682af 0 _LSCopyDisplayNameForCanonicalName
+PUBLIC 68327 0 _LSTrashDisplayName()
+PUBLIC 6838a 0 _LSCopyDefaultMIMETypeHandlerURL
+PUBLIC 6842f 0 _LSSetStrongBindingForRef
+PUBLIC 68a06 0 _LSUnregisterURL
+PUBLIC 68aa9 0 _LSUnregisterItem
+PUBLIC 68b4c 0 _LSRegisterItemFromItemInfo
+PUBLIC 68bd4 0 _LSRegisterItem
+PUBLIC 68bef 0 _LSRegisterLibraryBundle
+PUBLIC 68c36 0 _LSCanRefInfoAcceptItem
+PUBLIC 68dbd 0 XCFBufInitWithCFString
+PUBLIC 68e13 0 _LSCopyKindStringForRefInfo
+PUBLIC 68e54 0 _LSCopyPlatformStringForRefInfo
+PUBLIC 68e95 0 _LSCopyDefaultRoleHandlerURLForContentType
+PUBLIC 68f78 0 _LSCreatePackageExtensionsArray
+PUBLIC 68ff2 0 _LSSetShowAllExtensionsPreference
+PUBLIC 69108 0 _LSNoteShowAllExtensionsPreferenceChangedToFalse(__CFNotificationCenter*, void*, __CFString const*, void const*, __CFDictionary const*)
+PUBLIC 6914f 0 _LSNoteShowAllExtensionsPreferenceChangedToTrue(__CFNotificationCenter*, void*, __CFString const*, void const*, __CFDictionary const*)
+PUBLIC 69196 0 _LSGetDefaultSchemeHandlerRef
+PUBLIC 6920b 0 _LSGetStrongBindingForRef
+PUBLIC 692e6 0 _LSCopySchemesAndHandlerURLs
+PUBLIC 695aa 0 _LSCopyBundleURLWithIdentifier
+PUBLIC 69692 0 _LSApplyCopyURL(void const*, void const*, void*)
+PUBLIC 69730 0 _LSCopyKindStringForInfo
+PUBLIC 69a67 0 _LSEnumerateCallbackHandler(FSRef const*, __CFString const*, unsigned long, FSCatalogInfo*, long (*)(FSRef const*, unsigned long, FSCatalogInfo const*, __CFString const*, void*), void*)
+PUBLIC 69c0e 0 _LSEnumerateDisplayPathComponentsForRef
+PUBLIC 69f04 0 _LSDisplayBindingList(LSDatabase*, unsigned long)
+PUBLIC 6a19b 0 _LSHandle_ocon_Event(AEDesc const*, AEDesc*, long)
+PUBLIC 6ac62 0 _LSSetArchitecturePreferenceForApplication
+PUBLIC 6ade0 0 _LSSetShouldFatApplicationLaunchPPC
+PUBLIC 6ae33 0 _LSGetArchitecturePreferenceForApplication
+PUBLIC 6b03f 0 _LSShouldFatApplicationLaunchPPC
+PUBLIC 6b0d8 0 _LSCopyBundleIdentifierAndSignature(FSRef const*, __CFURL const*, __CFString const**, unsigned long*)
+PUBLIC 6b23b 0 _LSSetDefaultSchemeHandlerURL
+PUBLIC 6b30b 0 _LSSetDefaultSchemeHandlerRef
+PUBLIC 6b3db 0 _LSSetWeakBindingForTypeCommon(unsigned long, unsigned long, __CFString const*, __CFString const*, unsigned long, FSRef*, __CFURL const*)
+PUBLIC 6b656 0 _LSSetDefaultMIMETypeHandlerURL
+PUBLIC 6b685 0 _LSSetWeakBindingURLForType
+PUBLIC 6b6c2 0 _LSSetWeakBindingForType
+PUBLIC 6b6ff 0 _LSSetWeakBindingForItem
+PUBLIC 6b86c 0 _LSGetApplicationForItemRefInfoWithFlags
+PUBLIC 6bb90 0 _LSGetApplicationForItemRefInfo
+PUBLIC 6bbc0 0 _LSCopyApplicationURLsWithInfoFlags
+PUBLIC 6bdbf 0 _LSCopyApplicationURLsForMIMEType
+PUBLIC 6c09f 0 _LSCopyApplicationURLsForItemURL
+PUBLIC 6c966 0 _LSDisplayData
+PUBLIC 6fcfa 0 _LSCopyAllApplicationURLs
+PUBLIC 6fefc 0 LSHandlerPref::optionsAreSet(unsigned long) const
+PUBLIC 6ff18 0 _LSBindableGetTypeID
+PUBLIC 6ff2e 0 _LSClaimsIntersect(__CFDictionary const*, __CFDictionary const*)
+PUBLIC 70032 0 _LSCreateStringForOSType(LSDatabase*, unsigned long)
+PUBLIC 700bb 0 _LSHoistDelegateDictionaries(__CFDictionary*, __CFDictionary*, __CFString const*, __CFString const*)
+PUBLIC 70266 0 _LSIterateBundleLibrary(unsigned char, unsigned long, unsigned long, FSCatalogInfo const*, FSRef const*, FSSpec const*, HFSUniStr255 const*, unsigned char*, void*)
+PUBLIC 70604 0 _LSCopyRegularExpressionFromPathArray(__CFArray const*)
+PUBLIC 70913 0 _LSRegisterTypeDeclarations(LSDatabase*, unsigned long, LSBundleData const*, __CFDictionary const*, __CFString const*, unsigned long)
+PUBLIC 712f6 0 _LSRemoveBundle
+PUBLIC 7138d 0 _LSUnregisterBundleNode
+PUBLIC 713e7 0 _LSRegisterContainerNode(LSContext*, FSNode*, FSNode*, unsigned long, unsigned long, unsigned long*)
+PUBLIC 71581 0 _LSRegisterLibrary
+PUBLIC 71aa7 0 _LSRegisterFileNode(LSContext*, FSNode*, LSRegistrationInfo*, AliasRecord const*, unsigned long*)
+PUBLIC 71f17 0 _LSSetHasServer
+PUBLIC 71f35 0 _LSCreateEmptyStore(__CSStore const**)
+PUBLIC 72262 0 XCFBufInitWithCFString
+PUBLIC 722ba 0 _LSCreateSessionDebugInfo
+PUBLIC 723be 0 _LSContextInitWithPath
+PUBLIC 7241d 0 _LSResetServer
+PUBLIC 72579 0 XCFBufInitWithCFString
+PUBLIC 725cf 0 _LSBundleSetFlags
+PUBLIC 72612 0 _LSBundleFindWithContainerAndAlias
+PUBLIC 7280b 0 _LSBundleCopyArchitecturesAvailable
+PUBLIC 72893 0 _LSBundleCopyLocalizedNameDictionary
+PUBLIC 72943 0 _LSBundleComparePriority
+PUBLIC 72a60 0 _LSBundleComparePriority_BindableComparitor
+PUBLIC 72aca 0 _LSSetContentTypeHandler
+PUBLIC 72b0b 0 _LSSetContentTypeOptions
+PUBLIC 72b45 0 _LSSetSchemeHandler
+PUBLIC 72b7f 0 _LSRemoveSchemeHandler
+PUBLIC 72bb2 0 _LSAddOSTypeToDictionary
+PUBLIC 72bfd 0 _LSAddStringToDictionary
+PUBLIC 72c66 0 _LSCopyClassicDocTypes
+PUBLIC 73197 0 _LSCreateFabricatedAppPlist
+PUBLIC 7387c 0 _LSPrintableOSType
+PUBLIC 738dd 0 AECreateDescFromExternalPtr
+PUBLIC 73971 0 AESendMessage
+PUBLIC 739ed 0 AEPutParamPtr
+PUBLIC 73a51 0 AEPutDesc
+PUBLIC 73aa7 0 AEPutAttributePtr
+PUBLIC 73b0b 0 AEPutAttributeDesc
+PUBLIC 73b61 0 AEGetAttributePtr
+PUBLIC 73bd3 0 AEGetAttributeDesc
+PUBLIC 73c30 0 AECreateDesc
+PUBLIC 73c8d 0 aeInstallBulk
+PUBLIC 73cea 0 AEGetParamDesc
+PUBLIC 73d47 0 AEGetNthDesc
+PUBLIC 73dab 0 AEGetDescDataSize
+PUBLIC 73e00 0 AECountItems
+PUBLIC 73e4f 0 __CFLookupCoreGraphicsFunction
+PUBLIC 73ea1 0 CGSServerIsConnected
+PUBLIC 73ee2 0 _CPSSetFrontProcessWithOptions
+PUBLIC 73f52 0 _LSAppendKeysAndValues
+PUBLIC 73fa9 0 _LSApplyAppendKeysAndValues
+PUBLIC 73fe1 0 _LSApplyAppendValues
+PUBLIC 73ff3 0 _LSApplyAppendKeys
+PUBLIC 7400a 0 _LSPtrToHand
+PUBLIC 74076 0 _LSCopyFileNamesWithSuffix
+PUBLIC 74255 0 _LSCopyDotLocalizedStringsForLocale
+PUBLIC 74434 0 _LSCopyDotLocalizedNameDictionaries
+PUBLIC 74588 0 _LSCopyDotLocalizedNameForNode
+PUBLIC 746de 0 _LSCopyNodeForProcessASN
+PUBLIC 747e7 0 _LSCopyStringForVersion
+PUBLIC 748dc 0 _LSGetOSTypeForPossibleString
+PUBLIC 74906 0 _LSAliasMatchesNode
+PUBLIC 74af5 0 _LSClaimComparePriority
+PUBLIC 74ce6 0 _LSContainerAdd
+PUBLIC 74d3a 0 _LSContainerComparePriority
+PUBLIC 74d83 0 _LSContainerFindWithAliasesAndFlags
+PUBLIC 74ed9 0 XCFBufInitWithCFString
+PUBLIC 74f31 0 _LSIsKnownExtension
+PUBLIC 74f8d 0 _LSBindableGetTypeID
+PUBLIC 74fb8 0 _LSTypeIdentifierForSniffedExtension(__CFString const*)
+PUBLIC 750d0 0 _LSBundleDataGetAllItemInfoFlags
+PUBLIC 750ee 0 _LSCopyNodeAttribute_ArchitecturesValidOnCurrentSystem(LSNodeAttributeStateCache*)
+PUBLIC 75114 0 _LSCopyNodeAttribute_ArchitecturesAvailable(LSNodeAttributeStateCache*)
+PUBLIC 7513b 0 _LSCopyNodeAttribute_IsInvisible(LSNodeAttributeStateCache*)
+PUBLIC 751aa 0 _LSCopyNodeAttribute_Extension(LSNodeAttributeStateCache*)
+PUBLIC 75229 0 _LSCopyNodeAttribute_ExtensionIsHidden(LSNodeAttributeStateCache*)
+PUBLIC 75320 0 _LSCanBundleHandleURL
+PUBLIC 754ba 0 _LSTypeDataInitWithExtension(LSContext*, LSTypeData*, XCFChars const*, XCFChars const*)
+PUBLIC 75502 0 _LSGetTypePortfolioForNode(LSContext*, FSNode*, __CFString const*, LSTypeData const*, unsigned long, LSTypePortfolio*)
+PUBLIC 757fa 0 _LSGetBindingForContentType
+PUBLIC 7595b 0 _LSCanBundleHandleNode
+PUBLIC 75a9e 0 _LSCopyNodeAttribute_DashFDisplayNameIfDifferentFromFSName(LSNodeAttributeStateCache*)
+PUBLIC 75b68 0 _LSCopyNodeAttribute_FileCreator(LSNodeAttributeStateCache*)
+PUBLIC 75bc0 0 _LSCopyNodeAttribute_FileType(LSNodeAttributeStateCache*)
+PUBLIC 75c4c 0 _LSCopyNodeAttribute_RoleHandlerDisplayName(LSNodeAttributeStateCache*)
+PUBLIC 75d0a 0 _LSRemoveRecentItem
+PUBLIC 75d14 0 _LSRecentItemsChanged
+PUBLIC 75d9e 0 _LSAddRecentItem
+PUBLIC 760ac 0 _LSRemoveRecentItems
+PUBLIC 760dd 0 _LSCopyRecentItems
+PUBLIC 7633d 0 _LSSetRecentItemCount
+PUBLIC 763c2 0 _LSDatabaseCopyCFStringFromString
+PUBLIC 763e0 0 LSHandlerPref::Save(LSDatabase*)
+PUBLIC 76739 0 _LSConvertFatAppsPrefs_DictionaryApplier(void const*, void const*, void*)
+PUBLIC 767ee 0 LSHandlerPref::GetTagForContentType(LSDatabase*, __CFString const*, long*)
+PUBLIC 76818 0 LSHandlerPref::GetHandlerPref(LSDatabase*, unsigned long, long)
+PUBLIC 76848 0 _LSSpinLock
+PUBLIC 76858 0 _LSSpinUnlock
+PUBLIC 76869 0 _LSPrefsSetApplicationArchitectureForCPUArchitecture
+PUBLIC 76d7e 0 LSHandlerPref::RemoveHandlersForTag(LSDatabase*, unsigned long, long)
+PUBLIC 76dd6 0 _LSServer_VolumeNotification
+PUBLIC 76ddb 0 _LSServer_Dump
+PUBLIC 76e35 0 _LSServer_RemoveSchemeHandler
+PUBLIC 76f88 0 _LSPluginClient_RemoveSchemeHandler
+PUBLIC 7716e 0 _LSPluginClient_SetSchemeHandler
+PUBLIC 77384 0 _LSPluginClient_SetContentTypeOptions
+PUBLIC 77570 0 _LSPluginClient_SetContentTypeHandler
+PUBLIC 7778f 0 _XRemoveSchemeHandler
+PUBLIC 77897 0 CSStringStoreAddTable
+PUBLIC 778a1 0 CSGetConstStringForCharacters
+PUBLIC 77a69 0 CSArrayStoreAddTable
+PUBLIC 77a9a 0 _UTTypeSearchHasIconFile
+PUBLIC 77ab0 0 UTTypeShow
+PUBLIC 77ab5 0 XCFBufInitWithCFString
+PUBLIC 77b0b 0 _LSBindableGetUnitID
+PUBLIC 77b17 0 _LSBindableGetClass
+PUBLIC 77b21 0 _LSBindableGetTypeID
+PUBLIC 77b4a 0 _LSDatabaseCopyCFStringFromString
+PUBLIC 77b68 0 _UTCopyDeclaredTypeIdentifiers
+PUBLIC 77c79 0 _UTTypeSetCopyRelatedTypeSet
+PUBLIC 77d12 0 _UTTypeSetCopyConformingTypeSet
+PUBLIC 77d2f 0 _UTTypeSetCopyConformsToTypeSet
+PUBLIC 77d4c 0 _UTApplier_BuildTagSet
+PUBLIC 77e30 0 _UTAddTagToSet
+PUBLIC 77e9e 0 _UTDynamicAddToSet
+PUBLIC 77f83 0 _UTTypeCopyDynamicIdentifiersForTags
+PUBLIC 7820a 0 UTTypeCopyDeclaringBundleURL
+PUBLIC 782b3 0 _UTCreateTagSet
+PUBLIC 7847f 0 _UTTypeSetCopyTagSet
+PUBLIC 78496 0 _UTTypeCopyTagSet
+PUBLIC 784ad 0 UTTypeCopyChildIdentifiers
+PUBLIC 78643 0 UTTypeCopyDeclaration
+PUBLIC 787c3 0 CSStringBindingStoreAddTable
+PUBLIC 787cc 0 _LSBindingListGetEntryCount
+PUBLIC 78805 0 _LSBindingListGetEntryAtIndex
+PUBLIC 7885d 0 _UTTypeAdd
+PUBLIC 788a6 0 _UTTypeGetApplicationType
+PUBLIC 78914 0 _UTUpdateActiveTypeForIdentifier
+PUBLIC 78bab 0 _UTTypeRemove
+PUBLIC 78d2c 0 _UTTypeComparePriority
+PUBLIC 78e22 0 _LSDisposeContentData(void const*, long, long)
+PUBLIC 78e31 0 XCFBufInitWithCFString
+PUBLIC 78e87 0 _LSCreateAppNodeForPSN(ProcessSerialNumber const*, FSNode**)
+PUBLIC 78fc3 0 _LSInitFlavorGlobals()
+PUBLIC 790db 0 _LSCollectPasteboardFilePromises(_LSHandlePasteboard_ApplierContext*)
+PUBLIC 7945f 0 _LSHandlePasteboard_CollectHFSPromiseFlavorsApplier(void const*, void const*, void*)
+PUBLIC 795ed 0 _LSHandlePasteboard_ContentApplier(void const*, void const*, void*)
+PUBLIC 7973f 0 _LSHandlePasteboard_DocsApplier(void const*, void const*, void*)
+PUBLIC 79814 0 _LSHandlePasteboard_URLsApplier(void const*, void const*, void*)
+PUBLIC 798db 0 _LSCreateURLFromCocoaURLFlavorData(__CFData const*)
+PUBLIC 799e7 0 _LSCopy8BitExtension(char const*, unsigned long, char, unsigned long)
+PUBLIC 79a8b 0 _LSCreateScrubbedStringFromFlavorData(__CFData const*, __CFString const*)
+PUBLIC 79c0e 0 _LSHandlePasteboard_TextPromotionApplier(void const*, void const*, void*)
+PUBLIC 79ff7 0 _LSGetFirstIndexOfUTI(__CFArray const*, CFRange, __CFString const*)
+PUBLIC 7a03c 0 _LSQuarantineMsgSetItemPathArray(__CFDictionary*, unsigned long, __CFArray*)
+PUBLIC 7a0cb 0 CopyDictionaryValues(void const*, void const*, void*)
+PUBLIC 7a0e6 0 _LSErrorDictAddDocument(LSContext*, __CFDictionary*, FSNode*)
+PUBLIC 7a1bd 0 _LSLauncherNeedsErrorHandler(long)
+PUBLIC 7a26b 0 _LSCreateErrorDict(LSContext*, long, unsigned long, FSNode*, unsigned long)
+PUBLIC 7a46f 0 _LSErrorDictPost(__CFDictionary const*)
+PUBLIC 7a50b 0 _LSCopyPathExtension(__CFString const*)
+PUBLIC 7a6a6 0 _LSErrorDictAddURL(__CFDictionary*, __CFURL const*)
+PUBLIC 7a75b 0 _LSCreateGURLEvent(__CFURL const*, ProcessSerialNumber const*, AEKeyDesc const*, AEDesc*)
+PUBLIC 7aa2e 0 _LS_realpath(__CFURL const*, char*, long)
+PUBLIC 7aab1 0 _LSCreateGenericReadMeNode(__CFBundle*, __CFString const*)
+PUBLIC 7ace1 0 _LSQuarantineMsgSetRiskCategory(__CFDictionary*, __CFString const*)
+PUBLIC 7ad4f 0 _LSCreateServiceBindingsSet(LSDatabase*, unsigned long, unsigned long)
+PUBLIC 7aec6 0 _LSHandlePasteboard_PBItemsApplier(CFPasteboardApplyFunctionData const*, void*)
+PUBLIC 7bcc6 0 _LSCreateClaimBindingsSet(LSDatabase*, unsigned long, unsigned long, unsigned long)
+PUBLIC 7bf44 0 _LSFindProcessASNCopyForNode(FSNode*, __LSASN const*)
+PUBLIC 7c074 0 _LSCanApplicationHandlePasteboardItems
+PUBLIC 7dbfd 0 _LSOpenContentItems(LSContext*, __CFArray const*, __CFArray const*, AEKeyDesc const*, LSApplicationParameters_V1 const*, FSNode*, unsigned long, ProcessSerialNumber*, unsigned char*)
+PUBLIC 7df88 0 _LSHandlePasteboardItems
+PUBLIC 7e442 0 LSService::Get(LSDatabase*, unsigned long)
+PUBLIC 7e46e 0 LSService::Add(LSDatabase*, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, long, unsigned long, unsigned long)
+PUBLIC 7e582 0 LSService::Remove(LSDatabase*, unsigned long)
+PUBLIC 7e676 0 _LSQuarantinePropertiesCreateWithBytes
+PUBLIC 7e706 0 _LSQuarantinePropertiesCreateData
+PUBLIC 7e70f 0 _LSSetIgnoreQuarantine
+PUBLIC 7e7a2 0 _LSCopyProcessQuarantineProperties
+PUBLIC 7e9d6 0 _LSGetNodeRiskLevel
+PUBLIC 7ea66 0 _LSSetVolumeQuarantineProperties
+PUBLIC 7eac8 0 OSReadSwapInt16
+PUBLIC 7ead9 0 OSReadSwapInt32
+PUBLIC 7eae4 0 swapLSRegistrationInfo
+PUBLIC 7ee30 0 _LS_vm_deallocate
+PUBLIC 7ee61 0 _LSPluginServer_RemoveSchemeHandler
+PUBLIC 7ee82 0 _LSDaemonModeInitializeProcessesServices(unsigned int, LSSessionID, LSSessionID, unsigned int, unsigned int*, unsigned int*, int*, void const**, unsigned int*)
+PUBLIC 7eed2 0 _LSDaemonModeInitializeProcessSharedMemory(unsigned int, LSSessionID, char*)
+PUBLIC 7eedc 0 _LSDaemonModeFindProcesses(unsigned int, LSSessionID, void const*, unsigned int, void const**, unsigned int*)
+PUBLIC 7eee6 0 _LSDaemonModeComparePSNs(unsigned int, LSSessionID, unsigned int, unsigned int, unsigned int, unsigned int, int*)
+PUBLIC 7ef02 0 _LSDaemonModeGetLaunchModifiers(unsigned int, LSSessionID, unsigned int, unsigned int, unsigned int, void const**, unsigned int*)
+PUBLIC 7ef1b 0 _LSDaemonModeUnregisterNotificationFunction(unsigned int, unsigned int)
+PUBLIC 7ef22 0 _LSDaemonModePassCurrentEventState(unsigned int, LSSessionID, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int)
+PUBLIC 7ef29 0 _LSDummyLastFunction()
+PUBLIC 7ef2e 0 _LSGetDaemonClientDispatchTablePtr()
+PUBLIC 7ef3f 0 _LSDaemonModeOrderProcesses(unsigned int, LSSessionID, void const*, unsigned int, unsigned int, unsigned int)
+PUBLIC 7ef72 0 _LSDaemonModeSendNotification(unsigned int, LSSessionID, unsigned int, unsigned int, unsigned int, double, void const*, unsigned int)
+PUBLIC 7efa5 0 _LSDaemonModeGetFrontProcess(unsigned int, LSSessionID, unsigned int*, unsigned int*)
+PUBLIC 7f01f 0 _LSDaemonModeRegisterNotificationFunction(unsigned int, LSSessionID, unsigned int, void const*, unsigned int, unsigned int*)
+PUBLIC 7f05b 0 _LSDaemonModePostLaunchModifiers(unsigned int, LSSessionID, unsigned int, unsigned int, void const*, unsigned int)
+PUBLIC 7f08e 0 _LSDaemonModeModifyNotification(unsigned int, LSSessionID, unsigned int, LSNotificationCode const*, unsigned int, LSNotificationCode const*, unsigned int, void const*, unsigned int, void const*, unsigned int)
+PUBLIC 7f106 0 _LSDaemonModeSetMetaApplicationInformation(unsigned int, LSSessionID, void const*, unsigned int)
+PUBLIC 7f139 0 _LSDaemonModeGetProcessListArrayRef(unsigned int, LSSessionID, void const**, unsigned int*)
+PUBLIC 7f1eb 0 _LSDaemonModeUnregisterApplication(unsigned int, LSSessionID, unsigned int, unsigned int, unsigned int)
+PUBLIC 7f280 0 _LSDaemonModeLaunchApplication(unsigned int, LSSessionID, void const*, unsigned int, void const*, unsigned int, void const**, unsigned int*)
+PUBLIC 7f32a 0 _LSDaemonModeGetPendingProcessListArrayRef(unsigned int, LSSessionID, void const**, unsigned int*)
+PUBLIC 7f397 0 _LSDaemonModeNotifyAboutLaunchedApplication(unsigned int, LSSessionID, void const*, unsigned int, void const*, unsigned int, int, unsigned int, void const**, unsigned int*)
+PUBLIC 7f491 0 _LSDaemonModeBlockUntilApplicationRegisters(unsigned int, LSSessionID, unsigned int, unsigned int, unsigned int)
+PUBLIC 7f4c1 0 _LSDaemonModeSignalApplicationReady(unsigned int, LSSessionID, unsigned int, unsigned int, void const**, unsigned int*)
+PUBLIC 7f563 0 _LSDaemonModeAllocatePSN(unsigned int, LSSessionID, void const*, unsigned int, void const**, unsigned int*)
+PUBLIC 7f619 0 _LSDaemonModeGetProcessInformation(unsigned int, LSSessionID, unsigned int, unsigned int, void const**, unsigned int*)
+PUBLIC 7f71d 0 _LSDaemonModeSetProcessInformation(unsigned int, LSSessionID, unsigned int, unsigned int, void const*, unsigned int, void const**, unsigned int*)
+PUBLIC 7f8dd 0 _LSDaemonModeSetFrontProcess(unsigned int, LSSessionID, unsigned int, unsigned int, void const*, unsigned int)
+PUBLIC 7f9bd 0 _LSDaemonModeGetMetaApplicationInformation(unsigned int, LSSessionID, void const**, unsigned int*)
+PUBLIC 7ffe5 0 _LSDaemonModeRegisterApplication(unsigned int, LSSessionID, void const*, unsigned int, unsigned int, void const**, unsigned int*, unsigned int*)
+PUBLIC 80260 0 _LSDaemonModeGetVisibleProcessListArrayRef(unsigned int, LSSessionID, unsigned int, void const**, unsigned int*)
+PUBLIC 8036c 0 RegisterApplicationLock::RegisterApplicationLock()
+PUBLIC 803a4 0 RegisterApplicationLock::OnceFunc()
+PUBLIC 80412 0 RegisterApplicationLock::~RegisterApplicationLock()
+PUBLIC 8044a 0 IS_GetFileInfoFromRef
+PUBLIC 804a2 0 IS_CreateFileInfoFromFileID
+PUBLIC 80523 0 _LSSharedFileList_IsSharePoint
+PUBLIC 80876 0 _GDBIconRefsList
+PUBLIC 80940 0 CIconRefArray::UnmountVolume(short)
+PUBLIC 809bc 0 CIconRefArray::FindMatch(short, unsigned long)
+PUBLIC 80a55 0 WriteIconFile
+PUBLIC 80b4c 0 ReadIconData(short, IconFamilyResource***)
+PUBLIC 80cfc 0 ReadIconFromFSRef
+PUBLIC 80d57 0 ReadIconFile
+PUBLIC 80da2 0 CFileIconRefEntry::BindToStorage(FSRef const*, HFSUniStr255*, unsigned long*, FSCatalogInfo*, unsigned long)
+PUBLIC 80e0c 0 SetCustomIconsEnabled
+PUBLIC 80e2a 0 CFileIconRefEntry::Update()
+PUBLIC 80efb 0 GetSharedImageRefFromIconRef
+PUBLIC 80f33 0 IsValidIconRef
+PUBLIC 80f92 0 UpdateIconRefInternal(OpaqueIconRef*)
+PUBLIC 80fb8 0 COverlayIconRefEntry::Update()
+PUBLIC 80ffe 0 MountNotificationHook(VolumeNoticeBlk*)
+PUBLIC 81034 0 COverlayIconRefEntry::GetImageLayer()
+PUBLIC 810b0 0 FlushIconRefsByVolume
+PUBLIC 810e2 0 FlushIconRefs
+PUBLIC 81114 0 UpdateIconRef
+PUBLIC 8116e 0 GetIconRefOwners
+PUBLIC 811da 0 CFileIconRefEntry::CFileIconRefEntry(FSRef const*, HFSUniStr255*, unsigned long*, FSCatalogInfo*, unsigned long, short*)
+PUBLIC 812a2 0 CFileIconRefEntry::DataChangedAfterUnmount(short)
+PUBLIC 812ee 0 COverlayIconRefEntry::COverlayIconRefEntry(OpaqueIconRef*, OpaqueIconRef*, short*)
+PUBLIC 813a5 0 CompositeIconRef
+PUBLIC 81488 0 RemoveIconRefOverride
+PUBLIC 814fb 0 OverrideIconRef
+PUBLIC 8157c 0 COverlayIconRefEntry::Unload()
+PUBLIC 815a3 0 _UnlattenIconRef
+PUBLIC 81626 0 GetIconRefFromComponent
+PUBLIC 81903 0 IS_CreateRegisteredIconRef(unsigned long, unsigned long, OpaqueISImageRef*, OpaqueIconRef**)
+PUBLIC 8193e 0 RegisterIconRefFromIconFamily
+PUBLIC 819db 0 RegisterIconRefFromResource
+PUBLIC 81a81 0 RegisterIconRefFromIconFile
+PUBLIC 81b24 0 RegisterIconRefFromFSRef
+PUBLIC 81bdb 0 GetIconRefFromSharedImageRef
+PUBLIC 81c51 0 IsIconRefComposite
+PUBLIC 81d67 0 UnregisterIconRef
+PUBLIC 81e08 0 GetIconRefFromIconFile
+PUBLIC 81ec0 0 GetIconRefFromIconFamilyPtr
+PUBLIC 81f5c 0 _GetIconRefFromIOKitDevice
+PUBLIC 81fee 0 GetIconRefFromFolder
+PUBLIC 82091 0 GetIconRefFromFSRef
+PUBLIC 82113 0 GetIconRefFromFile
+PUBLIC 821a1 0 _GetIconRefFromURL
+PUBLIC 82240 0 OverrideIconRefFromResource
+PUBLIC 82328 0 CIconRefEntry::GetIconRefType()
+PUBLIC 82332 0 CFileIconRefEntry::GetIconRefType()
+PUBLIC 8233c 0 CFileIconRefEntry::Match(short, unsigned long)
+PUBLIC 8235c 0 COverlayIconRefEntry::GetIconRefType()
+PUBLIC 82366 0 COverlayIconRefEntry::GetOverlayIcons(OpaqueIconRef**, OpaqueIconRef**)
+PUBLIC 8237e 0 COverlayIconRefEntry::~COverlayIconRefEntry()
+PUBLIC 8239e 0 COverlayIconRefEntry::~COverlayIconRefEntry()
+PUBLIC 823b8 0 CFileIconRefEntry::~CFileIconRefEntry()
+PUBLIC 823d8 0 CFileIconRefEntry::~CFileIconRefEntry()
+PUBLIC 823f2 0 CIconRefEntry::~CIconRefEntry()
+PUBLIC 82412 0 CIconRefEntry::~CIconRefEntry()
+PUBLIC 8242c 0 CIconRefEntry::DataChangedAfterUnmount(short)
+PUBLIC 8244e 0 CIconRefEntry::Update()
+PUBLIC 824a0 0 GetImageForSystemIcon
+PUBLIC 824cc 0 RegisteredImages::CopyImageByTypeCreator(unsigned long, unsigned long, OpaqueISImageRef**)
+PUBLIC 8253e 0 RegisteredImages::ImageIsInvalid(OpaqueISImageRef*)
+PUBLIC 825d1 0 RegisterImage
+PUBLIC 826cb 0 GetImageForFolder
+PUBLIC 827d8 0 CDynamicArray::Cleanup()
+PUBLIC 827fa 0 CDynamicArray::~CDynamicArray()
+PUBLIC 82820 0 __LSSharedFileListEqual
+PUBLIC 82837 0 CalculateHashValue
+PUBLIC 82a58 0 _LSSharedFileListVolumeIsVisibleInSidebar
+PUBLIC 82a6f 0 __LSSharedFileListItemCopyDebugDesc
+PUBLIC 82b52 0 __LSSharedFileListCopyDebugDesc
+PUBLIC 82b8a 0 __LSSharedFileListAddObserverOnQueue_block_invoke_1
+PUBLIC 82bad 0 LSSharedFileListCallbackCallback_dispatchmig
+PUBLIC 82bdc 0 _LSSharedFileListFindItemIndexWithAlias
+PUBLIC 82c5f 0 LSSharedFileListItemGetTypeID
+PUBLIC 82c96 0 LSSharedFileListGetTypeID
+PUBLIC 82ccd 0 __LSSharedFileListItemHash
+PUBLIC 82d84 0 __LSSharedFileListHash
+PUBLIC 82e30 0 LSSharedFileListItemFetchTargetProperties
+PUBLIC 82f42 0 LSSharedFileListSetProperty
+PUBLIC 83245 0 LSSharedFileListGetSeedValue
+PUBLIC 832c4 0 LSSharedFileListRemoveObserver
+PUBLIC 83405 0 LSSharedFileListRemoveObserverOnQueue
+PUBLIC 83515 0 LSSharedFileListAddObserverOnQueue
+PUBLIC 837a8 0 LSSharedFileListSetAuthorization
+PUBLIC 83828 0 LSSharedFileListItemCopyBookmarkData
+PUBLIC 83892 0 LSSharedFileListItemGetID
+PUBLIC 838ec 0 LSSharedFileListItemSetProperty
+PUBLIC 83c1a 0 LSSharedFileListRemoveAllItems
+PUBLIC 83cb2 0 LSSharedFileListItemRemove
+PUBLIC 83d87 0 LSSharedFileListItemMove
+PUBLIC 83e84 0 LSSharedFileListInsertItemAlias
+PUBLIC 84624 0 LSSharedFileListInsertItemURL
+PUBLIC 84e3a 0 returns_NULL
+PUBLIC 84e41 0 SCDynamicStoreCopyComputerName
+PUBLIC 84eba 0 LSPropertyProviderSetValues(__CFURL const*, __FileCache*, __CFString const* const*, void const**, void const**, long, void const*, __CFError**)
+PUBLIC 84ec1 0 prepareEffectiveIconValue_NS(__CFURL const*, __FileCache*, __CFError**)
+PUBLIC 84ecb 0 __HIServices_CopyLabelColorAndName(unsigned long, __HIServices__RGBColor*, __CFString const**)
+PUBLIC 84f51 0 copyLocalizedLabelAndColor(__CFURL const*, __FileCache*, __CFString const**, void const**, __CFError**)
+PUBLIC 850c1 0 prepareLabelColorValue(__CFURL const*, __FileCache*, __CFError**)
+PUBLIC 85132 0 prepareLocalizedLabelValue(__CFURL const*, __FileCache*, __CFError**)
+PUBLIC 851ac 0 __HIServices_IconRefToIconFamily(OpaqueIconRef*, unsigned long, IconFamilyResource***)
+PUBLIC 85215 0 __HIServices__IconServicesGetCGImageRefFromURL(__CFURL const*, unsigned long, short, short, __HIServices__RGBColor const*, unsigned long)
+PUBLIC 852c3 0 prepareEffectiveIconValue(__CFURL const*, __FileCache*, __CFError**)
+PUBLIC 85339 0 copyLabelColorValue(__CFURL const*, __FileCache const*, void*)
+PUBLIC 85388 0 copyLocalizedLabelValue(__CFURL const*, __FileCache const*, void*)
+PUBLIC 853d7 0 copyLocalizedTypeDescriptionValue(__CFURL const*, __FileCache const*, void*)
+PUBLIC 85426 0 copyBindingValue(__CFURL const*, __FileCache const*, void*)
+PUBLIC 85457 0 prepareLocalizedTypeDescriptionValue(__CFURL const*, __FileCache*, __CFError**)
+PUBLIC 854ca 0 _BindingCopyIconFamilyData(__Binding*, __CFData const**)
+PUBLIC 85598 0 prepareEffectiveIconImageDataValue(__CFURL const*, __FileCache*, __CFError**)
+PUBLIC 85642 0 copyEffectiveIconImageDataValue(__CFURL const*, __FileCache const*, void*)
+PUBLIC 85674 0 _LSAcquireIconRefForURL
+PUBLIC 86774 0  stub helpers
+PUBLIC 88576 0 GetOurCanonicalPSNLowHalf()::__FUNCTION__
+PUBLIC 890ca 0 GetLSASNRef(void const*, unsigned char)::__FUNCTION__
+PUBLIC 890d6 0 GetCFStringRef(void const*, unsigned char)::__FUNCTION__
+PUBLIC 890e8 0 GetCFDictionaryRef(void const*, unsigned char)::__FUNCTION__
+PUBLIC 890fc 0 GetCFArrayRef(void const*, unsigned char)::__FUNCTION__
+PUBLIC 89733 0 GetOurLSSessionIDInit()::__FUNCTION__
+PUBLIC 8984c 0 LSApplication::HandleProcessDeathNotification2(void*)::__FUNCTION__
+PUBLIC 89b50 0 LSSession::FindBestLSSession(LSSessionID, LSSessionID, unsigned int, audit_token_t, unsigned char)::__FUNCTION__
+PUBLIC 89b7e 0 _LSServerRegisterApplication::__FUNCTION__
+PUBLIC 8bf88 0 kStringsSuffixCStr
+PUBLIC 8bf91 0 kLocalizationDirNameCStr
+PUBLIC 8c424 0 encoder
+PUBLIC 8c943 0 _LSLaunch(LSContext*, FSNode*, unsigned long, void*, __CFArray const*, AEDesc const*, __CFArray const*, __CFDictionary const*, unsigned long, ProcessSerialNumber*)::__FUNCTION__
+PUBLIC 8f2e4 0 LaunchServicesVersionString
+PUBLIC 8f380 0 LSFakeAuditToken()::sToken
+PUBLIC 8f3e0 0 bmiArray.69442
+PUBLIC 8f418 0 kLSUserOverrideResType
+PUBLIC 8f41c 0 kLSUserOverrideResID
+PUBLIC 8f420 0 DOT_LOCALIZED
+PUBLIC 8f434 0 _LSCopyDisplayNameForNode::localizedExt
+PUBLIC 8f446 0 _LSCopyNodeAttribute_DisplayNameLocalizationDictionary(LSNodeAttributeStateCache*)::localizedExt
+PUBLIC 8f458 0 _LSCopyNodeAttribute_DisplayNameIfDifferentFromFSName(LSNodeAttributeStateCache*)::localizedExt
+PUBLIC 8f480 0 decoder
+PUBLIC 8f500 0 encodedRemainderLen
+PUBLIC 8f506 0 decodedRemainderLen
+PUBLIC 8f50f 0 hex_vals
+PUBLIC 8f540 0 _kCustomVolumeIconName
+PUBLIC 8f560 0 _kCustomFolderIconName
+PUBLIC 8f56a 0 _kGroupsString
+PUBLIC 8f576 0 _kSharedItemsString
+PUBLIC 8f58e 0 _kDeveloperString
+PUBLIC 8f5a0 0 _kServerString
+PUBLIC 8f5ac 0 _kFavoritesString
+PUBLIC 8f7c8 0 LaunchServicesVersionNumber
+PUBLIC 9f098 0 _kLSLaunchModifierAsyncKey
+PUBLIC 9f09c 0 _kLSLaunchModifierDataKey
+PUBLIC 9f0a0 0 _kLSLaunchModifierDataTypeKey
+PUBLIC 9f0a4 0 _kLSLaunchModifierDataTypeAppleEventKey
+PUBLIC 9f0a8 0 _kLSLaunchModifierDataTypeAppParametersKey
+PUBLIC 9f0ac 0 _kLSLaunchModifierRefConKey
+PUBLIC 9f0b0 0 _kLSLaunchModifierNewCopyKey
+PUBLIC 9f0b4 0 _kLSLaunchModifierDoNotMakeFrontmostWhenReadyKey
+PUBLIC 9f0b8 0 _kLSLaunchModifierFullEnvironmentVarsDictKey
+PUBLIC 9f0bc 0 _kLSLaunchModifierAdditionalEnvironmentVarsDictKey
+PUBLIC 9f0c0 0 _kLSLaunchModifierLeaveSTDINAloneKey
+PUBLIC 9f0c4 0 _kLSLaunchModifierLeaveSTDOUTAloneKey
+PUBLIC 9f0c8 0 _kLSLaunchModifierLeaveSTDERRAloneKey
+PUBLIC 9f0cc 0 _kLSLaunchModifierLeaveOpenFilesAloneKey
+PUBLIC 9f0d0 0 _kLSDontDropRootPermissionsKey
+PUBLIC 9f0d4 0 _kLSLaunchModifierAsUIDKey
+PUBLIC 9f0d8 0 _kLSLaunchModifierAsGIDKey
+PUBLIC 9f0dc 0 _kLSLaunchModifierUMaskKey
+PUBLIC 9f0e0 0 _kLSLaunchModifierWithLoginKey
+PUBLIC 9f0e4 0 _kLSLaunchModifierArchitectures
+PUBLIC 9f0e8 0 _kLSLaunchModifierForcePowerPC
+PUBLIC 9f0ec 0 _kLSLaunchModifierForce32Bit
+PUBLIC 9f0f0 0 _kLSLaunchModifierLaunchInStoppedStateKey
+PUBLIC 9f0f4 0 _kLSLaunchModifierAddPSNToArgumentListKey
+PUBLIC 9f0f8 0 _kLSLaunchModifierDoNotAddCOMMAND_MODEEnvironmentVariableKey
+PUBLIC 9f0fc 0 _kLSLaunchModifierLaunchedHiddenKey
+PUBLIC 9f100 0 _kLSLaunchModifierLaunchAndHideOthersKey
+PUBLIC 9f104 0 _kLSLaunchModifierFailureErrorCodeKey
+PUBLIC 9f108 0 _kLSLaunchModifierFailureErrorStringKey
+PUBLIC 9f10c 0 _kLSLaunchModifiersBFIfUserActivityOccursDuringLaunchKey
+PUBLIC 9f110 0 _kLSLaunchModifierUserActivityCountAtLaunchKey
+PUBLIC 9f114 0 _kLSLaunchModifiersBFIfFrontSeedChangesDuringLaunchKey
+PUBLIC 9f118 0 _kLSLaunchModifiersFrontApplicationSeedKey
+PUBLIC 9f11c 0 _kLSLaunchModifiersBFIfMouseButtonIsDownDuringLaunchKey
+PUBLIC 9f120 0 _kLSLaunchModifiersLaunchProgressTimeoutKey
+PUBLIC 9f124 0 _kLSPreviousASNKey
+PUBLIC 9f128 0 _kLSPreviousValueKey
+PUBLIC 9f12c 0 _kLSKeyBeingAddedKey
+PUBLIC 9f130 0 _kLSKeyBeingChangedKey
+PUBLIC 9f134 0 _kLSKeyBeingRemovedKey
+PUBLIC 9f138 0 _kLSExitStatusKey
+PUBLIC 9f13c 0 _kLSPreviousPresentationModeKey
+PUBLIC 9f140 0 _kLSNotifyBecameFrontmostFirstActivationKey
+PUBLIC 9f144 0 _kLSNotifyBecameFrontmostAnotherLaunchKey
+PUBLIC 9f148 0 _kLSSessionAttributesKey
+PUBLIC 9f14c 0 _kLSApplicationCountKey
+PUBLIC 9f150 0 _kLSVisibleApplicationCountKey
+PUBLIC 9f154 0 _kLSHiddenApplicationCountKey
+PUBLIC 9f158 0 _kLSUnhiddenApplicationCountKey
+PUBLIC 9f15c 0 _kLSFrontApplicationSeedKey
+PUBLIC 9f160 0 _kLSMenuBarOwnerApplicationSeedKey
+PUBLIC 9f164 0 _kLSApplicationListSeedKey
+PUBLIC 9f168 0 _kLSVisibleApplicationListSeedKey
+PUBLIC 9f16c 0 _kLSPSNToBringForwardAtNextApplicationExitKey
+PUBLIC 9f170 0 _kLSASNToBringForwardAtNextApplicationExitKey
+PUBLIC 9f174 0 _kLSDebugLevelKey
+PUBLIC 9f178 0 _kLSUIDsInSessionKey
+PUBLIC 9f17c 0 _kLSPIDsInSessionKey
+PUBLIC 9f180 0 _kLSSystemProcessASNKey
+PUBLIC 9f184 0 _kLSSessionLauncherASNKey
+PUBLIC 9f188 0 _kLSFrontReservationExistsKey
+PUBLIC 9f18c 0 _kLSLaunchInProgressKey
+PUBLIC 9f190 0 _kLSUserActivityCountKey
+PUBLIC 9f194 0 _kLSMouseButtonDownKey
+PUBLIC 9f198 0 _kLSDisableAllPostLaunchBringForwardRequestsKey
+PUBLIC 9f19c 0 _kLSPermittedFrontASNsArrayKey
+PUBLIC 9f1a0 0 _kLSKnownLSSessionIDsKey
+PUBLIC 9f1a4 0 _kLSMetaInfoCGSSessionIDKey
+PUBLIC 9f1a8 0 _kLSMetaInfoActiveCGSSessionIDKey
+PUBLIC 9f1ac 0 _kLSErrorMessageStringKey
+PUBLIC 9f1b0 0 _kLSApplicationsRecordingAppleEventsKey
+PUBLIC 9f1b4 0 _kLSASNKey
+PUBLIC 9f1b8 0 _kLSParentASNKey
+PUBLIC 9f1bc 0 _kLSParentASNWasInferredKey
+PUBLIC 9f1c0 0 _kLSBundleIdentifierLowerCaseKey
+PUBLIC 9f1c4 0 _kLSBundlePathKey
+PUBLIC 9f1c8 0 _kLSBundlePathDeviceIDKey
+PUBLIC 9f1cc 0 _kLSBundlePathINodeKey
+PUBLIC 9f1d0 0 _kLSExecutablePathKey
+PUBLIC 9f1d4 0 _kLSExecutablePathDeviceIDKey
+PUBLIC 9f1d8 0 _kLSExecutablePathINodeKey
+PUBLIC 9f1dc 0 _kLSShellExecutablePathKey
+PUBLIC 9f1e0 0 _kLSOriginalExecutablePathKey
+PUBLIC 9f1e4 0 _kLSOriginalExecutablePathDeviceIDKey
+PUBLIC 9f1e8 0 _kLSOriginalExecutablePathINodeKey
+PUBLIC 9f1ec 0 _kLSLaunchDLabelKey
+PUBLIC 9f1f0 0 _kLSFileTypeKey
+PUBLIC 9f1f4 0 _kLSFileCreatorKey
+PUBLIC 9f1f8 0 _kLSPIDKey
+PUBLIC 9f1fc 0 _kLSOriginalPIDKey
+PUBLIC 9f200 0 _kLSSessionIDKey
+PUBLIC 9f204 0 _kLSRequiresClassicKey
+PUBLIC 9f208 0 _kLSRequiresCarbonKey
+PUBLIC 9f20c 0 _kLSUIPresentationModeKey
+PUBLIC 9f210 0 _kLSUIPresentationModeNormalValue
+PUBLIC 9f214 0 _kLSUIPresentationModeContentSuppressedValue
+PUBLIC 9f218 0 _kLSUIPresentationModeContentHiddenValue
+PUBLIC 9f21c 0 _kLSUIPresentationModeAllSuppressedValue
+PUBLIC 9f220 0 _kLSUIPresentationModeAllHiddenValue
+PUBLIC 9f224 0 _kLSUIPresentationOptionsKey
+PUBLIC 9f228 0 _kLSDisplayNameKey
+PUBLIC 9f22c 0 _kLSLaunchTimeKey
+PUBLIC 9f230 0 _kLSCheckInTimeKey
+PUBLIC 9f234 0 _kLSApplicationTypeKey
+PUBLIC 9f238 0 _kLSApplicationForegroundTypeKey
+PUBLIC 9f23c 0 _kLSApplicationBackgroundOnlyTypeKey
+PUBLIC 9f240 0 _kLSApplicationUIElementTypeKey
+PUBLIC 9f244 0 _kLSAllowedToBecomeFrontmostKey
+PUBLIC 9f248 0 _kLSApplicationInformationSeedKey
+PUBLIC 9f24c 0 _kLSApplicationVersionKey
+PUBLIC 9f250 0 _kLSExecutableFormatKey
+PUBLIC 9f254 0 _kLSExecutableFormatMachOKey
+PUBLIC 9f258 0 _kLSExecutableFormatCFMKey
+PUBLIC 9f25c 0 _kLSExecutableFormatPoundBangKey
+PUBLIC 9f260 0 _kLSApplicationDesiresAttentionKey
+PUBLIC 9f264 0 _kLSApplicationForegroundPriorityKey
+PUBLIC 9f268 0 _kLSApplicationBackgroundPriorityKey
+PUBLIC 9f26c 0 _kLSApplicationIsHiddenKey
+PUBLIC 9f270 0 _kLSFlavorKey
+PUBLIC 9f274 0 _kLSApplicationHasRegisteredKey
+PUBLIC 9f278 0 _kLSApplicationHasSignalledItIsReadyKey
+PUBLIC 9f27c 0 _kLSApplicationInStoppedStateKey
+PUBLIC 9f280 0 _kLSLaunchedInQuarantineKey
+PUBLIC 9f284 0 _kLSServerMessageCountKey
+PUBLIC 9f288 0 _kLSNotificationsSentCountKey
+PUBLIC 9f28c 0 _kLSNotificationsPendingCountKey
+PUBLIC 9f290 0 _kLSNotificationsDelayedCountKey
+PUBLIC 9f294 0 _kLSDoNotBFIfFrontApplicationSeedIsChangedKey
+PUBLIC 9f298 0 _kLSDoNotBringAllWindowsForwardKey
+PUBLIC 9f29c 0 _kLSNotifyLaunchRequestLaunchModifiersKey
+PUBLIC 9f2a0 0 _kLSNotifyLaunchRequestArgumentListKey
+PUBLIC 9f2a4 0 _kLSLaunchModifiersKey
+PUBLIC 9f2a8 0 _kLSFrontASNKey
+PUBLIC 9f2ac 0 _kLSLaunchedByLaunchServicesKey
+PUBLIC 9f2b0 0 _kLSLaunchedByLaunchServicesThruLaunchDKey
+PUBLIC 9f2b4 0 _kLSLaunchedByLaunchServicesThruForkExecKey
+PUBLIC 9f2b8 0 _kLSLaunchedByLaunchServicesThruSessionLauncherKey
+PUBLIC 9f2bc 0 _kLSWantsToComeForwardAtRegistrationTimeKey
+PUBLIC 9f2c0 0 _kLSModifierRefConKey
+PUBLIC 9f2c4 0 _kLSArchitectureKey
+PUBLIC 9f2c8 0 _kLSArchitecturePowerPCValue
+PUBLIC 9f2cc 0 _kLSArchitecturePowerPC64Value
+PUBLIC 9f2d0 0 _kLSArchitecturei386Value
+PUBLIC 9f2d4 0 _kLSArchitecturex86_64Value
+PUBLIC 9f2d8 0 _kLSArchitectureUnknownValue
+PUBLIC 9f2dc 0 _kLSRecordingAppleEventsKey
+PUBLIC 9f2e0 0 _LSServerLSAPlugin_subsystem
+PUBLIC 9f5c0 0 kClientTable
+PUBLIC 9f680 0 LSSession::CopyMetaApplicationInformation()::sErrorStrings
+PUBLIC 9f720 0 _LSASNRegisterClass()::__LSASNClass
+PUBLIC 9f760 0 schemeExtentionMap.53213
+PUBLIC 9f7b8 0 kFSNodeClass
+PUBLIC 9f7c4 0 kXCFCaseInsensitiveStringSetCallBacks
+PUBLIC 9f7dc 0 kXCFCaseInsensitiveStringDictionaryKeyCallBacks
+PUBLIC 9f7f4 0 kXCFCaseInsensitiveStringArrayCallBacks
+PUBLIC 9f808 0 _LSInstall_ocon_EventHandler::sEventHandlers
+PUBLIC 9f820 0 kLibrarySubfolders
+PUBLIC 9f85c 0 _LSPathIsTrusted(char const*)::trustedPaths
+PUBLIC 9f870 0 kLSDatabaseClass
+PUBLIC 9f87c 0 lsregisterArgs.81921
+PUBLIC 9f8a0 0 _LSInitializeAttributeDispatchOnce()::C.556
+PUBLIC 9f8e4 0 kLSHandlerRoleKeys
+PUBLIC 9f8fc 0 kLSArchitecturesForCPUKeys
+PUBLIC 9f920 0 _LSPluginServer_LSPlugin_subsystem
+PUBLIC 9fa0c 0 c.110822
+PUBLIC 9fa20 0 c.110732
+PUBLIC 9fa34 0 c.110660
+PUBLIC 9fa48 0 c.110593
+PUBLIC 9fa5c 0 c.110589
+PUBLIC 9fa70 0 c.110358
+PUBLIC 9fa84 0 c.110350
+PUBLIC 9fa98 0 cb.109231
+PUBLIC 9faac 0 c.108631
+PUBLIC 9fac0 0 kLSNotificationDatabaseSeedingComplete
+PUBLIC 9fac4 0 kLSItemCanSetExtensionHidden
+PUBLIC 9fac8 0 kLSItemCanRunInClassicEnvironment
+PUBLIC 9facc 0 kLSItemCanRunInNativeEnvironment
+PUBLIC 9fad0 0 kLSItemContentType
+PUBLIC 9fad4 0 kLSItemDisplayKind
+PUBLIC 9fad8 0 kLSItemDisplayKindWithPlatformInfo
+PUBLIC 9fadc 0 kLSItemDisplayKindLocalizationDictionary
+PUBLIC 9fae0 0 kLSItemDisplayName
+PUBLIC 9fae4 0 kLSItemDisplayNameLocalizationDictionary
+PUBLIC 9fae8 0 kLSItemDisplayNameIfDifferentFromFSName
+PUBLIC 9faec 0 kLSItemExtension
+PUBLIC 9faf0 0 kLSItemExtensionIsHidden
+PUBLIC 9faf4 0 kLSItemFileCreator
+PUBLIC 9faf8 0 kLSItemFileType
+PUBLIC 9fafc 0 kLSItemIsExecutable
+PUBLIC 9fb00 0 kLSItemIsInvisible
+PUBLIC 9fb04 0 kLSItemIsScriptable
+PUBLIC 9fb08 0 kLSItemArchitecturesAvailable
+PUBLIC 9fb0c 0 kLSItemArchitecturesValidOnCurrentSystem
+PUBLIC 9fb10 0 kLSItemIsInBackupSnapshot
+PUBLIC 9fb14 0 kLSItemOriginalContentType
+PUBLIC 9fb18 0 kLSItemPrefersClassicEnvironment
+PUBLIC 9fb1c 0 kLSItemPrefersNativeEnvironment
+PUBLIC 9fb20 0 kLSItemProvidesPasteboardServices
+PUBLIC 9fb24 0 kLSItemRoleHandlerDisplayName
+PUBLIC 9fb28 0 kLSItemRoleHandlerFSRef
+PUBLIC 9fb2c 0 kLSItemQuarantineProperties
+PUBLIC 9fb30 0 kLSDefaultLocalizedValueKey
+PUBLIC 9fb34 0 kLSSystemLibraryBundleIdentifier
+PUBLIC 9fb38 0 kLSLocalLibraryBundleIdentifier
+PUBLIC 9fb3c 0 kLSNetworkLibraryBundleIdentifier
+PUBLIC 9fb40 0 kLSUserLibraryBundleIdentifier
+PUBLIC 9fb44 0 kLSNetworkRootCanonicalName
+PUBLIC 9fb48 0 kLSComputerRootCanonicalName
+PUBLIC 9fb4c 0 kLSRemoteDiscRootCanonicalName
+PUBLIC 9fb50 0 kLSQuarantineAgentNameKey
+PUBLIC 9fb54 0 kLSQuarantineAgentBundleIdentifierKey
+PUBLIC 9fb58 0 kLSQuarantineTimeStampKey
+PUBLIC 9fb5c 0 kLSQuarantineTypeKey
+PUBLIC 9fb60 0 kLSQuarantineTypeWebDownload
+PUBLIC 9fb64 0 kLSQuarantineTypeOtherDownload
+PUBLIC 9fb68 0 kLSQuarantineTypeEmailAttachment
+PUBLIC 9fb6c 0 kLSQuarantineTypeInstantMessageAttachment
+PUBLIC 9fb70 0 kLSQuarantineTypeCalendarEventAttachment
+PUBLIC 9fb74 0 kLSQuarantineTypeOtherAttachment
+PUBLIC 9fb78 0 kLSQuarantineOriginURLKey
+PUBLIC 9fb7c 0 kLSQuarantineDataURLKey
+PUBLIC 9fb80 0 kUTTypeConformsToKeyChars
+PUBLIC 9fb88 0 kUTTypeFilenameExtensionChars
+PUBLIC 9fb90 0 kUTTypeOSTypeChars
+PUBLIC 9fb98 0 kUTTypeMIMETypeChars
+PUBLIC 9fba0 0 kUTTypeNSPboardTypeChars
+PUBLIC 9fba8 0 kUTTypeItemChars
+PUBLIC 9fbb0 0 kUTTypeDataChars
+PUBLIC 9fbb8 0 kUTTypeUnixExecutableChars
+PUBLIC 9fbc0 0 kUTTypeDirectoryChars
+PUBLIC 9fbc8 0 kUTTypeFolderChars
+PUBLIC 9fbd0 0 kUTTypeVolumeChars
+PUBLIC 9fbd8 0 kUTTypePackageChars
+PUBLIC 9fbe0 0 kUTTypeApplicationChars
+PUBLIC 9fbe8 0 kUTTypeSymLinkChars
+PUBLIC 9fbf0 0 kUTTypeMountPointChars
+PUBLIC 9fbf8 0 kUTTypeAliasFileChars
+PUBLIC 9fc00 0 kUTExportedTypeDeclarationsKey
+PUBLIC 9fc04 0 kUTImportedTypeDeclarationsKey
+PUBLIC 9fc08 0 kUTTypeIdentifierKey
+PUBLIC 9fc0c 0 kUTTypeTagSpecificationKey
+PUBLIC 9fc10 0 kUTTypeConformsToKey
+PUBLIC 9fc14 0 kUTTypeDescriptionKey
+PUBLIC 9fc18 0 kUTTypeIconFileKey
+PUBLIC 9fc1c 0 kUTTypeReferenceURLKey
+PUBLIC 9fc20 0 kUTTypeVersionKey
+PUBLIC 9fc24 0 kUTTagClassFilenameExtension
+PUBLIC 9fc28 0 kUTTagClassMIMEType
+PUBLIC 9fc2c 0 kUTTagClassNSPboardType
+PUBLIC 9fc30 0 kUTTagClassOSType
+PUBLIC 9fc34 0 kUTTagClassDeviceModelCode
+PUBLIC 9fc38 0 kUTTypeItem
+PUBLIC 9fc3c 0 kUTTypeContent
+PUBLIC 9fc40 0 kUTTypeCompositeContent
+PUBLIC 9fc44 0 kUTTypeContact
+PUBLIC 9fc48 0 kUTTypeMessage
+PUBLIC 9fc4c 0 kUTTypeArchive
+PUBLIC 9fc50 0 kUTTypeDiskImage
+PUBLIC 9fc54 0 kUTTypeDatabase
+PUBLIC 9fc58 0 kUTTypeDevice
+PUBLIC 9fc5c 0 kUTTypeComputer
+PUBLIC 9fc60 0 kUTTypeGenericPC
+PUBLIC 9fc64 0 kUTTypeAppleMac
+PUBLIC 9fc68 0 kUTTypeDropFolder
+PUBLIC 9fc6c 0 kUTTypeApplicationsFolder
+PUBLIC 9fc70 0 kUTTypeLibraryFolder
+PUBLIC 9fc74 0 kUTTypeServersFolder
+PUBLIC 9fc78 0 kUTTypeNetworkNeighborhood
+PUBLIC 9fc7c 0 kUTTypeFileSharepoint
+PUBLIC 9fc80 0 kUTTypeDotMac
+PUBLIC 9fc84 0 kUTTypeUnixExecutable
+PUBLIC 9fc88 0 kUTTypeData
+PUBLIC 9fc8c 0 kUTTypeText
+PUBLIC 9fc90 0 kUTTypeCaseInsensitiveText
+PUBLIC 9fc94 0 kUTTypePlainText
+PUBLIC 9fc98 0 kUTTypeUTF8PlainText
+PUBLIC 9fc9c 0 kUTTypeUTF16ExternalPlainText
+PUBLIC 9fca0 0 kUTTypeUTF16PlainText
+PUBLIC 9fca4 0 kUTTypeTraditionalMacPlainText
+PUBLIC 9fca8 0 kUTTypeRTF
+PUBLIC 9fcac 0 kUTTypeHTML
+PUBLIC 9fcb0 0 kUTTypeXML
+PUBLIC 9fcb4 0 kUTTypeSourceCode
+PUBLIC 9fcb8 0 kUTTypeCSource
+PUBLIC 9fcbc 0 kUTTypeObjectiveCSource
+PUBLIC 9fcc0 0 kUTTypeCPlusPlusSource
+PUBLIC 9fcc4 0 kUTTypeObjectiveCPlusPlusSource
+PUBLIC 9fcc8 0 kUTTypeCHeader
+PUBLIC 9fccc 0 kUTTypeCPlusPlusHeader
+PUBLIC 9fcd0 0 kUTTypeJavaSource
+PUBLIC 9fcd4 0 kUTTypeURL
+PUBLIC 9fcd8 0 kUTTypeFileURL
+PUBLIC 9fcdc 0 kUTTypePDF
+PUBLIC 9fce0 0 kUTTypeVCard
+PUBLIC 9fce4 0 kUTTypeRTFD
+PUBLIC 9fce8 0 kUTTypeFlatRTFD
+PUBLIC 9fcec 0 kUTTypeTXNTextAndMultimediaData
+PUBLIC 9fcf0 0 kUTTypeInkText
+PUBLIC 9fcf4 0 kUTTypeWebArchive
+PUBLIC 9fcf8 0 kUTTypeImage
+PUBLIC 9fcfc 0 kUTTypeJPEG
+PUBLIC 9fd00 0 kUTTypeJPEG2000
+PUBLIC 9fd04 0 kUTTypeTIFF
+PUBLIC 9fd08 0 kUTTypePICT
+PUBLIC 9fd0c 0 kUTTypeBMP
+PUBLIC 9fd10 0 kUTTypeGIF
+PUBLIC 9fd14 0 kUTTypeICO
+PUBLIC 9fd18 0 kUTTypePNG
+PUBLIC 9fd1c 0 kUTTypeQuickTimeImage
+PUBLIC 9fd20 0 kUTTypeAppleICNS
+PUBLIC 9fd24 0 kUTTypeAudiovisualContent
+PUBLIC 9fd28 0 kUTTypeMovie
+PUBLIC 9fd2c 0 kUTTypeVideo
+PUBLIC 9fd30 0 kUTTypeQuickTimeMovie
+PUBLIC 9fd34 0 kUTTypeMPEG
+PUBLIC 9fd38 0 kUTTypeMPEG4
+PUBLIC 9fd3c 0 kUTTypeAudio
+PUBLIC 9fd40 0 kUTTypeMP3
+PUBLIC 9fd44 0 kUTTypeMPEG4Audio
+PUBLIC 9fd48 0 kUTTypeAppleProtectedMPEG4Audio
+PUBLIC 9fd4c 0 kUTTypeDirectory
+PUBLIC 9fd50 0 kUTTypeFolder
+PUBLIC 9fd54 0 kUTTypeVolume
+PUBLIC 9fd58 0 kUTTypePackage
+PUBLIC 9fd5c 0 kUTTypeBundle
+PUBLIC 9fd60 0 kUTTypeFramework
+PUBLIC 9fd64 0 kUTTypeApplication
+PUBLIC 9fd68 0 kUTTypeApplicationBundle
+PUBLIC 9fd6c 0 kUTTypeApplicationFile
+PUBLIC 9fd70 0 kUTTypeDeprecatedApplicationFile
+PUBLIC 9fd74 0 kUTTypeResolvable
+PUBLIC 9fd78 0 kUTTypeSymLink
+PUBLIC 9fd7c 0 kUTTypeMountPoint
+PUBLIC 9fd80 0 kUTTypeAliasRecord
+PUBLIC 9fd84 0 kUTTypeAliasFile
+PUBLIC 9fd88 0 _LSGetRiskCategoryForRiskLevel::sRiskCategories
+PUBLIC 9fdc0 0 sDaemonDispatchTable
+PUBLIC 9ff2c 0 kLoginItemPropertyHideKey
+PUBLIC 9ff30 0 kLoginItemPropertyLegacyPrefsKey
+PUBLIC 9ff40 0 kLSPropertyProviderCallbacks
+PUBLIC 9ff60 0 _BindingInitClass()::_BindingClassRegistrationInfo
+PUBLIC 9ff88 0 _LSRegisterFilePropertyProvider::iconDependencyKeys
+PUBLIC a2c60 0 kClientNullTable
+PUBLIC a2ce0 0 _LSCopyMetaApplicationInformationItemFromSharedMemory(LSClientSideSharedMemory*, void const*, bool&)::sMetaInformationRetrievableFromSharedMemory
+PUBLIC a2dac 0 GetActiveNotificationsMap()::sActiveNotificationsOnce
+PUBLIC a2dc0 0 _LSCopyApplicationInformationItemFromSharedMemory(LSClientSideSharedMemory*, __LSASN const*, void const*)::sApplicationInformationRetrievableFromSharedMemory
+PUBLIC a2e00 0 _LSCopyApplicationArray::sApplicationArrayLock
+PUBLIC a2e4c 0 sClientSharedMemoryItemsOnce
+PUBLIC a2e60 0 kLSAMsgMap
+PUBLIC a2f68 0 __block_holder_tmp_2.640
+PUBLIC a2f80 0 LSApplication::SetProcessInformationItem(__CFString const*, void const*, bool)::sSettableProcessInformationItems
+PUBLIC a3040 0 kLaunchApplicationServicesDirectFunctionCallTable
+PUBLIC a30c0 0 libPaths
+PUBLIC a30e0 0 kLSStringStoreTableName
+PUBLIC a30e4 0 kLSArrayStoreTableName
+PUBLIC a30e8 0 kLSBundleTableName
+PUBLIC a30ec 0 kLSClaimTableName
+PUBLIC a30f0 0 kLSServiceTableName
+PUBLIC a30f4 0 kLSTypeTableName
+PUBLIC a30f8 0 kLSDataTableName
+PUBLIC a3100 0 kLSBindingInfo
+PUBLIC a3178 0 kLSHandlerPrefTableName
+PUBLIC a317c 0 kLSContainerTableName
+PUBLIC a3180 0 kLSAliasTableName
+PUBLIC a3184 0 gDispatcher
+PUBLIC a31a0 0 builtins
+PUBLIC a3200 0 QuarantineEventDB::setEventProperties(__CFDictionary const*)::propKeys
+PUBLIC a3240 0 kLSMsgMap
+PUBLIC a32a0 0 sRegisterApplicationLock
+PUBLIC a32d0 0 gStdSegmentAllocators
+PUBLIC a32e0 0 kLSSharedFileListFavoriteVolumes
+PUBLIC a32e4 0 kLSSharedFileListFavoriteItems
+PUBLIC a32e8 0 kLSSharedFileListSavedSearchesItems
+PUBLIC a32ec 0 kLSSharedFileListRecentApplicationItems
+PUBLIC a32f0 0 kLSSharedFileListRecentDocumentItems
+PUBLIC a32f4 0 kLSSharedFileListRecentServerItems
+PUBLIC a32f8 0 kLSSharedFileListRecentHostItems
+PUBLIC a32fc 0 kLSSharedFileListNetworkBrowser
+PUBLIC a3300 0 kLSSharedFileListAutomountedServers
+PUBLIC a3304 0 kLSSharedFileListFavoriteServers
+PUBLIC a3308 0 kLSSharedFileListSessionLoginItems
+PUBLIC a330c 0 kLSSharedFileListGlobalLoginItems
+PUBLIC a3310 0 kLSSharedFileListManagedSessionLoginItems
+PUBLIC a3314 0 kLSSharedFileListSharePoints
+PUBLIC a3318 0 kLSSharedFileListManagedSharedItems
+PUBLIC a331c 0 kLSSharedFileListApplicationRecentDocuments
+PUBLIC a3320 0 kLSSharedFileListDockApplications
+PUBLIC a3324 0 kLSSharedFileListType
+PUBLIC a3328 0 kLSSharedFileListRecentItemsMaxAmount
+PUBLIC a332c 0 kLSSharedFileListVolumesShowRepairing
+PUBLIC a3330 0 kLSSharedFileListVolumesComputerVisible
+PUBLIC a3334 0 kLSSharedFileListVolumesIDiskVisible
+PUBLIC a3338 0 kLSSharedFileListVolumesNetworkVisible
+PUBLIC a333c 0 kLSSharedFileListVolumesShowHardDrives
+PUBLIC a3340 0 kLSSharedFileListVolumesShowEjectableVolumes
+PUBLIC a3344 0 kLSSharedFileListVolumesShowRemovableVolumes
+PUBLIC a3348 0 kLSSharedFileListVolumesShowHardDrivesExceptions
+PUBLIC a334c 0 kLSSharedFileListVolumesShowEjectableVolumesExceptions
+PUBLIC a3350 0 kLSSharedFileListVolumesShowRemovableVolumesExceptions
+PUBLIC a3354 0 kLSSharedFileListSharingEnabled
+PUBLIC a3358 0 kLSSharedFileListAFPSharingEnabled
+PUBLIC a335c 0 kLSSharedFileListSMBSharingEnabled
+PUBLIC a3360 0 kLSSharedFileListSMBPrintingEnabled
+PUBLIC a3364 0 kLSSharedFileListNMBSharingEnabled
+PUBLIC a3368 0 kLSSharedFileListFTPSharingEnabled
+PUBLIC a336c 0 kLSSharedFileListGuestAccessEnabled
+PUBLIC a3370 0 kLSSharedFileListTimedShutdown
+PUBLIC a3374 0 kLSSharedFileListCancelShutdown
+PUBLIC a3378 0 kLSSharedFileListAFPServerName
+PUBLIC a337c 0 kLSSharedFileListAFPStatus
+PUBLIC a3380 0 kLSSharedFileListAFPConnections
+PUBLIC a3384 0 kLSSharedFileListAFPTimedShutdown
+PUBLIC a3388 0 kLSSharedFileListAFPCancelShutdown
+PUBLIC a338c 0 kLSSharedFileListAFPServerVersion
+PUBLIC a3390 0 kLSSharedFileListAFPServerState
+PUBLIC a3394 0 kLSSharedFileListAFPSecondsToShutdown
+PUBLIC a3398 0 kLSSharedFileListAFPServerActivity
+PUBLIC a339c 0 kLSSharedFileListAFPServerStateNotRunning
+PUBLIC a33a0 0 kLSSharedFileListAFPServerStateStartingUp
+PUBLIC a33a4 0 kLSSharedFileListAFPServerStateGoingToShutDown
+PUBLIC a33a8 0 kLSSharedFileListAFPServerStateShuttingDown
+PUBLIC a33ac 0 kLSSharedFileListAFPServerStateRefusingConnections
+PUBLIC a33b0 0 kLSSharedFileListAFPServerStateServerIsEnabled
+PUBLIC a33b4 0 kLSSharedFileListAFPServerStateUnknown
+PUBLIC a33b8 0 kLSSharedFileListAFPServerTimedShutdownMessage
+PUBLIC a33bc 0 kLSSharedFileListAFPServerTimedShutdownTime
+PUBLIC a33c0 0 kLSSharedFileListAFPConnectionUserName
+PUBLIC a33cc 0 kLSSharedFileListItemHidden
+PUBLIC a33d0 0 kLSSharedFileListItemManaged
+PUBLIC a33d4 0 kLSSharedFileListItemLocked
+PUBLIC a33d8 0 kLSSharedFileListItemPersistent
+PUBLIC a33dc 0 kLSSharedFileListLoginItemHidden
+PUBLIC a33e0 0 kLSSharedFileListSpecialItemIdentifier
+PUBLIC a33e4 0 kLSSharedFileListItemIsComputer
+PUBLIC a33e8 0 kLSSharedFileListItemIsIDisk
+PUBLIC a33ec 0 kLSSharedFileListItemIsNetwork
+PUBLIC a33f0 0 kLSSharedFileListItemIsShared
+PUBLIC a33f4 0 kLSSharedFileListItemIsRemoteDisc
+PUBLIC a33f8 0 kLSSharedFileListItemVolumeRefNum
+PUBLIC a33fc 0 kLSSharedFileListItemRepairedVolume
+PUBLIC a3400 0 kLSSharedFileListItemTargetIsDirectory
+PUBLIC a3404 0 kLSSharedFileListItemTargetIsVolume
+PUBLIC a3408 0 kLSSharedFileListItemTargetName
+PUBLIC a340c 0 kLSSharedFileListItemShareName
+PUBLIC a3410 0 kLSSharedFileListItemSharePointNotAvailable
+PUBLIC a3414 0 kLSSharedFileListRestrictedItemFSProperties
+PUBLIC a3418 0 kLSSharedFileListRestrictedItemACLs
+PUBLIC a341c 0 kLSSharedFileListRestrictedItemOwner
+PUBLIC a3420 0 kLSSharedFileListRestrictedItemOnWritableVolume
+PUBLIC a3424 0 kLSSharedFileListRestrictedItemOnVolumeSupportingPerms
+PUBLIC a3430 0 theLoginUserMayAddItemsKey.72404
+PUBLIC a3440 0 _kLSSharedFileListItemClass
+PUBLIC a3480 0 _kLSSharedFileListClass
+PUBLIC a34c0 0 _LSRegisterFilePropertyProvider::propertyTable
+PUBLIC a3610 0 sLSInitializeStaticDataOnce
+PUBLIC a3620 0 sNotificationIDLockOnce
+PUBLIC a3640 0 sNotificationIDLock
+PUBLIC a3678 0 sApplicationInfoLockOnce
+PUBLIC a3680 0 sApplicationInfoLock
+PUBLIC a36ac 0 sCachedApplicationInformationOnce
+PUBLIC a36b4 0 _LSCopyApplicationArrayInFrontToBackOrder::sVisibleApplicationArrayLockOnce
+PUBLIC a36c0 0 _LSCopyApplicationArrayInFrontToBackOrder::sVisibleApplicationArrayLock
+PUBLIC a36ec 0 _LSCopyApplicationArray::sApplicationArrayLockOnce
+PUBLIC a3700 0 sReconnectToLASServerInterval
+PUBLIC a3708 0 sLASPortForDeathNotificationsOnce
+PUBLIC a3710 0 sOurPIDForCheckingNormalizedPSN
+PUBLIC a3720 0 sSharedMemoryPageLockOnce
+PUBLIC a3740 0 sSharedMemoryPageLock
+PUBLIC a3780 0 sThisProcessIsTheCoreApplicationServerPID
+PUBLIC a37a0 0 sCurrentApplicationInfoRefLock
+PUBLIC a37cc 0 sGetOurLSSessionIDOnce
+PUBLIC a37e0 0 sCoreApplicationServicesPortMutex
+PUBLIC a3820 0 __block_descriptor_tmp_1.639
+PUBLIC a3830 0 __block_descriptor_tmp_2.641
+PUBLIC a3840 0 LSNotification::sNotificationID
+PUBLIC a3844 0 sLSNotificationsByIDOnce
+PUBLIC a384c 0 sLSNotificationsByIDMap
+PUBLIC a3850 0 sLSNotificationCodeToNotificationMap
+PUBLIC a3860 0 kAllNotificationCodes
+PUBLIC a3904 0 sLSNotificationCodeToNotificationMapOnce
+PUBLIC a390c 0 sLSSessionsMapOnce
+PUBLIC a3914 0 LSSession::sNextPSNLowHalf
+PUBLIC a3918 0 LSSession::sActiveCGSSessionID
+PUBLIC a391c 0 LSSession::sWindowServerPid
+PUBLIC a3920 0 sOnlySession
+PUBLIC a3940 0 sDebugLoggingLevelMutex
+PUBLIC a3980 0 StatusLogStreamBuf::sStatusLogStreamBufLock
+PUBLIC a39ac 0 sStatusLogStreamBuf
+PUBLIC a39b0 0 sStatusLogStream
+PUBLIC a39b4 0 sStatusLogStreamOnce
+PUBLIC a39bc 0 sCurrentDebugLoggingLevel
+PUBLIC a39c0 0 _LSASNGetTypeID::sOnce
+PUBLIC a39c8 0 sShowAllExtensions
+PUBLIC a39e0 0 exceptionsOnceControl
+PUBLIC a3a04 0 gEffectiveUID
+PUBLIC a3a20 0 gLSDataLock
+PUBLIC a3a58 0 gLogRegistrationErrors
+PUBLIC a3a5c 0 dyfunc.70799
+PUBLIC a3a60 0 dyfunc.70772
+PUBLIC a3a64 0 dyfunc.70751
+PUBLIC a3a68 0 dyfunc.70732
+PUBLIC a3a6c 0 dyfunc.70705
+PUBLIC a3a70 0 dyfunc.70693
+PUBLIC a3a74 0 dyfunc.70669
+PUBLIC a3a78 0 dyfunc.70645
+PUBLIC a3a7c 0 dyfunc.70627
+PUBLIC a3a80 0 dyfunc.70609
+PUBLIC a3a84 0 dyfunc.70585
+PUBLIC a3a88 0 dyfunc.70567
+PUBLIC a3a8c 0 dyfunc.70537
+PUBLIC a3a90 0 dyfunc.70515
+PUBLIC a3a94 0 dyfunc.70494
+PUBLIC a3a98 0 dyfunc.70472
+PUBLIC a3a9c 0 dyfunc.70445
+PUBLIC a3aa0 0 dyfunc.70424
+PUBLIC a3aa4 0 dyfunc.70403
+PUBLIC a3aa8 0 dyfunc.70379
+PUBLIC a3aac 0 dyfunc.70367
+PUBLIC a3ab0 0 dyfunc.70355
+PUBLIC a3ab4 0 dyfunc.70340
+PUBLIC a3ab8 0 dyfunc.70328
+PUBLIC a3ac0 0 sShow.69448
+PUBLIC a3ac4 0 _LSInitializeAttributeDispatch(LSNodeAttributeStateCache*, __CFString const*)::once_control
+PUBLIC a3acc 0 _LSPrefsArePersistent()::persistent
+PUBLIC a3ae0 0 initializePolicyOnce()::once_control
+PUBLIC a3ae8 0 ignoreQuarantine
+PUBLIC a3b00 0 sRegisterApplicationLockOnce
+PUBLIC a3b20 0 _LSSharedFileList_IsSharePoint::sSnapshotLock
+PUBLIC a3b60 0 gIconRefAPILock
+PUBLIC a3ba0 0 OverrideIconRefFromResource::theMutex
+PUBLIC a3bcc 0 InitIconRef()::hasNotBeenInited
+PUBLIC a3be0 0 gRegisteredStoragesLock
+PUBLIC a3c0c 0 RequestImageNotifications()::notRequested
+PUBLIC a3c20 0 gLSCacheLock
+PUBLIC a3c64 0 kLSSharedFileListItemBeforeFirst
+PUBLIC a3c68 0 kLSSharedFileListItemLast
+PUBLIC a3c88 0 __block_descriptor_tmp_1.172
+PUBLIC a3c94 0 sidebarInitialFolders.72351
+PUBLIC a3cd0 0 __HIServices_CopyLabelColorAndName(unsigned long, __HIServices__RGBColor*, __CFString const**)::dyfunc
+PUBLIC a3cd4 0 __HIServices__IconServicesGetCGImageRefFromURL(__CFURL const*, unsigned long, short, short, __HIServices__RGBColor const*, unsigned long)::dyfunc
+PUBLIC a3cd8 0 __HIServices_IconRefToIconFamily(OpaqueIconRef*, unsigned long, IconFamilyResource***)::dyfunc
+PUBLIC a3cdc 0 onceLock
+PUBLIC a3d00 0 sLSInitializeStaticData
+PUBLIC a3d04 0 sSystemApplicationASNRef
+PUBLIC a3d08 0 sNULLApplicationASNRef
+PUBLIC a3d0c 0 sCurrentApplicationASNRef
+PUBLIC a3d10 0 guard variable for _LSCopyMetaApplicationInformationItemFromSharedMemory(LSClientSideSharedMemory*, void const*, bool&)::sMetaInformationRetrievableFromSharedMemory
+PUBLIC a3d18 0 sMap
+PUBLIC a3d20 0 guard variable for _LSCopyApplicationInformationItemFromSharedMemory(LSClientSideSharedMemory*, __LSASN const*, void const*)::sApplicationInformationRetrievableFromSharedMemory
+PUBLIC a3d28 0 sCachedApplicationInformation
+PUBLIC a3d2c 0 _LSCopyApplicationArrayInFrontToBackOrder::sCachedVisibleApplicationArraySeed
+PUBLIC a3d30 0 _LSCopyApplicationArrayInFrontToBackOrder::sCachedVisibleApplicationArrayRef
+PUBLIC a3d34 0 _LSCopyApplicationArray::sCachedApplicationArraySeed
+PUBLIC a3d38 0 _LSCopyApplicationArray::sCachedApplicationArrayRef
+PUBLIC a3d3c 0 sBringApplicationForwardAtSignalTimeASNRef
+PUBLIC a3d40 0 sLASPortForDeathNotifications
+PUBLIC a3d44 0 sLASNeedToReRegisterPortRef
+PUBLIC a3d48 0 sReconnectToLASServerTimerRef
+PUBLIC a3d4c 0 sOurNormalizedPSNRef
+PUBLIC a3d50 0 sOurNormalizedPSNLowHalf
+PUBLIC a3d58 0 sClientSharedMemoryItems
+PUBLIC a3d60 0 guard variable for GetUIPresentationModeString(unsigned int)::sUIPresentationModeStrings
+PUBLIC a3d68 0 GetUIPresentationModeString(unsigned int)::sUIPresentationModeStrings
+PUBLIC a3d80 0 sLaunchApplicationServicesClientSidePortToServerSideForTestingOnlyPort
+PUBLIC a3d84 0 sThisProcessIsTheCoreApplicationServer
+PUBLIC a3d88 0 sCurrentApplicationInfoRef
+PUBLIC a3d8c 0 sLSCurrentSessionAttributeBits
+PUBLIC a3d90 0 sLSCurrentSessionID
+PUBLIC a3d94 0 sCoreApplicationServicesPortRef
+PUBLIC a3d98 0 sLSServerVersion
+PUBLIC a3da0 0 guard variable for SetupCoreApplicationServicesCommunicationPort()::coreApplicationsServicesPort
+PUBLIC a3da8 0 sThisProcessPID
+PUBLIC a3dac 0 sTable
+PUBLIC a3db0 0 SetupCoreApplicationServicesCommunicationPort()::coreApplicationsServicesPort
+PUBLIC a3db8 0 guard variable for LSApplication::SetProcessInformationItem(__CFString const*, void const*, bool)::sSettableProcessInformationItems
+PUBLIC a3dc0 0 guard variable for LSApplication::SetApplicationType(LSApplication*, __CFString const*, void const*, void const*)::values
+PUBLIC a3dc8 0 LSApplication::SetApplicationType(LSApplication*, __CFString const*, void const*, void const*)::values
+PUBLIC a3de0 0 guard variable for GetProcessesByPIDMap()::sProcessesByPIDMap
+PUBLIC a3de8 0 GetProcessesByPIDMap()::sProcessesByPIDMap
+PUBLIC a3e00 0 guard variable for GetProcessesByPSNMap()::sProcessesByPSNMap
+PUBLIC a3e08 0 GetProcessesByPSNMap()::sProcessesByPSNMap
+PUBLIC a3e20 0 sCoreApplicationsOurServicesPort
+PUBLIC a3e24 0 sLSSessionsMap
+PUBLIC a3e28 0 LogStatusSetCrashLogInformationString(int, char const*)::sCrashReporterInfoStr
+PUBLIC a3e2c 0 sCurrentDebugLoggingLevelInitialized
+PUBLIC a3e2d 0 _LSGetCurrentDebugLoggingPriority::recursivelyCalled
+PUBLIC a3e30 0 _sLSASNTypeID
+PUBLIC a3e40 0 sForkName.53344
+PUBLIC a4040 0 sGotMilk.53343
+PUBLIC a4048 0 nodeInfoLifetimeAbsolute.51698
+PUBLIC a4050 0 rootVRefNum.52806
+PUBLIC a4054 0 cb.40958
+PUBLIC a4068 0 cb.40953
+PUBLIC a407c 0 _LSTrashDisplayName()::sTrashString
+PUBLIC a4080 0 guard variable for getLibIDs()::klibIDs
+PUBLIC a4088 0 getLibIDs()::klibIDs
+PUBLIC a4098 0 exceptionalMinimumVersionRequirements
+PUBLIC a409c 0 exceptionalAdditions
+PUBLIC a40a0 0 exceptionalOverrides
+PUBLIC a40a4 0 exceptionalRosettaRequirements
+PUBLIC a40a8 0 exceptionalMergeDocumentTypes
+PUBLIC a40ac 0 exceptionsVersion
+PUBLIC a40c0 0 gSessionLock
+PUBLIC a40c4 0 gSessionHead
+PUBLIC a40c8 0 _LSMakeStoreNameAndPath(unsigned int, char*, long, char*, long)::dirPath
+PUBLIC a40cc 0 _LSMakeStoreNameAndPath(unsigned int, char*, long, char*, long)::namePrefix
+PUBLIC a40d0 0 gMRUSession
+PUBLIC a40d4 0 gSessions
+PUBLIC a40e0 0 gServerLock
+PUBLIC a4118 0 sServerStatus
+PUBLIC a411c 0 sServerPort.70156
+PUBLIC a4120 0 image.70298
+PUBLIC a4124 0 image.69784
+PUBLIC a4128 0 arch.69742
+PUBLIC a412c 0 platform.69717
+PUBLIC a4130 0 bundleStringDictionaries.69592
+PUBLIC a4134 0 gBundleRef.69578
+PUBLIC a4138 0 sNameDicts.69134
+PUBLIC a413c 0 initialized.69133
+PUBLIC a4140 0 sNameDict.69101
+PUBLIC a4144 0 initialized.69100
+PUBLIC a4148 0 sBundle.69079
+PUBLIC a414c 0 initialized.69078
+PUBLIC a4150 0 systemVersion.68852
+PUBLIC a4154 0 f.68670
+PUBLIC a4158 0 zero.68669
+PUBLIC a415c 0 no.68668
+PUBLIC a4160 0 prepLock.68587
+PUBLIC a4164 0 lastNode.68542
+PUBLIC a4168 0 rootFlags
+PUBLIC a416c 0 _LSTypeIdentifierForSniffedExtension(__CFString const*)::sniffedExtMap
+PUBLIC a4170 0 _LSCopyDefaultKindString::gOwnedDocFormat
+PUBLIC a4174 0 _LSCopyDefaultKindString::gUnixExecutable
+PUBLIC a4178 0 _LSCopyDefaultKindString::gVolume
+PUBLIC a417c 0 _LSCopyDefaultKindString::gPackage
+PUBLIC a4180 0 _LSCopyDefaultKindString::gFolder
+PUBLIC a4184 0 _LSCopyDefaultKindString::gDocument
+PUBLIC a4188 0 _LSCopyDefaultKindString::gClassicApplication
+PUBLIC a418c 0 _LSCopyDefaultKindString::gApplication
+PUBLIC a4190 0 _LSCopyDefaultKindString::gAlias
+PUBLIC a4194 0 gFastAttributeDispatch
+PUBLIC a4198 0 gStrictAttributeDispatch
+PUBLIC a419c 0 _LSGetRecentItemsSharedList(short, unsigned long**)::sSeeds
+PUBLIC a41a8 0 _LSGetRecentItemsSharedList(short, unsigned long**)::sLists
+PUBLIC a41b4 0 gArchitecturesForCPU
+PUBLIC a41c0 0 gPrefsLock
+PUBLIC a41c4 0 gPrefsSeed
+PUBLIC a41c8 0 gPrefsSeedValue
+PUBLIC a41cc 0 gPrefsInitialized
+PUBLIC a41d0 0 kUTI_HFSFlavor
+PUBLIC a41d4 0 kUTI_HFSPromiseFlavor
+PUBLIC a41d8 0 kUTI_PromisedFSSpecFlavor
+PUBLIC a41dc 0 kUTI_NSFilenamesPboardType
+PUBLIC a41e0 0 kUTI_NSURLPboardType
+PUBLIC a41e4 0 kUTI_NSFilesPromisePboardType
+PUBLIC a41e8 0 kUTI_NSPromiseContentsPboardType
+PUBLIC a4200 0 gContentTypeRiskLevels
+PUBLIC a4204 0 gOSTypeRiskLevels
+PUBLIC a4208 0 gExtensionRiskLevels
+PUBLIC a420c 0 _LSCopyDownloadAssessmentDictionaryInternal(LSContext*, unsigned long, FSNode*, __CFDictionary const*)::sniffedExtMap
+PUBLIC a4210 0 _LSCopyDownloadAssessmentDictionaryInternal(LSContext*, unsigned long, FSNode*, __CFDictionary const*)::attrNames
+PUBLIC a4214 0 gExtensionToMIMETypeMap
+PUBLIC a4220 0 getFullPathRelativeToHome(char const*)::path
+PUBLIC a4620 0 copyFileNameForURL(__CFURL const*)::nullCharStr
+PUBLIC a4628 0 guard variable for GetQuarantineType(unsigned int)::quarantineTypes
+PUBLIC a4630 0 GetQuarantineType(unsigned int)::quarantineTypes
+PUBLIC a4648 0 getApplicationName()::appName
+PUBLIC a464c 0 getApplicationName()::initialized
+PUBLIC a4650 0 guard variable for QuarantineEventDB::setEventProperties(__CFDictionary const*)::propKeys
+PUBLIC a4658 0 sOurApplicationInfo
+PUBLIC a465c 0 sOurApplicationASNRef
+PUBLIC a4660 0 _LSSharedFileList_IsSharePoint::sSharepointRefs
+PUBLIC a4664 0 _LSSharedFileList_IsSharePoint::sSnapshotSeed
+PUBLIC a4668 0 _LSSharedFileList_IsSharePoint::sSharepointsList
+PUBLIC a466c 0 gIconRefArrayPtr
+PUBLIC a4680 0 GetFolderType(FSRef const*, short, long, long, HFSUniStr255 const*, unsigned char, unsigned long, unsigned char*)::cachedDeveloperFolderID
+PUBLIC a4684 0 GetFolderType(FSRef const*, short, long, long, HFSUniStr255 const*, unsigned char, unsigned long, unsigned char*)::createdNetworkFSRef
+PUBLIC a4686 0 GetFolderType(FSRef const*, short, long, long, HFSUniStr255 const*, unsigned char, unsigned long, unsigned char*)::theNetworkVRefNum
+PUBLIC a4688 0 GetFolderType(FSRef const*, short, long, long, HFSUniStr255 const*, unsigned char, unsigned long, unsigned char*)::theNetworkFolderID
+PUBLIC a468c 0 GetFolderType(FSRef const*, short, long, long, HFSUniStr255 const*, unsigned char, unsigned long, unsigned char*)::triedToCreateNetworkFSRef
+PUBLIC a46a0 0 GetFolderType(FSRef const*, short, long, long, HFSUniStr255 const*, unsigned char, unsigned long, unsigned char*)::theFSRefToNetwork
+PUBLIC a46f0 0 GetFolderType(FSRef const*, short, long, long, HFSUniStr255 const*, unsigned char, unsigned long, unsigned char*)::systemLibraryDirID
+PUBLIC a46f4 0 GetFolderType(FSRef const*, short, long, long, HFSUniStr255 const*, unsigned char, unsigned long, unsigned char*)::applicationsDirID
+PUBLIC a46f8 0 GetBootVolume()::bootRefNum
+PUBLIC a46fa 0 IsHomeDirectory(short, long)::homeVol
+PUBLIC a46fc 0 IsHomeDirectory(short, long)::homeDir
+PUBLIC a4700 0 IsHomeLibraryDirectory(short, long)::homeLibVol
+PUBLIC a4704 0 IsHomeLibraryDirectory(short, long)::homeLibDir
+PUBLIC a4708 0 GetImageForFSItem::theClassicBadgeErr
+PUBLIC a470c 0 gRegisteredStoragesPtr
+PUBLIC a4710 0 gLSKindStoragesPtr
+PUBLIC a4714 0 AddImageFromLSInfo(FSRef const*, unsigned long, unsigned long, __CFString const*, unsigned char, unsigned long, OpaqueISImageRef**)::icnsString
+PUBLIC a4720 0 publicFolderRefInitialized.73223
+PUBLIC a4740 0 publicFolderRef.73222
+PUBLIC a4790 0 _kLSSharedFileListItemID
+PUBLIC a4794 0 _kLSSharedFileListID
+PUBLIC a4798 0 HIServicesLibrary
+PUBLIC a479c 0 SCDynamicStoreCopyComputerName_proc.43409
+PUBLIC a47a0 0 guard variable for _LSRegisterFilePropertyProvider::baseDependencyKeys
+PUBLIC a47a8 0 guard variable for _LSRegisterFilePropertyProvider::bindingDependencyKeys
+PUBLIC a47b0 0 guard variable for _LSRegisterFilePropertyProvider::propertyTable
+PUBLIC a47b8 0 _LSRegisterFilePropertyProvider::bindingDependencyKeys
+PUBLIC a47d4 0 _LSRegisterFilePropertyProvider::baseDependencyKeys
+PUBLIC a47e0 0 bindingTypeID
